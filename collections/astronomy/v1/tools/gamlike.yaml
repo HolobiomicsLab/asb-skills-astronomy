@@ -1,0 +1,19 @@
+name: gamLike
+slug: gamlike
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'GamLike:** GAMBIT Dark Matter Workgroup: T. Bringmann, J. Conrad, et al., DarkBit: A GAMBIT module for computing dark matter observables and likelihoods, Eur. Phys. J. C 77 (2017) 831'
+- 'GamLike: GAMBIT Dark Matter Workgroup: T. Bringmann, J. Conrad, et al., DarkBit: A GAMBIT module for computing dark matter observables and likelihoods'
+- 'GamLike: GAMBIT Dark Matter Workgroup: T. Bringmann, J. Conrad, et al.'
+derived_from:
+- doi: 10.1140/epjc/s10052-017-5155-4
+  title: 'DarkBit: a GAMBIT module for computing dark matter observables and likelihoods'
+source_repos:
+- https://github.com/GambitBSM/gambit_1.5
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GambitBSM/gambit_1.5

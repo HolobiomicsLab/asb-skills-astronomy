@@ -1,0 +1,33 @@
+name: CAMB
+slug: camb
+version_used: null
+edam_topics: []
+evidence_spans:
+- ':Github: `CAMB <https://github.com/cmbant/CAMB/tree/master>`_'
+- 950 times faster to evaluate than CAMB
+- analytic approximation is 950 times faster to evaluate thanCAMBand 36 times faster than the neural network based matter power spectrum
+derived_from:
+- doi: 10.1051/0004-6361/202449432
+  title: 'candl: cosmic microwave background analysis with a differentiable likelihood'
+- doi: 10.1051/0004-6361/202348811
+  title: A precise symbolic emulator of the linear matter power spectrum
+- doi: 10.1016/j.ascom.2016.01.005
+  title: 'CosmoBolognaLib: C++ libraries for cosmological calculations'
+- doi: 10.1016/j.ascom.2013.06.003
+  title: 'CosmoHammer: Cosmological parameter estimation with the MCMC Hammer'
+- doi: 10.1016/j.ascom.2013.11.001
+  title: 'HMFcalc: An online tool for calculating dark matter halo mass functions'
+source_repos:
+- https://github.com/cmbant/CAMB
+- https://github.com/Lbalkenhol/candl
+- https://github.com/deaglanbartlett/symbolic_pofk
+- https://github.com/federicomarulli/CosmoBolognaLib
+- https://github.com/cosmo-ethz/CosmoHammer
+- https://github.com/joezuntz/pycamb
+- https://github.com/halomod/hmf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cmbant/CAMB

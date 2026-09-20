@@ -1,0 +1,19 @@
+name: runDM
+slug: rundm
+version_used: '10.5281'
+edam_topics: []
+evidence_spans:
+- 'If you make use of `runDM` in your own work, please cite it as:'
+- a public code runDM to evolve the couplings between arbitrary energy scales
+- runDM (Version X.X) [Computer software], doi:10.5281/zenodo.823249
+derived_from:
+- doi: 10.1007/jhep08(2016)111
+  title: 'You can hide but you have to run: direct detection with vector mediators'
+source_repos:
+- https://github.com/bradkav/runDM
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/bradkav/runDM

@@ -1,0 +1,3317 @@
+{
+  "auto_merges_applied": false,
+  "components_ge_0_90": 132,
+  "components_ge_0_95": 13,
+  "input_digests": {
+    "coverage_summary_sha256": "41886c4e16499b77b8c3bd8672d459c8d6059ba2c253293c3e8a0e7ad3b83ce8",
+    "outputs": 1671
+  },
+  "model": "BAAI/bge-small-en-v1.5",
+  "pairs_0_90_to_0_95": [
+    {
+      "left": {
+        "canonical_slug": "parallel-tempering-mcmc-sampling",
+        "merge_kind": "single",
+        "output_id": "parallel-tempering-mcmc-sampling"
+      },
+      "right": {
+        "canonical_slug": "parallel-tempering-sampler-configuration",
+        "merge_kind": "single",
+        "output_id": "parallel-tempering-sampler-configuration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_emperor_cq",
+      "score": 0.949772
+    },
+    {
+      "left": {
+        "canonical_slug": "planet-occurrence-rate-aggregation-per-region",
+        "merge_kind": "single",
+        "output_id": "planet-occurrence-rate-aggregation-per-region"
+      },
+      "right": {
+        "canonical_slug": "planet-occurrence-rate-ratio-comparison-across-galactic-regions",
+        "merge_kind": "single",
+        "output_id": "planet-occurrence-rate-ratio-comparison-across-galactic-regions"
+      },
+      "run": "asbb_subwave1_2026-09__coll_skaro_cq",
+      "score": 0.949002
+    },
+    {
+      "left": {
+        "canonical_slug": "bbn-thermal-history-solver-configuration",
+        "merge_kind": "single",
+        "output_id": "bbn-thermal-history-solver-configuration"
+      },
+      "right": {
+        "canonical_slug": "thermal-history-evolution-bbn",
+        "merge_kind": "single",
+        "output_id": "thermal-history-evolution-bbn"
+      },
+      "run": "asbb_subwave1_2026-09__coll_prymordial_cq",
+      "score": 0.948587
+    },
+    {
+      "left": {
+        "canonical_slug": "python-binding-api-exercising",
+        "merge_kind": "single",
+        "output_id": "python-binding-api-exercising"
+      },
+      "right": {
+        "canonical_slug": "python-bindings-execution",
+        "merge_kind": "single",
+        "output_id": "python-bindings-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.948295
+    },
+    {
+      "left": {
+        "canonical_slug": "astronomical-coordinate-systems-model-construction",
+        "merge_kind": "single",
+        "output_id": "astronomical-coordinate-systems-model-construction"
+      },
+      "right": {
+        "canonical_slug": "astronomical-world-coordinate-system-interpretation",
+        "merge_kind": "single",
+        "output_id": "astronomical-world-coordinate-system-interpretation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.944904
+    },
+    {
+      "left": {
+        "canonical_slug": "cosmological-parameter-mcmc-sampling",
+        "merge_kind": "single",
+        "output_id": "cosmological-parameter-mcmc-sampling"
+      },
+      "right": {
+        "canonical_slug": "cosmological-parameter-sampler-setup",
+        "merge_kind": "single",
+        "output_id": "cosmological-parameter-sampler-setup"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cosmohammer_cq",
+      "score": 0.944654
+    },
+    {
+      "left": {
+        "canonical_slug": "light-curve-gradient-measurement",
+        "merge_kind": "single",
+        "output_id": "light-curve-gradient-measurement"
+      },
+      "right": {
+        "canonical_slug": "ring-transit-light-curve-gradient-computation",
+        "merge_kind": "single",
+        "output_id": "ring-transit-light-curve-gradient-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_beyonce_cq",
+      "score": 0.943503
+    },
+    {
+      "left": {
+        "canonical_slug": "radiative-transfer-library-combination",
+        "merge_kind": "single",
+        "output_id": "radiative-transfer-library-combination"
+      },
+      "right": {
+        "canonical_slug": "radiative-transfer-model-library-configuration",
+        "merge_kind": "single",
+        "output_id": "radiative-transfer-model-library-configuration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_smart_cq",
+      "score": 0.943274
+    },
+    {
+      "left": {
+        "canonical_slug": "poisson-likelihood-optimization",
+        "merge_kind": "single",
+        "output_id": "poisson-likelihood-optimization"
+      },
+      "right": {
+        "canonical_slug": "poisson-likelihood-spectral-fitting",
+        "merge_kind": "single",
+        "output_id": "poisson-likelihood-spectral-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sushi_cq",
+      "score": 0.942466
+    },
+    {
+      "left": {
+        "canonical_slug": "long-cadence-transit-model-rebinning",
+        "merge_kind": "single",
+        "output_id": "long-cadence-transit-model-rebinning"
+      },
+      "right": {
+        "canonical_slug": "transit-model-cadence-integration",
+        "merge_kind": "single",
+        "output_id": "transit-model-cadence-integration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.942074
+    },
+    {
+      "left": {
+        "canonical_slug": "ast-library-python-binding-usage",
+        "merge_kind": "single",
+        "output_id": "ast-library-python-binding-usage"
+      },
+      "right": {
+        "canonical_slug": "python-binding-api-exercising",
+        "merge_kind": "single",
+        "output_id": "python-binding-api-exercising"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.941983
+    },
+    {
+      "left": {
+        "canonical_slug": "cmb-spectrum-computation",
+        "merge_kind": "single",
+        "output_id": "cmb-spectrum-computation"
+      },
+      "right": {
+        "canonical_slug": "power-spectrum-differentiation",
+        "merge_kind": "single",
+        "output_id": "power-spectrum-differentiation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_symboltz_jl_cq",
+      "score": 0.941863
+    },
+    {
+      "left": {
+        "canonical_slug": "agn-sfg-classification-inference",
+        "merge_kind": "single",
+        "output_id": "agn-sfg-classification-inference"
+      },
+      "right": {
+        "canonical_slug": "agn-sfg-classification-metrics-computation",
+        "merge_kind": "single",
+        "output_id": "agn-sfg-classification-metrics-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mbasc_cq",
+      "score": 0.941848
+    },
+    {
+      "left": {
+        "canonical_slug": "gc-derived-vapour-pressure-data-analysis",
+        "merge_kind": "single",
+        "output_id": "gc-derived-vapour-pressure-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "vapour-pressure-regression-analysis",
+        "merge_kind": "single",
+        "output_id": "vapour-pressure-regression-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.941666
+    },
+    {
+      "left": {
+        "canonical_slug": "spectral-method-pde-simulation",
+        "merge_kind": "single",
+        "output_id": "spectral-method-pde-simulation"
+      },
+      "right": {
+        "canonical_slug": "spectral-pde-solver-configuration",
+        "merge_kind": "single",
+        "output_id": "spectral-pde-solver-configuration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dedalus_cq",
+      "score": 0.941324
+    },
+    {
+      "left": {
+        "canonical_slug": "agn-disc-model-solving",
+        "merge_kind": "single",
+        "output_id": "agn-disc-model-solving"
+      },
+      "right": {
+        "canonical_slug": "agn-disc-structure-modelling",
+        "merge_kind": "single",
+        "output_id": "agn-disc-structure-modelling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_pagn_cq",
+      "score": 0.941071
+    },
+    {
+      "left": {
+        "canonical_slug": "celestial-coordinate-frame-conversion",
+        "merge_kind": "single",
+        "output_id": "celestial-coordinate-frame-conversion"
+      },
+      "right": {
+        "canonical_slug": "spectral-coordinate-system-conversion",
+        "merge_kind": "single",
+        "output_id": "spectral-coordinate-system-conversion"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.941017
+    },
+    {
+      "left": {
+        "canonical_slug": "fractional-error-rms-quantification",
+        "merge_kind": "single",
+        "output_id": "fractional-error-rms-quantification"
+      },
+      "right": {
+        "canonical_slug": "fractional-error-statistics-aggregation",
+        "merge_kind": "single",
+        "output_id": "fractional-error-statistics-aggregation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_symbolic_pofk_cq",
+      "score": 0.940971
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-temperature-extraction",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-extraction"
+      },
+      "right": {
+        "canonical_slug": "condensation-temperature-pressure-sensitivity-analysis",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-pressure-sensitivity-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.940147
+    },
+    {
+      "left": {
+        "canonical_slug": "photo-z-augmented-feature-handling",
+        "merge_kind": "single",
+        "output_id": "photo-z-augmented-feature-handling"
+      },
+      "right": {
+        "canonical_slug": "photo-z-estimate-feature-augmentation",
+        "merge_kind": "single",
+        "output_id": "photo-z-estimate-feature-augmentation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.93936
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-convergence-diagnostic-tabulation",
+        "merge_kind": "single",
+        "output_id": "mcmc-convergence-diagnostic-tabulation"
+      },
+      "right": {
+        "canonical_slug": "mcmc-convergence-verification-against-reference",
+        "merge_kind": "single",
+        "output_id": "mcmc-convergence-verification-against-reference"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cosmohammer_cq",
+      "score": 0.939309
+    },
+    {
+      "left": {
+        "canonical_slug": "compression-ratio-comparison-analysis",
+        "merge_kind": "single",
+        "output_id": "compression-ratio-comparison-analysis"
+      },
+      "right": {
+        "canonical_slug": "error-bounded-lossy-compression-benchmarking",
+        "merge_kind": "single",
+        "output_id": "error-bounded-lossy-compression-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_solarzip_cq",
+      "score": 0.939212
+    },
+    {
+      "left": {
+        "canonical_slug": "sky-background-noise-from-limiting-magnitudes",
+        "merge_kind": "single",
+        "output_id": "sky-background-noise-from-limiting-magnitudes"
+      },
+      "right": {
+        "canonical_slug": "sky-background-noise-injection",
+        "merge_kind": "single",
+        "output_id": "sky-background-noise-injection"
+      },
+      "run": "asbb_subwave1_2026-09__coll_galaxygenius_cq",
+      "score": 0.938769
+    },
+    {
+      "left": {
+        "canonical_slug": "gravitational-waveform-surrogate-evaluation",
+        "merge_kind": "single",
+        "output_id": "gravitational-waveform-surrogate-evaluation"
+      },
+      "right": {
+        "canonical_slug": "gravitational-waveform-time-series-validation",
+        "merge_kind": "single",
+        "output_id": "gravitational-waveform-time-series-validation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gwsurrogate_cq",
+      "score": 0.938607
+    },
+    {
+      "left": {
+        "canonical_slug": "bbn-light-element-abundance-computation",
+        "merge_kind": "single",
+        "output_id": "bbn-light-element-abundance-computation"
+      },
+      "right": {
+        "canonical_slug": "primordial-light-element-abundance-prediction",
+        "merge_kind": "single",
+        "output_id": "primordial-light-element-abundance-prediction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_prymordial_cq",
+      "score": 0.938349
+    },
+    {
+      "left": {
+        "canonical_slug": "simultaneous-multi-transit-parameter-sharing",
+        "merge_kind": "single",
+        "output_id": "simultaneous-multi-transit-parameter-sharing"
+      },
+      "right": {
+        "canonical_slug": "transit-parameter-comparison-across-publications",
+        "merge_kind": "single",
+        "output_id": "transit-parameter-comparison-across-publications"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.937923
+    },
+    {
+      "left": {
+        "canonical_slug": "ast-mapping-construction",
+        "merge_kind": "single",
+        "output_id": "ast-mapping-construction"
+      },
+      "right": {
+        "canonical_slug": "compound-mapping-construction",
+        "merge_kind": "single",
+        "output_id": "compound-mapping-construction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.937897
+    },
+    {
+      "left": {
+        "canonical_slug": "many-core-platform-performance-extraction",
+        "merge_kind": "single",
+        "output_id": "many-core-platform-performance-extraction"
+      },
+      "right": {
+        "canonical_slug": "strong-scaling-performance-extraction",
+        "merge_kind": "single",
+        "output_id": "strong-scaling-performance-extraction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_amrex_cq",
+      "score": 0.937316
+    },
+    {
+      "left": {
+        "canonical_slug": "sequential-monte-carlo-posterior-sampling",
+        "merge_kind": "single",
+        "output_id": "sequential-monte-carlo-posterior-sampling"
+      },
+      "right": {
+        "canonical_slug": "smc-posterior-sampling",
+        "merge_kind": "single",
+        "output_id": "smc-posterior-sampling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gallifrey_cq",
+      "score": 0.937011
+    },
+    {
+      "left": {
+        "canonical_slug": "stellar-abundance-pattern-scaling",
+        "merge_kind": "single",
+        "output_id": "stellar-abundance-pattern-scaling"
+      },
+      "right": {
+        "canonical_slug": "stellar-abundance-simulation-input",
+        "merge_kind": "single",
+        "output_id": "stellar-abundance-simulation-input"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.936841
+    },
+    {
+      "left": {
+        "canonical_slug": "exoplanet-cloud-composition-profile-simulation",
+        "merge_kind": "single",
+        "output_id": "exoplanet-cloud-composition-profile-simulation"
+      },
+      "right": {
+        "canonical_slug": "exoplanet-cloud-condensation-modeling",
+        "merge_kind": "single",
+        "output_id": "exoplanet-cloud-condensation-modeling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_exolyn_cq",
+      "score": 0.936556
+    },
+    {
+      "left": {
+        "canonical_slug": "hll-riemann-solver-flux-computation",
+        "merge_kind": "single",
+        "output_id": "hll-riemann-solver-flux-computation"
+      },
+      "right": {
+        "canonical_slug": "hll-riemann-solver-implementation",
+        "merge_kind": "single",
+        "output_id": "hll-riemann-solver-implementation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_aztekas_cq",
+      "score": 0.936401
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-temperature-derivation",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-derivation"
+      },
+      "right": {
+        "canonical_slug": "condensation-temperature-pressure-sensitivity-analysis",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-pressure-sensitivity-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.935947
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-temperature-pressure-sensitivity-analysis",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-pressure-sensitivity-analysis"
+      },
+      "right": {
+        "canonical_slug": "condensation-temperature-simulation",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.935883
+    },
+    {
+      "left": {
+        "canonical_slug": "equilibrium-condensation-simulation",
+        "merge_kind": "single",
+        "output_id": "equilibrium-condensation-simulation"
+      },
+      "right": {
+        "canonical_slug": "gibbs-free-energy-minimisation-condensation-simulation",
+        "merge_kind": "single",
+        "output_id": "gibbs-free-energy-minimisation-condensation-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.93535
+    },
+    {
+      "left": {
+        "canonical_slug": "correlation-distance-matrix-analysis",
+        "merge_kind": "single",
+        "output_id": "correlation-distance-matrix-analysis"
+      },
+      "right": {
+        "canonical_slug": "correlation-matrix-computation",
+        "merge_kind": "single",
+        "output_id": "correlation-matrix-computation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_amada_cq",
+      "score": 0.93515
+    },
+    {
+      "left": {
+        "canonical_slug": "poisson-likelihood-gradient-and-hessian-computation",
+        "merge_kind": "single",
+        "output_id": "poisson-likelihood-gradient-and-hessian-computation"
+      },
+      "right": {
+        "canonical_slug": "poisson-likelihood-optimization",
+        "merge_kind": "single",
+        "output_id": "poisson-likelihood-optimization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sushi_cq",
+      "score": 0.933748
+    },
+    {
+      "left": {
+        "canonical_slug": "swig-wrapper-compilation",
+        "merge_kind": "single",
+        "output_id": "swig-wrapper-compilation"
+      },
+      "right": {
+        "canonical_slug": "swig-wrapper-generation-for-c-libraries",
+        "merge_kind": "single",
+        "output_id": "swig-wrapper-generation-for-c-libraries"
+      },
+      "run": "asbb_subwave1_2026-09__coll_swiglal_cq",
+      "score": 0.933434
+    },
+    {
+      "left": {
+        "canonical_slug": "gmres-iterative-linear-solver-configuration",
+        "merge_kind": "single",
+        "output_id": "gmres-iterative-linear-solver-configuration"
+      },
+      "right": {
+        "canonical_slug": "gmres-iterative-solver-convergence-monitoring",
+        "merge_kind": "single",
+        "output_id": "gmres-iterative-solver-convergence-monitoring"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_dst_cq",
+      "score": 0.933287
+    },
+    {
+      "left": {
+        "canonical_slug": "ensemble-learning-hyperparameter-optimization",
+        "merge_kind": "single",
+        "output_id": "ensemble-learning-hyperparameter-optimization"
+      },
+      "right": {
+        "canonical_slug": "gradient-boosting-ensemble-training",
+        "merge_kind": "single",
+        "output_id": "gradient-boosting-ensemble-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.933132
+    },
+    {
+      "left": {
+        "canonical_slug": "numerical-artifact-correction-and-curve-smoothing",
+        "merge_kind": "single",
+        "output_id": "numerical-artifact-correction-and-curve-smoothing"
+      },
+      "right": {
+        "canonical_slug": "numerical-glitch-removal-curve-smoothing",
+        "merge_kind": "single",
+        "output_id": "numerical-glitch-removal-curve-smoothing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.932699
+    },
+    {
+      "left": {
+        "canonical_slug": "multi-light-curve-simultaneous-transit-fitting",
+        "merge_kind": "single",
+        "output_id": "multi-light-curve-simultaneous-transit-fitting"
+      },
+      "right": {
+        "canonical_slug": "multi-transit-simultaneous-fitting-with-locked-parameters",
+        "merge_kind": "single",
+        "output_id": "multi-transit-simultaneous-fitting-with-locked-parameters"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.932266
+    },
+    {
+      "left": {
+        "canonical_slug": "clausius-clapeyron-vapour-pressure-regression",
+        "merge_kind": "single",
+        "output_id": "clausius-clapeyron-vapour-pressure-regression"
+      },
+      "right": {
+        "canonical_slug": "vapour-pressure-regression-analysis",
+        "merge_kind": "single",
+        "output_id": "vapour-pressure-regression-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.931695
+    },
+    {
+      "left": {
+        "canonical_slug": "zodiacal-light-emission-evaluation",
+        "merge_kind": "single",
+        "output_id": "zodiacal-light-emission-evaluation"
+      },
+      "right": {
+        "canonical_slug": "zodiacal-light-model-instantiation",
+        "merge_kind": "single",
+        "output_id": "zodiacal-light-model-instantiation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_zodipy_cq",
+      "score": 0.931537
+    },
+    {
+      "left": {
+        "canonical_slug": "disc-geometry-gradient-mapping",
+        "merge_kind": "single",
+        "output_id": "disc-geometry-gradient-mapping"
+      },
+      "right": {
+        "canonical_slug": "disc-geometry-parameterisation",
+        "merge_kind": "single",
+        "output_id": "disc-geometry-parameterisation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_beyonce_cq",
+      "score": 0.931477
+    },
+    {
+      "left": {
+        "canonical_slug": "cosmological-n-body-simulation-execution",
+        "merge_kind": "single",
+        "output_id": "cosmological-n-body-simulation-execution"
+      },
+      "right": {
+        "canonical_slug": "cosmological-simulation-parameter-reproduction",
+        "merge_kind": "single",
+        "output_id": "cosmological-simulation-parameter-reproduction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_concept_cq",
+      "score": 0.931109
+    },
+    {
+      "left": {
+        "canonical_slug": "gravitational-wave-bayesian-parameter-estimation",
+        "merge_kind": "single",
+        "output_id": "gravitational-wave-bayesian-parameter-estimation"
+      },
+      "right": {
+        "canonical_slug": "gravitational-wave-likelihood-generation",
+        "merge_kind": "single",
+        "output_id": "gravitational-wave-likelihood-generation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_nmma_cq",
+      "score": 0.930739
+    },
+    {
+      "left": {
+        "canonical_slug": "alp-exclusion-region-estimation",
+        "merge_kind": "single",
+        "output_id": "alp-exclusion-region-estimation"
+      },
+      "right": {
+        "canonical_slug": "confidence-level-exclusion-region-derivation",
+        "merge_kind": "single",
+        "output_id": "confidence-level-exclusion-region-derivation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_alpconv_cq",
+      "score": 0.930212
+    },
+    {
+      "left": {
+        "canonical_slug": "ast-library-python-binding-usage",
+        "merge_kind": "single",
+        "output_id": "ast-library-python-binding-usage"
+      },
+      "right": {
+        "canonical_slug": "python-bindings-execution",
+        "merge_kind": "single",
+        "output_id": "python-bindings-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.930172
+    },
+    {
+      "left": {
+        "canonical_slug": "bayesian-nonlinear-mixed-effects-modeling",
+        "merge_kind": "single",
+        "output_id": "bayesian-nonlinear-mixed-effects-modeling"
+      },
+      "right": {
+        "canonical_slug": "nonlinear-mixed-effects-posterior-sampling",
+        "merge_kind": "single",
+        "output_id": "nonlinear-mixed-effects-posterior-sampling"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_demc2_cq",
+      "score": 0.928547
+    },
+    {
+      "left": {
+        "canonical_slug": "timestream-residual-comparison-across-software",
+        "merge_kind": "single",
+        "output_id": "timestream-residual-comparison-across-software"
+      },
+      "right": {
+        "canonical_slug": "zodiacal-light-timestream-simulation",
+        "merge_kind": "single",
+        "output_id": "zodiacal-light-timestream-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_zodipy_cq",
+      "score": 0.928465
+    },
+    {
+      "left": {
+        "canonical_slug": "debris-disc-geometry-parameterization",
+        "merge_kind": "single",
+        "output_id": "debris-disc-geometry-parameterization"
+      },
+      "right": {
+        "canonical_slug": "debris-disc-radial-profile-modelling",
+        "merge_kind": "single",
+        "output_id": "debris-disc-radial-profile-modelling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_vis_r_cq",
+      "score": 0.928439
+    },
+    {
+      "left": {
+        "canonical_slug": "namelist-input-file-configuration",
+        "merge_kind": "single",
+        "output_id": "namelist-input-file-configuration"
+      },
+      "right": {
+        "canonical_slug": "namelist-input-file-configuration-for-bound",
+        "merge_kind": "single",
+        "output_id": "namelist-input-file-configuration-for-bound"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_mbf_cq",
+      "score": 0.927929
+    },
+    {
+      "left": {
+        "canonical_slug": "one-versus-all-source-classification",
+        "merge_kind": "single",
+        "output_id": "one-versus-all-source-classification"
+      },
+      "right": {
+        "canonical_slug": "published-benchmark-comparison-for-source-classification",
+        "merge_kind": "single",
+        "output_id": "published-benchmark-comparison-for-source-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.927753
+    },
+    {
+      "left": {
+        "canonical_slug": "galaxy-catalog-correlation-analysis",
+        "merge_kind": "single",
+        "output_id": "galaxy-catalog-correlation-analysis"
+      },
+      "right": {
+        "canonical_slug": "galaxy-catalog-principal-component-analysis",
+        "merge_kind": "single",
+        "output_id": "galaxy-catalog-principal-component-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_amada_cq",
+      "score": 0.927456
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-survey-transit-parameter-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-survey-transit-parameter-comparison"
+      },
+      "right": {
+        "canonical_slug": "simultaneous-multi-transit-parameter-sharing",
+        "merge_kind": "single",
+        "output_id": "simultaneous-multi-transit-parameter-sharing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.927066
+    },
+    {
+      "left": {
+        "canonical_slug": "dark-matter-halo-parameter-sampling",
+        "merge_kind": "single",
+        "output_id": "dark-matter-halo-parameter-sampling"
+      },
+      "right": {
+        "canonical_slug": "dark-matter-halo-residual-quantification",
+        "merge_kind": "single",
+        "output_id": "dark-matter-halo-residual-quantification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_diffmah_cq",
+      "score": 0.926433
+    },
+    {
+      "left": {
+        "canonical_slug": "thermal-history-evolution-bbn",
+        "merge_kind": "single",
+        "output_id": "thermal-history-evolution-bbn"
+      },
+      "right": {
+        "canonical_slug": "thermal-history-network-integration",
+        "merge_kind": "single",
+        "output_id": "thermal-history-network-integration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_prymordial_cq",
+      "score": 0.926374
+    },
+    {
+      "left": {
+        "canonical_slug": "automated-hyperparameter-optimization",
+        "merge_kind": "single",
+        "output_id": "automated-hyperparameter-optimization"
+      },
+      "right": {
+        "canonical_slug": "ensemble-learning-hyperparameter-optimization",
+        "merge_kind": "single",
+        "output_id": "ensemble-learning-hyperparameter-optimization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.926314
+    },
+    {
+      "left": {
+        "canonical_slug": "galactic-kinematics-data-parsing",
+        "merge_kind": "single",
+        "output_id": "galactic-kinematics-data-parsing"
+      },
+      "right": {
+        "canonical_slug": "galactic-rotation-curve-data-compilation",
+        "merge_kind": "single",
+        "output_id": "galactic-rotation-curve-data-compilation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_galkin_cq",
+      "score": 0.925312
+    },
+    {
+      "left": {
+        "canonical_slug": "photometric-redshift-feature-ablation",
+        "merge_kind": "single",
+        "output_id": "photometric-redshift-feature-ablation"
+      },
+      "right": {
+        "canonical_slug": "photometric-redshift-regression",
+        "merge_kind": "single",
+        "output_id": "photometric-redshift-regression"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.925049
+    },
+    {
+      "left": {
+        "canonical_slug": "cycles-path-traced-rendering",
+        "merge_kind": "single",
+        "output_id": "cycles-path-traced-rendering"
+      },
+      "right": {
+        "canonical_slug": "physically-based-path-tracing-rendering",
+        "merge_kind": "single",
+        "output_id": "physically-based-path-tracing-rendering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sispo_cq",
+      "score": 0.924817
+    },
+    {
+      "left": {
+        "canonical_slug": "12co-line-flux-modelling",
+        "merge_kind": "single",
+        "output_id": "12co-line-flux-modelling"
+      },
+      "right": {
+        "canonical_slug": "co-flux-semi-analytical-modelling",
+        "merge_kind": "single",
+        "output_id": "co-flux-semi-analytical-modelling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_copops_cq",
+      "score": 0.924808
+    },
+    {
+      "left": {
+        "canonical_slug": "published-transit-parameter-agreement-verification",
+        "merge_kind": "single",
+        "output_id": "published-transit-parameter-agreement-verification"
+      },
+      "right": {
+        "canonical_slug": "simultaneous-multi-transit-parameter-sharing",
+        "merge_kind": "single",
+        "output_id": "simultaneous-multi-transit-parameter-sharing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.924424
+    },
+    {
+      "left": {
+        "canonical_slug": "sod-shock-tube-simulation-setup",
+        "merge_kind": "single",
+        "output_id": "sod-shock-tube-simulation-setup"
+      },
+      "right": {
+        "canonical_slug": "sph-shock-tube-simulation-execution",
+        "merge_kind": "single",
+        "output_id": "sph-shock-tube-simulation-execution"
+      },
+      "run": "asbb_subwave1_2026-09__coll_flecsph_cq",
+      "score": 0.924324
+    },
+    {
+      "left": {
+        "canonical_slug": "agn-sfg-classification-metrics-computation",
+        "merge_kind": "single",
+        "output_id": "agn-sfg-classification-metrics-computation"
+      },
+      "right": {
+        "canonical_slug": "agn-sfg-supervised-label-classification",
+        "merge_kind": "single",
+        "output_id": "agn-sfg-supervised-label-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mbasc_cq",
+      "score": 0.924304
+    },
+    {
+      "left": {
+        "canonical_slug": "gmres-iterative-linear-solver-configuration",
+        "merge_kind": "single",
+        "output_id": "gmres-iterative-linear-solver-configuration"
+      },
+      "right": {
+        "canonical_slug": "krylov-gmres-matrix-free-linear-solver",
+        "merge_kind": "single",
+        "output_id": "krylov-gmres-matrix-free-linear-solver"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_dst_cq",
+      "score": 0.924111
+    },
+    {
+      "left": {
+        "canonical_slug": "space-scene-illumination-and-camera-configuration",
+        "merge_kind": "single",
+        "output_id": "space-scene-illumination-and-camera-configuration"
+      },
+      "right": {
+        "canonical_slug": "spacecraft-camera-model-configuration",
+        "merge_kind": "single",
+        "output_id": "spacecraft-camera-model-configuration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sispo_cq",
+      "score": 0.924093
+    },
+    {
+      "left": {
+        "canonical_slug": "agn-sfg-classification-inference",
+        "merge_kind": "single",
+        "output_id": "agn-sfg-classification-inference"
+      },
+      "right": {
+        "canonical_slug": "agn-sfg-supervised-label-classification",
+        "merge_kind": "single",
+        "output_id": "agn-sfg-supervised-label-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mbasc_cq",
+      "score": 0.923988
+    },
+    {
+      "left": {
+        "canonical_slug": "fermi-lat-photon-data-reduction",
+        "merge_kind": "single",
+        "output_id": "fermi-lat-photon-data-reduction"
+      },
+      "right": {
+        "canonical_slug": "fermi-lat-spectral-data-handling",
+        "merge_kind": "single",
+        "output_id": "fermi-lat-spectral-data-handling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_alpconv_cq",
+      "score": 0.923804
+    },
+    {
+      "left": {
+        "canonical_slug": "cosmological-parameter-sampler-setup",
+        "merge_kind": "single",
+        "output_id": "cosmological-parameter-sampler-setup"
+      },
+      "right": {
+        "canonical_slug": "mcmc-ensemble-sampling-cosmological-parameters",
+        "merge_kind": "single",
+        "output_id": "mcmc-ensemble-sampling-cosmological-parameters"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cosmohammer_cq",
+      "score": 0.923757
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-temperature-simulation",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-simulation"
+      },
+      "right": {
+        "canonical_slug": "equilibrium-condensation-simulation",
+        "merge_kind": "single",
+        "output_id": "equilibrium-condensation-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.923663
+    },
+    {
+      "left": {
+        "canonical_slug": "analytical-jacobian-verification-against-numerical-differentiation",
+        "merge_kind": "single",
+        "output_id": "analytical-jacobian-verification-against-numerical-differentiation"
+      },
+      "right": {
+        "canonical_slug": "finite-difference-jacobian-evaluation",
+        "merge_kind": "single",
+        "output_id": "finite-difference-jacobian-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_symboltz_jl_cq",
+      "score": 0.922933
+    },
+    {
+      "left": {
+        "canonical_slug": "renormalization-group-coupling-running",
+        "merge_kind": "single",
+        "output_id": "renormalization-group-coupling-running"
+      },
+      "right": {
+        "canonical_slug": "renormalization-group-operator-mixing-comparison",
+        "merge_kind": "single",
+        "output_id": "renormalization-group-operator-mixing-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_rundm_cq",
+      "score": 0.922918
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-transit-parameter-inference",
+        "merge_kind": "single",
+        "output_id": "mcmc-transit-parameter-inference"
+      },
+      "right": {
+        "canonical_slug": "transit-parameter-comparison-across-publications",
+        "merge_kind": "single",
+        "output_id": "transit-parameter-comparison-across-publications"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.922711
+    },
+    {
+      "left": {
+        "canonical_slug": "astronomical-coordinate-systems-model-construction",
+        "merge_kind": "single",
+        "output_id": "astronomical-coordinate-systems-model-construction"
+      },
+      "right": {
+        "canonical_slug": "celestial-coordinate-frame-conversion",
+        "merge_kind": "single",
+        "output_id": "celestial-coordinate-frame-conversion"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.922514
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-transit-parameter-inference",
+        "merge_kind": "single",
+        "output_id": "mcmc-transit-parameter-inference"
+      },
+      "right": {
+        "canonical_slug": "simultaneous-multi-transit-parameter-sharing",
+        "merge_kind": "single",
+        "output_id": "simultaneous-multi-transit-parameter-sharing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.922282
+    },
+    {
+      "left": {
+        "canonical_slug": "published-transit-parameter-agreement-verification",
+        "merge_kind": "single",
+        "output_id": "published-transit-parameter-agreement-verification"
+      },
+      "right": {
+        "canonical_slug": "transit-parameter-comparison-across-publications",
+        "merge_kind": "single",
+        "output_id": "transit-parameter-comparison-across-publications"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.922203
+    },
+    {
+      "left": {
+        "canonical_slug": "dark-matter-annihilation-spectrum-computation",
+        "merge_kind": "single",
+        "output_id": "dark-matter-annihilation-spectrum-computation"
+      },
+      "right": {
+        "canonical_slug": "dark-matter-observable-computation",
+        "merge_kind": "single",
+        "output_id": "dark-matter-observable-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_darkbit_cq",
+      "score": 0.921858
+    },
+    {
+      "left": {
+        "canonical_slug": "chandra-observation-background-subtraction",
+        "merge_kind": "single",
+        "output_id": "chandra-observation-background-subtraction"
+      },
+      "right": {
+        "canonical_slug": "chandra-xray-data-processing",
+        "merge_kind": "single",
+        "output_id": "chandra-xray-data-processing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sushi_cq",
+      "score": 0.92177
+    },
+    {
+      "left": {
+        "canonical_slug": "power-of-two-rounding-granularity-derivation",
+        "merge_kind": "single",
+        "output_id": "power-of-two-rounding-granularity-derivation"
+      },
+      "right": {
+        "canonical_slug": "precision-reduction-rounding",
+        "merge_kind": "single",
+        "output_id": "precision-reduction-rounding"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bitshuffle_cq",
+      "score": 0.921479
+    },
+    {
+      "left": {
+        "canonical_slug": "assembly-bias-validation",
+        "merge_kind": "single",
+        "output_id": "assembly-bias-validation"
+      },
+      "right": {
+        "canonical_slug": "halo-assembly-bias-quantification",
+        "merge_kind": "single",
+        "output_id": "halo-assembly-bias-quantification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_diffmah_cq",
+      "score": 0.921281
+    },
+    {
+      "left": {
+        "canonical_slug": "disc-geometry-parameterisation",
+        "merge_kind": "single",
+        "output_id": "disc-geometry-parameterisation"
+      },
+      "right": {
+        "canonical_slug": "disc-orientation-parameter-space-rejection",
+        "merge_kind": "single",
+        "output_id": "disc-orientation-parameter-space-rejection"
+      },
+      "run": "asbb_subwave1_2026-09__coll_beyonce_cq",
+      "score": 0.921126
+    },
+    {
+      "left": {
+        "canonical_slug": "partition-function-computation",
+        "merge_kind": "single",
+        "output_id": "partition-function-computation"
+      },
+      "right": {
+        "canonical_slug": "partition-function-evaluation",
+        "merge_kind": "single",
+        "output_id": "partition-function-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_pyexocross_cq",
+      "score": 0.920928
+    },
+    {
+      "left": {
+        "canonical_slug": "self-supervised-byol-loss-design",
+        "merge_kind": "single",
+        "output_id": "self-supervised-byol-loss-design"
+      },
+      "right": {
+        "canonical_slug": "self-supervised-byol-training",
+        "merge_kind": "single",
+        "output_id": "self-supervised-byol-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_astromorph_cq",
+      "score": 0.920655
+    },
+    {
+      "left": {
+        "canonical_slug": "1f-plus-white-noise-synthesis",
+        "merge_kind": "single",
+        "output_id": "1f-plus-white-noise-synthesis"
+      },
+      "right": {
+        "canonical_slug": "correlated-noise-simulation-1f",
+        "merge_kind": "single",
+        "output_id": "correlated-noise-simulation-1f"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_dst_cq",
+      "score": 0.920596
+    },
+    {
+      "left": {
+        "canonical_slug": "cosmological-parameter-grid-sampling",
+        "merge_kind": "single",
+        "output_id": "cosmological-parameter-grid-sampling"
+      },
+      "right": {
+        "canonical_slug": "cosmology-prior-sampling",
+        "merge_kind": "single",
+        "output_id": "cosmology-prior-sampling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_symbolic_pofk_cq",
+      "score": 0.919806
+    },
+    {
+      "left": {
+        "canonical_slug": "c-header-parsing-with-swig-xml",
+        "merge_kind": "single",
+        "output_id": "c-header-parsing-with-swig-xml"
+      },
+      "right": {
+        "canonical_slug": "swig-xml-syntax-tree-parsing",
+        "merge_kind": "single",
+        "output_id": "swig-xml-syntax-tree-parsing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_swiglal_cq",
+      "score": 0.919783
+    },
+    {
+      "left": {
+        "canonical_slug": "stiff-ode-solver-work-precision-benchmarking",
+        "merge_kind": "single",
+        "output_id": "stiff-ode-solver-work-precision-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "stiff-ode-system-compilation",
+        "merge_kind": "single",
+        "output_id": "stiff-ode-system-compilation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_symboltz_jl_cq",
+      "score": 0.919531
+    },
+    {
+      "left": {
+        "canonical_slug": "fits-image-compression-benchmarking",
+        "merge_kind": "single",
+        "output_id": "fits-image-compression-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "hdf5-filter-compression-evaluation",
+        "merge_kind": "single",
+        "output_id": "hdf5-filter-compression-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_fits2hdf_cq",
+      "score": 0.918925
+    },
+    {
+      "left": {
+        "canonical_slug": "radial-profile-visibility-forward-modelling",
+        "merge_kind": "single",
+        "output_id": "radial-profile-visibility-forward-modelling"
+      },
+      "right": {
+        "canonical_slug": "visibility-radial-profile-fitting",
+        "merge_kind": "single",
+        "output_id": "visibility-radial-profile-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_vis_r_cq",
+      "score": 0.918773
+    },
+    {
+      "left": {
+        "canonical_slug": "gaussian-process-kernel-structure-learning",
+        "merge_kind": "single",
+        "output_id": "gaussian-process-kernel-structure-learning"
+      },
+      "right": {
+        "canonical_slug": "gp-kernel-structure-learning",
+        "merge_kind": "single",
+        "output_id": "gp-kernel-structure-learning"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gallifrey_cq",
+      "score": 0.918712
+    },
+    {
+      "left": {
+        "canonical_slug": "exoplanet-cloud-composition-profile-simulation",
+        "merge_kind": "single",
+        "output_id": "exoplanet-cloud-composition-profile-simulation"
+      },
+      "right": {
+        "canonical_slug": "exoplanet-cloud-model-execution",
+        "merge_kind": "single",
+        "output_id": "exoplanet-cloud-model-execution"
+      },
+      "run": "asbb_subwave1_2026-09__coll_exolyn_cq",
+      "score": 0.918465
+    },
+    {
+      "left": {
+        "canonical_slug": "bbn-thermal-history-solver-configuration",
+        "merge_kind": "single",
+        "output_id": "bbn-thermal-history-solver-configuration"
+      },
+      "right": {
+        "canonical_slug": "thermal-history-network-integration",
+        "merge_kind": "single",
+        "output_id": "thermal-history-network-integration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_prymordial_cq",
+      "score": 0.918323
+    },
+    {
+      "left": {
+        "canonical_slug": "chemical-equilibrium-simulation-parameterisation",
+        "merge_kind": "single",
+        "output_id": "chemical-equilibrium-simulation-parameterisation"
+      },
+      "right": {
+        "canonical_slug": "equilibrium-condensation-simulation",
+        "merge_kind": "single",
+        "output_id": "equilibrium-condensation-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.917878
+    },
+    {
+      "left": {
+        "canonical_slug": "iterative-polynomial-continuum-subtraction",
+        "merge_kind": "single",
+        "output_id": "iterative-polynomial-continuum-subtraction"
+      },
+      "right": {
+        "canonical_slug": "spectral-continuum-subtraction",
+        "merge_kind": "single",
+        "output_id": "spectral-continuum-subtraction"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_marz_cq",
+      "score": 0.917812
+    },
+    {
+      "left": {
+        "canonical_slug": "ode-solver-performance-visualization",
+        "merge_kind": "single",
+        "output_id": "ode-solver-performance-visualization"
+      },
+      "right": {
+        "canonical_slug": "stiff-ode-solver-work-precision-benchmarking",
+        "merge_kind": "single",
+        "output_id": "stiff-ode-solver-work-precision-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_symboltz_jl_cq",
+      "score": 0.917708
+    },
+    {
+      "left": {
+        "canonical_slug": "ast-skyframe-attribute-manipulation",
+        "merge_kind": "single",
+        "output_id": "ast-skyframe-attribute-manipulation"
+      },
+      "right": {
+        "canonical_slug": "specframe-attribute-configuration",
+        "merge_kind": "single",
+        "output_id": "specframe-attribute-configuration"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.917512
+    },
+    {
+      "left": {
+        "canonical_slug": "photometric-feature-engineering",
+        "merge_kind": "single",
+        "output_id": "photometric-feature-engineering"
+      },
+      "right": {
+        "canonical_slug": "sdss-wise-photometric-classifier-training",
+        "merge_kind": "single",
+        "output_id": "sdss-wise-photometric-classifier-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.917493
+    },
+    {
+      "left": {
+        "canonical_slug": "small-body-flyby-image-series-simulation",
+        "merge_kind": "single",
+        "output_id": "small-body-flyby-image-series-simulation"
+      },
+      "right": {
+        "canonical_slug": "small-body-flyby-scene-rendering",
+        "merge_kind": "single",
+        "output_id": "small-body-flyby-scene-rendering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sispo_cq",
+      "score": 0.917388
+    },
+    {
+      "left": {
+        "canonical_slug": "photo-z-augmented-feature-handling",
+        "merge_kind": "single",
+        "output_id": "photo-z-augmented-feature-handling"
+      },
+      "right": {
+        "canonical_slug": "photometric-feature-engineering",
+        "merge_kind": "single",
+        "output_id": "photometric-feature-engineering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.917032
+    },
+    {
+      "left": {
+        "canonical_slug": "healpix-pointing-generation",
+        "merge_kind": "single",
+        "output_id": "healpix-pointing-generation"
+      },
+      "right": {
+        "canonical_slug": "pointing-matrix-construction-healpix",
+        "merge_kind": "single",
+        "output_id": "pointing-matrix-construction-healpix"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_dst_cq",
+      "score": 0.916744
+    },
+    {
+      "left": {
+        "canonical_slug": "accretion-rate-boundary-check",
+        "merge_kind": "single",
+        "output_id": "accretion-rate-boundary-check"
+      },
+      "right": {
+        "canonical_slug": "accretion-rate-profile-extraction",
+        "merge_kind": "single",
+        "output_id": "accretion-rate-profile-extraction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_pagn_cq",
+      "score": 0.916617
+    },
+    {
+      "left": {
+        "canonical_slug": "astronomical-image-morphology-embedding",
+        "merge_kind": "single",
+        "output_id": "astronomical-image-morphology-embedding"
+      },
+      "right": {
+        "canonical_slug": "tensorboard-embedding-visualization",
+        "merge_kind": "single",
+        "output_id": "tensorboard-embedding-visualization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_astromorph_cq",
+      "score": 0.916245
+    },
+    {
+      "left": {
+        "canonical_slug": "radial-profile-model-sampling",
+        "merge_kind": "single",
+        "output_id": "radial-profile-model-sampling"
+      },
+      "right": {
+        "canonical_slug": "radial-profile-parameter-estimation",
+        "merge_kind": "single",
+        "output_id": "radial-profile-parameter-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_vis_r_cq",
+      "score": 0.916238
+    },
+    {
+      "left": {
+        "canonical_slug": "exoplanet-cloud-condensation-modeling",
+        "merge_kind": "single",
+        "output_id": "exoplanet-cloud-condensation-modeling"
+      },
+      "right": {
+        "canonical_slug": "exoplanet-cloud-model-execution",
+        "merge_kind": "single",
+        "output_id": "exoplanet-cloud-model-execution"
+      },
+      "run": "asbb_subwave1_2026-09__coll_exolyn_cq",
+      "score": 0.916105
+    },
+    {
+      "left": {
+        "canonical_slug": "monte-carlo-population-synthesis",
+        "merge_kind": "single",
+        "output_id": "monte-carlo-population-synthesis"
+      },
+      "right": {
+        "canonical_slug": "simulation-population-statistics-computation",
+        "merge_kind": "single",
+        "output_id": "simulation-population-statistics-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_diffmah_cq",
+      "score": 0.916022
+    },
+    {
+      "left": {
+        "canonical_slug": "bin-free-stellar-kinematics-fitting",
+        "merge_kind": "single",
+        "output_id": "bin-free-stellar-kinematics-fitting"
+      },
+      "right": {
+        "canonical_slug": "stellar-kinematics-benchmark-tabulation",
+        "merge_kind": "single",
+        "output_id": "stellar-kinematics-benchmark-tabulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gravsphere2_cq",
+      "score": 0.91575
+    },
+    {
+      "left": {
+        "canonical_slug": "multi-transit-simultaneous-fitting-with-locked-parameters",
+        "merge_kind": "single",
+        "output_id": "multi-transit-simultaneous-fitting-with-locked-parameters"
+      },
+      "right": {
+        "canonical_slug": "simultaneous-multi-transit-parameter-sharing",
+        "merge_kind": "single",
+        "output_id": "simultaneous-multi-transit-parameter-sharing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.915529
+    },
+    {
+      "left": {
+        "canonical_slug": "backend-interface-verification",
+        "merge_kind": "single",
+        "output_id": "backend-interface-verification"
+      },
+      "right": {
+        "canonical_slug": "cross-backend-consistency-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-backend-consistency-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_darkbit_cq",
+      "score": 0.915521
+    },
+    {
+      "left": {
+        "canonical_slug": "linear-regression-goodness-of-fit-verification",
+        "merge_kind": "single",
+        "output_id": "linear-regression-goodness-of-fit-verification"
+      },
+      "right": {
+        "canonical_slug": "regression-verification-against-reported-statistics",
+        "merge_kind": "single",
+        "output_id": "regression-verification-against-reported-statistics"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.914738
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-survey-transit-parameter-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-survey-transit-parameter-comparison"
+      },
+      "right": {
+        "canonical_slug": "published-transit-parameter-agreement-verification",
+        "merge_kind": "single",
+        "output_id": "published-transit-parameter-agreement-verification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.914472
+    },
+    {
+      "left": {
+        "canonical_slug": "regression-verification-against-reported-statistics",
+        "merge_kind": "single",
+        "output_id": "regression-verification-against-reported-statistics"
+      },
+      "right": {
+        "canonical_slug": "vapour-pressure-regression-analysis",
+        "merge_kind": "single",
+        "output_id": "vapour-pressure-regression-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.91447
+    },
+    {
+      "left": {
+        "canonical_slug": "h5part-particle-snapshot-extraction",
+        "merge_kind": "single",
+        "output_id": "h5part-particle-snapshot-extraction"
+      },
+      "right": {
+        "canonical_slug": "sph-particle-snapshot-analysis",
+        "merge_kind": "single",
+        "output_id": "sph-particle-snapshot-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_flecsph_cq",
+      "score": 0.913678
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-transit-parameter-inference",
+        "merge_kind": "single",
+        "output_id": "mcmc-transit-parameter-inference"
+      },
+      "right": {
+        "canonical_slug": "transit-model-cadence-integration",
+        "merge_kind": "single",
+        "output_id": "transit-model-cadence-integration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.913606
+    },
+    {
+      "left": {
+        "canonical_slug": "gaussian-process-noise-modelling",
+        "merge_kind": "single",
+        "output_id": "gaussian-process-noise-modelling"
+      },
+      "right": {
+        "canonical_slug": "stellar-activity-noise-modelling",
+        "merge_kind": "single",
+        "output_id": "stellar-activity-noise-modelling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_emperor_cq",
+      "score": 0.913406
+    },
+    {
+      "left": {
+        "canonical_slug": "lightgbm-feature-importance-extraction",
+        "merge_kind": "single",
+        "output_id": "lightgbm-feature-importance-extraction"
+      },
+      "right": {
+        "canonical_slug": "lightgbm-supervised-classifier-training",
+        "merge_kind": "single",
+        "output_id": "lightgbm-supervised-classifier-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mbasc_cq",
+      "score": 0.913302
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-transit-parameter-inference",
+        "merge_kind": "single",
+        "output_id": "mcmc-transit-parameter-inference"
+      },
+      "right": {
+        "canonical_slug": "multi-transit-simultaneous-fitting-with-locked-parameters",
+        "merge_kind": "single",
+        "output_id": "multi-transit-simultaneous-fitting-with-locked-parameters"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.913063
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-transit-parameter-inference",
+        "merge_kind": "single",
+        "output_id": "mcmc-transit-parameter-inference"
+      },
+      "right": {
+        "canonical_slug": "published-transit-parameter-agreement-verification",
+        "merge_kind": "single",
+        "output_id": "published-transit-parameter-agreement-verification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.912802
+    },
+    {
+      "left": {
+        "canonical_slug": "namelist-input-file-configuration",
+        "merge_kind": "single",
+        "output_id": "namelist-input-file-configuration"
+      },
+      "right": {
+        "canonical_slug": "namelist-input-file-preparation",
+        "merge_kind": "single",
+        "output_id": "namelist-input-file-preparation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_mbf_cq",
+      "score": 0.912276
+    },
+    {
+      "left": {
+        "canonical_slug": "disc-evolution-model-data-comparison",
+        "merge_kind": "single",
+        "output_id": "disc-evolution-model-data-comparison"
+      },
+      "right": {
+        "canonical_slug": "protoplanetary-disc-survey-data-comparison",
+        "merge_kind": "single",
+        "output_id": "protoplanetary-disc-survey-data-comparison"
+      },
+      "run": "asbb_subwave1_2026-09__coll_copops_cq",
+      "score": 0.912257
+    },
+    {
+      "left": {
+        "canonical_slug": "correlation-function-tabulation",
+        "merge_kind": "single",
+        "output_id": "correlation-function-tabulation"
+      },
+      "right": {
+        "canonical_slug": "two-point-angular-correlation-estimation",
+        "merge_kind": "single",
+        "output_id": "two-point-angular-correlation-estimation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ccogs_cq",
+      "score": 0.912248
+    },
+    {
+      "left": {
+        "canonical_slug": "multiwavelength-photometric-classification",
+        "merge_kind": "single",
+        "output_id": "multiwavelength-photometric-classification"
+      },
+      "right": {
+        "canonical_slug": "multiwavelength-photometry-band-subset-degradation-analysis",
+        "merge_kind": "single",
+        "output_id": "multiwavelength-photometry-band-subset-degradation-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mbasc_cq",
+      "score": 0.91167
+    },
+    {
+      "left": {
+        "canonical_slug": "precision-reduction-rounding",
+        "merge_kind": "single",
+        "output_id": "precision-reduction-rounding"
+      },
+      "right": {
+        "canonical_slug": "rounding-error-distribution-validation",
+        "merge_kind": "single",
+        "output_id": "rounding-error-distribution-validation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bitshuffle_cq",
+      "score": 0.911668
+    },
+    {
+      "left": {
+        "canonical_slug": "poisson-likelihood-gradient-and-hessian-computation",
+        "merge_kind": "single",
+        "output_id": "poisson-likelihood-gradient-and-hessian-computation"
+      },
+      "right": {
+        "canonical_slug": "poisson-likelihood-spectral-fitting",
+        "merge_kind": "single",
+        "output_id": "poisson-likelihood-spectral-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sushi_cq",
+      "score": 0.911576
+    },
+    {
+      "left": {
+        "canonical_slug": "jeans-equation-bin-free-fitting",
+        "merge_kind": "single",
+        "output_id": "jeans-equation-bin-free-fitting"
+      },
+      "right": {
+        "canonical_slug": "jeans-equation-mass-modeling",
+        "merge_kind": "single",
+        "output_id": "jeans-equation-mass-modeling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gravsphere2_cq",
+      "score": 0.911437
+    },
+    {
+      "left": {
+        "canonical_slug": "gc-derived-vapour-pressure-data-analysis",
+        "merge_kind": "single",
+        "output_id": "gc-derived-vapour-pressure-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "vapour-pressure-estimation-organostannanes",
+        "merge_kind": "single",
+        "output_id": "vapour-pressure-estimation-organostannanes"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.911204
+    },
+    {
+      "left": {
+        "canonical_slug": "enthalpy-of-vaporization-data-compilation",
+        "merge_kind": "single",
+        "output_id": "enthalpy-of-vaporization-data-compilation"
+      },
+      "right": {
+        "canonical_slug": "entropy-of-vaporization-derivation-from-boiling-points",
+        "merge_kind": "single",
+        "output_id": "entropy-of-vaporization-derivation-from-boiling-points"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.910898
+    },
+    {
+      "left": {
+        "canonical_slug": "enthalpy-of-vaporization-data-compilation",
+        "merge_kind": "single",
+        "output_id": "enthalpy-of-vaporization-data-compilation"
+      },
+      "right": {
+        "canonical_slug": "vaporization-enthalpy-derivation-from-slope",
+        "merge_kind": "single",
+        "output_id": "vaporization-enthalpy-derivation-from-slope"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.910809
+    },
+    {
+      "left": {
+        "canonical_slug": "discrete-hankel-transform-implementation",
+        "merge_kind": "single",
+        "output_id": "discrete-hankel-transform-implementation"
+      },
+      "right": {
+        "canonical_slug": "radial-profile-discrete-hankel-transform-modeling",
+        "merge_kind": "single",
+        "output_id": "radial-profile-discrete-hankel-transform-modeling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_vis_r_cq",
+      "score": 0.910547
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-convergence-and-posterior-constraining",
+        "merge_kind": "single",
+        "output_id": "mcmc-convergence-and-posterior-constraining"
+      },
+      "right": {
+        "canonical_slug": "mcmc-posterior-parameter-estimation",
+        "merge_kind": "single",
+        "output_id": "mcmc-posterior-parameter-estimation--343de017209c45bf"
+      },
+      "run": "asbb_subwave1_2026-09__coll_emperor_cq",
+      "score": 0.910383
+    },
+    {
+      "left": {
+        "canonical_slug": "gc-derived-vapour-pressure-data-analysis",
+        "merge_kind": "single",
+        "output_id": "gc-derived-vapour-pressure-data-analysis"
+      },
+      "right": {
+        "canonical_slug": "retention-ratio-vapour-pressure-analysis",
+        "merge_kind": "single",
+        "output_id": "retention-ratio-vapour-pressure-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.91035
+    },
+    {
+      "left": {
+        "canonical_slug": "chain-mesh-pair-counting",
+        "merge_kind": "single",
+        "output_id": "chain-mesh-pair-counting"
+      },
+      "right": {
+        "canonical_slug": "cosmological-catalogue-pair-counting",
+        "merge_kind": "single",
+        "output_id": "cosmological-catalogue-pair-counting"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cosmobolognalib_cq",
+      "score": 0.909856
+    },
+    {
+      "left": {
+        "canonical_slug": "population-synthesis-model-dependence-assessment",
+        "merge_kind": "single",
+        "output_id": "population-synthesis-model-dependence-assessment"
+      },
+      "right": {
+        "canonical_slug": "stellar-mass-dependent-planet-demographics-analysis",
+        "merge_kind": "single",
+        "output_id": "stellar-mass-dependent-planet-demographics-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_skaro_cq",
+      "score": 0.909745
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-survey-transit-parameter-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-survey-transit-parameter-comparison"
+      },
+      "right": {
+        "canonical_slug": "mcmc-transit-parameter-inference",
+        "merge_kind": "single",
+        "output_id": "mcmc-transit-parameter-inference"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.909349
+    },
+    {
+      "left": {
+        "canonical_slug": "chromatographic-retention-time-correction",
+        "merge_kind": "single",
+        "output_id": "chromatographic-retention-time-correction"
+      },
+      "right": {
+        "canonical_slug": "retention-ratio-vapour-pressure-analysis",
+        "merge_kind": "single",
+        "output_id": "retention-ratio-vapour-pressure-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.909259
+    },
+    {
+      "left": {
+        "canonical_slug": "astronomical-mapping-simplification-rules",
+        "merge_kind": "single",
+        "output_id": "astronomical-mapping-simplification-rules"
+      },
+      "right": {
+        "canonical_slug": "icrs-to-galactic-mapping-verification",
+        "merge_kind": "single",
+        "output_id": "icrs-to-galactic-mapping-verification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.909226
+    },
+    {
+      "left": {
+        "canonical_slug": "galactic-tracer-data-normalization",
+        "merge_kind": "single",
+        "output_id": "galactic-tracer-data-normalization"
+      },
+      "right": {
+        "canonical_slug": "galactic-tracer-spatial-distribution-plotting",
+        "merge_kind": "single",
+        "output_id": "galactic-tracer-spatial-distribution-plotting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_galkin_cq",
+      "score": 0.909084
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-temperature-simulation",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-simulation"
+      },
+      "right": {
+        "canonical_slug": "gibbs-free-energy-minimisation-condensation-simulation",
+        "merge_kind": "single",
+        "output_id": "gibbs-free-energy-minimisation-condensation-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.90902
+    },
+    {
+      "left": {
+        "canonical_slug": "alp-exclusion-limit-derivation",
+        "merge_kind": "single",
+        "output_id": "alp-exclusion-limit-derivation"
+      },
+      "right": {
+        "canonical_slug": "alp-exclusion-region-estimation",
+        "merge_kind": "single",
+        "output_id": "alp-exclusion-region-estimation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_alpconv_cq",
+      "score": 0.90893
+    },
+    {
+      "left": {
+        "canonical_slug": "astronomical-follow-up-candidate-selection",
+        "merge_kind": "single",
+        "output_id": "astronomical-follow-up-candidate-selection"
+      },
+      "right": {
+        "canonical_slug": "astronomical-source-classification",
+        "merge_kind": "single",
+        "output_id": "astronomical-source-classification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.908787
+    },
+    {
+      "left": {
+        "canonical_slug": "oscillatory-ode-numerical-integration",
+        "merge_kind": "single",
+        "output_id": "oscillatory-ode-numerical-integration"
+      },
+      "right": {
+        "canonical_slug": "oscillatory-ode-wkb-solver-usage",
+        "merge_kind": "single",
+        "output_id": "oscillatory-ode-wkb-solver-usage"
+      },
+      "run": "asbb_subwave1_2026-09__coll_oscode_cq",
+      "score": 0.90878
+    },
+    {
+      "left": {
+        "canonical_slug": "lgbm-gradient-boosting-classifier-training",
+        "merge_kind": "single",
+        "output_id": "lgbm-gradient-boosting-classifier-training"
+      },
+      "right": {
+        "canonical_slug": "lightgbm-supervised-classifier-training",
+        "merge_kind": "single",
+        "output_id": "lightgbm-supervised-classifier-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mbasc_cq",
+      "score": 0.908736
+    },
+    {
+      "left": {
+        "canonical_slug": "c-cosmology-library-api-usage",
+        "merge_kind": "single",
+        "output_id": "c-cosmology-library-api-usage"
+      },
+      "right": {
+        "canonical_slug": "cpp-numerical-library-usage",
+        "merge_kind": "single",
+        "output_id": "cpp-numerical-library-usage"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cosmobolognalib_cq",
+      "score": 0.908693
+    },
+    {
+      "left": {
+        "canonical_slug": "gas-density-profile-reconstruction",
+        "merge_kind": "single",
+        "output_id": "gas-density-profile-reconstruction"
+      },
+      "right": {
+        "canonical_slug": "hydrostatic-mass-profile-reconstruction",
+        "merge_kind": "single",
+        "output_id": "hydrostatic-mass-profile-reconstruction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_hydromass_cq",
+      "score": 0.90848
+    },
+    {
+      "left": {
+        "canonical_slug": "nonparametric-kernel-regression-fitting",
+        "merge_kind": "single",
+        "output_id": "nonparametric-kernel-regression-fitting"
+      },
+      "right": {
+        "canonical_slug": "nonparametric-kernel-regression-period-finding",
+        "merge_kind": "single",
+        "output_id": "nonparametric-kernel-regression-period-finding"
+      },
+      "run": "asbb_subwave1_2026-09__coll_finker_cq",
+      "score": 0.908137
+    },
+    {
+      "left": {
+        "canonical_slug": "empirical-interpolant-online-evaluation",
+        "merge_kind": "single",
+        "output_id": "empirical-interpolant-online-evaluation"
+      },
+      "right": {
+        "canonical_slug": "surrogate-online-evaluation-benchmarking",
+        "merge_kind": "single",
+        "output_id": "surrogate-online-evaluation-benchmarking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gwsurrogate_cq",
+      "score": 0.907981
+    },
+    {
+      "left": {
+        "canonical_slug": "astronomical-world-coordinate-system-interpretation",
+        "merge_kind": "single",
+        "output_id": "astronomical-world-coordinate-system-interpretation"
+      },
+      "right": {
+        "canonical_slug": "celestial-coordinate-frame-conversion",
+        "merge_kind": "single",
+        "output_id": "celestial-coordinate-frame-conversion"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.907955
+    },
+    {
+      "left": {
+        "canonical_slug": "agn-disc-model-solving",
+        "merge_kind": "single",
+        "output_id": "agn-disc-model-solving"
+      },
+      "right": {
+        "canonical_slug": "thompson-agn-disk-solution",
+        "merge_kind": "single",
+        "output_id": "thompson-agn-disk-solution"
+      },
+      "run": "asbb_subwave1_2026-09__coll_pagn_cq",
+      "score": 0.907818
+    },
+    {
+      "left": {
+        "canonical_slug": "plane-parallel-radiative-transfer",
+        "merge_kind": "single",
+        "output_id": "plane-parallel-radiative-transfer"
+      },
+      "right": {
+        "canonical_slug": "radiative-transfer-benchmarking-against-cloudy",
+        "merge_kind": "single",
+        "output_id": "radiative-transfer-benchmarking-against-cloudy"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_rabacus_cq",
+      "score": 0.907491
+    },
+    {
+      "left": {
+        "canonical_slug": "differentiable-model-evaluation-with-jax",
+        "merge_kind": "single",
+        "output_id": "differentiable-model-evaluation-with-jax"
+      },
+      "right": {
+        "canonical_slug": "differentiable-model-gradient-optimization",
+        "merge_kind": "single",
+        "output_id": "differentiable-model-gradient-optimization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_diffmah_cq",
+      "score": 0.907465
+    },
+    {
+      "left": {
+        "canonical_slug": "enthalpy-of-vaporization-calculation",
+        "merge_kind": "single",
+        "output_id": "enthalpy-of-vaporization-calculation"
+      },
+      "right": {
+        "canonical_slug": "vaporization-enthalpy-derivation-from-slope",
+        "merge_kind": "single",
+        "output_id": "vaporization-enthalpy-derivation-from-slope"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.907267
+    },
+    {
+      "left": {
+        "canonical_slug": "correlation-distance-matrix-analysis",
+        "merge_kind": "single",
+        "output_id": "correlation-distance-matrix-analysis"
+      },
+      "right": {
+        "canonical_slug": "hierarchical-clustering-correlation-distance",
+        "merge_kind": "single",
+        "output_id": "hierarchical-clustering-correlation-distance"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_amada_cq",
+      "score": 0.907252
+    },
+    {
+      "left": {
+        "canonical_slug": "background-cosmology-integration",
+        "merge_kind": "single",
+        "output_id": "background-cosmology-integration"
+      },
+      "right": {
+        "canonical_slug": "symbolic-cosmology-model-specification",
+        "merge_kind": "single",
+        "output_id": "symbolic-cosmology-model-specification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_symboltz_jl_cq",
+      "score": 0.907028
+    },
+    {
+      "left": {
+        "canonical_slug": "hdf5-chunked-lossless-compression",
+        "merge_kind": "single",
+        "output_id": "hdf5-chunked-lossless-compression"
+      },
+      "right": {
+        "canonical_slug": "hdf5-filter-compression-evaluation",
+        "merge_kind": "single",
+        "output_id": "hdf5-filter-compression-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_fits2hdf_cq",
+      "score": 0.907006
+    },
+    {
+      "left": {
+        "canonical_slug": "f1-score-benchmark-reproduction",
+        "merge_kind": "single",
+        "output_id": "f1-score-benchmark-reproduction"
+      },
+      "right": {
+        "canonical_slug": "per-class-f1-score-evaluation",
+        "merge_kind": "single",
+        "output_id": "per-class-f1-score-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_sheep_cq",
+      "score": 0.906947
+    },
+    {
+      "left": {
+        "canonical_slug": "self-supervised-byol-embedding-extraction",
+        "merge_kind": "single",
+        "output_id": "self-supervised-byol-embedding-extraction"
+      },
+      "right": {
+        "canonical_slug": "self-supervised-byol-training",
+        "merge_kind": "single",
+        "output_id": "self-supervised-byol-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_astromorph_cq",
+      "score": 0.90687
+    },
+    {
+      "left": {
+        "canonical_slug": "inflationary-slow-roll-observable-computation",
+        "merge_kind": "single",
+        "output_id": "inflationary-slow-roll-observable-computation"
+      },
+      "right": {
+        "canonical_slug": "slow-roll-observable-prediction-generation",
+        "merge_kind": "single",
+        "output_id": "slow-roll-observable-prediction-generation"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_aspic_cq",
+      "score": 0.906626
+    },
+    {
+      "left": {
+        "canonical_slug": "radial-ionization-profile-analysis",
+        "merge_kind": "single",
+        "output_id": "radial-ionization-profile-analysis"
+      },
+      "right": {
+        "canonical_slug": "stromgren-sphere-ionization-profile-simulation",
+        "merge_kind": "single",
+        "output_id": "stromgren-sphere-ionization-profile-simulation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_rabacus_cq",
+      "score": 0.906536
+    },
+    {
+      "left": {
+        "canonical_slug": "enthalpy-of-vaporization-calculation",
+        "merge_kind": "single",
+        "output_id": "enthalpy-of-vaporization-calculation"
+      },
+      "right": {
+        "canonical_slug": "entropy-of-vaporization-derivation-from-boiling-points",
+        "merge_kind": "single",
+        "output_id": "entropy-of-vaporization-derivation-from-boiling-points"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.906512
+    },
+    {
+      "left": {
+        "canonical_slug": "bitshuffle-compression-benchmarking",
+        "merge_kind": "single",
+        "output_id": "bitshuffle-compression-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "fits-binary-table-compression-benchmarking",
+        "merge_kind": "single",
+        "output_id": "fits-binary-table-compression-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_fits2hdf_cq",
+      "score": 0.906471
+    },
+    {
+      "left": {
+        "canonical_slug": "astronomical-coordinate-systems-model-construction",
+        "merge_kind": "single",
+        "output_id": "astronomical-coordinate-systems-model-construction"
+      },
+      "right": {
+        "canonical_slug": "spectral-coordinate-system-conversion",
+        "merge_kind": "single",
+        "output_id": "spectral-coordinate-system-conversion"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.906464
+    },
+    {
+      "left": {
+        "canonical_slug": "transit-model-cadence-integration",
+        "merge_kind": "single",
+        "output_id": "transit-model-cadence-integration"
+      },
+      "right": {
+        "canonical_slug": "transit-parameter-comparison-across-publications",
+        "merge_kind": "single",
+        "output_id": "transit-parameter-comparison-across-publications"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.906455
+    },
+    {
+      "left": {
+        "canonical_slug": "bayesian-mcmc-posterior-sampling",
+        "merge_kind": "single",
+        "output_id": "bayesian-mcmc-posterior-sampling"
+      },
+      "right": {
+        "canonical_slug": "mcmc-posterior-marginalization",
+        "merge_kind": "single",
+        "output_id": "mcmc-posterior-marginalization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_prymordial_cq",
+      "score": 0.906386
+    },
+    {
+      "left": {
+        "canonical_slug": "solar-abundance-pattern-configuration",
+        "merge_kind": "single",
+        "output_id": "solar-abundance-pattern-configuration"
+      },
+      "right": {
+        "canonical_slug": "stellar-abundance-pattern-scaling",
+        "merge_kind": "single",
+        "output_id": "stellar-abundance-pattern-scaling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.906304
+    },
+    {
+      "left": {
+        "canonical_slug": "fits-binary-table-compression-benchmarking",
+        "merge_kind": "single",
+        "output_id": "fits-binary-table-compression-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "fits-image-compression-benchmarking",
+        "merge_kind": "single",
+        "output_id": "fits-image-compression-benchmarking"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_fits2hdf_cq",
+      "score": 0.90617
+    },
+    {
+      "left": {
+        "canonical_slug": "sequential-monte-carlo-posterior-sampling",
+        "merge_kind": "single",
+        "output_id": "sequential-monte-carlo-posterior-sampling"
+      },
+      "right": {
+        "canonical_slug": "smc-posterior-approximation",
+        "merge_kind": "single",
+        "output_id": "smc-posterior-approximation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gallifrey_cq",
+      "score": 0.906156
+    },
+    {
+      "left": {
+        "canonical_slug": "photoevaporation-model-intercomparison",
+        "merge_kind": "single",
+        "output_id": "photoevaporation-model-intercomparison"
+      },
+      "right": {
+        "canonical_slug": "planetary-photoevaporation-modelling",
+        "merge_kind": "single",
+        "output_id": "planetary-photoevaporation-modelling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_tess_cont_cq",
+      "score": 0.906027
+    },
+    {
+      "left": {
+        "canonical_slug": "hybrid-vlasov-simulation-configuration",
+        "merge_kind": "single",
+        "output_id": "hybrid-vlasov-simulation-configuration"
+      },
+      "right": {
+        "canonical_slug": "hybrid-vlasov-solver-implementation",
+        "merge_kind": "single",
+        "output_id": "hybrid-vlasov-solver-implementation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vlasiator_cq",
+      "score": 0.905982
+    },
+    {
+      "left": {
+        "canonical_slug": "planet-occurrence-rate-ratio-comparison-across-galactic-regions",
+        "merge_kind": "single",
+        "output_id": "planet-occurrence-rate-ratio-comparison-across-galactic-regions"
+      },
+      "right": {
+        "canonical_slug": "stellar-mass-dependent-planet-demographics-analysis",
+        "merge_kind": "single",
+        "output_id": "stellar-mass-dependent-planet-demographics-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_skaro_cq",
+      "score": 0.905973
+    },
+    {
+      "left": {
+        "canonical_slug": "integer-visibility-precision-reduction",
+        "merge_kind": "single",
+        "output_id": "integer-visibility-precision-reduction"
+      },
+      "right": {
+        "canonical_slug": "precision-reduction-rounding",
+        "merge_kind": "single",
+        "output_id": "precision-reduction-rounding"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_bitshuffle_cq",
+      "score": 0.905955
+    },
+    {
+      "left": {
+        "canonical_slug": "empirical-interpolant-online-evaluation",
+        "merge_kind": "single",
+        "output_id": "empirical-interpolant-online-evaluation"
+      },
+      "right": {
+        "canonical_slug": "empirical-interpolant-reconstruction",
+        "merge_kind": "single",
+        "output_id": "empirical-interpolant-reconstruction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gwsurrogate_cq",
+      "score": 0.905844
+    },
+    {
+      "left": {
+        "canonical_slug": "neutron-to-proton-born-rate-constraint-analysis",
+        "merge_kind": "single",
+        "output_id": "neutron-to-proton-born-rate-constraint-analysis"
+      },
+      "right": {
+        "canonical_slug": "weak-neutron-proton-rate-integration",
+        "merge_kind": "single",
+        "output_id": "weak-neutron-proton-rate-integration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_prymordial_cq",
+      "score": 0.90578
+    },
+    {
+      "left": {
+        "canonical_slug": "gas-density-profile-reconstruction",
+        "merge_kind": "single",
+        "output_id": "gas-density-profile-reconstruction"
+      },
+      "right": {
+        "canonical_slug": "psf-deconvolution-of-gas-profiles",
+        "merge_kind": "single",
+        "output_id": "psf-deconvolution-of-gas-profiles"
+      },
+      "run": "asbb_subwave1_2026-09__coll_hydromass_cq",
+      "score": 0.905549
+    },
+    {
+      "left": {
+        "canonical_slug": "baseline-output-file-verification",
+        "merge_kind": "single",
+        "output_id": "baseline-output-file-verification"
+      },
+      "right": {
+        "canonical_slug": "reference-output-consistency-checking",
+        "merge_kind": "single",
+        "output_id": "reference-output-consistency-checking"
+      },
+      "run": "asbb_subwave1_2026-09__coll_galkin_cq",
+      "score": 0.905485
+    },
+    {
+      "left": {
+        "canonical_slug": "linear-regression-fit-evaluation",
+        "merge_kind": "single",
+        "output_id": "linear-regression-fit-evaluation"
+      },
+      "right": {
+        "canonical_slug": "linear-regression-goodness-of-fit-verification",
+        "merge_kind": "single",
+        "output_id": "linear-regression-goodness-of-fit-verification"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.905478
+    },
+    {
+      "left": {
+        "canonical_slug": "python-spectroscopy-data-export",
+        "merge_kind": "single",
+        "output_id": "python-spectroscopy-data-export"
+      },
+      "right": {
+        "canonical_slug": "spectroscopy-data-serialization-to",
+        "merge_kind": "single",
+        "output_id": "spectroscopy-data-serialization-to"
+      },
+      "run": "asbb_subwave1_2026-09__coll_larch_cq",
+      "score": 0.905351
+    },
+    {
+      "left": {
+        "canonical_slug": "eddy-field-visualization",
+        "merge_kind": "single",
+        "output_id": "eddy-field-visualization"
+      },
+      "right": {
+        "canonical_slug": "simulation-field-visualization",
+        "merge_kind": "single",
+        "output_id": "simulation-field-visualization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dedalus_cq",
+      "score": 0.905231
+    },
+    {
+      "left": {
+        "canonical_slug": "ast-mapping-construction",
+        "merge_kind": "single",
+        "output_id": "ast-mapping-construction"
+      },
+      "right": {
+        "canonical_slug": "region-based-mapping-routing",
+        "merge_kind": "single",
+        "output_id": "region-based-mapping-routing"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.905111
+    },
+    {
+      "left": {
+        "canonical_slug": "qspr-property-relationship-fitting",
+        "merge_kind": "single",
+        "output_id": "qspr-property-relationship-fitting"
+      },
+      "right": {
+        "canonical_slug": "regression-verification-against-reported-statistics",
+        "merge_kind": "single",
+        "output_id": "regression-verification-against-reported-statistics"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.905081
+    },
+    {
+      "left": {
+        "canonical_slug": "relativistic-hydrodynamics-conservative-variable-formulation",
+        "merge_kind": "single",
+        "output_id": "relativistic-hydrodynamics-conservative-variable-formulation"
+      },
+      "right": {
+        "canonical_slug": "relativistic-hydrodynamics-flux-computation",
+        "merge_kind": "single",
+        "output_id": "relativistic-hydrodynamics-flux-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_aztekas_cq",
+      "score": 0.904743
+    },
+    {
+      "left": {
+        "canonical_slug": "initial-condition-parameter-specification",
+        "merge_kind": "single",
+        "output_id": "initial-condition-parameter-specification"
+      },
+      "right": {
+        "canonical_slug": "sensitivity-analysis-of-initial-conditions",
+        "merge_kind": "single",
+        "output_id": "sensitivity-analysis-of-initial-conditions"
+      },
+      "run": "asbb_subwave1_2026-09__coll_simab_cq",
+      "score": 0.904727
+    },
+    {
+      "left": {
+        "canonical_slug": "planet-occurrence-rate-aggregation-per-region",
+        "merge_kind": "single",
+        "output_id": "planet-occurrence-rate-aggregation-per-region"
+      },
+      "right": {
+        "canonical_slug": "stellar-mass-dependent-planet-demographics-analysis",
+        "merge_kind": "single",
+        "output_id": "stellar-mass-dependent-planet-demographics-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_skaro_cq",
+      "score": 0.904685
+    },
+    {
+      "left": {
+        "canonical_slug": "simultaneous-multi-transit-parameter-sharing",
+        "merge_kind": "single",
+        "output_id": "simultaneous-multi-transit-parameter-sharing"
+      },
+      "right": {
+        "canonical_slug": "transit-model-cadence-integration",
+        "merge_kind": "single",
+        "output_id": "transit-model-cadence-integration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.904658
+    },
+    {
+      "left": {
+        "canonical_slug": "light-curve-gradient-measurement",
+        "merge_kind": "single",
+        "output_id": "light-curve-gradient-measurement"
+      },
+      "right": {
+        "canonical_slug": "photometric-eclipse-analysis",
+        "merge_kind": "single",
+        "output_id": "photometric-eclipse-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_beyonce_cq",
+      "score": 0.904561
+    },
+    {
+      "left": {
+        "canonical_slug": "case-b-recombination-atomic-level-population-modelling",
+        "merge_kind": "single",
+        "output_id": "case-b-recombination-atomic-level-population-modelling"
+      },
+      "right": {
+        "canonical_slug": "case-b-recombination-cascade-rate-balance",
+        "merge_kind": "single",
+        "output_id": "case-b-recombination-cascade-rate-balance"
+      },
+      "run": "asbb_subwave1_2026-09__coll_hylight_cq",
+      "score": 0.904437
+    },
+    {
+      "left": {
+        "canonical_slug": "fisher-matrix-parameter-normalisation",
+        "merge_kind": "single",
+        "output_id": "fisher-matrix-parameter-normalisation"
+      },
+      "right": {
+        "canonical_slug": "jax-hessian-fisher-matrix-computation",
+        "merge_kind": "single",
+        "output_id": "jax-hessian-fisher-matrix-computation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_candl_cq",
+      "score": 0.904115
+    },
+    {
+      "left": {
+        "canonical_slug": "solid-condensate-opacity-computation",
+        "merge_kind": "single",
+        "output_id": "solid-condensate-opacity-computation"
+      },
+      "right": {
+        "canonical_slug": "solid-opacity-extinction-calculation",
+        "merge_kind": "single",
+        "output_id": "solid-opacity-extinction-calculation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_exolyn_cq",
+      "score": 0.903929
+    },
+    {
+      "left": {
+        "canonical_slug": "dark-matter-observable-computation",
+        "merge_kind": "single",
+        "output_id": "dark-matter-observable-computation"
+      },
+      "right": {
+        "canonical_slug": "dark-matter-relic-density-calculation",
+        "merge_kind": "single",
+        "output_id": "dark-matter-relic-density-calculation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_darkbit_cq",
+      "score": 0.903831
+    },
+    {
+      "left": {
+        "canonical_slug": "band-power-bin-width-optimisation",
+        "merge_kind": "single",
+        "output_id": "band-power-bin-width-optimisation"
+      },
+      "right": {
+        "canonical_slug": "cmb-power-spectrum-band-binning",
+        "merge_kind": "single",
+        "output_id": "cmb-power-spectrum-band-binning"
+      },
+      "run": "asbb_subwave1_2026-09__coll_candl_cq",
+      "score": 0.903819
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-survey-transit-parameter-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-survey-transit-parameter-comparison"
+      },
+      "right": {
+        "canonical_slug": "multi-transit-simultaneous-fitting-with-locked-parameters",
+        "merge_kind": "single",
+        "output_id": "multi-transit-simultaneous-fitting-with-locked-parameters"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.903607
+    },
+    {
+      "left": {
+        "canonical_slug": "event-driven-n-body-collision-scheduling",
+        "merge_kind": "single",
+        "output_id": "event-driven-n-body-collision-scheduling"
+      },
+      "right": {
+        "canonical_slug": "nbody-collision-list-propagation",
+        "merge_kind": "single",
+        "output_id": "nbody-collision-list-propagation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_kc_cq",
+      "score": 0.903571
+    },
+    {
+      "left": {
+        "canonical_slug": "multi-transit-simultaneous-fitting-with-locked-parameters",
+        "merge_kind": "single",
+        "output_id": "multi-transit-simultaneous-fitting-with-locked-parameters"
+      },
+      "right": {
+        "canonical_slug": "transit-parameter-comparison-across-publications",
+        "merge_kind": "single",
+        "output_id": "transit-parameter-comparison-across-publications"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.903471
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-curve-smoothing",
+        "merge_kind": "single",
+        "output_id": "condensation-curve-smoothing"
+      },
+      "right": {
+        "canonical_slug": "numerical-artifact-correction-and-curve-smoothing",
+        "merge_kind": "single",
+        "output_id": "numerical-artifact-correction-and-curve-smoothing"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.903387
+    },
+    {
+      "left": {
+        "canonical_slug": "galactic-kinematics-data-parsing",
+        "merge_kind": "single",
+        "output_id": "galactic-kinematics-data-parsing"
+      },
+      "right": {
+        "canonical_slug": "galactic-tracer-data-normalization",
+        "merge_kind": "single",
+        "output_id": "galactic-tracer-data-normalization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_galkin_cq",
+      "score": 0.903378
+    },
+    {
+      "left": {
+        "canonical_slug": "multivariate-target-density-simulation",
+        "merge_kind": "single",
+        "output_id": "multivariate-target-density-simulation"
+      },
+      "right": {
+        "canonical_slug": "normal-mixture-target-density-evaluation",
+        "merge_kind": "single",
+        "output_id": "normal-mixture-target-density-evaluation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_demc2_cq",
+      "score": 0.903139
+    },
+    {
+      "left": {
+        "canonical_slug": "self-supervised-byol-training",
+        "merge_kind": "single",
+        "output_id": "self-supervised-byol-training"
+      },
+      "right": {
+        "canonical_slug": "self-supervised-encoder-setup",
+        "merge_kind": "single",
+        "output_id": "self-supervised-encoder-setup"
+      },
+      "run": "asbb_subwave1_2026-09__coll_astromorph_cq",
+      "score": 0.902882
+    },
+    {
+      "left": {
+        "canonical_slug": "debris-disc-radial-profile-modelling",
+        "merge_kind": "single",
+        "output_id": "debris-disc-radial-profile-modelling"
+      },
+      "right": {
+        "canonical_slug": "debris-disc-surface-brightness-profile-specification",
+        "merge_kind": "single",
+        "output_id": "debris-disc-surface-brightness-profile-specification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_vis_r_cq",
+      "score": 0.902842
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-posterior-parameter-estimation",
+        "merge_kind": "single",
+        "output_id": "mcmc-posterior-parameter-estimation--343de017209c45bf"
+      },
+      "right": {
+        "canonical_slug": "posterior-uncertainty-table-generation",
+        "merge_kind": "single",
+        "output_id": "posterior-uncertainty-table-generation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_emperor_cq",
+      "score": 0.902617
+    },
+    {
+      "left": {
+        "canonical_slug": "linear-regression-fit-evaluation",
+        "merge_kind": "single",
+        "output_id": "linear-regression-fit-evaluation"
+      },
+      "right": {
+        "canonical_slug": "linear-regression-of-vant-hoff-plots",
+        "merge_kind": "single",
+        "output_id": "linear-regression-of-vant-hoff-plots"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.90256
+    },
+    {
+      "left": {
+        "canonical_slug": "empirical-interpolant-node-selection",
+        "merge_kind": "single",
+        "output_id": "empirical-interpolant-node-selection"
+      },
+      "right": {
+        "canonical_slug": "empirical-interpolant-online-evaluation",
+        "merge_kind": "single",
+        "output_id": "empirical-interpolant-online-evaluation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gwsurrogate_cq",
+      "score": 0.902477
+    },
+    {
+      "left": {
+        "canonical_slug": "parameter-grid-enumeration",
+        "merge_kind": "single",
+        "output_id": "parameter-grid-enumeration"
+      },
+      "right": {
+        "canonical_slug": "parameter-space-enumeration-and-filtering",
+        "merge_kind": "single",
+        "output_id": "parameter-space-enumeration-and-filtering"
+      },
+      "run": "asbb_subwave1_2026-09__coll_beyonce_cq",
+      "score": 0.902197
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-code-neighbor-list-verification",
+        "merge_kind": "single",
+        "output_id": "cross-code-neighbor-list-verification"
+      },
+      "right": {
+        "canonical_slug": "sph-neighbor-list-construction",
+        "merge_kind": "single",
+        "output_id": "sph-neighbor-list-construction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_flecsph_cq",
+      "score": 0.901902
+    },
+    {
+      "left": {
+        "canonical_slug": "hdf5-chunked-io-benchmarking",
+        "merge_kind": "single",
+        "output_id": "hdf5-chunked-io-benchmarking"
+      },
+      "right": {
+        "canonical_slug": "scientific-array-io-performance-analysis",
+        "merge_kind": "single",
+        "output_id": "scientific-array-io-performance-analysis"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_fits2hdf_cq",
+      "score": 0.901815
+    },
+    {
+      "left": {
+        "canonical_slug": "co-depletion-modelling",
+        "merge_kind": "single",
+        "output_id": "co-depletion-modelling"
+      },
+      "right": {
+        "canonical_slug": "co-flux-semi-analytical-modelling",
+        "merge_kind": "single",
+        "output_id": "co-flux-semi-analytical-modelling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_copops_cq",
+      "score": 0.901714
+    },
+    {
+      "left": {
+        "canonical_slug": "waveform-parameter-space-fitting",
+        "merge_kind": "single",
+        "output_id": "waveform-parameter-space-fitting"
+      },
+      "right": {
+        "canonical_slug": "waveform-peak-alignment",
+        "merge_kind": "single",
+        "output_id": "waveform-peak-alignment"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gwsurrogate_cq",
+      "score": 0.90162
+    },
+    {
+      "left": {
+        "canonical_slug": "cosmological-parameter-configuration",
+        "merge_kind": "single",
+        "output_id": "cosmological-parameter-configuration--af960eb12c6805e7"
+      },
+      "right": {
+        "canonical_slug": "symbolic-cosmology-model-specification",
+        "merge_kind": "single",
+        "output_id": "symbolic-cosmology-model-specification"
+      },
+      "run": "asbb_subwave1_2026-09__coll_symboltz_jl_cq",
+      "score": 0.901402
+    },
+    {
+      "left": {
+        "canonical_slug": "stokes-parameter-weighted-histogram-binning",
+        "merge_kind": "single",
+        "output_id": "stokes-parameter-weighted-histogram-binning"
+      },
+      "right": {
+        "canonical_slug": "stokes-spectrum-binning",
+        "merge_kind": "single",
+        "output_id": "stokes-spectrum-binning"
+      },
+      "run": "asbb_subwave1_2026-09__coll_ixpeobssim_cq",
+      "score": 0.901187
+    },
+    {
+      "left": {
+        "canonical_slug": "irregular-time-series-interpolation",
+        "merge_kind": "single",
+        "output_id": "irregular-time-series-interpolation"
+      },
+      "right": {
+        "canonical_slug": "time-series-extrapolation-visualization",
+        "merge_kind": "single",
+        "output_id": "time-series-extrapolation-visualization"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_diffrax_cq",
+      "score": 0.900839
+    },
+    {
+      "left": {
+        "canonical_slug": "neural-cde-training",
+        "merge_kind": "single",
+        "output_id": "neural-cde-training"
+      },
+      "right": {
+        "canonical_slug": "neural-rde-model-training",
+        "merge_kind": "single",
+        "output_id": "neural-rde-model-training"
+      },
+      "run": "asbb_subwave2_2026-08-31__coll_diffrax_cq",
+      "score": 0.900836
+    },
+    {
+      "left": {
+        "canonical_slug": "wall-clock-timing-analysis",
+        "merge_kind": "single",
+        "output_id": "wall-clock-timing-analysis"
+      },
+      "right": {
+        "canonical_slug": "wallclock-runtime-profiling",
+        "merge_kind": "single",
+        "output_id": "wallclock-runtime-profiling--5159c33556f420f9"
+      },
+      "run": "asbb_subwave1_2026-09__coll_nemesis_cq",
+      "score": 0.900713
+    },
+    {
+      "left": {
+        "canonical_slug": "zodiacal-light-emission-evaluation",
+        "merge_kind": "single",
+        "output_id": "zodiacal-light-emission-evaluation"
+      },
+      "right": {
+        "canonical_slug": "zodiacal-light-timestream-simulation",
+        "merge_kind": "single",
+        "output_id": "zodiacal-light-timestream-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_zodipy_cq",
+      "score": 0.900688
+    },
+    {
+      "left": {
+        "canonical_slug": "plane-parallel-radiative-transfer",
+        "merge_kind": "single",
+        "output_id": "plane-parallel-radiative-transfer"
+      },
+      "right": {
+        "canonical_slug": "radiative-transfer-equilibrium-solver-execution",
+        "merge_kind": "single",
+        "output_id": "radiative-transfer-equilibrium-solver-execution"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_rabacus_cq",
+      "score": 0.900495
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-posterior-sampling",
+        "merge_kind": "single",
+        "output_id": "mcmc-posterior-sampling--357022537bc78ddc"
+      },
+      "right": {
+        "canonical_slug": "posterior-comparison-across-samplers",
+        "merge_kind": "single",
+        "output_id": "posterior-comparison-across-samplers"
+      },
+      "run": "asbb_subwave1_2026-09__coll_vis_r_cq",
+      "score": 0.900441
+    },
+    {
+      "left": {
+        "canonical_slug": "wall-clock-scaling-power-law-fitting",
+        "merge_kind": "single",
+        "output_id": "wall-clock-scaling-power-law-fitting"
+      },
+      "right": {
+        "canonical_slug": "wall-clock-timing-analysis",
+        "merge_kind": "single",
+        "output_id": "wall-clock-timing-analysis"
+      },
+      "run": "asbb_subwave1_2026-09__coll_nemesis_cq",
+      "score": 0.900434
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-sequence-simulation",
+        "merge_kind": "single",
+        "output_id": "condensation-sequence-simulation"
+      },
+      "right": {
+        "canonical_slug": "equilibrium-condensation-simulation",
+        "merge_kind": "single",
+        "output_id": "equilibrium-condensation-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.900407
+    },
+    {
+      "left": {
+        "canonical_slug": "photometric-redshift-error-metrics",
+        "merge_kind": "single",
+        "output_id": "photometric-redshift-error-metrics"
+      },
+      "right": {
+        "canonical_slug": "photometric-redshift-estimation",
+        "merge_kind": "single",
+        "output_id": "photometric-redshift-estimation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cosmophotoz_cq",
+      "score": 0.900328
+    },
+    {
+      "left": {
+        "canonical_slug": "analytic-shock-solution-comparison",
+        "merge_kind": "single",
+        "output_id": "analytic-shock-solution-comparison"
+      },
+      "right": {
+        "canonical_slug": "noh-implosion-shock-validation",
+        "merge_kind": "single",
+        "output_id": "noh-implosion-shock-validation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_flecsph_cq",
+      "score": 0.900305
+    },
+    {
+      "left": {
+        "canonical_slug": "mpi-parallel-strong-scaling-analysis",
+        "merge_kind": "single",
+        "output_id": "mpi-parallel-strong-scaling-analysis"
+      },
+      "right": {
+        "canonical_slug": "mpi-parallel-time-integration",
+        "merge_kind": "single",
+        "output_id": "mpi-parallel-time-integration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_dedalus_cq",
+      "score": 0.900132
+    },
+    {
+      "left": {
+        "canonical_slug": "markov-chain-monte-carlo-posterior-sampling",
+        "merge_kind": "single",
+        "output_id": "markov-chain-monte-carlo-posterior-sampling"
+      },
+      "right": {
+        "canonical_slug": "metropolis-hastings-sampler-implementation",
+        "merge_kind": "single",
+        "output_id": "metropolis-hastings-sampler-implementation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cosmobolognalib_cq",
+      "score": 0.900112
+    }
+  ],
+  "pairs_ge_0_95": [
+    {
+      "left": {
+        "canonical_slug": "condensation-temperature-derivation",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-derivation"
+      },
+      "right": {
+        "canonical_slug": "condensation-temperature-extraction",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-extraction"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.9785
+    },
+    {
+      "left": {
+        "canonical_slug": "enthalpy-of-vaporization-calculation",
+        "merge_kind": "single",
+        "output_id": "enthalpy-of-vaporization-calculation"
+      },
+      "right": {
+        "canonical_slug": "enthalpy-of-vaporization-data-compilation",
+        "merge_kind": "single",
+        "output_id": "enthalpy-of-vaporization-data-compilation"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_twodspec_cq",
+      "score": 0.978221
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-temperature-derivation",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-derivation"
+      },
+      "right": {
+        "canonical_slug": "condensation-temperature-simulation",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.971327
+    },
+    {
+      "left": {
+        "canonical_slug": "condensation-temperature-extraction",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-extraction"
+      },
+      "right": {
+        "canonical_slug": "condensation-temperature-simulation",
+        "merge_kind": "single",
+        "output_id": "condensation-temperature-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.965834
+    },
+    {
+      "left": {
+        "canonical_slug": "cosmological-parameter-mcmc-sampling",
+        "merge_kind": "single",
+        "output_id": "cosmological-parameter-mcmc-sampling"
+      },
+      "right": {
+        "canonical_slug": "mcmc-ensemble-sampling-cosmological-parameters",
+        "merge_kind": "single",
+        "output_id": "mcmc-ensemble-sampling-cosmological-parameters"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_cosmohammer_cq",
+      "score": 0.964434
+    },
+    {
+      "left": {
+        "canonical_slug": "co-depletion-correction-analysis",
+        "merge_kind": "single",
+        "output_id": "co-depletion-correction-analysis"
+      },
+      "right": {
+        "canonical_slug": "co-depletion-modelling",
+        "merge_kind": "single",
+        "output_id": "co-depletion-modelling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_copops_cq",
+      "score": 0.962553
+    },
+    {
+      "left": {
+        "canonical_slug": "galactic-dynamics-backward-orbit-integration",
+        "merge_kind": "single",
+        "output_id": "galactic-dynamics-backward-orbit-integration"
+      },
+      "right": {
+        "canonical_slug": "stellar-orbit-backward-integration",
+        "merge_kind": "single",
+        "output_id": "stellar-orbit-backward-integration"
+      },
+      "run": "asbb_subwave1_2026-09__coll_spiback_cq",
+      "score": 0.962186
+    },
+    {
+      "left": {
+        "canonical_slug": "smc-posterior-approximation",
+        "merge_kind": "single",
+        "output_id": "smc-posterior-approximation"
+      },
+      "right": {
+        "canonical_slug": "smc-posterior-sampling",
+        "merge_kind": "single",
+        "output_id": "smc-posterior-sampling"
+      },
+      "run": "asbb_subwave1_2026-09__coll_gallifrey_cq",
+      "score": 0.960764
+    },
+    {
+      "left": {
+        "canonical_slug": "cross-survey-transit-parameter-comparison",
+        "merge_kind": "single",
+        "output_id": "cross-survey-transit-parameter-comparison"
+      },
+      "right": {
+        "canonical_slug": "transit-parameter-comparison-across-publications",
+        "merge_kind": "single",
+        "output_id": "transit-parameter-comparison-across-publications"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.959309
+    },
+    {
+      "left": {
+        "canonical_slug": "ast-frameset-serialisation",
+        "merge_kind": "single",
+        "output_id": "ast-frameset-serialisation"
+      },
+      "right": {
+        "canonical_slug": "frameset-fits-serialization",
+        "merge_kind": "single",
+        "output_id": "frameset-fits-serialization"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_ast_cq",
+      "score": 0.958612
+    },
+    {
+      "left": {
+        "canonical_slug": "lightgbm-classifier-inference",
+        "merge_kind": "single",
+        "output_id": "lightgbm-classifier-inference"
+      },
+      "right": {
+        "canonical_slug": "lightgbm-supervised-classifier-training",
+        "merge_kind": "single",
+        "output_id": "lightgbm-supervised-classifier-training"
+      },
+      "run": "asbb_subwave1_2026-09__coll_mbasc_cq",
+      "score": 0.957156
+    },
+    {
+      "left": {
+        "canonical_slug": "gibbs-free-energy-minimisation",
+        "merge_kind": "single",
+        "output_id": "gibbs-free-energy-minimisation"
+      },
+      "right": {
+        "canonical_slug": "gibbs-free-energy-minimisation-condensation-simulation",
+        "merge_kind": "single",
+        "output_id": "gibbs-free-energy-minimisation-condensation-simulation"
+      },
+      "run": "asbb_subwave1_2026-09__coll_eccoplanets_cq",
+      "score": 0.955568
+    },
+    {
+      "left": {
+        "canonical_slug": "hybrid-vlasov-solver-implementation",
+        "merge_kind": "single",
+        "output_id": "hybrid-vlasov-solver-implementation"
+      },
+      "right": {
+        "canonical_slug": "vlasov-solver-integration",
+        "merge_kind": "single",
+        "output_id": "vlasov-solver-integration"
+      },
+      "run": "asbb_wave250_2026-09-01__coll_vlasiator_cq",
+      "score": 0.953702
+    },
+    {
+      "left": {
+        "canonical_slug": "wavelet-likelihood-implementation",
+        "merge_kind": "single",
+        "output_id": "wavelet-likelihood-implementation"
+      },
+      "right": {
+        "canonical_slug": "wavelet-likelihood-noise-parameterization",
+        "merge_kind": "single",
+        "output_id": "wavelet-likelihood-noise-parameterization"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.953631
+    },
+    {
+      "left": {
+        "canonical_slug": "mcmc-transit-light-curve-fitting",
+        "merge_kind": "single",
+        "output_id": "mcmc-transit-light-curve-fitting"
+      },
+      "right": {
+        "canonical_slug": "multi-light-curve-simultaneous-transit-fitting",
+        "merge_kind": "single",
+        "output_id": "multi-light-curve-simultaneous-transit-fitting"
+      },
+      "run": "asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq",
+      "score": 0.950894
+    }
+  ],
+  "runs": 100,
+  "skills": 1671,
+  "surplus_leaves": {
+    "ge_0_90": 208,
+    "ge_0_95": 14
+  },
+  "thresholds": {
+    "auto_merge": 0.95,
+    "embed_view": "name_tools",
+    "pair_scope": "same_run_full_pairwise",
+    "suggest": 0.9
+  },
+  "view": "/Users/nothiasl/git/asb-wt-filtered-view/outputs/asbb_classA_papers_2026-09-17_filtered/astronomy/corpus"
+}

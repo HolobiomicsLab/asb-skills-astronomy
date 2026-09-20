@@ -1,0 +1,17 @@
+name: GNU Autoconf/Automake
+slug: gnu-autoconf-automake
+version_used: null
+edam_topics: []
+evidence_spans:
+- macros and build rules in the GNU Autoconf/Automake build system used by LALSuite
+derived_from:
+- doi: 10.1016/j.softx.2020.100634
+  title: 'SWIGLAL: Python and Octave interfaces to the LALSuite gravitational-wave data analysis libraries'
+source_repos:
+- https://github.com/ElsevierSoftwareX/SOFTX_2020_119
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ElsevierSoftwareX/SOFTX_2020_119

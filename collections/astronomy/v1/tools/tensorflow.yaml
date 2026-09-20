@@ -1,0 +1,29 @@
+name: TensorFlow
+slug: tensorflow
+version_used: '2.11'
+edam_topics: []
+evidence_spans:
+- tensorflow=2.11
+- '- tensorflow=2.11'
+- '- tensorflow=2.11
+
+  - tensorflow-probability=0.15'
+- To make sure tensorflow has access to the built-in GPU
+- To make sure tensorflow has access to the built-in GPU, you can follow for example this tutorial
+derived_from:
+- doi: 10.1051/0004-6361/202346216
+  title: 'ExoMDN: Rapid characterization of exoplanet interior structures with mixture density networks'
+- doi: 10.1051/0004-6361/202450472
+  title: Unveiling the internal structure and formation history of the three planets transiting HIP 29442 (TOI-469) with CHEOPS
+- doi: 10.1016/j.ascom.2015.06.003
+  title: 'Montblanc : GPU accelerated radio interferometer measurement equations in support of Bayesian inference for radio observations'
+source_repos:
+- https://github.com/philippbaumeister/ExoMDN
+- https://github.com/joannegger/plaNETic
+- https://github.com/ratt-ru/montblanc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/philippbaumeister/ExoMDN

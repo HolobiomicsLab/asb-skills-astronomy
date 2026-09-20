@@ -1,0 +1,23 @@
+name: bilby
+slug: bilby
+version_used: 2.7.0
+edam_topics: []
+evidence_spans:
+- Since NMMA uses bilby as its backend, please also cite the bilby companion paper
+- Since NMMA uses bilby as its backend
+- 'Running bilby version: 2.7.0.dev70+gcde65c51c.d20260325'
+- 'Running bilby version: 2.7.0.dev70+gcde65c51c'
+derived_from:
+- doi: 10.1038/s41467-023-43932-6
+  title: An updated nuclear-physics and multi-messenger astrophysics framework for binary neutron star mergers
+- doi: 10.1093/mnras/stae1238
+  title: "<scp>redback</scp>\n                    : a Bayesian inference software package for electromagnetic transients"
+source_repos:
+- https://github.com/nuclear-multimessenger-astronomy/nmma
+- https://github.com/nikhil-sarin/redback
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nuclear-multimessenger-astronomy/nmma

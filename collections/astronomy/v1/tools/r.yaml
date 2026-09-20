@@ -1,0 +1,23 @@
+name: R
+slug: r
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2015.06.006
+  title: AMADA—Analysis of multidimensional astronomical datasets
+- doi: 10.1016/j.ascom.2015.01.002
+  title: 'The overlooked potential of Generalized Linear Models in astronomy-II: Gamma regression and photometric redshifts'
+- doi: 10.1007/s11222-006-8769-1
+  title: 'A Markov Chain Monte Carlo version of the genetic algorithm Differential Evolution: easy Bayesian computing for real parameter spaces'
+source_repos:
+- https://github.com/RafaelSdeSouza/AMADA
+- https://github.com/COINtoolbox/COSMOPhotoz
+- https://github.com/COINtoolbox/CosmoPhotoz
+- https://github.com/CajoterBraak/demc2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RafaelSdeSouza/AMADA

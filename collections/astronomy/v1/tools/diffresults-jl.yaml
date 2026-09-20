@@ -1,0 +1,17 @@
+name: DiffResults.jl
+slug: diffresults-jl
+version_used: null
+edam_topics: []
+evidence_spans:
+- using DiffResults
+derived_from:
+- doi: 10.1051/0004-6361/202557450
+  title: 'SymBoltz.jl: A symbolic-numeric, approximation-free, and differentiable linear Einstein–Boltzmann solver'
+source_repos:
+- https://github.com/hersle/SymBoltz.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hersle/SymBoltz.jl

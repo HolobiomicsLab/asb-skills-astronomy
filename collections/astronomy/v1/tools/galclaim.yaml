@@ -1,0 +1,19 @@
+name: Galclaim
+slug: galclaim
+version_used: null
+edam_topics: []
+evidence_spans:
+- The Galclaim software is designed to identify association between astrophysical transient sources and host galaxy by computing the probability of chance alignment.
+- The Galclaim software is designed to identify association between astrophysical transient sources and host galaxy
+- The galclaim software is dedicated to identify association between astrophysical transient sources and host galaxy.
+derived_from:
+- doi: 10.1016/j.softx.2023.101582
+  title: 'Galclaim: A tool to identify host galaxy of astrophysical transient sources'
+source_repos:
+- https://github.com/jgducoin/galclaim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jgducoin/galclaim

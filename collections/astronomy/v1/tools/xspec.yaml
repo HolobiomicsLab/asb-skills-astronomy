@@ -1,0 +1,22 @@
+name: XSPEC
+slug: xspec
+version_used: null
+edam_topics: []
+evidence_spans:
+- make sure you do a blind fit with `xspec` and use `Cstat` as the fit statistic
+- a call to D was over 60 times faster than calling the physical model based on look-up tables (XSpec model in Sherpa
+- XSpec model in Sherpa
+derived_from:
+- doi: 10.1051/0004-6361/202451736
+  title: 'jaxspec: A fast and robust Python library for X-ray spectral fitting'
+- doi: 10.1051/0004-6361/202347518
+  title: 'SUSHI: An algorithm for source separation of hyperspectral images with non-stationary spectral variation'
+source_repos:
+- https://github.com/renecotyfanboy/jaxspec
+- https://github.com/JMLascar/SUSHI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/renecotyfanboy/jaxspec

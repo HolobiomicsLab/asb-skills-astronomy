@@ -1,0 +1,23 @@
+name: ALMA
+slug: alma
+version_used: null
+edam_topics: []
+evidence_spans:
+- The Atacama Large Millimeter/submillimeter Array (ALMA) revolutionised our understanding of protoplanetary discs.
+- The advent of ALMA, the Atacama Large Millimeter/submillimeter Array, revolutionised our understanding of protoplanetary discs.
+- As a proof of concept we compared our models with Lupus and Upper Sco data
+- high resolution ALMA observations make this method computationally expensive
+derived_from:
+- doi: 10.1051/0004-6361/202346164
+  title: Testing protoplanetary disc evolution with CO fluxes
+- doi: 10.1093/rasti/rzaf004
+  title: '<tt>vis-r</tt>: Quick radial profile modelling for radio interferometric visibilities'
+source_repos:
+- https://github.com/fzagaria/COpops
+- https://github.com/drgmk/vis-r
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fzagaria/COpops

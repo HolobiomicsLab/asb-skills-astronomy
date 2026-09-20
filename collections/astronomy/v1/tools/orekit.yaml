@@ -1,0 +1,17 @@
+name: Orekit
+slug: orekit
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Some further improvements have been considered and are listed in Section: Discussion and future work.'
+derived_from:
+- doi: 10.1371/journal.pone.0263882
+  title: 'SISPO: Space Imaging Simulator for Proximity Operations'
+source_repos:
+- https://github.com/SISPO-developers/sispo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SISPO-developers/sispo

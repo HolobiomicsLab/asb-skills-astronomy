@@ -1,0 +1,17 @@
+name: corner
+slug: corner
+version_used: 2.2.2
+edam_topics: []
+evidence_spans:
+- corner version 2.2.2
+derived_from:
+- doi: 10.1051/0004-6361/202557195
+  title: 'GravSphere2: A higher order Jeans method for mass modeling spherical stellar systems'
+source_repos:
+- https://github.com/dadams42/GravSphere2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dadams42/GravSphere2

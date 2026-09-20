@@ -1,0 +1,17 @@
+name: 3D-PDR
+slug: 3d-pdr
+version_used: null
+edam_topics: []
+evidence_spans:
+- derived directly from a three-dimensional simulation of a molecular cloud using a photodissociation region (PDR) code, 3D-PDR
+derived_from:
+- doi: 10.1088/2632-2153/ade4ee
+  title: 'NeuralPDR: neural differential equations as surrogate models for photodissociation regions'
+source_repos:
+- https://github.com/uclchem/neuralpdr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/uclchem/neuralpdr

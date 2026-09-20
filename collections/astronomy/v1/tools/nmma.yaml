@@ -1,0 +1,19 @@
+name: NMMA
+slug: nmma
+version_used: null
+edam_topics: []
+evidence_spans:
+- When using this code for a publication, kindly make a reference to the package by its name, NMMA
+- We have developed a publicly available NMMA framework for the interpretation and analysis of BNS and BHNS systems.
+- kindly make a reference to the package by its name, NMMA
+derived_from:
+- doi: 10.1038/s41467-023-43932-6
+  title: An updated nuclear-physics and multi-messenger astrophysics framework for binary neutron star mergers
+source_repos:
+- https://github.com/nuclear-multimessenger-astronomy/nmma
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nuclear-multimessenger-astronomy/nmma

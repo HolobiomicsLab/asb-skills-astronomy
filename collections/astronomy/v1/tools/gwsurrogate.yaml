@@ -1,0 +1,18 @@
+name: GWSurrogate
+slug: gwsurrogate
+version_used: null
+edam_topics: []
+evidence_spans:
+- Surrogates built in this paper, as well as others, are available from GWSurrogate, a publicly available python package.
+- GWSurrogate is an easy-to-use interface to gravitational wave surrogate models.
+derived_from:
+- doi: 10.1103/physrevx.4.031006
+  title: Fast Prediction and Evaluation of Gravitational Waveforms Using Surrogate Models
+source_repos:
+- https://github.com/sxs-collaboration/gwsurrogate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sxs-collaboration/gwsurrogate

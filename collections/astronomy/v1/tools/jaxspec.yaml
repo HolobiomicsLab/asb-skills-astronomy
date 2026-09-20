@@ -1,0 +1,19 @@
+name: jaxspec
+slug: jaxspec
+version_used: null
+edam_topics: []
+evidence_spans:
+- pip install jaxspec
+- We present jaxspec, a Python package for performing this task quickly and robustly in a fully Bayesian framework.
+- from jaxspec.model.background import SubtractedBackground
+derived_from:
+- doi: 10.1051/0004-6361/202451736
+  title: 'jaxspec: A fast and robust Python library for X-ray spectral fitting'
+source_repos:
+- https://github.com/renecotyfanboy/jaxspec
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/renecotyfanboy/jaxspec

@@ -1,0 +1,336 @@
+name: Python
+slug: python
+version_used: '3.12'
+edam_topics: []
+evidence_spans:
+- This project has been developed for Python 3.12.
+- Working with the fluctuation of the numerical solution about the exact solution is a much better way to easily see the convergence
+- We present candl, an automatically differentiable python likelihood for analysing cosmic microwave background power spectrum measurements.
+- candl comes with ``clipy``, a pure Python implementation of the 2018 Planck likelihoods.
+- a pure Python implementation of the 2018 Planck likelihoods
+- 'run the following python code:'
+- The computations are performed in parallel using the [*multiprocessing*](https://docs.python.org/2/library/multiprocessing.html) library.
+- The computations are performed in parallel using the [*multiprocessing*](https://docs.python.org/2/library/multiprocessing.html)
+- their combination into the response function tables (via */src/atomic_responses_tabulation.py*)
+- This code computes the four atomic response functions introduced in the paper [[arXiv:1912.08204]](https://arxiv.org/abs/1912.08204).
+- Python tool for the computation and tabulation of atomic response functions for direct sub-GeV dark matter (DM) searches.
+- Dedalus is written primarily in Python and features an easy-to-use interface with symbolic equation entry.
+- Dedalus is written primarily in Python
+- Dedalus is written primarily in Python and features an easy-to-use interface with symbolic vectorial equation specification.
+- This paper describes Dedalus, an open-source Python code for simulating partial differential equations from all areas of physics.
+- Dedalus is provided as an open-source python3 package. We choose to develop the code in PYTHON
+- diffmah requires python>=3.9
+- Our python implementation is based on the autodiff library JAX
+- 'diffmah requires python>=3.9, and has the following dependencies:'
+- The code is built in python and uses the common packages pandas, numpy and matplotlib.
+- is a Python-based algorithm that automatically searches for signals in Radial Velocity timeseries
+- you can run the code by `python3 relaxation.py`
+- After compilation, you can run the code by `python3 relaxation.py`
+- as well as Python notebooks to load the models and run interior predictions of exoplanets
+- This project requires Python 3.7 or higher.
+- from FINKER.utils_FINKER import *
+- 'python
+
+  from FINKER.utils_FINKER import *'
+- We introduce GalaxyGenius, a Python package designed to produce synthetic galaxy images
+- "Python verison:  \n`python>=3.11`"
+- python ./src/Association_pval.py --transient_file ./Transient_sources.ecsv --catalogs AllWISE Pan-STARRS HSC GLADE
+- python ./src/Association_pval.py --transient_file ./Transient_sources.ecsv --catalogs AllWISE Pan-STARRS HSC GLADE --do_plots --do_redshift 0.01 0.05
+- It is distributed as an open source Python software.
+- python ./src/Association_pval.py --transient_file ./Transient_sources.ecsv
+- We present gallifrey, a JAX-based Python package that implements a sequential Monte Carlo algorithm for Bayesian kernel structure learning
+- gallifrey is a Python package designed for  Bayesian structure learning, inference, and analysis with Gaussian Process (GP) models
+- 10.1051/0004-6361/202554518
+- We present gallifrey, a JAX-based Python package
+- "the likelihood and other\n   arguments for the fit (e.g. priors) are specified"
+- python 3.10.12
+- python -m pip install gwpy
+- GWpy code must be compatible with Python >= 3.11.
+- '**GWpy code must be compatible with Python >= 3.11.**'
+- GWpy is implemented in pure Python (i.e. no compiled extension modules)
+- Surrogates built in this paper, as well as others, are available from GWSurrogate, a publicly available python package.
+- conda create -n myenv python=3.11 "numpy<2.0"
+- conda create -n myenv python=3.11
+- The current implementation has been developed in Python 3 and tested on Python 3.6+ under Linux and Mac OS.
+- The current implementation has been developed in Python 3 and tested on Python 3.6+
+- "Then we can initialise the hydrogen class using\n\n.. code-block::\n   \n       import hylightpy"
+- We present HyLight, a Python-based atomic model
+- in the form of python doc, sphinx source files
+- import ixpeobssim.core.pipeline as pipeline
+- contributing documentation, in the form of python doc, sphinx source files
+- '`jaxspec` supports Python 3.11 and
+
+  3.12'
+- '`jaxspec` supports Python 3.11 and 3.12'
+- '`jaxspec` is an X-ray spectral fitting library built in pure Python.'
+- import jax.numpy as jnp
+- conda create -n jaxspec python=3.12
+- The data from the simulations was then processed in a Jupyter Notebook (which runs on Python), to make plots and/or calculate certain statistics.
+- a Jupyter Notebook (which runs on Python), to make plots and/or calculate certain statistics
+- Python 3 is required to run the algorithm.
+- python tests/cluster_test/run_cluster.py
+- '- Python ≥ 3.10'
+- '```Nemesis``` must be run from the same Python environment used to compile the C++ extension.'
+- python main.py --tend=1Myr --dtbridge=100yr
+- '``nestcheck`` is a Python package for analysing samples produced by nested sampling'
+- '``nestcheck`` provides Python utilities for analysing samples produced by nested sampling'
+- python src/neuralpdr/train.py configs/v2/base.yaml
+- python src/neuralpdr/inference.py
+- NuRadioMC/Reco follows PEP-8 coding conventions, https://www.python.org/dev/peps/pep-0008/
+- is designed as a modern, modular Python-based framework, combining flexibility in detector design with user-friendliness.
+- Oscode is a C++ tool with a Python interface
+- "git clone --recursive https://github.com/fruzsinaagocs/oscode\n   cd oscode\n   python setup.py install --user"
+- python setup.py install --user
+- You can then import ``pyoscode`` from anywhere.
+- Our findings are implemented in the pAGN module for the Python programming language
+- '`pagn` is a Python module to solve the equations from [Sirko and Goodman 2003]'
+- '`pagn` is a Python module to solve the equations from Sirko and Goodman 2003'
+- '`pagn` is a Python module to solve the equations from'
+- the pAGN module for the Python programming language
+- To install the code, create a new virtual environment with Python 3.9, then git clone plaNETic and run 'pip install .'
+- create a new virtual environment with Python 3.9
+- create a new virtual environment with Python 3.9, then git clone plaNETic and run 'pip install .'
+- PyExoCross is a Python adaptation of the ExoCross Fortran application
+- python run.py -p ./input/H2O_exomol.inp
+- pip install -r requirements.txt
+- '`raccoon` is an open source python package the implements the cross-correlation function (CCF) method.'
+- redback provides an object-orientated python interface to over 12 different samplers and over 100 different models
+- redback provides an object-orientated python interface to over 12 different samplers
+- redback
+- RotCurves is a python-based, light-weight astronomical tool
+- RotCurves
+- For the Python code, we provide an example script as well as Jupyter Notebook.
+- 'At present, the code is written in two languages: *Mathematica* and *Python*.'
+- This work was made using Python and Jupyter Notebooks.
+- skysurvey_ is a python package made to simulate astronomical targets as they
+- skysurvey_ is a python package made to simulate astronomical targets
+- SMART is developed in Python and is available at https://github.com/ch-var/SMART.git
+- Python(3.8 or newer)
+- This is a Python3 notebook, which needs Python 3.10 or above.
+- Install [anaconda](conda.io) Python distribution.
+- SUSHI was coded in python 3.10.
+- SUSHI was coded in python 3.10
+- used by the script `generate_swig_iface.py` to automate further annotation
+- It has enabled modern gravitational-wave data analysis software, used in the first detection of gravitational waves, to be written in Python
+- SWIGLAL is a component of LALSuite which provides interfaces for Python and Octave, making LALSuite routines accessible directly from scripts
+- SWIGLAL is a collection of scripts used to build [Python][python] and [Octave][octave] interfaces to the [LALSuite][lalsuite]
+- The generated wrapper code (C for Python, C++ for Octave) is then compiled to create a dynamically loadable modules
+- will compile the fortran code and will produce a python wrapper for this.
+- Here we give the emulators as simple python functions.
+- '*TESS-cont* is a Python tool to **compute the flux contamination**'
+- python TESS-cont.py TOI-5005_S65.ini
+- python TESS-cont.py TOI-4479_S41.ini
+- (try `python hello_world.py` in the examples folder)
+- '![PyPI - Python Version](https://img.shields.io/pypi/pyversions/zodipy)'
+- ZodiPy supports python versions >= 3.9.
+derived_from:
+- doi: 10.1051/0004-6361/202557638
+  title: 'astromorph: self-supervised machine learning pipeline for astronomical morphology analysis'
+- doi: 10.1371/journal.pone.0195494
+  title: 'A direct Primitive Variable Recovery Scheme for hyperbolic conservative equations: The case of relativistic hydrodynamics'
+- doi: 10.1051/0004-6361/202449432
+  title: 'candl: cosmic microwave background analysis with a differentiable likelihood'
+- doi: 10.1093/mnras/stac568
+  title: The cosmological simulation code CO<i>N</i>CEPT 1.0
+- doi: 10.1103/physrevresearch.2.033195
+  title: Atomic responses to general dark matter-electron interactions
+- doi: 10.1103/physrevresearch.2.023068
+  title: 'Dedalus: A flexible framework for numerical simulations with spectral methods'
+- doi: 10.21105/astro.2105.05859
+  title: A Differentiable Model of the Assembly of Individual and Populations of Dark Matter Halos
+- doi: 10.1051/0004-6361/202244850
+  title: Revisiting equilibrium condensation and rocky planet compositions
+- doi: 10.1051/0004-6361/202554336
+  title: EMPEROR
+- doi: 10.1051/0004-6361/202451112
+  title: 'ExoLyn: A golden mean approach to multispecies cloud modeling in atmospheric retrieval'
+- doi: 10.1051/0004-6361/202346216
+  title: 'ExoMDN: Rapid characterization of exoplanet interior structures with mixture density networks'
+- doi: 10.1051/0004-6361/202348848
+  title: 'FINKER: Frequency Identification through Nonparametric KErnel Regression in astronomical time series'
+- doi: 10.1051/0004-6361/202554287
+  title: 'GalaxyGenius: Mock galaxy image generator for various telescopes from hydrodynamical simulations'
+- doi: 10.1016/j.softx.2023.101582
+  title: 'Galclaim: A tool to identify host galaxy of astrophysical transient sources'
+- doi: 10.1016/j.softx.2016.12.006
+  title: 'galkin: A new compilation of Milky Way rotation curve data'
+- doi: 10.1051/0004-6361/202554518
+  title: 'gallifrey: JAX-based Gaussian process structure learning for astronomical time series'
+- doi: 10.1051/0004-6361/202557195
+  title: 'GravSphere2: A higher order Jeans method for mass modeling spherical stellar systems'
+- doi: 10.1016/j.softx.2021.100657
+  title: 'GWpy: A Python package for gravitational-wave astrophysics'
+- doi: 10.1103/physrevx.4.031006
+  title: Fast Prediction and Evaluation of Gravitational Waveforms Using Surrogate Models
+- doi: 10.1051/0004-6361/202142507
+  title: The gravitational field of X-COP galaxy clusters
+- doi: 10.1093/mnras/stag429
+  title: "The\n                    <scp>HyLight</scp>\n                    model for hydrogen emission lines in simulated nebulae"
+- doi: 10.1016/j.softx.2022.101194
+  title: 'ixpeobssim: A simulation and analysis framework for the imaging X-ray polarimetry explorer'
+- doi: 10.1051/0004-6361/202451736
+  title: 'jaxspec: A fast and robust Python library for X-ray spectral fitting'
+- doi: 10.1051/0004-6361/202243754
+  title: Collision detection for <i>N</i>-body Kepler systems
+- doi: 10.1088/1742-6596/430/1/012007
+  title: 'Larch: An Analysis Package for XAFS and Related Spectroscopies'
+- doi: 10.1051/0004-6361/202346770
+  title: A multi-band AGN-SFG classifier for extragalactic radio surveys using machine learning
+- doi: 10.1051/0004-6361/202558060
+  title: 'Nemesis: A multi-scale, multi-physics algorithm for astrophysics'
+- doi: 10.1214/17-ba1075
+  title: Sampling Errors in Nested Sampling Parameter Estimation
+- doi: 10.1088/2632-2153/ade4ee
+  title: 'NeuralPDR: neural differential equations as surrogate models for photodissociation regions'
+- doi: 10.1140/epjc/s10052-020-7612-8
+  title: 'NuRadioMC: simulating the radio emission of neutrinos from interaction to detector'
+- doi: 10.1103/physrevresearch.2.013030
+  title: Efficient method for solving highly oscillatory ordinary differential equations with applications to physical systems
+- doi: 10.1093/mnras/stae1117
+  title: "<tt>pAGN</tt>\n                    : the one-stop solution for AGN disc modelling"
+- doi: 10.1051/0004-6361/202450472
+  title: Unveiling the internal structure and formation history of the three planets transiting HIP 29442 (TOI-469) with CHEOPS
+- doi: 10.1093/rasti/rzae016
+  title: "<scp>PyExoCross</scp>\n                    : a Python program for generating spectra and cross-sections from molecular line lists"
+- doi: 10.1051/0004-6361/202244879
+  title: The CARMENES search for exoplanets around M dwarfs
+- doi: 10.1093/mnras/stae1238
+  title: "<scp>redback</scp>\n                    : a Bayesian inference software package for electromagnetic transients"
+- doi: 10.1093/mnras/stag134
+  title: "<tt>RotCurves</tt>\n                    : a\n                    <tt>PYTHON</tt>\n                    package for efficient modelling and fitting of galactic rotation curves at high-\n                    <i>z</i>"
+- doi: 10.1007/jhep08(2016)111
+  title: 'You can hide but you have to run: direct detection with vector mediators'
+- doi: 10.1051/0004-6361/202243135
+  title: Photometric redshift-aided classification using ensemble learning
+- doi: 10.1051/0004-6361/202452134
+  title: 'ZTF SN Ia DR2: Simulations and volume-limited sample'
+- doi: 10.1093/mnras/stae1141
+  title: 'SMART: spectral energy distributions Markov chain analysis with radiative transfer models'
+- doi: 10.1051/0004-6361/202555193
+  title: 'SolarZip: An efficient and adaptive compression framework for Solar EUV imaging data'
+- doi: 10.1051/0004-6361/202453077
+  title: A non-axisymmetric potential for the Milky Way disk
+- doi: 10.1051/0004-6361/202141480
+  title: 'SUPPNet: Neural network for stellar spectrum normalisation'
+- doi: 10.1051/0004-6361/202347518
+  title: 'SUSHI: An algorithm for source separation of hyperspectral images with non-stationary spectral variation'
+- doi: 10.1016/j.softx.2020.100634
+  title: 'SWIGLAL: Python and Octave interfaces to the LALSuite gravitational-wave data analysis libraries'
+- doi: 10.1051/0004-6361/202348811
+  title: A precise symbolic emulator of the linear matter power spectrum
+- doi: 10.1051/0004-6361/202451656
+  title: 'TOI-5005 b: A super-Neptune in the savanna near the ridge'
+- doi: 10.1093/rasti/rzaf004
+  title: '<tt>vis-r</tt>: Quick radial profile modelling for radio interferometric visibilities'
+- doi: 10.1051/0004-6361/202244133
+  title: 'COSMOGLOBE: Simulating zodiacal emission with ZodiPy'
+- doi: 10.1016/j.ascom.2016.02.003
+  title: 'AST: A library for modelling and manipulating coordinate systems'
+- doi: 10.1016/j.ascom.2015.08.003
+  title: 'Chimenea and other tools: Automated imaging of multi-epoch radio-synthesis data with CASA'
+- doi: 10.1016/j.ascom.2016.01.005
+  title: 'CosmoBolognaLib: C++ libraries for cosmological calculations'
+- doi: 10.1016/j.ascom.2013.06.003
+  title: 'CosmoHammer: Cosmological parameter estimation with the MCMC Hammer'
+- doi: 10.1016/j.ascom.2015.01.002
+  title: 'The overlooked potential of Generalized Linear Models in astronomy-II: Gamma regression and photometric redshifts'
+- doi: 10.1016/j.ascom.2015.05.005
+  title: 'CosmoSIS: Modular cosmological parameter estimation'
+- doi: 10.1016/j.ascom.2013.10.002
+  title: Destriping cosmic microwave background polarimeter data
+- doi: 10.1016/j.ascom.2015.05.001
+  title: 'HDFITS: Porting the FITS data model to HDF5'
+- doi: 10.1016/j.ascom.2015.02.002
+  title: 'GalSim: The modular galaxy image simulation toolkit'
+- doi: 10.1016/j.ascom.2013.11.001
+  title: 'HMFcalc: An online tool for calculating dark matter halo mass functions'
+- doi: 10.1016/j.ascom.2014.12.006
+  title: Web-based visualization of very large scientific astronomy imagery
+- doi: 10.1016/j.ascom.2015.06.003
+  title: 'Montblanc : GPU accelerated radio interferometer measurement equations in support of Bayesian inference for radio observations'
+- doi: 10.1016/j.ascom.2015.01.004
+  title: 'Rabacus: A Python package for analytic cosmological radiative transfer calculations'
+- doi: 10.1016/j.ascom.2013.09.001
+  title: 'SERPent: Automated reduction and RFI-mitigation software for e-MERLIN'
+- doi: 10.1016/j.ascom.2015.10.001
+  title: 'Toyz: A framework for scientific analysis of large datasets and astronomical images'
+source_repos:
+- https://github.com/onsala-space-observatory/astromorph
+- https://github.com/aztekas-code/aztekas-main
+- https://github.com/Lbalkenhol/candl
+- https://github.com/jmd-dk/concept
+- https://github.com/temken/DarkARC
+- https://github.com/DedalusProject/dedalus
+- https://github.com/ArgonneCPAC/diffmah
+- https://github.com/AninaTimmermann/ECCOplanets
+- https://github.com/ReddTea/astroemperor
+- https://github.com/helonghuangastro/exolyn
+- https://github.com/philippbaumeister/ExoMDN
+- https://github.com/FiorenSt/FINKER
+- https://github.com/xczhou-astro/galaxyGenius
+- https://github.com/jgducoin/galclaim
+- https://github.com/galkintool/galkin
+- https://github.com/ChrisBoettner/gallifrey
+- https://github.com/dadams42/GravSphere2
+- https://github.com/gwpy/gwpy
+- https://github.com/sxs-collaboration/gwsurrogate
+- https://github.com/domeckert/hydromass
+- https://github.com/YuankangLiu/HyLight
+- https://github.com/lucabaldini/ixpeobssim
+- https://github.com/renecotyfanboy/jaxspec
+- https://github.com/Dylan-Aliberti/Kepler-Collisions
+- https://github.com/xraypy/xraylarch
+- https://github.com/Jesper-Karsten/MBASC
+- https://github.com/ErwanH29/nemesis
+- https://github.com/ejhigson/nestcheck
+- https://github.com/uclchem/neuralpdr
+- https://github.com/nu-radio/NuRadioMC
+- https://github.com/fruzsinaagocs/oscode
+- https://github.com/DariaGangardt/pAGN
+- https://github.com/joannegger/plaNETic
+- https://github.com/Beryl-Jingxin/PyExoCross
+- https://github.com/Beryl-Jingxin/PyExoCross.git
+- https://github.com/mlafarga/raccoon
+- https://github.com/nikhil-sarin/redback
+- https://github.com/nestoramit/RotCurves
+- https://github.com/bradkav/runDM
+- https://github.com/pedro-acunha/SHEEP
+- https://github.com/MickaelRigault/skysurvey
+- https://github.com/ch-var/SMART.git
+- https://github.com/ch-var/SMART
+- https://github.com/hpdps-group/SolarZip
+- https://github.com/yrkhalil/SPIBACK
+- https://github.com/RozanskiT/suppnet
+- https://github.com/JMLascar/SUSHI
+- https://github.com/ElsevierSoftwareX/SOFTX_2020_119
+- https://github.com/DeaglanBartlett/symbolic_pofk
+- https://github.com/deaglanbartlett/symbolic_pofk
+- https://github.com/castro-gzlz/TESS-cont
+- https://github.com/drgmk/vis-r
+- https://github.com/Cosmoglobe/zodipy
+- https://github.com/Starlink/starlink
+- https://github.com/timstaley/chimenea
+- https://github.com/federicomarulli/CosmoBolognaLib
+- https://github.com/cosmo-ethz/CosmoHammer
+- https://github.com/COINtoolbox/COSMOPhotoz
+- https://github.com/github.com/statsmodels
+- https://github.com/COINtoolbox/CosmoPhotoz
+- https://github.com/cosmosis-developers/cosmosis
+- https://github.com/zonca/dst
+- https://github.com/telegraphic/fits2hdf
+- https://github.com/GalSim-developers/GalSim
+- https://github.com/halomod/hmf
+- https://github.com/astromatic/visiomatic
+- https://github.com/numpy/numpy
+- https://github.com/ska-sa/montblanc
+- https://github.com/ratt-ru/montblanc
+- https://github.com/galtay/rabacus
+- https://github.com/daniellefenech/SERPent
+- https://github.com/fred3m/toyz
+- https://github.com/fred3m/toyz-template
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/onsala-space-observatory/astromorph

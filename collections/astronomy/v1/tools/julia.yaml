@@ -1,0 +1,20 @@
+name: Julia
+slug: julia
+version_used: null
+edam_topics: []
+evidence_spans:
+- using SymBoltz
+- SymBoltz.jl is a Julia package for solving the linear Einstein-Boltzmann equations in cosmology.
+- SymBoltz is a new Julia package for solving the linear Einstein-Boltzmann equations in cosmology.
+- Make sure you [run Julia with multiple threads](https://docs.julialang.org/en/v1/manual/multi-threading/).
+derived_from:
+- doi: 10.1051/0004-6361/202557450
+  title: 'SymBoltz.jl: A symbolic-numeric, approximation-free, and differentiable linear Einstein–Boltzmann solver'
+source_repos:
+- https://github.com/hersle/SymBoltz.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hersle/SymBoltz.jl

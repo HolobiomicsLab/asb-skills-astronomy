@@ -1,0 +1,18 @@
+name: nvcc
+slug: nvcc
+version_used: null
+edam_topics: []
+evidence_spans:
+- CUDA toolkit (nvcc) with support for your GPU architecture (Makefile currently sets `-arch=sm_89`
+- CUDA toolkit (nvcc) with support for your GPU architecture
+derived_from:
+- doi: 10.1051/0004-6361/202659305
+  title: GPU-accelerated X-ray pulse profile modeling
+source_repos:
+- https://github.com/zhoutz/gpu_ppm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhoutz/gpu_ppm

@@ -1,0 +1,16 @@
+name: ADAM
+slug: adam
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2015.02.003
+  title: Reimplementing the Hierarchical Data System using HDF5
+source_repos:
+- https://github.com/Starlink/hds-v5
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Starlink/hds-v5

@@ -1,0 +1,16 @@
+name: feff
+slug: feff
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1088/1742-6596/430/1/012007
+  title: 'Larch: An Analysis Package for XAFS and Related Spectroscopies'
+source_repos:
+- https://github.com/xraypy/xraylarch
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xraypy/xraylarch

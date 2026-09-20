@@ -1,0 +1,34 @@
+name: Jupyter Notebook
+slug: jupyter-notebook
+version_used: null
+edam_topics: []
+evidence_spans:
+- The data from the simulations was then processed in a Jupyter Notebook (which runs on Python), to make plots and/or calculate certain statistics.
+- The data from the simulations was then processed in a Jupyter Notebook (which runs on Python)
+- A static version of the notebook can be viewed [here](http://nbviewer.jupyter.org/github/bradkav/runDM/blob/master/python/runDM-examples.ipynb).
+- For the Python code, we provide an example script as well as Jupyter Notebook.
+- we provide an example script as well as Jupyter Notebook. A static version of the notebook can be viewed
+- For better visualisation and interactivity, use Jupyter Notebook.
+- This work was made using Python and Jupyter Notebooks.
+- run them in a single folder on a Jupyter lab or Jupyter notebook interface
+- Simply download the files and run them in a single folder on a Jupyter lab or Jupyter notebook interface.
+derived_from:
+- doi: 10.1051/0004-6361/202243754
+  title: Collision detection for <i>N</i>-body Kepler systems
+- doi: 10.1007/jhep08(2016)111
+  title: 'You can hide but you have to run: direct detection with vector mediators'
+- doi: 10.1051/0004-6361/202243135
+  title: Photometric redshift-aided classification using ensemble learning
+- doi: 10.1051/0004-6361/202453077
+  title: A non-axisymmetric potential for the Milky Way disk
+source_repos:
+- https://github.com/Dylan-Aliberti/Kepler-Collisions
+- https://github.com/bradkav/runDM
+- https://github.com/pedro-acunha/SHEEP
+- https://github.com/yrkhalil/SPIBACK
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Dylan-Aliberti/Kepler-Collisions

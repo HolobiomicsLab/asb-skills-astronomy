@@ -1,0 +1,16 @@
+name: DS9
+slug: ds9
+version_used: '0003.002'
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2016.02.003
+  title: 'AST: A library for modelling and manipulating coordinate systems'
+source_repos:
+- https://github.com/Starlink/starlink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Starlink/starlink

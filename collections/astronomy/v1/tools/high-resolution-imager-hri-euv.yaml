@@ -1,0 +1,17 @@
+name: High Resolution Imager (HRI_EUV)
+slug: high-resolution-imager-hri-euv
+version_used: null
+edam_topics: []
+evidence_spans:
+- High Resolution Imager (HRI_EUV) data
+derived_from:
+- doi: 10.1051/0004-6361/202555193
+  title: 'SolarZip: An efficient and adaptive compression framework for Solar EUV imaging data'
+source_repos:
+- https://github.com/hpdps-group/SolarZip
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hpdps-group/SolarZip

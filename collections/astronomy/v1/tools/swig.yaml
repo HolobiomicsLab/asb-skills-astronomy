@@ -1,0 +1,20 @@
+name: SWIG
+slug: swig
+version_used: null
+edam_topics: []
+evidence_spans:
+- The first pass uses the SWIG `-xml` mode
+- pass uses the SWIG `-xml` mode to generate an XML syntax tree describing the
+- using either its `-python` or `-octave` mode to generate Python or Octave wrappers respectively
+- Generation of the SWIGLAL interface uses SWIG (Simplified Wrapper and Interface Generator
+derived_from:
+- doi: 10.1016/j.softx.2020.100634
+  title: 'SWIGLAL: Python and Octave interfaces to the LALSuite gravitational-wave data analysis libraries'
+source_repos:
+- https://github.com/ElsevierSoftwareX/SOFTX_2020_119
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ElsevierSoftwareX/SOFTX_2020_119

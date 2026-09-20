@@ -1,0 +1,21 @@
+name: GAMBIT
+slug: gambit
+version_used: null
+edam_topics: []
+evidence_spans:
+- running within the full GAMBIT framework, and running standalone module examples
+- GAMBIT contains interfaces to various external codes
+- GAMBIT contains interfaces to various external codes, along with scripts for downloading and configuring them.
+- gambit -f yaml_files/MSSM7.yaml
+- DarkBit is written in the framework of the Global And Modular Beyond the Standard Model Inference Tool ( GAMBIT )
+derived_from:
+- doi: 10.1140/epjc/s10052-017-5155-4
+  title: 'DarkBit: a GAMBIT module for computing dark matter observables and likelihoods'
+source_repos:
+- https://github.com/GambitBSM/gambit_1.5
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GambitBSM/gambit_1.5

@@ -1,0 +1,26 @@
+name: make
+slug: make
+version_used: null
+edam_topics: []
+evidence_spans:
+- Standard Unix build utilities (make, bash).
+- Standard Unix build utilities (make, bash). No external package manager dependencies.
+- download this project and run `make` in the directory containing the `Makefile` to compile it.
+- mkdir build
+derived_from:
+- doi: 10.1051/0004-6361/202659305
+  title: GPU-accelerated X-ray pulse profile modeling
+- doi: 10.1051/0004-6361/202553886
+  title: An efficient integrator for stellar dynamics in effective gravity fields based on the isochrone potential
+- doi: 10.1140/epjc/s10052-020-8035-2
+  title: 'PhaseTracer: tracing cosmological phases and calculating transition properties'
+source_repos:
+- https://github.com/zhoutz/gpu_ppm
+- https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample
+- https://github.com/PhaseTracer/PhaseTracer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhoutz/gpu_ppm

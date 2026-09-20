@@ -1,0 +1,17 @@
+name: HyLight
+slug: hylight
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present HyLight, a Python-based atomic model that calculates hydrogen level populations and line emissivities from the gas density, temperature, and ionization state
+derived_from:
+- doi: 10.1093/mnras/stag429
+  title: "The\n                    <scp>HyLight</scp>\n                    model for hydrogen emission lines in simulated nebulae"
+source_repos:
+- https://github.com/YuankangLiu/HyLight
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YuankangLiu/HyLight

@@ -1,0 +1,29 @@
+name: conda
+slug: conda
+version_used: null
+edam_topics: []
+evidence_spans:
+- conda env create -f environment.yml
+- Now create and activate a [conda](conda.io) environment `suppnet-env` that handles all dependencies.
+- conda activate suppnet-env
+- 'conda env create -f environment.yml
+
+  conda activate suppnet-env'
+- CONDA_SUBDIR=osx-arm64 conda create -n vis-r -c conda-forge python emcee matplotlib scipy=1.11.4
+derived_from:
+- doi: 10.1051/0004-6361/202346216
+  title: 'ExoMDN: Rapid characterization of exoplanet interior structures with mixture density networks'
+- doi: 10.1051/0004-6361/202141480
+  title: 'SUPPNet: Neural network for stellar spectrum normalisation'
+- doi: 10.1093/rasti/rzaf004
+  title: '<tt>vis-r</tt>: Quick radial profile modelling for radio interferometric visibilities'
+source_repos:
+- https://github.com/philippbaumeister/ExoMDN
+- https://github.com/RozanskiT/suppnet
+- https://github.com/drgmk/vis-r
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/philippbaumeister/ExoMDN

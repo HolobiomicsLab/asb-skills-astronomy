@@ -1,0 +1,18 @@
+name: run_IsochroneSplitting_QuickExample.x
+slug: run-isochronesplitting-quickexample-x
+version_used: null
+edam_topics: []
+evidence_spans:
+- ./run_IsochroneSplitting_QuickExample.x in/param.txt out/YourOutputFile.dat
+- '`./run_IsochroneSplitting_QuickExample.x in/param.txt out/YourOutputFile.dat`'
+derived_from:
+- doi: 10.1051/0004-6361/202553886
+  title: An efficient integrator for stellar dynamics in effective gravity fields based on the isochrone potential
+source_repos:
+- https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample

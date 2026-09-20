@@ -1,0 +1,16 @@
+name: fits2hdf
+slug: fits2hdf
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2015.05.001
+  title: 'HDFITS: Porting the FITS data model to HDF5'
+source_repos:
+- https://github.com/telegraphic/fits2hdf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/telegraphic/fits2hdf

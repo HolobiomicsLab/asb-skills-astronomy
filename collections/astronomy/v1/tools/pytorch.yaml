@@ -1,0 +1,36 @@
+name: PyTorch
+slug: pytorch
+version_used: null
+edam_topics: []
+evidence_spans:
+- the `BYOL` class as a PyTorch implementation of the BYOL framework;
+- '`PyTorch-CUDA` | Force PyTorch CUDA only | `PyTorch-CUDA -> CPU`'
+- 'PyTorch: https://pytorch.org'
+- '- PyTorch: https://pytorch.org'
+- 'This Notebook crucially needs the installation of: - PyTorch: https://pytorch.org'
+- pip install ".[torch]"
+- If you wish to use the pytorch code, the third line should be replaced with pip install ".[torch]"
+- "Some emulators are given as torch and/or fortran90 functions, but all can be \neasily copied, pasted and modified"
+derived_from:
+- doi: 10.1051/0004-6361/202557638
+  title: 'astromorph: self-supervised machine learning pipeline for astronomical morphology analysis'
+- doi: 10.1093/rasti/rzae016
+  title: "<scp>PyExoCross</scp>\n                    : a Python program for generating spectra and cross-sections from molecular line lists"
+- doi: 10.1051/0004-6361/202453077
+  title: A non-axisymmetric potential for the Milky Way disk
+- doi: 10.1051/0004-6361/202348811
+  title: A precise symbolic emulator of the linear matter power spectrum
+- doi: 10.48550/arxiv.2202.02435
+  title: ''
+source_repos:
+- https://github.com/onsala-space-observatory/astromorph
+- https://github.com/Beryl-Jingxin/PyExoCross
+- https://github.com/yrkhalil/SPIBACK
+- https://github.com/deaglanbartlett/symbolic_pofk
+- https://github.com/patrick-kidger/diffrax
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/onsala-space-observatory/astromorph

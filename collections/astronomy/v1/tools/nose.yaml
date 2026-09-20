@@ -1,0 +1,17 @@
+name: nose
+slug: nose
+version_used: null
+edam_topics: []
+evidence_spans:
+- You can run the test suite with `nose <http://nose.readthedocs.org/>`_
+derived_from:
+- doi: 10.1214/17-ba1075
+  title: Sampling Errors in Nested Sampling Parameter Estimation
+source_repos:
+- https://github.com/ejhigson/nestcheck
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ejhigson/nestcheck

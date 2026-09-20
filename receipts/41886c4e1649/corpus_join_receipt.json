@@ -1,0 +1,431 @@
+{
+  "access_map": {
+    "bronze": "link-only",
+    "closed": "link-only",
+    "gold": {
+      "otherwise": "open-access",
+      "permissive": "gold-oa"
+    },
+    "green": "green-oa",
+    "hybrid": {
+      "cc": "open-access",
+      "otherwise": "link-only"
+    },
+    "otherwise": "link-only",
+    "unknown": "link-only"
+  },
+  "capped_rows": [
+    {
+      "doi": "10.1007/s11222-006-8769-1",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/0045-6535(92)90276-w",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2012.11.001",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2013.06.003",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2013.09.001",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2013.10.002",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2013.11.001",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2014.12.006",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.01.002",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.01.004",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.02.002",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.02.003",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.03.005",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.05.001",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.05.005",
+      "reasons": [
+        "access.type=link-only",
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.06.003",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.06.006",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.07.002",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.08.003",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2015.10.001",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2016.01.005",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2016.02.003",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.ascom.2016.03.001",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.dark.2014.01.003",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1016/j.softx.2016.12.006",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1088/1742-6596/430/1/012007",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.1093/mnras/stac568",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.1903.06755",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    },
+    {
+      "doi": "10.48550/arxiv.2202.02435",
+      "reasons": [
+        "source_reuse!=permissive"
+      ]
+    }
+  ],
+  "counts": {
+    "access.type": {
+      "gold-oa": 70,
+      "green-oa": 19,
+      "link-only": 4,
+      "open-access": 7
+    },
+    "builds": 100,
+    "capped": 29,
+    "license_tier": {
+      "noncommercial": 3,
+      "open": 71,
+      "restricted": 2,
+      "unknown": 24
+    },
+    "oa_status_raw": {
+      "bronze": 1,
+      "closed": 3,
+      "gold": 73,
+      "green": 19,
+      "hybrid": 4
+    },
+    "unique_dois": 100,
+    "unmatched": 0
+  },
+  "domain": "astronomy",
+  "duplicate_dois": [],
+  "inputs": {
+    "access_map": "1716c1f87ab08cb241c77e357c5e938b16a1d71d6d4022be7412da82fcb1a59b",
+    "builds/asbb_subwave1_2026-09__coll_alpconv_cq/build_manifest.json": "187d600a584faa97addbc56d600f656ae9c3c8b8ad21d4840c02584571d61e62",
+    "builds/asbb_subwave1_2026-09__coll_alpconv_cq/external_enrichment.json": "7c82a51cdfa4411cb3298062cfffe5c5f7cde7b8de624b64ca21fd3ae048655e",
+    "builds/asbb_subwave1_2026-09__coll_amber_cq/build_manifest.json": "39c46124b134e88b5db565ca186196fe6221abeea08a7f202925bb4e8d384b9d",
+    "builds/asbb_subwave1_2026-09__coll_amber_cq/external_enrichment.json": "149616491a1c794b1449ba7f9b37da97d577f9357b7d2419ffb9c44285395865",
+    "builds/asbb_subwave1_2026-09__coll_amrex_cq/build_manifest.json": "019f26c99fd390146f8ad8e6383dafda71801f34b371a56ef3952b1c0212b277",
+    "builds/asbb_subwave1_2026-09__coll_amrex_cq/external_enrichment.json": "b6065c64ceccf4d7b7d00e70d622d59fd5747821cd7348faca18d9ef7622385e",
+    "builds/asbb_subwave1_2026-09__coll_astromorph_cq/build_manifest.json": "acbfcdf791814799aedc6ff93e2a9cd8f3a5b32fd05e0ac7ea3306ad6df5242e",
+    "builds/asbb_subwave1_2026-09__coll_astromorph_cq/external_enrichment.json": "6d2cca6f95efc11f473c71530a9c37e8fa3500187f301724982cc1334350c843",
+    "builds/asbb_subwave1_2026-09__coll_aztekas_cq/build_manifest.json": "862a17878f426a3c82a372380e65c7de2fd2ccd4ae9c0607a55eec88bc9f27f6",
+    "builds/asbb_subwave1_2026-09__coll_aztekas_cq/external_enrichment.json": "b2878834ac60591bef48a275089b097cfef2d4a2b94d0a74ff7ce8202f9679a9",
+    "builds/asbb_subwave1_2026-09__coll_beyonce_cq/build_manifest.json": "5b36a4505bf40446037f33604efb68d01c9369749ae812777233f0bab2a753af",
+    "builds/asbb_subwave1_2026-09__coll_beyonce_cq/external_enrichment.json": "534d7aae1fd45553eb2562117a0a42714b75baa31e15ae52e3ba78e859289c4e",
+    "builds/asbb_subwave1_2026-09__coll_candl_cq/build_manifest.json": "9273a11f20d1824349c8ba5b81a5cef56e08a9d776372305512b9167bd47aa50",
+    "builds/asbb_subwave1_2026-09__coll_candl_cq/external_enrichment.json": "7ae1bde0fc84b907361043c40a1d9bc801df1c93192233bf8242861aa9137227",
+    "builds/asbb_subwave1_2026-09__coll_compas_cq/build_manifest.json": "4e7a8c4873c0c92da7dc644045668f17ca745981f6c0573616c909d2ee63c4b9",
+    "builds/asbb_subwave1_2026-09__coll_compas_cq/external_enrichment.json": "96b571a8c557a14c37584df273f93bdfc3f57a2db341272705c32d7cd6cd880b",
+    "builds/asbb_subwave1_2026-09__coll_concept_cq/build_manifest.json": "e464844cfc6a569061374ce836cbd665ac4bc41c66cf3bfc788d56250367ead0",
+    "builds/asbb_subwave1_2026-09__coll_concept_cq/external_enrichment.json": "3bd9f7bc7573526ca37aca3e47d40fe45b00111e549c1aa79e295d433c94bd9c",
+    "builds/asbb_subwave1_2026-09__coll_copops_cq/build_manifest.json": "469b5cafd9fd209722ebad489ac87d9e950d18c2658600d080ba002173dc1d4a",
+    "builds/asbb_subwave1_2026-09__coll_copops_cq/external_enrichment.json": "6d4c92738b7ad35a97c821cecfce3703af5e77623e09f630a6e9dffdbfe028f8",
+    "builds/asbb_subwave1_2026-09__coll_darkarc_cq/build_manifest.json": "92e97e37e86cc9b7d31911fce95610ae53ce378503c438249cca9ae962b7ae09",
+    "builds/asbb_subwave1_2026-09__coll_darkarc_cq/external_enrichment.json": "ac7e928aeec48b8bb725f249d681ace002d2585af6e8638712ae7c29fc2d2de0",
+    "builds/asbb_subwave1_2026-09__coll_darkbit_cq/build_manifest.json": "ac7e6d1819ca6e9940d3ceb6494f7dadfcd02f2003342bce145868a53c2a574c",
+    "builds/asbb_subwave1_2026-09__coll_darkbit_cq/external_enrichment.json": "7552e6bb6e90463c98f0d0869d4b9230094fe1982982b9e5d41bc432d9c2b904",
+    "builds/asbb_subwave1_2026-09__coll_dedalus_cq/build_manifest.json": "e994db723ecc29dac7e8a4ea09753edd5106a4e41fe1f6d08861e8c2481a41dd",
+    "builds/asbb_subwave1_2026-09__coll_dedalus_cq/external_enrichment.json": "84bb1828b5f011643f2ef847dd95a83a9d71fcdedec7dd2636194d53c11a9415",
+    "builds/asbb_subwave1_2026-09__coll_diffmah_cq/build_manifest.json": "2cbcf9b4cd669fb66a033fde9d180de0243feffe21521439e55e78bf3e524e01",
+    "builds/asbb_subwave1_2026-09__coll_diffmah_cq/external_enrichment.json": "aa5b7eb635e815de200b7d2771ab2667b26368b33cffcd7c0d9a699a27c0f484",
+    "builds/asbb_subwave1_2026-09__coll_eccoplanets_cq/build_manifest.json": "b6a5da4124d3cf3f5a66b0bfa685e36f5df57d2f3f65c62c87981788a9967627",
+    "builds/asbb_subwave1_2026-09__coll_eccoplanets_cq/external_enrichment.json": "5ef3ba2e2776f428b4eab3527485a90c85d7fbc365ba9d364361f41aa37c5e07",
+    "builds/asbb_subwave1_2026-09__coll_emperor_cq/build_manifest.json": "213832fec2f53f3d00eff16bdd324efd6284349128f994e0d8a834aa870a0adc",
+    "builds/asbb_subwave1_2026-09__coll_emperor_cq/external_enrichment.json": "286fc0f8b016005826374ed5730b809d290c0662687c51ebb84cb6629adec21a",
+    "builds/asbb_subwave1_2026-09__coll_exolyn_cq/build_manifest.json": "feaef37ebd8b9bf3d950fc3d9b0e5cfd81cc07a16afd5be9f4a420f08498d533",
+    "builds/asbb_subwave1_2026-09__coll_exolyn_cq/external_enrichment.json": "2c2a60eec74196ce9f23a8debee96d316ea655a30ea3f0e03fa2c28657e18554",
+    "builds/asbb_subwave1_2026-09__coll_exomdn_cq/build_manifest.json": "ef7ad93f75b02f0a6893ad2f302e298d1abf5fe86f98d5f191b1e20158bc3ada",
+    "builds/asbb_subwave1_2026-09__coll_exomdn_cq/external_enrichment.json": "3948452e3fcd7b3036acb56245cd35da375782e93992a4ca4896c703b1e2cf34",
+    "builds/asbb_subwave1_2026-09__coll_finker_cq/build_manifest.json": "e08c764c82e573d44dcebf20dfe418389dd57c0504cdd8e5d7a50bd6996e98ba",
+    "builds/asbb_subwave1_2026-09__coll_finker_cq/external_enrichment.json": "cb1bbcdb95cf29616c1c020d102d712d9fc6a8d8daed73147876144c463e521b",
+    "builds/asbb_subwave1_2026-09__coll_flecsph_cq/build_manifest.json": "a5e8040b07e35a9ca87eeaf0c5cd996735de27d9402b06c9b49c1440d4e8aa81",
+    "builds/asbb_subwave1_2026-09__coll_flecsph_cq/external_enrichment.json": "cdf27a0f43c6c3615d8d21b3a88bf3d17145e89c42f5b77c6e997eb9e1e73dd1",
+    "builds/asbb_subwave1_2026-09__coll_galaxygenius_cq/build_manifest.json": "e7dfe8a590ad34d8af0514c73d14766681a874c02b0444aace89a0d50edfb147",
+    "builds/asbb_subwave1_2026-09__coll_galaxygenius_cq/external_enrichment.json": "127a6399cce4014f010e632209b1c97ad9d689ba7de76451bac1995bec9c2bdd",
+    "builds/asbb_subwave1_2026-09__coll_galclaim_cq/build_manifest.json": "4f4a88779f90a15d986ab3ac4eb3316610846317dfaf57db025526bd51e03e0f",
+    "builds/asbb_subwave1_2026-09__coll_galclaim_cq/external_enrichment.json": "8a058fd4b1af419ab5b5fa6c36a8060f82d39013784a3c5b65bdaf7a760307ce",
+    "builds/asbb_subwave1_2026-09__coll_galkin_cq/build_manifest.json": "f456216c123d8e4c8d850ba8cf4e77fa04c9e1406cc728520beeb5e35d7495c3",
+    "builds/asbb_subwave1_2026-09__coll_galkin_cq/external_enrichment.json": "9ddbed0a824214c9e47878a6ecbc944811a33b0175243722b0f1148ae71df324",
+    "builds/asbb_subwave1_2026-09__coll_gallifrey_cq/build_manifest.json": "c77b90453ce733d5df08dc57abb4c53b2ea78a0366f7fbbd88e041127ce0d51f",
+    "builds/asbb_subwave1_2026-09__coll_gallifrey_cq/external_enrichment.json": "f31c5f5b36893b19937712197fd3e7ca7d60f2ccbf3208d9816f1ca4de685923",
+    "builds/asbb_subwave1_2026-09__coll_gpu_ppm_cq/build_manifest.json": "4138ce07c7de42a9725ced8df1ddbed5816104de82a6f3476200c59aae9ace64",
+    "builds/asbb_subwave1_2026-09__coll_gpu_ppm_cq/external_enrichment.json": "5c3de95a04c1659918a12fed8dd2b5a6a5b5a6be3748d0fc16103dcfd8d81892",
+    "builds/asbb_subwave1_2026-09__coll_gravsphere2_cq/build_manifest.json": "02237c045bcdec961d56dc0c9ef59d4938dd45744f1b4dd261c7f98fd523f66d",
+    "builds/asbb_subwave1_2026-09__coll_gravsphere2_cq/external_enrichment.json": "2535fbdcb0f5a4d88583d9746ffcc5fe61531fa9521e1763254c6f6c04efaf86",
+    "builds/asbb_subwave1_2026-09__coll_gwpy_cq/build_manifest.json": "94ee82a4a0c57a6d72704fd8468b0218b81fcfa2f42c1031f891ee870b6952ca",
+    "builds/asbb_subwave1_2026-09__coll_gwpy_cq/external_enrichment.json": "87ae71bc6f77339948a320ebb30bf75ac392b4177a3f845a41fd660100258a5c",
+    "builds/asbb_subwave1_2026-09__coll_gwsurrogate_cq/build_manifest.json": "12697c178364c80df0a91e8c7c38ae273e2e9905209d7f766afbf26d623bf6ad",
+    "builds/asbb_subwave1_2026-09__coll_gwsurrogate_cq/external_enrichment.json": "0cd44e342952442befc6f21d24ad18a6fc8c742513b332f650529bc18dc84364",
+    "builds/asbb_subwave1_2026-09__coll_heb_cq/build_manifest.json": "fe55ea55ef8b5ecc8816ed8545f0214a5900601d0e846f0149805066107c80ae",
+    "builds/asbb_subwave1_2026-09__coll_heb_cq/external_enrichment.json": "337f9206474352fa457e39a1ddbeef649f002fdcba245626469f03453c309a14",
+    "builds/asbb_subwave1_2026-09__coll_hydromass_cq/build_manifest.json": "d73449bdd91348cf3c366a7436ee3d12f61d945db981f58b066663a542f92b34",
+    "builds/asbb_subwave1_2026-09__coll_hydromass_cq/external_enrichment.json": "fa6d5669653e9240ef56b32f20290776d50176ca7edc1f36b5190741b2b03a53",
+    "builds/asbb_subwave1_2026-09__coll_hylight_cq/build_manifest.json": "e951aaaf40ac1bb0dbf173f1bb12a0f1f07633d56f3b106412ece261e3d69219",
+    "builds/asbb_subwave1_2026-09__coll_hylight_cq/external_enrichment.json": "b3fd03000c66f64c4683275bcc0e3d7842c37554b31815c169dfbb9340bf8f45",
+    "builds/asbb_subwave1_2026-09__coll_hypergal_cq/build_manifest.json": "77ae50c97e6d0cb757ea5287269d25af8a6964582abb0352f00d9cdf5a971a80",
+    "builds/asbb_subwave1_2026-09__coll_hypergal_cq/external_enrichment.json": "130a2b61df052274652ea5d03b172a52c4c7715a384b0ed067109b352f07a610",
+    "builds/asbb_subwave1_2026-09__coll_issi_cq/build_manifest.json": "7a761480255f9fde04143973a8c4184bc6c758963b549134b9df8085a5d4581f",
+    "builds/asbb_subwave1_2026-09__coll_issi_cq/external_enrichment.json": "614d2369c0be91c19050be02202e5cd86fd090785f880de42179376829dd26d5",
+    "builds/asbb_subwave1_2026-09__coll_ixpeobssim_cq/build_manifest.json": "c8c13145bc5014b51fc363f4295529c2a0c12c1c29a69ac17673d3b20366be0a",
+    "builds/asbb_subwave1_2026-09__coll_ixpeobssim_cq/external_enrichment.json": "90cf190e7de57e3238490b9d9dbb21ad2dacc6fe11961344657e7cdb68169f6c",
+    "builds/asbb_subwave1_2026-09__coll_jaxspec_cq/build_manifest.json": "b33753d4a545b38492117e49c7257cb4aecbbb5830cd55eb53f42237848d9604",
+    "builds/asbb_subwave1_2026-09__coll_jaxspec_cq/external_enrichment.json": "c7f0dbce47bf741454115cc60f0a8157fa767ea586b622f0db2b122ed7071f3f",
+    "builds/asbb_subwave1_2026-09__coll_kc_cq/build_manifest.json": "b5bfa6c906ea0ab1b61026f602a1d13b87b29f63b9b1bde834a0cdf28f878d29",
+    "builds/asbb_subwave1_2026-09__coll_kc_cq/external_enrichment.json": "df01e49fc886428890d5683cd3f14b310161ea241964aab36222929dcccb1761",
+    "builds/asbb_subwave1_2026-09__coll_larch_cq/build_manifest.json": "36c7423ca76e2c7067bd24ebb85f47a08776af1fcaf1ffa5523eca1e54180ddc",
+    "builds/asbb_subwave1_2026-09__coll_larch_cq/external_enrichment.json": "88de1e280a6439589577998825d7c9533d7826bea4adc0b305b79d66298245c5",
+    "builds/asbb_subwave1_2026-09__coll_mbasc_cq/build_manifest.json": "1b0f12af2004855219da739550fab59023d94ecb946c55352d9b1f05801c4a25",
+    "builds/asbb_subwave1_2026-09__coll_mbasc_cq/external_enrichment.json": "44192fb6ee6ea4fb8ac0a71c7c36315b980b9ae7b7bb40f669a324b0c3c5cec1",
+    "builds/asbb_subwave1_2026-09__coll_nemesis_cq/build_manifest.json": "176709aab4ebae8e44871867329d76c4e728d5e7c7d5d847131a7bfd88c0726f",
+    "builds/asbb_subwave1_2026-09__coll_nemesis_cq/external_enrichment.json": "12fa17822f02f50be617bae7947427b1dd1b3d7529d6fd875eb4c45589c29a92",
+    "builds/asbb_subwave1_2026-09__coll_nestcheck_cq/build_manifest.json": "f6f4b3fff8fca490baa776766ff32f1342aac09613a3971b647022013896efab",
+    "builds/asbb_subwave1_2026-09__coll_nestcheck_cq/external_enrichment.json": "174b86bf711ef56140e6eeaddcf20f2ed89db58aaf81b294476830f8e3676b45",
+    "builds/asbb_subwave1_2026-09__coll_neuralpdr_cq/build_manifest.json": "d24ed01c43ccf9bf9a9d84eae9f6e6da10c73b3d6096ff9240ffc9853b692d42",
+    "builds/asbb_subwave1_2026-09__coll_neuralpdr_cq/external_enrichment.json": "f3aad844f12a20a66e7326cf296dbaa3fe501d67df50a9619afaa1590578a095",
+    "builds/asbb_subwave1_2026-09__coll_nmma_cq/build_manifest.json": "63450ffc87cbf0df5edbaebbc9ef43341a20f6f401dee8d47d397ebc3ec93b2e",
+    "builds/asbb_subwave1_2026-09__coll_nmma_cq/external_enrichment.json": "95bfafe5a01d33ac3b487cd13551aead5b829be512ed83482e49b6ff5676ed59",
+    "builds/asbb_subwave1_2026-09__coll_nuradiomc_cq/build_manifest.json": "754700cc7626ebeb1f07872fb8980d182f0c57379b9a16fe3d24f46ce2447228",
+    "builds/asbb_subwave1_2026-09__coll_nuradiomc_cq/external_enrichment.json": "0d74f0f3185bc50d4844393c13156f20414de4a49c135a9a776d909f3a6e7904",
+    "builds/asbb_subwave1_2026-09__coll_oscode_cq/build_manifest.json": "988971948add3842f4e676cb073695f7a06565c8e3b51a0a7d60eac4ab26b8fd",
+    "builds/asbb_subwave1_2026-09__coll_oscode_cq/external_enrichment.json": "a64c90bea4fe994be3e1a800319faddbd01ea2aedeb4b979def918de1812ef36",
+    "builds/asbb_subwave1_2026-09__coll_osprei_cq/build_manifest.json": "bbbf96025852210fa157381db89ec8dd3a36fe4a315f132672505a38d8417aac",
+    "builds/asbb_subwave1_2026-09__coll_osprei_cq/external_enrichment.json": "2941369b9de1f19ecc8de34effb05f79939cec17ee3326d68512c4e215bb3a63",
+    "builds/asbb_subwave1_2026-09__coll_pagn_cq/build_manifest.json": "fb88b99433ba8b73ff15bb86fa7b8ced3de629bc22ec155934f47612c6d2aad8",
+    "builds/asbb_subwave1_2026-09__coll_pagn_cq/external_enrichment.json": "93386e5d98184ff566567033b9af1830ee22346e4aabad518d7834004dbdb40e",
+    "builds/asbb_subwave1_2026-09__coll_phasetracer_cq/build_manifest.json": "a03659284389a383f0adc5f2c411840b516b2b2eeefbd2d82630af1eb2b386ea",
+    "builds/asbb_subwave1_2026-09__coll_phasetracer_cq/external_enrichment.json": "b721a61e93fededb581f5c179b62b2745ea68046b8dffc69b5089694dddaee09",
+    "builds/asbb_subwave1_2026-09__coll_planetic_cq/build_manifest.json": "1634b5904e3bfe4fa53848ad855e0d80884d8a457686880985e25dbb61f9a201",
+    "builds/asbb_subwave1_2026-09__coll_planetic_cq/external_enrichment.json": "2e03935114e917e8f55614a8aa4c3d6f09294c64a6949eb6c15b68d0d6d824a8",
+    "builds/asbb_subwave1_2026-09__coll_prymordial_cq/build_manifest.json": "b576d27f5814d6ac9d2e6973424fdf47038d34ecbf3e5425fccbd5c0a198363d",
+    "builds/asbb_subwave1_2026-09__coll_prymordial_cq/external_enrichment.json": "e6ae07a9aa5f547631c10a46af9a82d03b960a4097ea612322339a9f1cad44af",
+    "builds/asbb_subwave1_2026-09__coll_pyexocross_cq/build_manifest.json": "4b824de6db6354ba0ce3ae3abfcc849ee3aa0916de43a97af317363d4eebb9a7",
+    "builds/asbb_subwave1_2026-09__coll_pyexocross_cq/external_enrichment.json": "553dcb56ff580c725043a434c16cc0714c8f97d9ba478cdc3771585ebd19a6e2",
+    "builds/asbb_subwave1_2026-09__coll_raccoon_cq/build_manifest.json": "d8245f05f6173c6cc852e41843002af777b287784c5046010eb97358498bf90d",
+    "builds/asbb_subwave1_2026-09__coll_raccoon_cq/external_enrichment.json": "0f6819be50ebd1a3f51273939a50616f0f5b52f97918be7743fdf98e4a4070c8",
+    "builds/asbb_subwave1_2026-09__coll_redback_cq/build_manifest.json": "7c71495fbb2640049444fc0e2bcc64bc46884c4c622a688b883739ee4225922e",
+    "builds/asbb_subwave1_2026-09__coll_redback_cq/external_enrichment.json": "fa2146ea373df1c8928aeba85950bb15aa9f8fb7e0aa36cb4a2d5e7bd93acd21",
+    "builds/asbb_subwave1_2026-09__coll_rotcurves_cq/build_manifest.json": "d5d92d1ad8053371db2cc62f726ea20cf5e9ec2ecd669bb71805b2f65e547dea",
+    "builds/asbb_subwave1_2026-09__coll_rotcurves_cq/external_enrichment.json": "80bc863e9b491b69b4b2783fd45c3b92956fab443c4b9bb1a887cfd52296dd8b",
+    "builds/asbb_subwave1_2026-09__coll_rundm_cq/build_manifest.json": "8802a2b39893cfbbc74bcf1c2f499318c479d5d5f3fb435f76e1dbe1ef8d5d83",
+    "builds/asbb_subwave1_2026-09__coll_rundm_cq/external_enrichment.json": "465a0b334d3119a72a25c6a05f0b021386880d2aa5d220f4345999791966a734",
+    "builds/asbb_subwave1_2026-09__coll_s_bart_cq/build_manifest.json": "2d9dcdf0b314256de91b8bec9555bfa59c4c125b3b7cca57b8e23c225d189d47",
+    "builds/asbb_subwave1_2026-09__coll_s_bart_cq/external_enrichment.json": "26f8cd0f4773924a931022bdca794105ebb3afd6f688435092a895883c789988",
+    "builds/asbb_subwave1_2026-09__coll_sheep_cq/build_manifest.json": "6152be08b75136d0bc69d8419825da0026e312553ef4adef819a7fbc4d33481d",
+    "builds/asbb_subwave1_2026-09__coll_sheep_cq/external_enrichment.json": "6e95cf097f2a7d51e633670d302c93c6bc5bdfb6d96f21838d15d1ea064132b2",
+    "builds/asbb_subwave1_2026-09__coll_simab_cq/build_manifest.json": "2e0dc1a95a49444e2d520be928a0179bd741076fe2671a9bf340faf074369470",
+    "builds/asbb_subwave1_2026-09__coll_simab_cq/external_enrichment.json": "232503cd2a751f774e6803396af400c03b19bb88f61748166d6d9d20108e0724",
+    "builds/asbb_subwave1_2026-09__coll_sispo_cq/build_manifest.json": "84552adffd6e6c7cad33869c8873205c20899c3f2ced23f9714de285761d6b17",
+    "builds/asbb_subwave1_2026-09__coll_sispo_cq/external_enrichment.json": "88a3769f1bc36144fa6727f75b89be8fa1bde0b40565a861ffa2bb261f0fea76",
+    "builds/asbb_subwave1_2026-09__coll_skaro_cq/build_manifest.json": "3f0564d41b429bf73dde061e55fae7266e7e8e5a74a9670a580c101003ee05ec",
+    "builds/asbb_subwave1_2026-09__coll_skaro_cq/external_enrichment.json": "58e7d9f22db59fc774e7be63a5b4992996f92fadf8f4a2d4242a7c1884541316",
+    "builds/asbb_subwave1_2026-09__coll_skysurvey_cq/build_manifest.json": "f24e2643bd728e1f3525e68025447052b61c85b13a412e7e36485d3ff653a660",
+    "builds/asbb_subwave1_2026-09__coll_skysurvey_cq/external_enrichment.json": "8bd2c792e7e739e5fef2f0e12c1fe687ec327461bde8af4d5d0f445d79d3223b",
+    "builds/asbb_subwave1_2026-09__coll_smart_cq/build_manifest.json": "5de7afc183025d3e572141eb44c96beba1ee4d30808ddbb4dcbf78519d482931",
+    "builds/asbb_subwave1_2026-09__coll_smart_cq/external_enrichment.json": "19085e219ddf72ad35e692871342ff9805796d646345c8bd2181ccfe7579df87",
+    "builds/asbb_subwave1_2026-09__coll_solarzip_cq/build_manifest.json": "b1f64ab8f1dbf699c659e32c4740838e57b2a3d60b2b826fc1c94c916b0de128",
+    "builds/asbb_subwave1_2026-09__coll_solarzip_cq/external_enrichment.json": "c6dd63096a3041ebd054440935477744116ff0a489a0dbeb6d6f17b7aa6af980",
+    "builds/asbb_subwave1_2026-09__coll_spiback_cq/build_manifest.json": "0ae114e2b06043d062590afd37ffa92fac807948897a8cd08ba8dafb6aefd2e6",
+    "builds/asbb_subwave1_2026-09__coll_spiback_cq/external_enrichment.json": "5607880fbbf996ba5a205418c2506e83cf3ab4f3c52816cd88c723e098ea0078",
+    "builds/asbb_subwave1_2026-09__coll_strawberry_cq/build_manifest.json": "e9e785e41a63d9907c3951dca379ebeb5ea6b978d2b2357de1034fd19e78dcab",
+    "builds/asbb_subwave1_2026-09__coll_strawberry_cq/external_enrichment.json": "28d0338e1740d3b31f786c9a7eb7d87a9dd8c3c3612c9ed456e873ed896babea",
+    "builds/asbb_subwave1_2026-09__coll_suppnet_cq/build_manifest.json": "9842a9e3488f1fd3042946e46b3dd38d426556a819c0c4ea87396811fb726642",
+    "builds/asbb_subwave1_2026-09__coll_suppnet_cq/external_enrichment.json": "045dbdfb25d71b73305dc9f4d3bb475290efbe6f9d69b6b05f35971748134c7e",
+    "builds/asbb_subwave1_2026-09__coll_sushi_cq/build_manifest.json": "42261cf0e5c13e6c0144b04da350211d2725cae2887aacbcef586ff3e1ee2c6e",
+    "builds/asbb_subwave1_2026-09__coll_sushi_cq/external_enrichment.json": "04047d0a88f2c60025095fa4860313196551c98e56760c5e68b7c0682409a5f7",
+    "builds/asbb_subwave1_2026-09__coll_swiglal_cq/build_manifest.json": "113b0da1b05a3f8d95392e1f3d92ca8f708a163f9a58f573512fdc93d7e30969",
+    "builds/asbb_subwave1_2026-09__coll_swiglal_cq/external_enrichment.json": "1adeab0008563810a1a99af6b911aa25341ff64f36e39af7fe18ddb7aa46a692",
+    "builds/asbb_subwave1_2026-09__coll_symbolic_pofk_cq/build_manifest.json": "b65f2f23b7609afb1b99e00754b372600e0e081c0af1f4e592f6290bc1d5dd1c",
+    "builds/asbb_subwave1_2026-09__coll_symbolic_pofk_cq/external_enrichment.json": "819b3bf645b40a3b88941733e1b6c6c7115fa20dd8046af72d26ecf366fd3a83",
+    "builds/asbb_subwave1_2026-09__coll_symboltz_jl_cq/build_manifest.json": "609fb237d27f4cc380bafe8ccaac4b3703320256390decbc97bafc5ff4046730",
+    "builds/asbb_subwave1_2026-09__coll_symboltz_jl_cq/external_enrichment.json": "cdd42ea06006979e5db0a7a865f6d312ca9ef98ab80df51528d29005d4f5517b",
+    "builds/asbb_subwave1_2026-09__coll_tess_cont_cq/build_manifest.json": "c732bd8388cf8ade3e7d5f8965f35cb43dd5342e4d226121f1248d50504484e1",
+    "builds/asbb_subwave1_2026-09__coll_tess_cont_cq/external_enrichment.json": "62ea0396497850fb68566e0812c4559312cc3409d0596a2f96932bf843bcbf75",
+    "builds/asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq/build_manifest.json": "65eac69b71e18b366ad39c12dcd0bc0b21a88d1b052c424a3dc17b179cd8355b",
+    "builds/asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq/external_enrichment.json": "244b67ba24aa0ad5d95c1109c98e3576fa4b5e497564999d50882402e6f0f370",
+    "builds/asbb_subwave1_2026-09__coll_vis_r_cq/build_manifest.json": "58dce80e5837902e97f7c83b6aa8fd5ceca7b7a051d19d75b8e0cba697ea72b6",
+    "builds/asbb_subwave1_2026-09__coll_vis_r_cq/external_enrichment.json": "4841db9909c8786e31f9d465bd9adb93ce0c6f2886d44bb12e81e4340906d3e4",
+    "builds/asbb_subwave1_2026-09__coll_zodipy_cq/build_manifest.json": "5a66d5478234b7f081e876e46359233a3bd24e4f68214401ad59dd46dc6f69c3",
+    "builds/asbb_subwave1_2026-09__coll_zodipy_cq/external_enrichment.json": "d6cbdfde2c1b3a4714cd585c42a19eee979b2c1244382d90aa19193a02ae2ed8",
+    "builds/asbb_subwave2_2026-08-31__coll_aspic_cq/build_manifest.json": "931e477d4981318aade40bce209ef0630db24c9355006e391ed7f39bddf66308",
+    "builds/asbb_subwave2_2026-08-31__coll_aspic_cq/external_enrichment.json": "242c0501b6c42392acac606c12f777294f2e066c0ff046f8a9a2510345fbbdda",
+    "builds/asbb_subwave2_2026-08-31__coll_diffrax_cq/build_manifest.json": "2a7b0d40893ae8cb5984ec76bf63038a8c2bb667a5dbb7f926ac09cf1e78c317",
+    "builds/asbb_subwave2_2026-08-31__coll_diffrax_cq/external_enrichment.json": "41324b162aa4cc34f7ab6ff4852d9871c72def1e5a34f484e8760884094d52db",
+    "builds/asbb_subwave2_2026-08-31__coll_mbf_cq/build_manifest.json": "08cecc3448ef26ba5d6847912d4427a3d467ea29c00d708ed1bddf4e6d560f18",
+    "builds/asbb_subwave2_2026-08-31__coll_mbf_cq/external_enrichment.json": "12d1cab7769d0dcc604d17e4bdf65b7e021a6c8cf3d25dd8966223616f4ea091",
+    "builds/asbb_wave250_2026-09-01__coll_amada_cq/build_manifest.json": "ab452128295b1c9f583026616fe7441bcd3ae5d00de0ec543bdf72df4157e1f7",
+    "builds/asbb_wave250_2026-09-01__coll_amada_cq/external_enrichment.json": "5e611bfdef1e1d44416d2729a7f2fe64a18110829cf9f419a9b6ecb6c2d9b6b3",
+    "builds/asbb_wave250_2026-09-01__coll_ast_cq/build_manifest.json": "38f13c7531f16d614175a27999a74e3ec428d4a898e44357cd5885c7abc5d3f2",
+    "builds/asbb_wave250_2026-09-01__coll_ast_cq/external_enrichment.json": "afdaec9d0277249f86280ce3506a3354615c0afed0aca6e23479e7f1679a29ae",
+    "builds/asbb_wave250_2026-09-01__coll_bitshuffle_cq/build_manifest.json": "5c07b1f88d62aa0a5df6861264d181e7bc81dd3785814dc2c824d2079a44804d",
+    "builds/asbb_wave250_2026-09-01__coll_bitshuffle_cq/external_enrichment.json": "1f2cd3f9ccd738121d50e310707f12cc924f4dcd001524bd97f43a88c5dd4c4d",
+    "builds/asbb_wave250_2026-09-01__coll_ccogs_cq/build_manifest.json": "d721ff16efcbba44efa7df6e035e12e9e914074ebb2876d2af63d5c37860859d",
+    "builds/asbb_wave250_2026-09-01__coll_ccogs_cq/external_enrichment.json": "5e1d4d858a5dca292d1eec92194120015f3d16c69b15644ad4b89fb3c6be61b1",
+    "builds/asbb_wave250_2026-09-01__coll_chimenea_cq/build_manifest.json": "56646e75de0c2c4a54ff32b26cb42f0d9c8f28f1e8dae9e70663f8c69fb4e5fc",
+    "builds/asbb_wave250_2026-09-01__coll_chimenea_cq/external_enrichment.json": "c7e8ad04b50c99f864ac48672fdc46052afff6919695a1c39a9eaaa92d3f3c99",
+    "builds/asbb_wave250_2026-09-01__coll_cosmobolognalib_cq/build_manifest.json": "90a9229ba9ffb70386d8914ff8ca48569c5175c7c61344e7eef0253aae984e3d",
+    "builds/asbb_wave250_2026-09-01__coll_cosmobolognalib_cq/external_enrichment.json": "469a652b0b97671fdc9dec124c79fed2b8d2f2f2b88276f474a61578cc4ef7c6",
+    "builds/asbb_wave250_2026-09-01__coll_cosmohammer_cq/build_manifest.json": "6ea2f6fd50ff5f46c9cb5e81226804eddb914a0e8ee63d6b6772d5f15dd5bede",
+    "builds/asbb_wave250_2026-09-01__coll_cosmohammer_cq/external_enrichment.json": "bb141eac5ccf2c58f57f7ae66ce30adffb96b3ea7e325c531523abc9eef75511",
+    "builds/asbb_wave250_2026-09-01__coll_cosmophotoz_cq/build_manifest.json": "914c7028ae60149fb6bf7b2e8eaa40f5a4b1fd75244fd5a27b64f99937c0c2eb",
+    "builds/asbb_wave250_2026-09-01__coll_cosmophotoz_cq/external_enrichment.json": "09f7dfe0c71a01a0401ec219a72ccbc20c95559be7787338ce5225cdeb17976d",
+    "builds/asbb_wave250_2026-09-01__coll_cosmosis_cq/build_manifest.json": "77d11bc15bbd231222f93f9b3ca4a809adb8991e404562cb09427abc803227fa",
+    "builds/asbb_wave250_2026-09-01__coll_cosmosis_cq/external_enrichment.json": "20faf58042d0ee25939dcc5c52775ea4feda20d59c7cca5b74eb59f599c27f29",
+    "builds/asbb_wave250_2026-09-01__coll_demc2_cq/build_manifest.json": "854a1173f0dc2a691c3ba8d94e8948c01fe40eb002c6cc173264ac6fbc131ed6",
+    "builds/asbb_wave250_2026-09-01__coll_demc2_cq/external_enrichment.json": "22d28f75a27d41eeb3363358d138246af27f83fc85953b357732b4edd3359768",
+    "builds/asbb_wave250_2026-09-01__coll_dst_cq/build_manifest.json": "2d4516dce8041b52137b66d1f103d5afb2de8aa8f81761498a3e2d2877b902f0",
+    "builds/asbb_wave250_2026-09-01__coll_dst_cq/external_enrichment.json": "d0e8463ef01a5da8ea1f6b2a97bf4d144d3e63cbc091d8647d1ed72d2de5e716",
+    "builds/asbb_wave250_2026-09-01__coll_fits2hdf_cq/build_manifest.json": "0f48394a25567f3a390f74a2dc59eb822f9da1719107ceb628a325d3f9c79f26",
+    "builds/asbb_wave250_2026-09-01__coll_fits2hdf_cq/external_enrichment.json": "57be291952564971a2d86a29b876d3cf9d3062b2dbd4636aef4db0e904c5e08c",
+    "builds/asbb_wave250_2026-09-01__coll_galax2d_cq/build_manifest.json": "353f491bb0284db6760fb253cab189573cd91e7d9e4d40ac3de7602fa64aa99e",
+    "builds/asbb_wave250_2026-09-01__coll_galax2d_cq/external_enrichment.json": "f37f198bc5494c851e08887a802a5e5cd46ba9d93d96817b9fcb8a972676790d",
+    "builds/asbb_wave250_2026-09-01__coll_galsim_cq/build_manifest.json": "a41da6759215d66d7cad3cdfc91950bb29e7d423d6d35b2c500cd6809702d4a0",
+    "builds/asbb_wave250_2026-09-01__coll_galsim_cq/external_enrichment.json": "534ee9b46eadb6ca82c5d2b92fd6625abbe6e839332daeb687f6f3c187fb899f",
+    "builds/asbb_wave250_2026-09-01__coll_hds_cq/build_manifest.json": "07349006adb48d071cbc7f9e1d0d509e60f3d8b240b05f770240f13b1f93dffb",
+    "builds/asbb_wave250_2026-09-01__coll_hds_cq/external_enrichment.json": "ab4886bc11774e7e69722ccc9db4890dc63c2f2bb7c7ee4f1d6f0ab211777b93",
+    "builds/asbb_wave250_2026-09-01__coll_hmf_cq/build_manifest.json": "77773e5093eeb93837c1bccdd09ec7555349d6f89fd20213292712646c65d690",
+    "builds/asbb_wave250_2026-09-01__coll_hmf_cq/external_enrichment.json": "835b7e1ab91d12c9cd6b0d70c4cb33472847a2f46de2d95f77546fa63882bf50",
+    "builds/asbb_wave250_2026-09-01__coll_iipimage_cq/build_manifest.json": "3868b1e6d87b9f33b27867d7a5af219e1fe584fe25eb27d5a00716513643e042",
+    "builds/asbb_wave250_2026-09-01__coll_iipimage_cq/external_enrichment.json": "d91f9abe4099da9688656b2bc80894f518fab872692bef0e7f4017916eaf16b8",
+    "builds/asbb_wave250_2026-09-01__coll_marz_cq/build_manifest.json": "66e58cf2fd76420277ff0da5a6da6c5dafb2fd8a9726c55d9306958d5d497f2c",
+    "builds/asbb_wave250_2026-09-01__coll_marz_cq/external_enrichment.json": "520a2ff7d5ab837b99642b549c5fa965c9544cab5379aa210bb696de5817b919",
+    "builds/asbb_wave250_2026-09-01__coll_montblanc_cq/build_manifest.json": "89243bd0bf4bef97fdc5452d71d20ff8aa1a14aa760a462d237384fc34288c14",
+    "builds/asbb_wave250_2026-09-01__coll_montblanc_cq/external_enrichment.json": "48bbf9b38c580e60500dbb9c5c31696b31e5b359ca785e9c1bd26b2637de791b",
+    "builds/asbb_wave250_2026-09-01__coll_rabacus_cq/build_manifest.json": "2bb183b7fa95d3bd271befb4db0fa2cd0b7e406db5b9e9eb73972bf242399201",
+    "builds/asbb_wave250_2026-09-01__coll_rabacus_cq/external_enrichment.json": "5015d01aa8a5daa3c0ed9f9996540789e68498d23772be860c6cea04848c09c5",
+    "builds/asbb_wave250_2026-09-01__coll_serpent_cq/build_manifest.json": "b54b04b501d0f3ed10169eb48b388d2275cc0a1717fa4768718bf6139e33a173",
+    "builds/asbb_wave250_2026-09-01__coll_serpent_cq/external_enrichment.json": "ee9280c38ba3a2085cbeb9acfa7af1ef49c0e2550c7e3471dc7cdec8fb2c600e",
+    "builds/asbb_wave250_2026-09-01__coll_toyz_cq/build_manifest.json": "ff8a8877e66d51ced643ca75bd3be7538b9c7b65a2d8c6453716434b9c65cb57",
+    "builds/asbb_wave250_2026-09-01__coll_toyz_cq/external_enrichment.json": "6d1908d52282619eb155c6972e440a5564b0466c7ce2866bc7992a9435dd7dc5",
+    "builds/asbb_wave250_2026-09-01__coll_twodspec_cq/build_manifest.json": "bcdbbc1c1da241ac9d5c696d323201ad8ad43151c4f6d3b42537d9dc20d7b851",
+    "builds/asbb_wave250_2026-09-01__coll_twodspec_cq/external_enrichment.json": "cba148d5ad6e604c060c81c38734afe5c595546ea8266b3232a44f0be696aa0a",
+    "builds/asbb_wave250_2026-09-01__coll_vlasiator_cq/build_manifest.json": "5c0af037310565c2470811b74b9f3f9f67bde1b45765560e4e8dbe889669a510",
+    "builds/asbb_wave250_2026-09-01__coll_vlasiator_cq/external_enrichment.json": "057102aaa98d572141388ccf32d8883ed74be16c2efc5f79e6a82f39b8376bf6",
+    "tiered": "c1ef17408932aef480c48bc3734f39c5aa9afef2711fd74835a981f5a3dca117"
+  },
+  "schema": "asbb-corpus-join-receipt/1.0",
+  "stage": "S4",
+  "unmatched_rows": []
+}

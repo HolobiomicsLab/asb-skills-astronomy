@@ -1,0 +1,17 @@
+name: fgivenx
+slug: fgivenx
+version_used: 2.1.11
+edam_topics: []
+evidence_spans:
+- '- ``fgivenx`` >=2.1.11;'
+derived_from:
+- doi: 10.1214/17-ba1075
+  title: Sampling Errors in Nested Sampling Parameter Estimation
+source_repos:
+- https://github.com/ejhigson/nestcheck
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ejhigson/nestcheck

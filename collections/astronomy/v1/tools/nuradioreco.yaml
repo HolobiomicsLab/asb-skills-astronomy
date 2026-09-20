@@ -1,0 +1,17 @@
+name: NuRadioReco
+slug: nuradioreco
+version_used: null
+edam_topics: []
+evidence_spans:
+- NuRadioReco is intended as community based reconstruction software for radio (neutrino and cosmic-ray) detectors.
+derived_from:
+- doi: 10.1140/epjc/s10052-020-7612-8
+  title: 'NuRadioMC: simulating the radio emission of neutrinos from interaction to detector'
+source_repos:
+- https://github.com/nu-radio/NuRadioMC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nu-radio/NuRadioMC

@@ -1,0 +1,19 @@
+name: nestcheck
+slug: nestcheck
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Currently ``nestcheck.data_processing`` has functions to load results from:'
+- '``nestcheck`` provides Python utilities for analysing samples produced by nested sampling, and estimating uncertainties on nested sampling calculations'
+- '``nestcheck`` provides Python utilities for analysing samples produced by nested sampling'
+derived_from:
+- doi: 10.1214/17-ba1075
+  title: Sampling Errors in Nested Sampling Parameter Estimation
+source_repos:
+- https://github.com/ejhigson/nestcheck
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ejhigson/nestcheck

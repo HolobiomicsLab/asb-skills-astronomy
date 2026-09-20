@@ -1,0 +1,22 @@
+name: FINKER
+slug: finker
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'from FINKER.utils_FINKER import *
+
+  from FINKER.utils_SYNTHETIC_LIGHTCURVES import *'
+- best_freq, freq_err, result_dict = finker.parallel_nonparametric_kernel_regression(
+- from FINKER.utils_SYNTHETIC_LIGHTCURVES import *
+- from FINKER.utils_FINKER import *
+derived_from:
+- doi: 10.1051/0004-6361/202348848
+  title: 'FINKER: Frequency Identification through Nonparametric KErnel Regression in astronomical time series'
+source_repos:
+- https://github.com/FiorenSt/FINKER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/FiorenSt/FINKER

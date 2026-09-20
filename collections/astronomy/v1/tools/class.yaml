@@ -1,0 +1,22 @@
+name: class
+slug: class
+version_used: null
+edam_topics: []
+evidence_spans:
+- the fantastic Einstein-Boltzmann solver [CLASS](https://github.com/lesgourg/class_public/)
+- using CLASS
+derived_from:
+- doi: 10.1093/mnras/stac568
+  title: The cosmological simulation code CO<i>N</i>CEPT 1.0
+- doi: 10.1051/0004-6361/202557450
+  title: 'SymBoltz.jl: A symbolic-numeric, approximation-free, and differentiable linear Einstein–Boltzmann solver'
+source_repos:
+- https://github.com/lesgourg/class_public
+- https://github.com/jmd-dk/concept
+- https://github.com/hersle/SymBoltz.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lesgourg/class_public

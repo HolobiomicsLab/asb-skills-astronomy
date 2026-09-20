@@ -1,0 +1,33 @@
+name: dynesty
+slug: dynesty
+version_used: '10.5281'
+edam_topics: []
+evidence_spans:
+- '[dynesty](https://dynesty.readthedocs.io/en/stable/)'
+- do the run with dynesty (as we do in the example notebook and the Python script)
+- the run with dynesty (as we do in the example notebook and the Python script)
+- we improved the likelihood sampling by using the nested sampler DYNESTY
+- '- `dynesty <https://github.com/joshspeagle/dynesty>`_;'
+- 'dynesty: Zenodo entry 10.5281/zenodo.3348367 and the associated companion paper'
+- 'dynesty: Zenodo entry 10.5281/zenodo.3348367 and the associated companion paper as follow:'
+- 'dynesty: Zenodo entry 10.5281/zenodo.3348367'
+derived_from:
+- doi: 10.1051/0004-6361/202554336
+  title: EMPEROR
+- doi: 10.1051/0004-6361/202557195
+  title: 'GravSphere2: A higher order Jeans method for mass modeling spherical stellar systems'
+- doi: 10.1214/17-ba1075
+  title: Sampling Errors in Nested Sampling Parameter Estimation
+- doi: 10.1038/s41467-023-43932-6
+  title: An updated nuclear-physics and multi-messenger astrophysics framework for binary neutron star mergers
+source_repos:
+- https://github.com/ReddTea/astroemperor
+- https://github.com/dadams42/GravSphere2
+- https://github.com/ejhigson/nestcheck
+- https://github.com/nuclear-multimessenger-astronomy/nmma
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ReddTea/astroemperor

@@ -1,0 +1,17 @@
+name: BACCO
+slug: bacco
+version_used: null
+edam_topics: []
+evidence_spans:
+- 36 times faster than the neural network based matter power spectrum emulator BACCO
+derived_from:
+- doi: 10.1051/0004-6361/202348811
+  title: A precise symbolic emulator of the linear matter power spectrum
+source_repos:
+- https://github.com/deaglanbartlett/symbolic_pofk
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/deaglanbartlett/symbolic_pofk

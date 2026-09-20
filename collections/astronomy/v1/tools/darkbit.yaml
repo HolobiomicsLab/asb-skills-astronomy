@@ -1,0 +1,22 @@
+name: DarkBit
+slug: darkbit
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'GAMBIT Dark Matter Workgroup: T. Bringmann, et al., **DarkBit**: A GAMBIT module for computing dark matter observables and likelihoods'
+- A GAMBIT module for computing dark matter observables and likelihoods
+- 'GAMBIT Dark Matter Workgroup: T. Bringmann, et al., **DarkBit**: A GAMBIT module for computing dark matter observables and likelihoods, Eur. Phys. J. C 77 (2017) 831'
+- 'DarkBit: A GAMBIT module for computing dark matter observables and likelihoods, Eur. Phys. J. C 77 (2017) 831'
+- 'DarkBit: A GAMBIT module for computing dark matter observables and likelihoods, Eur. Phys. J. C 77 (2017) 831, arXiv:1705.07920'
+- a dedicated signal yield calculator for gamma-ray observations, which significantly extends current tools by implementing a cascade-decay Monte Carlo
+derived_from:
+- doi: 10.1140/epjc/s10052-017-5155-4
+  title: 'DarkBit: a GAMBIT module for computing dark matter observables and likelihoods'
+source_repos:
+- https://github.com/GambitBSM/gambit_1.5
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GambitBSM/gambit_1.5

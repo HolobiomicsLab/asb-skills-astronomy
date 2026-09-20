@@ -1,0 +1,16 @@
+name: rabacus
+slug: rabacus
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2015.01.004
+  title: 'Rabacus: A Python package for analytic cosmological radiative transfer calculations'
+source_repos:
+- https://github.com/galtay/rabacus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/galtay/rabacus

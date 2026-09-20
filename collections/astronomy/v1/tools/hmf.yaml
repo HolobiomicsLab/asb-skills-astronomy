@@ -1,0 +1,17 @@
+name: hmf
+slug: hmf
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2013.11.001
+  title: 'HMFcalc: An online tool for calculating dark matter halo mass functions'
+source_repos:
+- https://github.com/halomod/hmf
+- https://github.com/steven-murray/HMF
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/halomod/hmf

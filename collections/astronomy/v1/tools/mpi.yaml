@@ -1,0 +1,27 @@
+name: MPI
+slug: mpi
+version_used: null
+edam_topics: []
+evidence_spans:
+- These systems are efficiently solved using compiled libraries and are automatically parallelized using MPI.
+- -DFLECSI_RUNTIME_MODEL=mpi
+- it is limited to only having the support for the MPI backend
+- In this configuration, FleCSI is installed with the MPI backend.
+- MPI libraries;
+derived_from:
+- doi: 10.1103/physrevresearch.2.023068
+  title: 'Dedalus: A flexible framework for numerical simulations with spectral methods'
+- doi: 10.1016/j.softx.2020.100602
+  title: 'FleCSPH: The next generation FleCSIble parallel computational infrastructure for smoothed particle hydrodynamics'
+- doi: 10.1016/j.ascom.2013.10.002
+  title: Destriping cosmic microwave background polarimeter data
+source_repos:
+- https://github.com/DedalusProject/dedalus
+- https://github.com/laristra/flecsph
+- https://github.com/zonca/dst
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DedalusProject/dedalus

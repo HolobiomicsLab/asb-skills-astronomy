@@ -1,0 +1,17 @@
+name: tqdm
+slug: tqdm
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- tqdm'
+derived_from:
+- doi: 10.1051/0004-6361/202556846
+  title: 'STRAWBERRY: Finding haloes in the gravitational potential'
+source_repos:
+- https://github.com/trg-richardson/strawberry
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/trg-richardson/strawberry

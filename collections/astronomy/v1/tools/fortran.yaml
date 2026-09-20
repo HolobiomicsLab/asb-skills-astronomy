@@ -1,0 +1,29 @@
+name: Fortran
+slug: fortran
+version_used: null
+edam_topics: []
+evidence_spans:
+- '**sol.f90** is a custom fortran program to numerically solve linear systems'
+- '**sol.f90** is a custom fortran program to numerically solve linear systems. It''s much faster than the numpy solver.'
+- '**sol.f90** is a custom fortran program to numerically solve linear systems.'
+- will compile the fortran code and will produce a python wrapper for this.
+derived_from:
+- doi: 10.1051/0004-6361/202451112
+  title: 'ExoLyn: A golden mean approach to multispecies cloud modeling in atmospheric retrieval'
+- doi: 10.1051/0004-6361/202348811
+  title: A precise symbolic emulator of the linear matter power spectrum
+- doi: 10.1016/j.dark.2014.01.003
+  title: Encyclopædia Inflationaris
+- doi: 10.48550/arxiv.1903.06755
+  title: ''
+source_repos:
+- https://github.com/helonghuangastro/exolyn
+- https://github.com/deaglanbartlett/symbolic_pofk
+- https://github.com/cosmicinflation/aspic
+- https://github.com/molscat/molscat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/helonghuangastro/exolyn

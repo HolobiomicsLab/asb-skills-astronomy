@@ -1,0 +1,1 @@
+PASS: description discipline OK (1671 skill files checked)

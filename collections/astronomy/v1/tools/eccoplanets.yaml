@@ -1,0 +1,21 @@
+name: ECCOplanets
+slug: eccoplanets
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The repository includes the core python files of our ECCOplanets code:'
+- this is the backbone of our condensation simulation. It contains the mathematical and thermochemical formulation of our code and the parameters of the optimisation procedure.
+- With our ECCOplanets code, we provide a general equilibrium condensation code as a simplified, open-source Python alternative
+- With our ECCOplanets code, we provide a general equilibrium condensation code as a simplified, open-source Python alternative to use for simulations.
+- we provide a general equilibrium condensation code as a simplified, open-source Python alternative to use for simulations.
+derived_from:
+- doi: 10.1051/0004-6361/202244850
+  title: Revisiting equilibrium condensation and rocky planet compositions
+source_repos:
+- https://github.com/AninaTimmermann/ECCOplanets
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AninaTimmermann/ECCOplanets

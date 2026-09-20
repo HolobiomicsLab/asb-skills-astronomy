@@ -1,0 +1,18 @@
+name: BlackJAX
+slug: blackjax
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`BlackJAX <https://github.com/blackjax-devs/blackjax>`__ gradient-based samplers for JAX.'
+derived_from:
+- doi: 10.1051/0004-6361/202449432
+  title: 'candl: cosmic microwave background analysis with a differentiable likelihood'
+source_repos:
+- https://github.com/blackjax-devs/blackjax
+- https://github.com/Lbalkenhol/candl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/blackjax-devs/blackjax

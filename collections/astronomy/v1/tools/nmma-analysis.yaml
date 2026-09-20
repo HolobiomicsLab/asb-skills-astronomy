@@ -1,0 +1,17 @@
+name: nmma-analysis
+slug: nmma-analysis
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `nmma-analysis`'
+derived_from:
+- doi: 10.1038/s41467-023-43932-6
+  title: An updated nuclear-physics and multi-messenger astrophysics framework for binary neutron star mergers
+source_repos:
+- https://github.com/nuclear-multimessenger-astronomy/nmma
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nuclear-multimessenger-astronomy/nmma

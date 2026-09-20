@@ -1,0 +1,21 @@
+name: scikit-learn
+slug: scikit-learn
+version_used: 1.1.1
+edam_topics: []
+evidence_spans:
+- Both methods are employed through custom objects built upon the `sklearn` library
+- '- scikit-learn=1.1.1'
+derived_from:
+- doi: 10.1051/0004-6361/202554336
+  title: EMPEROR
+- doi: 10.1051/0004-6361/202346216
+  title: 'ExoMDN: Rapid characterization of exoplanet interior structures with mixture density networks'
+source_repos:
+- https://github.com/ReddTea/astroemperor
+- https://github.com/philippbaumeister/ExoMDN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ReddTea/astroemperor

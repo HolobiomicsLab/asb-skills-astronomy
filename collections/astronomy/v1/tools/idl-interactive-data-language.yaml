@@ -1,0 +1,17 @@
+name: IDL (Interactive Data Language)
+slug: idl-interactive-data-language
+version_used: null
+edam_topics: []
+evidence_spans:
+- a graphical user interface developed for the Interactive Data Language (IDL) to allow easy access to state-of-the-art analysis of photometric exoplanet transit light curves
+derived_from:
+- doi: 10.1155/2012/697967
+  title: 'Transit Analysis Package: An IDL Graphical User Interface for Exoplanet Transit Photometry'
+source_repos:
+- https://github.com/zgazak/TAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zgazak/TAP

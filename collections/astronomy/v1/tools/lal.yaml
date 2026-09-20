@@ -1,0 +1,17 @@
+name: LAL
+slug: lal
+version_used: null
+edam_topics: []
+evidence_spans:
+- generating a fiducial waveform using the EOB solver as implemented in the LIGO Analysis Library (LAL) software
+derived_from:
+- doi: 10.1103/physrevx.4.031006
+  title: Fast Prediction and Evaluation of Gravitational Waveforms Using Surrogate Models
+source_repos:
+- https://github.com/sxs-collaboration/gwsurrogate
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/sxs-collaboration/gwsurrogate

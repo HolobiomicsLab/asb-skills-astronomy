@@ -1,0 +1,17 @@
+name: Mrun.py
+slug: mrun-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- The multi run simulation mode that is possible through running the Mrun.py.
+derived_from:
+- doi: 10.1051/0004-6361/202141455
+  title: 'SimAb: A simple, fast, and flexible model to assess the effects of planet formation on the atmospheric composition of gas giants'
+source_repos:
+- https://github.com/nkhorshid/simab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nkhorshid/simab

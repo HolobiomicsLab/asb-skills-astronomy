@@ -1,0 +1,21 @@
+name: Cycles
+slug: cycles
+version_used: null
+edam_topics: []
+evidence_spans:
+- The image simulator utilises the open-source 3-D visualisation system Blender and its Cycles rendering engine, which supports physically based rendering capabilities
+- SISPO uses Cycles rendering with the Blender software package
+- its Cycles rendering engine, which supports physically based rendering capabilities
+- using Blender’s Cycles path-tracing rendering engine
+- SISPO uses Cycles rendering with the Blender software package, which allows for programming procedures in Python [15].
+derived_from:
+- doi: 10.1371/journal.pone.0263882
+  title: 'SISPO: Space Imaging Simulator for Proximity Operations'
+source_repos:
+- https://github.com/SISPO-developers/sispo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SISPO-developers/sispo

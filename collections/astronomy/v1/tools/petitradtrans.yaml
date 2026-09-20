@@ -1,0 +1,17 @@
+name: petitRADTRANS
+slug: petitradtrans
+version_used: null
+edam_topics: []
+evidence_spans:
+- and with petitRADTRANS to generate transmission or emission spectra
+derived_from:
+- doi: 10.1051/0004-6361/202451112
+  title: 'ExoLyn: A golden mean approach to multispecies cloud modeling in atmospheric retrieval'
+source_repos:
+- https://github.com/helonghuangastro/exolyn
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/helonghuangastro/exolyn

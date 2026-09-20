@@ -1,0 +1,16 @@
+name: galkin
+slug: galkin
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.softx.2016.12.006
+  title: 'galkin: A new compilation of Milky Way rotation curve data'
+source_repos:
+- https://github.com/galkintool/galkin
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/galkintool/galkin

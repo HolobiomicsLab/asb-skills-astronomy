@@ -1,0 +1,19 @@
+name: SWIGLAL
+slug: swiglal
+version_used: null
+edam_topics: []
+evidence_spans:
+- SWIGLAL passes the LALSuite C header files through SWIG twice. The first
+- SWIGLAL provides header files, written in C with SWIG preprocessor directives
+- SWIGLAL is a component of LALSuite which provides interfaces for Python and Octave
+derived_from:
+- doi: 10.1016/j.softx.2020.100634
+  title: 'SWIGLAL: Python and Octave interfaces to the LALSuite gravitational-wave data analysis libraries'
+source_repos:
+- https://github.com/ElsevierSoftwareX/SOFTX_2020_119
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ElsevierSoftwareX/SOFTX_2020_119

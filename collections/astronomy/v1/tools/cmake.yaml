@@ -1,0 +1,38 @@
+name: CMake
+slug: cmake
+version_used: '3.15'
+edam_topics: []
+evidence_spans:
+- cmake version >= 3.15;
+- -DFLECSI_RUNTIME_MODEL=mpi
+- cmake ..
+- 'mkdir build
+
+  cd build
+
+  cmake ..
+
+  make'
+- cmake -D BUILD_WITH_BSMPT=ON ..
+- 'cmake ..
+
+  make -j8
+
+  make install'
+derived_from:
+- doi: 10.1016/j.softx.2020.100602
+  title: 'FleCSPH: The next generation FleCSIble parallel computational infrastructure for smoothed particle hydrodynamics'
+- doi: 10.1140/epjc/s10052-020-8035-2
+  title: 'PhaseTracer: tracing cosmological phases and calculating transition properties'
+- doi: 10.1051/0004-6361/202555193
+  title: 'SolarZip: An efficient and adaptive compression framework for Solar EUV imaging data'
+source_repos:
+- https://github.com/laristra/flecsph
+- https://github.com/PhaseTracer/PhaseTracer
+- https://github.com/hpdps-group/SolarZip
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/laristra/flecsph

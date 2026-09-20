@@ -1,0 +1,24 @@
+name: ixpeobssim
+slug: ixpeobssim
+version_used: null
+edam_topics: []
+evidence_spans:
+- ixpeobssim is a simulation and analysis framework specifically developed for the Imaging X-ray Polarimetry Explorer (IXPE).
+- The main interface for binning photon lists is provided by |xpbin|
+- pipeline.xpbin(*file_list, algorithm='PHA1')
+- There are many ways you can contribute ixpeobssim
+- ':mod:`ixpeobssim.bkg.instr` in which the function create_background_template
+
+  is defined and invoked by |xpbkgtemplate|'
+- ixpeobssim provides ways to simulate background components and handle backgrounds
+derived_from:
+- doi: 10.1016/j.softx.2022.101194
+  title: 'ixpeobssim: A simulation and analysis framework for the imaging X-ray polarimetry explorer'
+source_repos:
+- https://github.com/lucabaldini/ixpeobssim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lucabaldini/ixpeobssim

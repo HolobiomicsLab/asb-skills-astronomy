@@ -1,0 +1,16 @@
+name: remotes
+slug: remotes
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1007/s11222-006-8769-1
+  title: 'A Markov Chain Monte Carlo version of the genetic algorithm Differential Evolution: easy Bayesian computing for real parameter spaces'
+source_repos:
+- https://github.com/CajoterBraak/demc2
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/CajoterBraak/demc2

@@ -1,0 +1,29 @@
+name: SymBoltz
+slug: symboltz
+version_used: null
+edam_topics: []
+evidence_spans:
+- prob = CosmologyProblem(M, p; jac = true, sparse = true)
+- 'using SymBoltz
+
+  using CLASS'
+- using SymBoltz
+- 'using SymBoltz
+
+  using OrdinaryDiffEqRosenbrock, OrdinaryDiffEqSDIRK, OrdinaryDiffEqBDF'
+- SymBoltz parallelizes integration of different perturbation $k$-modes with multithreading by default.
+- In addition to [component-based models](@ref "Cosmologies (full models)"), SymBoltz provides a minimal ΛCDM model
+- 'In addition to [component-based models](@ref "Cosmologies (full models)"),
+
+  SymBoltz provides a minimal ΛCDM model'
+derived_from:
+- doi: 10.1051/0004-6361/202557450
+  title: 'SymBoltz.jl: A symbolic-numeric, approximation-free, and differentiable linear Einstein–Boltzmann solver'
+source_repos:
+- https://github.com/hersle/SymBoltz.jl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/hersle/SymBoltz.jl

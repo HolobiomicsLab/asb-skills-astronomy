@@ -1,0 +1,19 @@
+name: SUPPNet
+slug: suppnet
+version_used: null
+edam_topics: []
+evidence_spans:
+- SUPPNet can be istalled in several simple steps.
+- SUPPNET [--segmentation] --path path_to_processing_results.all
+derived_from:
+- doi: 10.1051/0004-6361/202141480
+  title: 'SUPPNet: Neural network for stellar spectrum normalisation'
+source_repos:
+- https://github.com/RozanskiT/suppnet.git
+- https://github.com/RozanskiT/suppnet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/RozanskiT/suppnet.git

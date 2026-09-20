@@ -1,0 +1,21 @@
+name: Nemesis
+slug: nemesis
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'To run ```Nemesis```: `python tests/cluster_test/run_cluster.py` with the flag `RUN_NEMESIS = 1`'
+- To run Nemesis`` `PYTHONPATH=".:$PYTHONPATH" python tests/ZKL_test/run_ZKL.py`
+- we present an updated version of the multi-scale, multi-physics algorithm, Nemesis , which makes use of the Astrophysical Multipurpose Software Environment ( AMUSE )
+- At runtime, ```Nemesis``` automatically creates output directories for a given run.
+- '`src/nemesis.py`: Script hosting the evolution procedure.'
+derived_from:
+- doi: 10.1051/0004-6361/202558060
+  title: 'Nemesis: A multi-scale, multi-physics algorithm for astrophysics'
+source_repos:
+- https://github.com/ErwanH29/nemesis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ErwanH29/nemesis

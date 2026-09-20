@@ -1,0 +1,32 @@
+name: C++
+slug: c
+version_used: null
+edam_topics: []
+evidence_spans:
+- The main code is written in C++, where the simulations were done.
+- '- C++11 or later'
+- SWIGLAL provides header files, written in C with SWIG preprocessor
+- The LALSuite data analysis libraries, written in C, implement key routines
+derived_from:
+- doi: 10.1051/0004-6361/202243754
+  title: Collision detection for <i>N</i>-body Kepler systems
+- doi: 10.1103/physrevresearch.2.013030
+  title: Efficient method for solving highly oscillatory ordinary differential equations with applications to physical systems
+- doi: 10.1016/j.softx.2020.100634
+  title: 'SWIGLAL: Python and Octave interfaces to the LALSuite gravitational-wave data analysis libraries'
+- doi: 10.1016/j.ascom.2016.02.003
+  title: 'AST: A library for modelling and manipulating coordinate systems'
+- doi: 10.1016/j.ascom.2016.01.005
+  title: 'CosmoBolognaLib: C++ libraries for cosmological calculations'
+source_repos:
+- https://github.com/Dylan-Aliberti/Kepler-Collisions
+- https://github.com/fruzsinaagocs/oscode
+- https://github.com/ElsevierSoftwareX/SOFTX_2020_119
+- https://github.com/Starlink/starlink
+- https://github.com/federicomarulli/CosmoBolognaLib
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Dylan-Aliberti/Kepler-Collisions

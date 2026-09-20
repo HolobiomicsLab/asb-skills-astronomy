@@ -1,0 +1,17 @@
+name: raccoon
+slug: raccoon
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`raccoon` is an open source python package the implements the cross-correlation function (CCF) method.'
+derived_from:
+- doi: 10.1051/0004-6361/202244879
+  title: The CARMENES search for exoplanets around M dwarfs
+source_repos:
+- https://github.com/mlafarga/raccoon
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/mlafarga/raccoon

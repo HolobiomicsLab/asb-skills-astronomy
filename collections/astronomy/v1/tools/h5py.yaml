@@ -1,0 +1,37 @@
+name: h5py
+slug: h5py
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'import h5py
+
+  import numpy as np'
+- pip3 install h5py
+- The new analysis package brings HDF5 file writing capbaility.
+- import h5py
+- '`h5py`'
+- '- h5py'
+derived_from:
+- doi: 10.1103/physrevresearch.2.023068
+  title: 'Dedalus: A flexible framework for numerical simulations with spectral methods'
+- doi: 10.1051/0004-6361/202554287
+  title: 'GalaxyGenius: Mock galaxy image generator for various telescopes from hydrodynamical simulations'
+- doi: 10.1051/0004-6361/202556846
+  title: 'STRAWBERRY: Finding haloes in the gravitational potential'
+- doi: 10.1016/j.ascom.2015.07.002
+  title: A compression scheme for radio data in high performance computing
+- doi: 10.1016/j.ascom.2015.05.001
+  title: 'HDFITS: Porting the FITS data model to HDF5'
+source_repos:
+- https://github.com/h5py/h5py
+- https://github.com/DedalusProject/dedalus
+- https://github.com/xczhou-astro/galaxyGenius
+- https://github.com/trg-richardson/strawberry
+- https://github.com/kiyo-masui/bitshuffle
+- https://github.com/telegraphic/fits2hdf
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/h5py/h5py

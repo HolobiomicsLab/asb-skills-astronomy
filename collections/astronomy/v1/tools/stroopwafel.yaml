@@ -1,0 +1,17 @@
+name: STROOPWAFEL
+slug: stroopwafel
+version_used: null
+edam_topics: []
+evidence_spans:
+- If you use COMPAS's importance sampling algorithm STROOPWAFEL, please cite
+derived_from:
+- doi: 10.1038/ncomms14906
+  title: Formation of the first three gravitational-wave observations through isolated binary evolution
+source_repos:
+- https://github.com/TeamCOMPAS/COMPAS
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TeamCOMPAS/COMPAS

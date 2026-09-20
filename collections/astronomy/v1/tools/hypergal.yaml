@@ -1,0 +1,21 @@
+name: HyperGal
+slug: hypergal
+version_used: null
+edam_topics: []
+evidence_spans:
+- hypergal.spectroscopy.sedfitting module
+- hypergal.utils.geometry module
+- Hyper Gal
+derived_from:
+- doi: 10.1051/0004-6361/202244740
+  title: 'HyperGal: Hyperspectral scene modeling for supernova typing with the SED Machine integral field spectrograph'
+source_repos:
+- https://github.com/JeremyLezmy/hyper_gal
+- https://github.com/JeremyLezmy/hypergal
+- https://github.com/Jeremy_Lezmy/Hyper_Gal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JeremyLezmy/hyper_gal

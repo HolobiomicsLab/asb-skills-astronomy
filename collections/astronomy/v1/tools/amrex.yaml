@@ -1,0 +1,17 @@
+name: AMReX
+slug: amrex
+version_used: null
+edam_topics: []
+evidence_spans:
+- Both are built on the block-structured adaptive mesh refinement library AMReX.
+derived_from:
+- doi: 10.1088/1742-6596/1031/1/012024
+  title: 'Meeting the Challenges of Modeling Astrophysical Thermonuclear Explosions: Castro, Maestro, and the AMReX Astrophysics Suite'
+source_repos:
+- https://github.com/AMReX-Codes/amrex
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AMReX-Codes/amrex

@@ -1,0 +1,17 @@
+name: aztekas
+slug: aztekas
+version_used: null
+edam_topics: []
+evidence_spans:
+- called “aztekas” (http://www.aztekas.org) that deals with relativistic hydrodynamics using this PVRS technique.
+derived_from:
+- doi: 10.1371/journal.pone.0195494
+  title: 'A direct Primitive Variable Recovery Scheme for hyperbolic conservative equations: The case of relativistic hydrodynamics'
+source_repos:
+- https://github.com/aztekas-code/aztekas-main
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aztekas-code/aztekas-main

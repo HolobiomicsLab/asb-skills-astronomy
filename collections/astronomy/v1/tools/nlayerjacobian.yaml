@@ -1,0 +1,17 @@
+name: NLayerJacobian
+slug: nlayerjacobian
+version_used: null
+edam_topics: []
+evidence_spans:
+- NLayerJacobian.wl         N-layer propagator, k2(s)
+derived_from:
+- doi: 10.1051/0004-6361/202659861
+  title: A user-friendly package and workflow for generating effective homogeneous rheologies for the study of the long-term orbital evolution of multilayered planetary bodies
+source_repos:
+- https://github.com/ygevorgyan/HomogeneousModel
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ygevorgyan/HomogeneousModel

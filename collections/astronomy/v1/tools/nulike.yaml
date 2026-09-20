@@ -1,0 +1,17 @@
+name: nulike
+slug: nulike
+version_used: null
+edam_topics: []
+evidence_spans:
+- Use of event-level neutrino telescope data in global fits for theories of new physics
+derived_from:
+- doi: 10.1140/epjc/s10052-017-5155-4
+  title: 'DarkBit: a GAMBIT module for computing dark matter observables and likelihoods'
+source_repos:
+- https://github.com/GambitBSM/gambit_1.5
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GambitBSM/gambit_1.5

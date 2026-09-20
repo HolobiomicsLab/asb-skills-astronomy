@@ -1,0 +1,18 @@
+name: H5part
+slug: h5part
+version_used: null
+edam_topics: []
+evidence_spans:
+- Data input/output uses the H5part format, compatible with modern visualization software.
+- Sample parameter files and the intial data can be found in the `data` subdirectory.
+derived_from:
+- doi: 10.1016/j.softx.2020.100602
+  title: 'FleCSPH: The next generation FleCSIble parallel computational infrastructure for smoothed particle hydrodynamics'
+source_repos:
+- https://github.com/laristra/flecsph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/laristra/flecsph

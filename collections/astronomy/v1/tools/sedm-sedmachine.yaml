@@ -1,0 +1,17 @@
+name: SEDm (SEDmachine)
+slug: sedm-sedmachine
+version_used: null
+edam_topics: []
+evidence_spans:
+- The Spectral Energy Distribution machine (SEDm), a low resolution Integral Field Spectrograph
+derived_from:
+- doi: 10.1051/0004-6361/202244740
+  title: 'HyperGal: Hyperspectral scene modeling for supernova typing with the SED Machine integral field spectrograph'
+source_repos:
+- https://github.com/JeremyLezmy/hypergal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JeremyLezmy/hypergal

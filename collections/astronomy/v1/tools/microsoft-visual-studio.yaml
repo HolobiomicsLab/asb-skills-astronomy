@@ -1,0 +1,17 @@
+name: Microsoft Visual Studio
+slug: microsoft-visual-studio
+version_used: null
+edam_topics: []
+evidence_spans:
+- This code was developed in Microsoft Visual Studio.
+derived_from:
+- doi: 10.1051/0004-6361/202243754
+  title: Collision detection for <i>N</i>-body Kepler systems
+source_repos:
+- https://github.com/Dylan-Aliberti/Kepler-Collisions
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Dylan-Aliberti/Kepler-Collisions

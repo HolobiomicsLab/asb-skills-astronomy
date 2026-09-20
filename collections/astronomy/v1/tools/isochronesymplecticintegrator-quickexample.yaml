@@ -1,0 +1,17 @@
+name: IsochroneSymplecticIntegrator_QuickExample
+slug: isochronesymplecticintegrator-quickexample
+version_used: null
+edam_topics: []
+evidence_spans:
+- The program provides a simple demonstration of how to use the isochrone propagator within a symplectic integrator
+derived_from:
+- doi: 10.1051/0004-6361/202553886
+  title: An efficient integrator for stellar dynamics in effective gravity fields based on the isochrone potential
+source_repos:
+- https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample
