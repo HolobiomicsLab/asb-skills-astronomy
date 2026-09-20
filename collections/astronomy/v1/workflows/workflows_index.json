@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "cmb-cosmological-parameter-inference",
+    "name": "cmb-cosmological-parameter-inference-workflow",
+    "description": "Use when observed CMB likelihood data and Lambda-CDM priors must be assembled into a callable CAMB likelihood, sampled for cosmological parameters, cleared of burn-in, diagnosed for autocorrelation, and summarized as physical constraints.\n",
+    "techniques": [],
+    "stage_count": 5,
+    "stages": [
+      "configure_cmb_likelihood",
+      "sample_parameter_posterior",
+      "determine_burn_in",
+      "diagnose_autocorrelation",
+      "summarize_constraints"
+    ],
+    "member_tools": [
+      "CAMB",
+      "CosmoHammer",
+      "CosmoHammerPlugins",
+      "Python",
+      "WMAP",
+      "acor",
+      "emcee",
+      "mpi4py",
+      "CosmoMC"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  },
+  {
+    "slug": "transit-lightcurve-mcmc-comparison",
+    "name": "transit-lightcurve-mcmc-comparison-workflow",
+    "description": "Use when one or more photometric transit light curves must be detrended, fitted jointly with a transit-and-noise MCMC model, and compared with an external table of published transit parameters.\n",
+    "techniques": [],
+    "stage_count": 3,
+    "stages": [
+      "prepare_lightcurve",
+      "fit_transit_posterior",
+      "compare_published_parameters"
+    ],
+    "member_tools": [
+      "CHEOPS",
+      "Python",
+      "TESS",
+      "plaNETic",
+      "EXOFAST",
+      "IDL",
+      "IDL (Interactive Data Language)",
+      "Transit Analysis Package (TAP)"
+    ],
+    "coverage_gaps": [],
+    "bound_by": "perspicacite-semantic"
+  }
+]

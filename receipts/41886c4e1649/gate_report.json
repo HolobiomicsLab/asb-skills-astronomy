@@ -1,8 +1,8 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-09-20T00:40:18.648867+00:00",
-  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/astronomy",
-  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/cand/astronomy/corpus.yaml",
+  "generated_at": "2026-09-20T13:28:21.497041+00:00",
+  "collection_dir": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/astronomy/candidate",
+  "corpus_path": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/mission-014/land/astronomy/candidate/corpus.yaml",
   "mode": "strict",
   "strict": true,
   "promote_logic_source": "agentic_science_builder.release.promote",
@@ -41,7 +41,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "900a109ff26ab2d8a2ce1f2d0d65ac122e1c6b30d63473fc211d6a0e5634fbcb",
+      "sha256": "af1aee2c60d8752a504fb806944f66fb10abb9e49c746663f461e94f5990885d",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -51,6 +51,11 @@
           "path": ".claude-plugin/plugin.json",
           "bytes": 511,
           "sha256": "91fecc97e9605e38b84cf31d550a16984bf49974f1ffefcf21d5c085de7259d7"
+        },
+        {
+          "path": ".zenodo.json",
+          "bytes": 2783,
+          "sha256": "a912d36844028c948ed8c5aa4abfa671322c7b4160f25c7e7b4370b218ef14f4"
         },
         {
           "path": "CITATION.cff",
@@ -69,7 +74,7 @@
         {
           "path": "collection.yaml",
           "bytes": 79588,
-          "sha256": "6c557590dfb4e4f799033e4cd00fa66f0cb10e5fce3db11ee70df7f6a5bdf43e"
+          "sha256": "c99da5fa112427c6d21f3c3b80191398ad7ed121b5e2794e104d2ef06c318cb0"
         },
         {
           "path": "corpus.yaml",
@@ -17230,6 +17235,62 @@
           "path": "tools_index.json",
           "bytes": 430591,
           "sha256": "e8d462ccb46015e0b2fedb69ff7a2caac022d90f4886498f8df0c086a718646a"
+        },
+        {
+          "path": "workflows",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router",
+          "directory": true
+        },
+        {
+          "path": "workflows/_workflow_router/SKILL.md",
+          "bytes": 3044,
+          "sha256": "7e76060115becec927680b5c021a00d0bf0263521d44c965a77a640bb8f541b4"
+        },
+        {
+          "path": "workflows/cmb-cosmological-parameter-inference",
+          "directory": true
+        },
+        {
+          "path": "workflows/cmb-cosmological-parameter-inference/README.md",
+          "bytes": 1928,
+          "sha256": "5717a10ac95225fa7ad14d9023b07e305fd52001fef7ac7c4e9dd8da62dd69ed"
+        },
+        {
+          "path": "workflows/cmb-cosmological-parameter-inference/SKILL.md",
+          "bytes": 6319,
+          "sha256": "a3767bed02cfbad20715d23fea9f8217419bbbd083a075c2271f0a22b5b21a76"
+        },
+        {
+          "path": "workflows/cmb-cosmological-parameter-inference/workflow.yaml",
+          "bytes": 4515,
+          "sha256": "4ae120bdaa453fc0d2516452fafab96e9bf8f8b4cc569f1a55f6e93b13837a07"
+        },
+        {
+          "path": "workflows/transit-lightcurve-mcmc-comparison",
+          "directory": true
+        },
+        {
+          "path": "workflows/transit-lightcurve-mcmc-comparison/README.md",
+          "bytes": 1612,
+          "sha256": "19672dbc9464c9d5db495e80c1f41a077a11046351880b464da37c016bddaea7"
+        },
+        {
+          "path": "workflows/transit-lightcurve-mcmc-comparison/SKILL.md",
+          "bytes": 5006,
+          "sha256": "d07270122c645fd1f02a700f3ce46a491a7c1ae26ff6bf7079ef2449eb38a74f"
+        },
+        {
+          "path": "workflows/transit-lightcurve-mcmc-comparison/workflow.yaml",
+          "bytes": 2781,
+          "sha256": "b7b0d874cd5670d2cdf618c3e149ab1ab983f5c87979fc228d934e30db1d7bc7"
+        },
+        {
+          "path": "workflows/workflows_index.json",
+          "bytes": 1631,
+          "sha256": "e31ed2755a041854e02ed45a7652e1687d6d5b7321e9884f760c69477113e8ab"
         }
       ],
       "excluded_paths": [
@@ -17248,7 +17309,7 @@
   "inventory": {
     "skills": 1671,
     "tools": 415,
-    "workflows": 0,
+    "workflows": 2,
     "papers": 100,
     "dois": 100
   },
@@ -17257,7 +17318,6 @@
   "verification_scope": "content-policy checks and bound artifact integrity",
   "release_verified": true,
   "zero_item_checks": [
-    "composite_workflows",
     "layout_packaging",
     "unit_closure",
     "catalogue_membership",
@@ -17267,11 +17327,11 @@
   "blocking": false,
   "exit_code": 0,
   "summary_counts": {
-    "pass": 11,
+    "pass": 12,
     "warn": 0,
     "fail": 0,
     "uncheckable": 0,
-    "not_applicable": 2
+    "not_applicable": 1
   },
   "hard_gate_ids": [
     2,
@@ -17385,21 +17445,16 @@
     },
     {
       "name": "composite_workflows",
-      "status": "not_applicable",
+      "status": "pass",
       "gates": [],
       "hard_gate": false,
-      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.",
-      "n_findings": 1,
-      "details": [
-        {
-          "status": "not_applicable",
-          "message": "No workflows/ subtree; no workflow validation performed."
-        }
-      ],
+      "summary": "Composite workflow super-skills resolve to real leaves with a valid typed DAG and matching layout count.  (2 workflows checked)",
+      "n_findings": 0,
+      "details": [],
       "scope": "composite workflows",
-      "required": false,
+      "required": true,
       "counts": {
-        "checked": 0,
+        "checked": 2,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -17475,7 +17530,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 2096,
+        "checked": 2105,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -17562,5 +17617,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "d44ecc0bae86793af187d1a03e1c39ff2a08c28dd6315c481da4126f33f8cdf0"
+  "receipt_sha256": "81f6586f59c69bb3ced4f0845d1b740e0ec4c1da1cfacbb52c0c7f1e05a998e1"
 }

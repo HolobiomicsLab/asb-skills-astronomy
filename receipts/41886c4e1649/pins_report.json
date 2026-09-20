@@ -1,0 +1,76 @@
+{
+  "workflows": {
+    "cmb_cosmological_parameter_inference": {
+      "workflow_id": "cmb_cosmological_parameter_inference",
+      "prefer": [
+        {
+          "stage": "configure_cmb_likelihood",
+          "pin": "wmap-likelihood-chain-configuration",
+          "status": "resolved",
+          "resolved_slug": "wmap-likelihood-chain-configuration"
+        },
+        {
+          "stage": "sample_parameter_posterior",
+          "pin": "cosmological-parameter-mcmc-sampling",
+          "status": "resolved",
+          "resolved_slug": "cosmological-parameter-mcmc-sampling"
+        },
+        {
+          "stage": "determine_burn_in",
+          "pin": "burn-in-determination-via-standard-error-comparison",
+          "status": "resolved",
+          "resolved_slug": "burn-in-determination-via-standard-error-comparison"
+        },
+        {
+          "stage": "diagnose_autocorrelation",
+          "pin": "mcmc-autocorrelation-time-analysis",
+          "status": "resolved",
+          "resolved_slug": "mcmc-autocorrelation-time-analysis"
+        },
+        {
+          "stage": "summarize_constraints",
+          "pin": "lambda-cdm-parameter-inference",
+          "status": "resolved",
+          "resolved_slug": "lambda-cdm-parameter-inference"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 5,
+        "prefer_resolved": 5,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    },
+    "transit_lightcurve_mcmc_comparison": {
+      "workflow_id": "transit_lightcurve_mcmc_comparison",
+      "prefer": [
+        {
+          "stage": "prepare_lightcurve",
+          "pin": "stellar-lightcurve-detrending",
+          "status": "resolved",
+          "resolved_slug": "stellar-lightcurve-detrending"
+        },
+        {
+          "stage": "fit_transit_posterior",
+          "pin": "mcmc-transit-light-curve-fitting",
+          "status": "resolved",
+          "resolved_slug": "mcmc-transit-light-curve-fitting"
+        },
+        {
+          "stage": "compare_published_parameters",
+          "pin": "cross-survey-transit-parameter-comparison",
+          "status": "resolved",
+          "resolved_slug": "cross-survey-transit-parameter-comparison"
+        }
+      ],
+      "avoid": [],
+      "summary": {
+        "prefer_total": 3,
+        "prefer_resolved": 3,
+        "avoid_total": 0,
+        "avoid_resolved": 0
+      }
+    }
+  }
+}

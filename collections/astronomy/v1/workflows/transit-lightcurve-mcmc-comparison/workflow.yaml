@@ -1,0 +1,104 @@
+schema_version: 0.3.0
+workflow_id: transit_lightcurve_mcmc_comparison
+kind: composite-workflow
+techniques: []
+steps:
+- id: prepare_lightcurve
+  goal: normalize and detrend transit photometry while preserving transit signals
+  edam_operation: http://edamontology.org/operation_0334
+  skills:
+  - stellar-lightcurve-detrending
+  - orbital-period-measurement-from-transit-epochs
+  - exoplanet-transit-photometry-modelling
+  - multi-instrument-lightcurve-joint-fitting
+  tools:
+  - CHEOPS
+  - Python
+  - TESS
+  - plaNETic
+  inputs:
+  - type: observation-table
+    flavour: transit-photometry
+  outputs:
+  - type: lightcurve
+    flavour: detrended-transit
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1051-0004-6361-202450472
+    dois:
+    - 10.1051/0004-6361/202450472
+  after: []
+- id: fit_transit_posterior
+  goal: jointly fit transit shape and correlated photometric noise
+  edam_operation: http://edamontology.org/operation_3799
+  skills:
+  - mcmc-transit-light-curve-fitting
+  - multi-transit-simultaneous-fitting-with-locked-parameters
+  - simultaneous-multi-transit-parameter-sharing
+  tools:
+  - EXOFAST
+  - IDL
+  - IDL (Interactive Data Language)
+  - Transit Analysis Package (TAP)
+  inputs:
+  - type: lightcurve
+    flavour: detrended-transit
+  - type: configuration
+    flavour: transit-model
+  outputs:
+  - type: posterior-samples
+    flavour: transit
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1155-2012-697967
+    dois:
+    - 10.1155/2012/697967
+  after:
+  - prepare_lightcurve
+  inputs_from:
+    prepare_lightcurve:
+    - lightcurve:detrended-transit
+- id: compare_published_parameters
+  goal: quantify agreement between inferred and published transit parameters
+  edam_operation: http://edamontology.org/operation_2422
+  skills:
+  - cross-survey-transit-parameter-comparison
+  - transit-parameter-comparison-across-publications
+  - published-transit-parameter-agreement-verification
+  - mcmc-posterior-parameter-estimation--625da6f013605ea9
+  tools:
+  - EXOFAST
+  - IDL
+  - Transit Analysis Package (TAP)
+  inputs:
+  - type: posterior-samples
+    flavour: transit
+  - type: parameter-table
+    flavour: published-transit-reference
+  outputs:
+  - type: parameter-table
+    flavour: transit-comparison
+  - type: diagnostic-report
+    flavour: published-agreement
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1155-2012-697967
+    dois:
+    - 10.1155/2012/697967
+  after:
+  - fit_transit_posterior
+  candidate_tools:
+  - IDL (Interactive Data Language)
+  inputs_from:
+    fit_transit_posterior:
+    - posterior-samples:transit
+verification:
+  final_outputs:
+  - path: transit_parameter_comparison.tsv
+    type: file
+  - path: transit_parameter_agreement.pdf
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []
