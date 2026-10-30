@@ -24,7 +24,7 @@
 
 ## TL;DR
 
-This repository holds the astronomy skill collection of AgenticScienceBuilder (ASB): 1,671 skills over 415 software tools and 2 composite workflows, distilled from 100 method papers and their code repositories. Each skill is a `SKILL.md` file that an agent can load. It names its source paper and quotes it. The collection installs as a Claude Code plugin, and a script that needs only the Python standard library searches it offline.
+This repository holds the astronomy skill collection of AgenticScienceBuilder (ASB): 1,671 skills over 415 software tools and 2 composite workflows, distilled from 100 method papers and their code repositories. Each skill is a `SKILL.md` file that an agent can load. It names its source paper; 1,197 of the 1,671 also quote it or its repository README. The collection installs as a Claude Code plugin, and a script that needs only the Python standard library searches it offline.
 
 ## Status
 
@@ -75,9 +75,10 @@ The tier is advice about the tool. It does not change the licence of this collec
 
 ## Install
 
-Claude Code, from the directory that holds your clone of this repository:
+Claude Code, from the directory that holds your clone of this repository, with the candidate branch checked out (the default branch `main` does not hold the collection yet):
 
 ```bash
+git -C asb-skills-astronomy switch candidate/41886c4e1649
 claude plugin marketplace add ./asb-skills-astronomy
 claude plugin install astronomy@asb-skills-astronomy
 ```
@@ -123,7 +124,7 @@ The gate checks that every included paper has an allowed access type, caps the l
 
 97 of the 100 included papers are open access according to `corpus.yaml` (`access.is_oa`). The other 3 are closed access and listed as `link-only`. 2 of the 100 are arXiv preprints.
 
-Each leaf names its source paper in `provenance.source_papers` (1,671 of 1,671 leaves) and quotes it, or its repository README, in an `## Evidence` section (1,669 of 1,671).
+Each leaf names its source paper in `provenance.source_papers` (1,671 of 1,671 leaves). 1,197 of the 1,671 quote it, or its repository README, in their `## Evidence` section. In the other 474, the gate parsed no quote span (`gate_report.json`, `strip_verbatim_similarity`, `coverage.files_without_spans`). In 464 of them the section is empty or its quotes are withheld because they could not be anchored in the source. In 8 the section holds a quote in a form the gate parser does not read. 2 have no `## Evidence` section.
 
 ## Related repositories
 
