@@ -1,5 +1,5 @@
 {
-  "builds_root": "/private/tmp/claude-502/-Users-nothiasl-git/f6f661ef-32d5-4e20-9c54-09811a1c30c6/scratchpad/task8/cut/astronomy/builds",
+  "builds_root": "astronomy",
   "counts": {
     "builds": 100,
     "input_files": 5316,
@@ -5328,7 +5328,7 @@
     "corpus/skills/ztf-survey-simulation-validation/tools.json": "743ae7f5e251c0da2c706f51973b9cc9a9068a7b45c556f6d168bf7ecea58949",
     "release_creators.yaml": "7ff7405a2af4aadf66a609161f381c90e236961a3a268e83a168b615f1009cb8"
   },
-  "output_tree_sha256": "014470d89092b81f36700ff69c49b44b1a3d61d2da0908fd4e1bd663cf9f6ccd",
+  "output_tree_sha256": "49a0315113e87238c60c53e082a70d6e8c74776b806c44c4e13485dad5b12bb5",
   "router_index": "provisional skills_index.json derived from leaf frontmatter before router_shape.shape",
   "status": "collected",
   "version": "v1"
