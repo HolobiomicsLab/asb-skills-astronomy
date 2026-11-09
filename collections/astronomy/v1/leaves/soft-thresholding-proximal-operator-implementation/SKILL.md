@@ -10,7 +10,7 @@ when_to_use_negative:
   article reports SUSHI fails to reconstruct the synchrotron component where it is
   weak relative to the thermal component because patches were too large for the spatial
   regularization to compensate.
-edam_operation: http://edamontology.org/operation_3720
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3344
 tools:
@@ -42,7 +42,7 @@ metadata:
   - JAX
   - Python
   - SUSHI
-  edam_operation: http://edamontology.org/operation_3720
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3344
   provenance_tier: literature

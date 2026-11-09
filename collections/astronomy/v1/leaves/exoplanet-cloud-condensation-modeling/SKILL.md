@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
 - http://edamontology.org/topic_3318
-- http://edamontology.org/topic_3826
 tools:
 - name: ExoLyn
   role: 1D cloud model that solves transport equations of cloud particles and vapor
@@ -53,7 +52,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
   - http://edamontology.org/topic_3318
-  - http://edamontology.org/topic_3826
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

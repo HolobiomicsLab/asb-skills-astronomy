@@ -8,7 +8,7 @@ when_to_use_negative:
   produced by galkin_data.py under the selected input parameters
 - When only counting or inventorying records (e.g. tracer-category totals) without
   interpreting physical values against a specific parameter set
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -34,7 +34,7 @@ metadata:
   - galkin
   - galkin_data.py
   - numpy
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

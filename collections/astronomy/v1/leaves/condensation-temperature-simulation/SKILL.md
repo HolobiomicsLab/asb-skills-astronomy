@@ -11,7 +11,7 @@ when_to_use_negative:
   on such data
 - You require solid-solution mineralogy — the current code considers only pure minerals,
   with solid solutions planned for a later release
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3314
 tools:
@@ -42,7 +42,7 @@ metadata:
   - matplotlib
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3314
   provenance_tier: literature

@@ -9,8 +9,7 @@ when_to_use_negative:
   both rather than mixing your own timings with literature-reported values.
 - The analysis goal is fitting accuracy or parameter recovery rather than computational
   cost — runtime benchmarking alone will not answer that.
-edam_topics:
-- http://edamontology.org/topic_0007
+edam_topics: []
 tools:
 - name: SMART
   role: Target code whose per-galaxy and total wall-clock runtime is measured while
@@ -40,8 +39,7 @@ metadata:
   - SMART
   - Spitzer
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0007
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

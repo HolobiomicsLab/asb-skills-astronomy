@@ -12,8 +12,7 @@ when_to_use_negative:
 - When the analysis concerns times earlier than 1 Gyr, where the paper's accuracy
   guarantee does not hold regardless of halo mass
 edam_operation: http://edamontology.org/operation_3936
-edam_topics:
-- http://edamontology.org/topic_3353
+edam_topics: []
 tools:
 - name: numpy
   role: Loads fitted diffmah parameters and simulated MAHs, applies the >10^11 Msun
@@ -47,8 +46,7 @@ metadata:
   - jax
   - numpy
   edam_operation: http://edamontology.org/operation_3936
-  edam_topics:
-  - http://edamontology.org/topic_3353
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

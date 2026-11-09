@@ -384,7 +384,7 @@
   "slug": "agn-disc-model-solving",
   "name": "agn-disc-model-solving",
   "description": "Use when a 1D radial profile (Teff, Sigma, h/r, opacity, Mdot(r)) of an AGN disk is needed from the Sirko & Goodman 2003 or Thompson et al. 2005 models as input to luminosity, torque, or compact-object-formation analyses.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "Python",
@@ -413,10 +413,7 @@
   "name": "agn-disc-structure-modelling",
   "description": "Use when a task requires a fully evolved 1D AGN disc model (radial temperature, density, surface-density, scale-height, optical-depth profiles) for a given central BH mass, Eddington ratio or accretion rate, and viscosity alpha.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450",
-   "http://edamontology.org/topic_3315"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3315"],
   "tools": [
    "Python",
    "SciPy",
@@ -797,7 +794,7 @@
   "slug": "analytic-inverse-solution-derivation",
   "name": "analytic-inverse-solution-derivation",
   "description": "Use when validating a numerical equilibrium radiative-transfer solver (e.g. rabacus Slab_Pln) against an analytic benchmark, or when a closed-form ionization-fraction-vs-column-depth profile is needed for a uniform pure-H slab under monochromatic plane-parallel illumination.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "Python",
@@ -979,7 +976,7 @@
   "slug": "antoine-equation-parameterization",
   "name": "antoine-equation-parameterization",
   "description": "Use when estimating a vapour pressure at a temperature below the measured range (e.g. 20°C) for an organometallic compound whose hydrocarbon analogue (Sn→C substitution) has known boiling point data, and no direct measurement is available.",
-  "edam_operation": "http://edamontology.org/operation_3439",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3397"
   ],
@@ -1444,7 +1441,7 @@
   "slug": "astronomical-catalog-flag-filtering",
   "name": "astronomical-catalog-flag-filtering",
   "description": "Use when a source catalog already ships a per-source morphological classification column (e.g. HSC's extended flag) and only extended (galaxy) sources should be retained before downstream computations such as chance-alignment probability estimates.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3077"
   ],
@@ -2326,10 +2323,7 @@
   "name": "atomic-hydrogen-level-population-solving",
   "description": "Use when you need level population densities of excited hydrogen states (e.g. the 3p state) or hydrogen recombination line emissivities (e.g. H alpha) for gas with specified ne, nHI, nHII, and temperature.",
   "edam_operation": "http://edamontology.org/operation_0282",
-  "edam_topics": [
-   "http://edamontology.org/topic_3318",
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3318"],
   "tools": [
    "Cloudy",
    "HyLight",
@@ -2608,7 +2602,7 @@
   "slug": "backend-interface-verification",
   "name": "backend-interface-verification",
   "description": "Use when a GAMBIT scan (e.g. a DarkBit module-mode run like `gambit -f yaml_files/MSSM7.yaml`) is about to be launched and you must confirm the backends and scanners it depends on are installed and configured.",
-  "edam_operation": "http://edamontology.org/operation_0221",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "DDCalc",
@@ -3644,7 +3638,7 @@
   "slug": "bbn-abundance-likelihood-evaluation",
   "name": "bbn-abundance-likelihood-evaluation",
   "description": "Use when reproducing or extending Bayesian BBN constraints — e.g. placing credible bounds on NP modifications of weak n↔p conversion rates from primordial Y_p and D/H measurements via emcee sampling of a PRyMordial prediction pipeline.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "NumPy",
@@ -3672,10 +3666,8 @@
   "slug": "bbn-light-element-abundance-computation",
   "name": "bbn-light-element-abundance-computation",
   "description": "Use when the analysis requires predicted BBN mass fractions (Y_P, D/H, He-3, Li-7) as a function of cosmic baryon density eta_B, or a PDG-style abundance plot to compare against deuterium quasar observations and CMB baryon-density bands.",
-  "edam_operation": "http://edamontology.org/operation_0242",
-  "edam_topics": [
-   "http://edamontology.org/topic_0185"
-  ],
+  "edam_operation": "http://edamontology.org/operation_0438",
+  "edam_topics": [],
   "tools": [
    "Julia",
    "PRyMordial",
@@ -4632,11 +4624,8 @@
   "slug": "block-wise-metropolis-updating",
   "name": "block-wise-metropolis-updating",
   "description": "Use when a multi-parameter Bayesian posterior (e.g. nonlinear mixed-effects models like the 43-parameter Theophylline model) mixes poorly under single-parameter Gibbs or one-dimensional updates such as those WinBUGS performs outside GLMs.",
-  "edam_operation": "http://edamontology.org/operation_3722",
-  "edam_topics": [
-   "http://edamontology.org/topic_0167",
-   "http://edamontology.org/topic_2269"
-  ],
+  "edam_operation": null,
+  "edam_topics": ["http://edamontology.org/topic_2269"],
   "tools": [
    "R",
    "TraitEnvMLMWA",
@@ -5361,7 +5350,7 @@
   "slug": "camb-transfer-function-generation",
   "name": "camb-transfer-function-generation",
   "description": "Use when a halo-mass-function or power-spectrum calculation needs a linear CDM transfer function T(k) from CAMB, or when a warm-DM transfer function must be derived by filtering T_CDM(k) with the Bode et al. (2001) form.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -5569,7 +5558,7 @@
   "slug": "case-a-case-b-recombination-comparison",
   "name": "case-a-case-b-recombination-comparison",
   "description": "Use when comparing analytic radiative-transfer solutions for a semi-infinite slab (e.g. overdensity Δ=1800, L=4.61 kpc at z=3.0) where you must quantify how case-A/case-B recombination, temperature evolution, and spectral shape affect N_HI and N_HeI.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -6038,7 +6027,7 @@
   "slug": "chemical-equilibrium-simulation-parameterisation",
   "name": "chemical-equilibrium-simulation-parameterisation",
   "description": "Use when condensation temperatures (Tc) or molecule/element abundance-vs-temperature curves must be derived from a Gibbs free energy minimisation under a defined temperature grid, total pressure (e.g. 1e-4 bar), and stellar elemental abundance pattern.",
-  "edam_operation": "http://edamontology.org/operation_3679",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -6312,9 +6301,7 @@
   "name": "circumsecondary-disc-transit-modelling",
   "description": "Use when a transit light curve (e.g. J1407 SuperWASP photometry or PDS 110 eclipse photometry) is attributed to a circumsecondary disc and you need to reduce the parameter space of possible disc geometries before detailed fitting.",
   "edam_operation": "http://edamontology.org/operation_0244",
-  "edam_topics": [
-   "http://edamontology.org/topic_0182"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0080"],
   "tools": [
    "BeyonCE",
    "Sphinx"
@@ -7060,7 +7047,7 @@
   "slug": "cmb-timestream-simulation",
   "name": "cmb-timestream-simulation",
   "description": "Use when validating a destriping pipeline with simulated polarimeter timelines: a signal-only timestream from a known input map, and a signal-plus-noise timestream with white variance and 1/f knee/slope from measured detector noise properties.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3315"
   ],
@@ -7092,7 +7079,7 @@
   "slug": "cmb-white-noise-variance-prediction",
   "name": "cmb-white-noise-variance-prediction",
   "description": "Use when validating a destriped single-dish polarimeter map (e.g. B-Machine 37.5 GHz Q/U HEALPix maps): the measured spectrum must match the predicted white-noise variance so that excess power reveals residual correlated noise.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "B-Machine",
@@ -7401,7 +7388,7 @@
   "slug": "co-depletion-correction-analysis",
   "name": "co-depletion-correction-analysis",
   "description": "Use when comparing modelled 12CO line fluxes with ALMA disc-survey flux/size samples and you must test whether CO depletion from initial conditions reconciles models with observations.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "ALMA",
@@ -7618,9 +7605,7 @@
   "name": "common-envelope-efficiency-parameter-variation",
   "description": "Use when assessing sensitivity of COMPAS-predicted BBH merger rates (total and per-event analogs like GW150914, GW151226, LVT151012) to the common-envelope parameter alpha_lambda at Z=0.002 and Z=0.001.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "COMPAS",
    "STROOPWAFEL"
@@ -8228,7 +8213,7 @@
   "slug": "condensation-temperature-simulation",
   "name": "condensation-temperature-simulation",
   "description": "Use when you need condensation temperatures (Tc) of planet-building elements for a stellar abundance pattern, or when quantifying how ∆Tc responds to varying disk pressure, metallicity, or element ratios like C/O from 0.1 to 0.7.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3314"
   ],
@@ -8593,9 +8578,7 @@
   "name": "corner-plot-posterior-comparison",
   "description": "Use when you have two or more completed jaxspec Bayesian fits (MCMCFitter results with posterior samples) and need a visual, side-by-side comparison of their posterior parameter distributions, such as comparing background-handling models on the same observation.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_3272"
-  ],
+  "edam_topics": [],
   "tools": [
    "JAX",
    "Python",
@@ -8673,7 +8656,7 @@
   "slug": "correlation-distance-matrix-analysis",
   "name": "correlation-distance-matrix-analysis",
   "description": "Use when a tabular astronomical catalog (CSV/TXT with named columns) must be explored by clustering its variables, and similarity should be the AMADA correlation distance d(x,y)=1-|corr(x,y)| feeding an agglomerative hierarchy with a Calinski-Harabasz-guided cluster count.",
-  "edam_operation": "http://edamontology.org/operation_3462",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092",
    "http://edamontology.org/topic_2269"
@@ -8839,7 +8822,7 @@
   "slug": "correlation-network-graph-layout",
   "name": "correlation-network-graph-layout",
   "description": "Use when you have a parameter-by-parameter correlation matrix (Pearson, Spearman, or MIC) for a multidimensional dataset and want to inspect variable association structure as a weighted network graph.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0092"
   ],
@@ -9694,10 +9677,7 @@
   "name": "coupled-channel-scattering-calculation-with-alkali-hyperfine-basis",
   "description": "Use when you need field-dependent s-wave scattering lengths or resonance locations for two alkali-metal atoms at ultracold collision energies, from coupled-channel calculations with hyperfine structure in a magnetic field.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450",
-   "http://edamontology.org/topic_3318"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3318"],
   "tools": [
    "BLAS",
    "GNUmakefile",
@@ -9885,9 +9865,7 @@
   "name": "credible-interval-width-quantification",
   "description": "Use when posterior samples or published credible intervals must be reduced to a single scalar (interval width) to decide whether one analysis genuinely shrinks uncertainty relative to a baseline, e.g. R_1.4 = 11.98 (+0.35/−0.40) km vs prior literature rows.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0268"
-  ],
+  "edam_topics": [],
   "tools": [
    "NMMA",
    "bilby",
@@ -10159,9 +10137,7 @@
   "name": "cross-code-yield-comparison",
   "description": "Use when a newly computed dN/dE photon yield table for dark matter annihilation final states must be validated against established codes, or when quantitatively comparing dark matter codes' indirect-detection outputs.",
   "edam_operation": "http://edamontology.org/operation_2424",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "DarkBit",
    "DarkSUSY",
@@ -10327,11 +10303,8 @@
   "slug": "cross-sampler-convergence-comparison-against-bugs-reference",
   "name": "cross-sampler-convergence-comparison-against-bugs-reference",
   "description": "Use when a newly implemented MCMC sampler (e.g. DE-MC with N=2d chains, gamma=2.38/sqrt(2d)) must be validated by reproducing posterior percentiles of a high-dimensional Bayesian model against an independent long-run reference sampler like WinBUGS.",
-  "edam_operation": "http://edamontology.org/operation_3562",
-  "edam_topics": [
-   "http://edamontology.org/topic_0220",
-   "http://edamontology.org/topic_3308"
-  ],
+  "edam_operation": null,
+  "edam_topics": ["http://edamontology.org/topic_3489", "http://edamontology.org/topic_3308"],
   "tools": [
    "R",
    "TraitEnvMLMWA",
@@ -10959,9 +10932,7 @@
   "name": "ddcalc-experiment-configuration",
   "description": "Use when a dark matter benchmark point specifies both spin-independent and spin-dependent couplings and a direct detection likelihood (e.g. XENON1T) must be computed with DDCalc inside a GAMBIT scan.",
   "edam_operation": "http://edamontology.org/operation_2238",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "DDCalc",
    "DarkBit",
@@ -11018,7 +10989,7 @@
   "slug": "dealiased-fourier-nonlinear-evaluation",
   "name": "dealiased-fourier-nonlinear-evaluation",
   "description": "Use when solving PDEs with Dedalus on a periodic 2D Fourier domain where quadratic nonlinear products of fields (e.g. convective and Lorentz-force terms in compressible MHD) must be evaluated on a mode grid such as 4096x4096.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3361"
   ],
@@ -11230,7 +11201,7 @@
   "slug": "dependency-graph-cascading-update-implementation",
   "name": "dependency-graph-cascading-update-implementation",
   "description": "Use when a parameterized scientific calculation must be re-run after changing one or more inputs and only the dependent quantities should be recomputed rather than the entire pipeline.",
-  "edam_operation": "http://edamontology.org/operation_3845",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3315"
   ],
@@ -11318,7 +11289,7 @@
   "slug": "deuterium-abundance-anomaly-comparison-across-rate-prescriptions",
   "name": "deuterium-abundance-anomaly-comparison-across-rate-prescriptions",
   "description": "Use when primordial deuterium (or lithium) abundance predictions from a BBN code must be compared under different nuclear-rate compilations (PRIMAT vs NACRE II), propagating rate uncertainties via Monte Carlo posterior sampling.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "PRIMAT",
@@ -11433,7 +11404,7 @@
   "slug": "differentiable-model-evaluation-with-jax",
   "name": "differentiable-model-evaluation-with-jax",
   "description": "Use when you hold per-halo fitted diffmah parameters (early-time, peak-time, late-time) and need to evaluate the differentiable model to generate mass assembly histories, e.g. Monte Carlo-sampled synthetic halo populations reproducing mean growth and assembly diversity.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "JAX",
@@ -11577,9 +11548,7 @@
   "name": "dimension-6-operator-mixing-analysis",
   "description": "Use when you have a vector-mediator simplified model defined by the mediator mass and high-energy couplings to SM fields, and you need low-energy couplings to u, d, s quarks and protons/neutrons for direct detection.",
   "edam_operation": "http://edamontology.org/operation_2476",
-  "edam_topics": [
-   "http://edamontology.org/topic_3464"
-  ],
+  "edam_topics": [],
   "tools": [
    "Jupyter Notebook",
    "Mathematica",
@@ -12666,7 +12635,7 @@
   "slug": "elemental-ratio-variation-analysis",
   "name": "elemental-ratio-variation-analysis",
   "description": "Use when you need to isolate the effect of a single stellar/disk abundance ratio (e.g. C/O) on element condensation temperatures in an equilibrium condensation simulation, keeping temperature range, pressure, molecule selection and all other element ratios fixed.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3335"
   ],
@@ -12723,10 +12692,7 @@
   "name": "embedding-csv-export",
   "description": "Use when you have FITS astronomical images and a pretrained astromorph checkpoint, and need a machine-readable CSV table of image embeddings plus metadata for clustering, similarity exploration, or morphological comparison.",
   "edam_operation": "http://edamontology.org/operation_2929",
-  "edam_topics": [
-   "http://edamontology.org/topic_3489",
-   "http://edamontology.org/topic_0006"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3489"],
   "tools": [
    "Herschel",
    "PyTorch",
@@ -13306,10 +13272,7 @@
   "name": "eos-speed-of-sound-extension-modeling",
   "description": "Use when you must extend a nuclear-physics-constrained EOS (chiral-EFT/AFDMC samples, valid to ~1.5 nsat) to supra-nuclear densities to obtain mass-radius-tidal-deformability families for neutron-star inference.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450",
-   "http://edamontology.org/topic_0203"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0203"],
   "tools": [
    "NMMA",
    "bilby",
@@ -13615,9 +13578,7 @@
   "name": "euler-equation-stationary-solver-configuration",
   "description": "Use when the goal is to solve the 2-D compressible isothermal Euler equations to a stationary state with galax2d, or to rerun the solver with alternative parameter sets from ./paper/paper.pdf instead of the defaults.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3359"
-  ],
+  "edam_topics": [],
   "tools": [
    "Matlab 8.0 (R2012b)",
    "galax2d"
@@ -13732,9 +13693,7 @@
   "name": "exclusion-limit-overlay-visualization-vs-mass",
   "description": "Use when a BBN parameter scan over the mass of a thermalized new species (scalar, vector, Majorana, or Dirac X) yields abundance predictions that must be compared against observational exclusion limits on a shared mass axis.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "PRyMordial",
    "Python 3"
@@ -13895,10 +13854,7 @@
   "name": "exoplanet-cloud-condensation-modeling",
   "description": "Use when you need vertical compositional structure of clouds (e.g., layered magnesiumsilicate over iron) in a hot-Jupiter, sub-Neptune, or self-luminous planet atmosphere, and require the result in seconds for joint gas+cloud retrieval.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3318",
-   "http://edamontology.org/topic_3826"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3318"],
   "tools": [
    "ExoLyn",
    "Python",
@@ -15011,7 +14967,7 @@
   "slug": "fits-event-file-construction",
   "name": "fits-event-file-construction",
   "description": "Use when simulating X-ray polarimetric observations that must be written as FITS event lists compatible with the IXPE data products (e.g. from ixpeobssim source models and IRFs).",
-  "edam_operation": "http://edamontology.org/operation_3679",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3315"
   ],
@@ -15677,7 +15633,7 @@
   "slug": "force-solver-configuration-treepm-fmm",
   "name": "force-solver-configuration-treepm-fmm",
   "description": "Use when validating two cosmological N-body codes (e.g. CONCEPT 1.0 vs gadget-4) against each other on the same initial conditions, or when diagnosing a scale- or time-dependent power discrepancy attributable to the gravitational force solver configuration.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3315"
   ],
@@ -15874,7 +15830,7 @@
   "slug": "fourier-domain-signal-processing",
   "name": "fourier-domain-signal-processing",
   "description": "Use when automatically redshifting one-dimensional FITS spectra (e.g. from the AAOmega spectrograph) by cross-correlating continuum-subtracted, RMS-normalised spectra against stellar/galaxy templates in Fourier space.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "Marz",
@@ -16121,9 +16077,7 @@
   "name": "freeze-out-annihilation-cross-section-interpretation",
   "description": "Use when a single fixed benchmark dark matter model point needs its thermal freeze-out annihilation cross section evaluated and its relic density (Omega*h^2) computed via DarkBit's Boltzmann-equation integration, rather than a full GAMBIT global scan.",
   "edam_operation": "http://edamontology.org/operation_3799",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "DarkBit",
    "DarkSUSY",
@@ -16235,9 +16189,7 @@
   "name": "fully-convolutional-network-inference",
   "description": "Use when a headerless two-column stellar spectrum (wavelengths in angstroms, flux in the second column) needs a pseudo-continuum prediction from the SUPP Network before spline-based normalisation or manual correction.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_3995"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "SUPPNet",
@@ -16604,7 +16556,7 @@
   "slug": "galactic-nonaxisymmetric-potential-fitting",
   "name": "galactic-nonaxisymmetric-potential-fitting",
   "description": "Use when reconstructing a non-axisymmetric Galactic potential from Gaia DR3 disk-star kinematics — e.g. matching moving groups, phase-space ridges, or median Galactocentric radial-velocity maps with bar and spiral-arm parameters.",
-  "edam_operation": "http://edamontology.org/operation_3845",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3322",
    "http://edamontology.org/topic_3315"
@@ -17659,10 +17611,7 @@
   "name": "genetic-programming-symbolic-regression",
   "description": "Use when a fast, interpretable analytic replacement for an expensive numerical solver (e.g. Boltzmann-code power spectra) is needed, and an existing low-accuracy fitting function exists whose ratio to the ground truth can be regressed.",
   "edam_operation": "http://edamontology.org/operation_3946",
-  "edam_topics": [
-   "http://edamontology.org/topic_0120",
-   "http://edamontology.org/topic_3315"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3315"],
   "tools": [
    "CAMB",
    "Eisenstein & Hu fit",
@@ -18156,7 +18105,7 @@
   "slug": "gradient-based-nuts-mcmc-sampling",
   "name": "gradient-based-nuts-mcmc-sampling",
   "description": "Use when you need posterior samples from a differentiable CMB power-spectrum likelihood (e.g. candl SPT-3G 2018 TT/TE/EE) and want NUTS sampling driven by exact JAX gradients of the log-likelihood.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3315"
   ],
@@ -18427,9 +18376,7 @@
   "name": "gravitational-wave-strain-data-handling",
   "description": "Use when you need to download public GWOSC strain data for a LIGO/Virgo event — given only an interferometer prefix and a GPS start/stop interval — into a time-domain TimeSeries object in Python.",
   "edam_operation": "http://edamontology.org/operation_2422",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "GWOSC",
    "GWpy",
@@ -18491,10 +18438,7 @@
   "name": "gravitational-waveform-time-series-validation",
   "description": "Use when a surrogate or reduced-basis model predicts gravitational waveform time series at arbitrary parameter values and you must verify accuracy against the fiducial solver and quantify online evaluation cost/speedup before trusting predictions.",
   "edam_operation": "http://edamontology.org/operation_2428",
-  "edam_topics": [
-   "http://edamontology.org/topic_3322",
-   "http://edamontology.org/topic_3458"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3322"],
   "tools": [
    "GWSurrogate",
    "LIGO Analysis Library (LAL)",
@@ -18587,9 +18531,7 @@
   "name": "grid-resolution-convergence-tabulation",
   "description": "Use when a numerical-vs-exact solution pair is available at multiple grid resolutions and you need a tabulated, visual convergence indicator (FWHM of the fluctuation tending toward zero).",
   "edam_operation": "http://edamontology.org/operation_2428",
-  "edam_topics": [
-   "http://edamontology.org/topic_3350"
-  ],
+  "edam_topics": [],
   "tools": [
    "NumPy",
    "Python",
@@ -18643,7 +18585,7 @@
   "slug": "gwosc-strain-data-loading",
   "name": "gwosc-strain-data-loading",
   "description": "Use when a workflow must ingest a public GWOSC strain file (e.g. HDF5 covering the GW150914 window GPS 1126259446-1126259478) into GWpy's TimeSeries and surface the attached I/O metadata.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "Astropy",
@@ -18700,7 +18642,7 @@
   "slug": "halo-assembly-bias-quantification",
   "name": "halo-assembly-bias-quantification",
   "description": "Use when you have per-halo mass accretion histories (or diffmah fits) plus halo positions and a large-scale density field from a simulation (e.g. TNG), and need to measure assembly bias or validate an assembly-history model's residuals.",
-  "edam_operation": "http://edamontology.org/operation_0280",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3452"
   ],
@@ -19815,7 +19757,7 @@
   "slug": "hierarchical-clustering-correlation-distance",
   "name": "hierarchical-clustering-correlation-distance",
   "description": "Use when you need to reveal hidden multi-level structure among variables (or objects) in a high-dimensional galaxy-catalog or photometric table without pre-specifying the number of clusters.",
-  "edam_operation": "http://edamontology.org/operation_3462",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3360",
    "http://edamontology.org/topic_0092"
@@ -20853,9 +20795,7 @@
   "name": "hyperspectral-host-cube-generation",
   "description": "Use when you need a spectrally-resolved host galaxy cube from archival broadband photometry (e.g. PS1 grizy cutouts) to serve as a fixed background template for IFS scene modeling or transient subtraction.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3993"
-  ],
+  "edam_topics": [],
   "tools": [
    "CIGALE",
    "HyperGal",
@@ -21443,7 +21383,7 @@
   "slug": "inice-medium-propagation-setup",
   "name": "inice-medium-propagation-setup",
   "description": "Use when a NuRadioMC simulation must specify the in-ice propagation medium and ray tracer (e.g., a firn index-of-refraction profile) so Askaryan signals travel from the interaction vertex to the detector.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "NuRadioMC",
@@ -21580,7 +21520,7 @@
   "slug": "integer-visibility-precision-reduction",
   "name": "integer-visibility-precision-reduction",
   "description": "Use when handling large integer visibility datasets (e.g. CHIME Pathfinder correlator output) where information entropy must be reduced before lossless compression without measurably increasing thermal noise.",
-  "edam_operation": "http://edamontology.org/operation_3281",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3360"
   ],
@@ -22443,7 +22383,7 @@
   "slug": "kernel-bandwidth-selection",
   "name": "kernel-bandwidth-selection",
   "description": "Use when performing FINKER-style frequency identification on astronomical time series with measurement uncertainties and you must choose kernel_type and bandwidth_method before running parallel_nonparametric_kernel_regression over a frequency grid.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "FINKER",
@@ -22522,9 +22462,7 @@
   "name": "kinematic-tracer-data-retrieval",
   "description": "Use when you need a unified, parameter-normalized compilation of Galactic rotation-curve tracer measurements (gas, stars, masers) for Galactocentric radii ~3–20 kpc, either from files or in-memory for parameter scans.",
   "edam_operation": "http://edamontology.org/operation_2409",
-  "edam_topics": [
-   "http://edamontology.org/topic_3264"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python 2.7.6",
    "galkin",
@@ -23584,9 +23522,7 @@
   "name": "linear-regression-fit-evaluation",
   "description": "Use when combining measured/literature property data for two compound classes (e.g. organostannanes + hydrocarbons) and you need to decide whether a molecular descriptor (MW vs intrinsic molar volume) collapses the data onto one linear relationship.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_0379"
-  ],
+  "edam_topics": [],
   "tools": [
    "Chromatopac C-R6A integrator",
    "FID detector",
@@ -23642,7 +23578,7 @@
   "slug": "linear-regression-of-vant-hoff-plots",
   "name": "linear-regression-of-vant-hoff-plots",
   "description": "Use when you have corrected GC retention times for a homologous series measured isothermally at multiple temperatures, a reference compound with known vaporization enthalpy, and need ΔHv/ΔSv per compound.",
-  "edam_operation": "http://edamontology.org/operation_3656",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -23732,9 +23668,7 @@
   "name": "log-normal-nuclear-rate-uncertainty-propagation",
   "description": "Use when running BBN Monte Carlo analyses with PRyMordial and you need to propagate nuclear thermonuclear-rate uncertainties into light-element abundance posteriors, or compare PRIMAT vs NACRE II rate compilations.",
   "edam_operation": "http://edamontology.org/operation_3659",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "PRIMAT",
    "PRyMordial",
@@ -24466,7 +24400,7 @@
   "slug": "markov-chain-monte-carlo-sampler-implementation",
   "name": "markov-chain-monte-carlo-sampler-implementation",
   "description": "Use when sampling from a Bayesian posterior or other target density on a real parameter space of dimension d where choosing the scale and orientation of a jumping distribution is hard, and block/multi-chain updating is desired.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203"
   ],
@@ -24647,9 +24581,7 @@
   "name": "mcmc-chain-convergence-and-marginal-posterior-analysis",
   "description": "Use when a C++/CBL analysis needs posterior sampling of cosmological model parameters via MCMC, with a chi-squared likelihood plus Gaussian priors, and chain/posterior outputs must be validated.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_0107"
-  ],
+  "edam_topics": [],
   "tools": [
    "C++",
    "Cosmo Bologna Lib",
@@ -25615,7 +25547,7 @@
   "slug": "metropolis-acceptance-rate-monitoring",
   "name": "metropolis-acceptance-rate-monitoring",
   "description": "Use when running DE-MC (or another Metropolis-based multi-chain sampler) and you need to verify tuning of the jump scale γ via the per-generation acceptance fraction, e.g. checking it converges to ~0.23 on a high-dimensional target.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269"
   ],
@@ -25769,7 +25701,7 @@
   "slug": "minimum-image-distance-computation",
   "name": "minimum-image-distance-computation",
   "description": "Use when implementing or validating short-range gravity pair enumeration in a periodic cosmological N-body box, e.g. reproducing CONCEPT 1.0's tiles-and-subtiles P3M scheme and its early-rejection statistics.",
-  "edam_operation": "http://edamontology.org/operation_3845",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -26016,9 +25948,7 @@
   "name": "module-mode-scan-execution",
   "description": "Use when a GAMBIT installation needs to be exercised end-to-end: an example YAML scan (e.g. yaml_files/MSSM7.yaml) must be run in module mode so that a module like DarkBit emits observable and likelihood results through the GAMBIT printer.",
   "edam_operation": "http://edamontology.org/operation_2945",
-  "edam_topics": [
-   "http://edamontology.org/topic_3455"
-  ],
+  "edam_topics": [],
   "tools": [
    "DDCalc",
    "DarkBit",
@@ -26653,7 +26583,7 @@
   "slug": "multi-chain-mcmc-convergence-diagnostics",
   "name": "multi-chain-mcmc-convergence-diagnostics",
   "description": "Use when sampling a real-parameter posterior (e.g. a d=5 or d=10 normal mixture with modes at -5 and 5) and you need to verify that chains from dispersed starts mix to the same target distribution and recover a known posterior mean.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0203"
   ],
@@ -27451,10 +27381,7 @@
   "name": "nested-sampling-posterior-extraction",
   "description": "Use when a Bayesian multi-messenger analysis (e.g., GW170817 strain + AT2017gfo photometry + GRB170817A afterglow) requires sampling a joint posterior and reporting asymmetric credible intervals on parameters like R_1.4, ejecta masses, or inclination.",
   "edam_operation": "http://edamontology.org/operation_3798",
-  "edam_topics": [
-   "http://edamontology.org/topic_3360",
-   "http://edamontology.org/topic_3430"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3360"],
   "tools": [
    "NMMA",
    "PyMultiNest",
@@ -27542,7 +27469,7 @@
   "slug": "neural-cde-ode-reduction",
   "name": "neural-cde-ode-reduction",
   "description": "Use when a neural CDE dy(t) = f_θ(y(t), dX(t)) must be solved over discrete, irregularly sampled time-series data, and the only available numerical machinery is an ODE solver rather than a native CDE integrator.",
-  "edam_operation": "http://edamontology.org/operation_1652",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "Diffrax",
@@ -27572,7 +27499,7 @@
   "slug": "neural-cde-rnn-correspondence-analysis",
   "name": "neural-cde-rnn-correspondence-analysis",
   "description": "Use when you need to demonstrate or test that a discrete recurrent architecture (e.g. GRU) corresponds to an ODE discretisation, or to interpret gate dynamics in continuous time.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3474"
   ],
@@ -28242,7 +28169,7 @@
   "slug": "noise-function-gas-source-modelling",
   "name": "noise-function-gas-source-modelling",
   "description": "Use when building a cometary dust/gas environment in SISPO Case 2: you have a triangulated nucleus mesh (e.g. .obj) and need surface-resolved gas outflow rates to initialize the gas-density and particle pipelines before Cycles volume rendering.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "ComaCreator",
@@ -28320,10 +28247,7 @@
   "name": "non-instantaneous-decoupling-evolution",
   "description": "Use when a precision BBN analysis requires N_eff and neutron-to-proton conversion rates computed from a coupled, non-instantaneous neutrino-decoupling thermal history, optionally with new-physics energy exchange (NP_e_flag/NP_nu_flag) with the plasma or neutrino bath.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450",
-   "http://edamontology.org/topic_0221"
-  ],
+  "edam_topics": [],
   "tools": [
    "Julia / SciML kit",
    "PRyMordial",
@@ -28566,9 +28490,7 @@
   "name": "nuclear-reaction-network-configuration",
   "description": "Use when a task needs PRyMordial's BBN abundance predictions with configurable weak n↔p Born rates (e.g. enabling smallnet_flag and nacreii_flags before a Bayesian NP_delta_nTOp constraint with emcee).",
   "edam_operation": "http://edamontology.org/operation_3799",
-  "edam_topics": [
-   "http://edamontology.org/topic_3312"
-  ],
+  "edam_topics": [],
   "tools": [
    "Julia",
    "NumPy/SciPy/Numba",
@@ -28655,7 +28577,7 @@
   "slug": "null-hypothesis-baseline-simulation",
   "name": "null-hypothesis-baseline-simulation",
   "description": "Use when testing a gamma-ray spectrum (e.g., Fermi-LAT observations of NGC 1275 or PKS 2155-304) for ALP-photon conversion features by comparing an irregularity statistic against a simulated no-ALP null distribution, rather than fitting ALP models to the spectrum.",
-  "edam_operation": "http://edamontology.org/operation_3578",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3452"
   ],
@@ -28992,10 +28914,7 @@
   "name": "observer-pointing-coordinate-handling",
   "description": "Use when a simulation or binning step requires observer pointings expressed as astropy SkyCoord objects with obstime and Galactic-frame coordinates, e.g. to feed ZodiPy's zodipy.Model or bin a timestream into a HEALPix map.",
   "edam_operation": "http://edamontology.org/operation_2409",
-  "edam_topics": [
-   "http://edamontology.org/topic_3391",
-   "http://edamontology.org/topic_0006"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3391"],
   "tools": [
    "Astropy-healpix",
    "Python",
@@ -29833,7 +29752,7 @@
   "slug": "overdispersed-population-initialization",
   "name": "overdispersed-population-initialization",
   "description": "Use when setting up a multi-chain DE-MC (or similar population MCMC) run and you need starting populations that are wide enough for R-hat-based convergence diagnosis to be informative.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_2269"
   ],
@@ -29892,9 +29811,7 @@
   "name": "p3m-force-accuracy-limiter-evaluation",
   "description": "Use when reconstructing CONCEPT 1.0's global time-step scheme (e.g. Figure 2) and you need the resolution-dependent Δln a branch driven by particle clustering, for box sizes like L_box ∈ {2, 1, 1/2} × ∛N Mpc/h.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "CONCEPT 1.0",
    "Matplotlib",
@@ -30054,7 +29971,7 @@
   "slug": "parameter-bounds-enforcement",
   "name": "parameter-bounds-enforcement",
   "description": "Use when assembling a CosmoHammer sampling configuration from core/likelihood modules (e.g. CambCoreModule + WMAP) and sampled parameters such as H0 must remain within physically motivated min/max bounds during the chain.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3360"
   ],
@@ -30159,9 +30076,7 @@
   "name": "parameterized-simulation-from-config",
   "description": "Use when you need a controlled synthetic time series with a known primary frequency and prescribed noise (SNR) against which a period- or frequency-finding method can be evaluated.",
   "edam_operation": "http://edamontology.org/operation_0244",
-  "edam_topics": [
-   "http://edamontology.org/topic_3312"
-  ],
+  "edam_topics": [],
   "tools": [
    "FINKER",
    "GitHub",
@@ -30743,9 +30658,7 @@
   "name": "per-band-error-floor-modeling",
   "description": "Use when simulated light-curve flux uncertainties systematically disagree with measured uncertainties and need band-dependent sky-noise corrections plus percentage-level error floors.",
   "edam_operation": "http://edamontology.org/operation_3435",
-  "edam_topics": [
-   "http://edamontology.org/topic_3995"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "numpy",
@@ -30812,7 +30725,7 @@
   "slug": "per-order-rv-weighted-average-combination",
   "name": "per-order-rv-weighted-average-combination",
   "description": "Use when deriving an RV time series from echelle spectra (e.g., HARPS S2D) with the classical template-matching formulation, or when establishing a per-order baseline to diagnose whether a semi-Bayesian approach is needed.",
-  "edam_operation": "http://edamontology.org/operation_3234",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "HARPS",
@@ -30948,7 +30861,7 @@
   "slug": "periodogram-frequency-grid-search",
   "name": "periodogram-frequency-grid-search",
   "description": "Use when you need to identify a significant frequency in an astronomical light curve (possibly multiband, with measurement uncertainties, and with as few as ~10-100 observations) by scanning a dense frequency grid with a kernel-regression-based period-finding method.",
-  "edam_operation": "http://edamontology.org/operation_0395",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3399"
   ],
@@ -30974,7 +30887,7 @@
   "slug": "perturbation-k-mode-multithreaded-integration",
   "name": "perturbation-k-mode-multithreaded-integration",
   "description": "Use when reproducing or measuring the multithreading speedup of integrating many perturbation k-modes in SymBoltz, or when deciding how many Julia threads to allocate for a k-sweep of the linear Einstein-Boltzmann equations.",
-  "edam_operation": "http://edamontology.org/operation_3842",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -31269,7 +31182,7 @@
   "slug": "photoevaporation-model-intercomparison",
   "name": "photoevaporation-model-intercomparison",
   "description": "Use when a confirmed planet's radius, mass, density, and host-star irradiation properties are available and you need a present-day atmospheric mass-loss estimate whose robustness against photoevaporation model choice must be tested.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -32882,7 +32795,7 @@
   "slug": "posterior-chain-constraint-extraction",
   "name": "posterior-chain-constraint-extraction",
   "description": "Use when you have an array of NUTS samples drawn on Fisher-normalised parameters (e.g. from a jax.lax.scan BlackJAX loop) and need marginal means/standard deviations in physical cosmological parameter units.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "BlackJAX",
@@ -33510,9 +33423,7 @@
   "name": "present-day-mass-threshold-halo-selection",
   "description": "Use when validating or characterizing halo mass assembly history fits (e.g., diffmah residuals in dex) and you must restrict the sample to halos above a present-day mass threshold such as 10^11 Msun.",
   "edam_operation": "http://edamontology.org/operation_3936",
-  "edam_topics": [
-   "http://edamontology.org/topic_3353"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python >=3.9",
    "diffmah",
@@ -33620,10 +33531,7 @@
   "name": "primat-correction-prescription-implementation",
   "description": "Use when BBN neutron freeze-out or helium-4 abundance modeling requires weak n<->p rates beyond the Born approximation, e.g. building or validating a PRyMordial-style n_to_p_weak_rates table.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450",
-   "http://edamontology.org/topic_0153"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0153"],
   "tools": [
    "PRIMAT",
    "PRyMordial",
@@ -33649,9 +33557,7 @@
   "name": "primordial-decoupling-physics",
   "description": "Use when the goal is to reproduce or predict the four SM BBN abundances (helium-4 mass fraction, D/H, 3He/H, 7Li/H) over the full BBN temperature range and compare them with quasar-absorption and CMB-inferred observations.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450"
-  ],
+  "edam_topics": [],
   "tools": [
    "NumPy",
    "PRyMordial",
@@ -33681,10 +33587,7 @@
   "name": "primordial-light-element-abundance-prediction",
   "description": "Use when a task requires computing Big Bang Nucleosynthesis abundance predictions for helium-4, deuterium, helium-3, or lithium-7 that must be compared with quasar absorption or CMB-inferred baryon constraints.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450",
-   "http://edamontology.org/topic_0152"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0152"],
   "tools": [
    "PRyMordial",
    "Python 3",
@@ -33710,9 +33613,7 @@
   "name": "primordial-power-spectrum-computation",
   "description": "Use when an inflationary background solution is available and the goal is the scalar primordial power spectrum P(k) over a range of perturbation modes k, requiring oscillatory mode integration from Bunch-Davies initial conditions.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3998"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "matplotlib",
@@ -34517,7 +34418,7 @@
   "slug": "pytorch-neural-network-module-implementation",
   "name": "pytorch-neural-network-module-implementation",
   "description": "Use when you need a customizable PyTorch module for self-supervised BYOL training on unlabeled astronomical images (e.g. FITS files) and want direct control over the optimizer, augmentations, and target-network update rather than a wrapped trainer.",
-  "edam_operation": "http://edamontology.org/operation_3983",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3474",
    "http://edamontology.org/topic_0003"
@@ -34719,7 +34620,7 @@
   "slug": "quasar-spectrum-template-matching",
   "name": "quasar-spectrum-template-matching",
   "description": "Use when input is generic FITS spectra (e.g. from AAOmega or any spectrograph following the Marz format) that need automatic redshifts and correlation peaks, particularly for quasars or mixed stellar/galaxy target types, including low signal-to-noise data.",
-  "edam_operation": "http://edamontology.org/operation_3240",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "Marz",
@@ -34745,9 +34646,7 @@
   "name": "quasigeostrophic-flow-simulation",
   "description": "Use when reproducing or extending the 3D quasigeostrophic baroclinic instability example, or when studying the statistically saturated state of a sea of compact eddies that form, merge, and break up over several dynamical times.",
   "edam_operation": "http://edamontology.org/operation_3946",
-  "edam_topics": [
-   "http://edamontology.org/topic_3872"
-  ],
+  "edam_topics": [],
   "tools": [
    "Dedalus",
    "Python",
@@ -34924,7 +34823,7 @@
   "slug": "radial-profile-model-sampling",
   "name": "radial-profile-model-sampling",
   "description": "Use when you have visibilities exported from an ALMA ms file to text/numpy files and need posterior samples of radial-profile parameters (geometry, power/Gaussian profiles) via vis-r, deciding between emcee and stan samplers.",
-  "edam_operation": "http://edamontology.org/operation_3949",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3452"
   ],
@@ -35389,7 +35288,7 @@
   "slug": "radiative-transfer-spectrum-synthesis",
   "name": "radiative-transfer-spectrum-synthesis",
   "description": "Use when you have a converged 1D atmosphere/cloud profile (e.g. layered Mg-silicate clouds over an iron cloud from an ExoLyn relaxation run) and need to synthesize a mid-infrared spectrum to check or constrain cloud particle composition.",
-  "edam_operation": "http://edamontology.org/operation_0301",
+  "edam_operation": "http://edamontology.org/operation_0303",
   "edam_topics": [
    "http://edamontology.org/topic_3318",
    "http://edamontology.org/topic_3321"
@@ -35947,7 +35846,7 @@
   "slug": "raw-data-normalization-caveat-awareness",
   "name": "raw-data-normalization-caveat-awareness",
   "description": "Use when a workflow reads galkin's raw data products — output/rawdata.dat or galkin/data/data_*.dat — or original published tracer measurements, and must decide whether they can be compared or combined directly with normalized outputs.",
-  "edam_operation": "http://edamontology.org/operation_0222",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3315"
   ],
@@ -36972,9 +36871,7 @@
   "name": "renormalization-group-coupling-running",
   "description": "Use when you have high-energy couplings of DM to SM fields in a vector-mediator simplified model plus a mediator mass, and you need low-energy direct-detection operator coefficients or RG-mixing-corrected cross section bounds.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3537"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_0601"],
   "tools": [
    "Jupyter Notebook",
    "Mathematica",
@@ -37226,7 +37123,7 @@
   "slug": "rfi-sumthreshold-flagging",
   "name": "rfi-sumthreshold-flagging",
   "description": "Use when processing e-MERLIN (or any radio interferometric array) UVFITS visibility data where RFI contamination — typically <20%-25% at L-band (1.3-1.8 GHz) or <5% at C-band (4-8 GHz) — must be flagged before calibration.",
-  "edam_operation": "http://edamontology.org/operation_3220",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -37799,9 +37696,7 @@
   "name": "runtime-benchmark-measurement",
   "description": "Use when a new fitting or analysis pipeline's computational cost must be compared against a reference method on a fixed sample, e.g. showing that SMART's radiative-transfer-only fitting of 42 HERUS ULIRG SEDs takes comparable time to popular energy balance methods.",
   "edam_operation": null,
-  "edam_topics": [
-   "http://edamontology.org/topic_0007"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "SMART",
@@ -37884,7 +37779,7 @@
   "slug": "runtime-scaling-analysis",
   "name": "runtime-scaling-analysis",
   "description": "Use when you need to empirically verify the asymptotic scaling of a numerical kernel (e.g., FMM vs. direct summation) by sweeping particle count N and a tuning parameter such as the multipole acceptance criterion (MAC) angle.",
-  "edam_operation": "http://edamontology.org/operation_3875",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3316"
   ],
@@ -38091,9 +37986,7 @@
   "name": "sampling-rate-cost-scaling-analysis",
   "description": "Use when comparing wall-clock timing of a fast surrogate waveform evaluation against the standard EOB solver as a function of time-sampling rate, to verify O(mL + m*c_fit) linear-in-L scaling and compute per-rate speedup ratios.",
   "edam_operation": "http://edamontology.org/operation_3860",
-  "edam_topics": [
-   "http://edamontology.org/topic_3430"
-  ],
+  "edam_topics": [],
   "tools": [
    "GWSurrogate",
    "LIGO Analysis Library (LAL)",
@@ -38559,10 +38452,7 @@
   "name": "sedm-spectral-rebinning",
   "description": "Use when a CIGALE-based hyperspectral host model must be matched to SEDm low-resolution IFS data: the model cube's native spectral grid differs from the SEDm ~26 A/px sampling and [3700, 9300] A domain and must be rebinned before scene-model fitting.",
   "edam_operation": "http://edamontology.org/operation_0337",
-  "edam_topics": [
-   "http://edamontology.org/topic_3995",
-   "http://edamontology.org/topic_3993"
-  ],
+  "edam_topics": [],
   "tools": [
    "CIGALE",
    "HyperGal",
@@ -38652,10 +38542,7 @@
   "name": "self-gravitating-particle-system-evolution",
   "description": "Use when a 3D self-gravitating particle problem (e.g. single/binary stars, Noh 3D) must be evolved under Newtonian gravity with SPH, with initial data generated and snapshots stored in H5part.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450",
-   "http://edamontology.org/topic_3318"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3318"],
   "tools": [
    "FleCSI",
    "FleCSPH",
@@ -39439,7 +39326,7 @@
   "slug": "simulation-ensemble-generation",
   "name": "simulation-ensemble-generation",
   "description": "Use when you need to gauge statistical properties of IXPE polarization estimates—e.g., posterior distributions, pull distributions, or spectro-polarimetric fit biases—by Monte Carlo sampling many realizations of the same observation rather than analyzing a single simulated event list.",
-  "edam_operation": "http://edamontology.org/operation_3562",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -39886,7 +39773,7 @@
   "slug": "sky-noise-correction-factor-application",
   "name": "sky-noise-correction-factor-application",
   "description": "Use when validating simulated survey light curves against measured uncertainties and residual scatter/means indicate the simulated sky-noise underestimates the observed per-band noise, as seen for skysurvey-simulated ZTF SN Ia DR2 data.",
-  "edam_operation": "http://edamontology.org/operation_3667",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "Python",
@@ -40264,7 +40151,7 @@
   "slug": "soft-thresholding-proximal-operator-implementation",
   "name": "soft-thresholding-proximal-operator-implementation",
   "description": "Use when a PALM or other proximal-splitting optimizer needs an l1 proximal step on wavelet coefficients of spatial parameter maps to regularize them while staying close to the previous iterate.",
-  "edam_operation": "http://edamontology.org/operation_3720",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3344"
   ],
@@ -40325,9 +40212,7 @@
   "name": "solar-euv-adaptive-compression-strategy-selection",
   "description": "Use when a pipeline must choose between relative- (REL) and absolute- (ABS) error-bounded compression strategies per input, e.g. for Solar Orbiter/EUI FSI or HRI_EUV FITS images with a given bound (e.g. 1e-3).",
   "edam_operation": "http://edamontology.org/operation_0282",
-  "edam_topics": [
-   "http://edamontology.org/topic_3812"
-  ],
+  "edam_topics": [],
   "tools": [
    "Numpy",
    "Python (3.8 or newer)",
@@ -40484,9 +40369,7 @@
   "name": "solar-wind-arrival-time-verification-against-omni",
   "description": "Use when ensemble CME in situ predictions (B, Bz, velocity, Kp profiles from FIDO/OSPREI) must be validated against observed solar wind data such as OMNI at 1 AU, including shock arrival time within a tolerance.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3998"
-  ],
+  "edam_topics": [],
   "tools": [
    "ANTEA",
    "ANTEATR",
@@ -41181,7 +41064,7 @@
   "slug": "spectral-method-pde-simulation",
   "name": "spectral-method-pde-simulation",
   "description": "Use when a PDE-based physical simulation (fluid dynamics, waves, eigenvalue problems) must be solved at high accuracy with spectral methods, e.g. reproducing resolution-comparison benchmarks or spectral-convergence series.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "Dedalus",
@@ -42874,7 +42757,7 @@
   "slug": "stromgren-radius-photon-conservation-check",
   "name": "stromgren-radius-photon-conservation-check",
   "description": "Use when you need to benchmark an equilibrium ionization solver against a published Strömgren sphere test, or to quantify how recombination radiation (case A vs case B vs full transfer) alters an H II region's ionization profile.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -43180,9 +43063,7 @@
   "name": "supernova-template-simulation",
   "description": "Use when a task requires generating synthetic transient (e.g. SN Ia) light curves as they would be observed by a survey such as ZTF, LSST, DES, SNLS, or Roman, including realistic fluxes and per-photopoint uncertainties.",
   "edam_operation": "http://edamontology.org/operation_0244",
-  "edam_topics": [
-   "http://edamontology.org/topic_0657"
-  ],
+  "edam_topics": [],
   "tools": [
    "Python",
    "geopandas",
@@ -43243,7 +43124,7 @@
   "slug": "surrogate-model-speed-comparison",
   "name": "surrogate-model-speed-comparison",
   "description": "Use when a learned surrogate model (e.g. an Interpolatory Auto-Encoder decoder) is claimed to be faster than the physical spectral model it was trained to mimic, and the speed-up ratio must be measured and reported.",
-  "edam_operation": "http://edamontology.org/operation_3862",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3315"
   ],
@@ -44741,10 +44622,7 @@
   "name": "thermal-history-network-integration",
   "description": "Use when you need to compute primordial BBN abundances or N_eff from first-principle thermal-history calculations, e.g. to test the Standard Model in the Early Universe or explore New Physics active during the BBN epoch.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3450",
-   "http://edamontology.org/topic_3318"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3318"],
   "tools": [
    "Julia",
    "NumPy",
@@ -45025,7 +44903,7 @@
   "slug": "tiled-image-pyramid-serving",
   "name": "tiled-image-pyramid-serving",
   "description": "Use when a web client must interactively browse full bit depth (16-bit or 32-bit float) images too large to transmit whole, and pixels must be re-processed server-side (scaling, colormap) rather than shipped as static 8-bit files.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "iipsrv (IIPImage, cmarmo/iipsrv-astro)",
@@ -45128,7 +45006,7 @@
   "slug": "time-series-extrapolation-visualization",
   "name": "time-series-extrapolation-visualization",
   "description": "Use when a generative time-series model (e.g. a latent ODE VAE) trained on irregularly-sampled series over a short interval must be evaluated on a much longer test horizon, and its samples need to be visualised against held-out trajectories.",
-  "edam_operation": "http://edamontology.org/operation_0242",
+  "edam_operation": "http://edamontology.org/operation_0438",
   "edam_topics": [],
   "tools": [
    "Diffrax",
@@ -46238,7 +46116,7 @@
   "slug": "ultracold-scattering-resonance-location-vs-magnetic-field",
   "name": "ultracold-scattering-resonance-location-vs-magnetic-field",
   "description": "Use when you need to map ultracold scattering observables (scattering length, effective range) against an external magnetic field to reveal resonance poles, e.g. an 800-900 G scan at 100 nK collision energy.",
-  "edam_operation": "http://edamontology.org/operation_0217",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_0176"
   ],
@@ -46629,9 +46507,7 @@
   "name": "velocity-space-sparse-storage",
   "description": "Use when a full-grid Eulerian Vlasov or hybrid-Vlasov simulation is intractable in memory (e.g. ~10^18 cells / 4 EiB) and the distribution function is negligible in most velocity cells, so sparse velocity-space storage is needed.",
   "edam_operation": "http://edamontology.org/operation_0282",
-  "edam_topics": [
-   "http://edamontology.org/topic_3928"
-  ],
+  "edam_topics": [],
   "tools": [
    "Vlasiator",
    "vlasiator"
@@ -46776,7 +46652,7 @@
   "slug": "visibility-zero-amplitude-dropout-detection",
   "name": "visibility-zero-amplitude-dropout-detection",
   "description": "Use when reducing e-MERLIN visibility data (L-band 1.3–1.8 GHz or C-band 4–8 GHz) where antenna amplitudes may drop to exactly zero, and these dropout records must be flagged before AIPS calibration.",
-  "edam_operation": "http://edamontology.org/operation_3220",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3321"
   ],
@@ -46995,7 +46871,7 @@
   "slug": "wall-clock-benchmark-timing-comparison",
   "name": "wall-clock-benchmark-timing-comparison",
   "description": "Use when you need to benchmark the runtime of vis-r radial-profile fitting against an image-based parametric modelling baseline on the same visibility file, e.g. to verify the reported 10x-100x speedup.",
-  "edam_operation": "http://edamontology.org/operation_3861",
+  "edam_operation": null,
   "edam_topics": [
    "http://edamontology.org/topic_3318"
   ],
@@ -47623,7 +47499,7 @@
   "slug": "websocket-server-implementation",
   "name": "websocket-server-implementation",
   "description": "Use when building a browser-based scientific tool that must run analysis tasks on the server storing the data, and clients need authenticated, per-session asynchronous job execution over websockets.",
-  "edam_operation": "http://edamontology.org/operation_3083",
+  "edam_operation": null,
   "edam_topics": [],
   "tools": [
    "Python",
@@ -48373,9 +48249,7 @@
   "name": "zodiacal-emission-extrapolation-beyond-model-validity-range",
   "description": "Use when you need zodiacal emission forecasts for a future experiment whose observing bands fall below 1.25 µm or above 240 µm (or below 30 GHz / above 857 GHz), outside the DIRBE/Planck model ranges built into ZodiPy.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3353"
-  ],
+  "edam_topics": [],
   "tools": [
    "Astropy",
    "Python",
@@ -48494,10 +48368,7 @@
   "name": "zodiacal-light-timestream-simulation",
   "description": "Use when a task requires forward-simulated zodiacal light timestreams or binned zodiacal emission maps for a Solar System observer (e.g. DIRBE-like pointings/times), or when validating a zodiacal light model against DIRBE ZLP reference output.",
   "edam_operation": "http://edamontology.org/operation_2426",
-  "edam_topics": [
-   "http://edamontology.org/topic_3315",
-   "http://edamontology.org/topic_3898"
-  ],
+  "edam_topics": ["http://edamontology.org/topic_3315"],
   "tools": [
    "COBE DIRBE Zodiacal Light Prediction Software",
    "Python",

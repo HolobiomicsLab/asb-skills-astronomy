@@ -9,7 +9,7 @@ when_to_use_negative:
   which takes bounds as its own arguments)
 - When the goal is likelihood-only evaluation of a fixed best-fit point with no sampling
   of new parameter proposals
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3360
 tools:
@@ -43,7 +43,7 @@ metadata:
   - CosmoHammer
   - Python
   - emcee
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3360
   provenance_tier: literature

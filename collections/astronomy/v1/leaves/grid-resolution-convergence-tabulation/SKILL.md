@@ -9,8 +9,7 @@ when_to_use_negative:
 - The data are L1-norm error tables rather than pointwise profiles; the fluctuation-width
   method requires spatially resolved u_num and u_exact series
 edam_operation: http://edamontology.org/operation_2428
-edam_topics:
-- http://edamontology.org/topic_3350
+edam_topics: []
 tools:
 - name: aztekas
   role: Hydrodynamics code (finite-volume HRSC solver using PVRS) that generates the
@@ -40,8 +39,7 @@ metadata:
   - SciPy
   - aztekas
   edam_operation: http://edamontology.org/operation_2428
-  edam_topics:
-  - http://edamontology.org/topic_3350
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

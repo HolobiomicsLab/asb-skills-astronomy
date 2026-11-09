@@ -12,8 +12,7 @@ when_to_use_negative:
   where credible-interval width is not the appropriate uncertainty summary
 - Only a single posterior exists and there is no baseline (literature or alternate
   configuration) to compare widths against
-edam_topics:
-- http://edamontology.org/topic_0268
+edam_topics: []
 tools:
 - name: NMMA
   role: Framework whose joint (GW+KN+GRB) and GW+KN-only analyses produce the posteriors/credible
@@ -43,8 +42,7 @@ metadata:
   - bilby
   - dynesty
   edam_operation: null
-  edam_topics:
-  - http://edamontology.org/topic_0268
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

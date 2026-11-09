@@ -9,7 +9,7 @@ when_to_use_negative:
 - The goal is bound-state energies or locating Feshbach resonance positions directly
   — the BOUND or FIELD programs are the appropriate variants, not molscat scattering-length
   scans
-edam_operation: http://edamontology.org/operation_0217
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0176
 tools:
@@ -43,7 +43,7 @@ metadata:
   - LAPACK
   - molscat
   - molscat 2025.0
-  edam_operation: http://edamontology.org/operation_0217
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0176
   provenance_tier: literature

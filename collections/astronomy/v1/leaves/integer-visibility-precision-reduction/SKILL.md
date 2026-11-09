@@ -10,7 +10,7 @@ when_to_use_negative:
   rounding step is 'nearly lossless' and irreversibly discards low-order bits
 - Storage compression alone is the goal and precision reduction is unnecessary — the
   paper notes the two steps are independent and Bitshuffle can be used without rounding
-edam_operation: http://edamontology.org/operation_3281
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3360
 tools:
@@ -40,7 +40,7 @@ metadata:
   - Bitshuffle
   - CHIME Pathfinder
   - HDF5
-  edam_operation: http://edamontology.org/operation_3281
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3360
   provenance_tier: literature

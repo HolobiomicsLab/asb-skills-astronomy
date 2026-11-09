@@ -10,8 +10,7 @@ when_to_use_negative:
 - When the evaluation target requires many observation points or multi-band synthetic
   data beyond the fixed single-band configuration described here
 edam_operation: http://edamontology.org/operation_0244
-edam_topics:
-- http://edamontology.org/topic_3312
+edam_topics: []
 tools:
 - name: FINKER
   role: Provides the SyntheticLightCurveGenerator class (utils_SYNTHETIC_LIGHTCURVES)
@@ -40,8 +39,7 @@ metadata:
   - GitHub
   - Python
   edam_operation: http://edamontology.org/operation_0244
-  edam_topics:
-  - http://edamontology.org/topic_3312
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -10,8 +10,7 @@ when_to_use_negative:
   CMB-only thermal-history fits), since the skill is built around the Fig. 4 abundance-band
   comparison.
 edam_operation: http://edamontology.org/operation_0337
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: PRyMordial
   role: Evolves the coupled thermal history (N_eff, n-to-p conversion) per mass point
@@ -36,8 +35,7 @@ metadata:
   - PRyMordial
   - Python 3
   edam_operation: http://edamontology.org/operation_0337
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

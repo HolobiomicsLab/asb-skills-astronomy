@@ -13,8 +13,7 @@ when_to_use_negative:
   numerical table (PRyM_Yp_DH_cosmoMC_2023.dat) for standard cosmological analyses
   involving BBN likelihoods
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: PRyMordial
   role: Main package providing the default largest nuclear reaction network, integration
@@ -47,8 +46,7 @@ metadata:
   - SciML kit
   - SciPy
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

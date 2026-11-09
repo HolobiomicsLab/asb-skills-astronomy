@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2409
 edam_topics:
 - http://edamontology.org/topic_3391
-- http://edamontology.org/topic_0006
 tools:
 - name: ZodiPy
   role: Evaluates the zodiacal light model at the SkyCoord-specified pointings to
@@ -49,7 +48,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2409
   edam_topics:
   - http://edamontology.org/topic_3391
-  - http://edamontology.org/topic_0006
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

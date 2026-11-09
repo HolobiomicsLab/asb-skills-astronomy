@@ -12,7 +12,7 @@ when_to_use_negative:
 - The task is generic RFI detection (e.g. threshold-based or morphological detection
   per Offringa et al. 2010/2012) rather than detection of the specific zero-amplitude
   dropout signature
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3321
 tools:
@@ -48,7 +48,7 @@ metadata:
   - ParselTongue
   - Python
   - SERPent
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3321
   provenance_tier: literature

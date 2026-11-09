@@ -13,8 +13,7 @@ when_to_use_negative:
 - The question concerns LBV wind mass-loss rate or supernova engine (rapid Fryer model)
   sensitivity rather than common-envelope efficiency.
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: COMPAS
   role: Rapid binary population synthesis code used to evolve binaries from zero-age
@@ -39,8 +38,7 @@ metadata:
   - COMPAS
   - STROOPWAFEL
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

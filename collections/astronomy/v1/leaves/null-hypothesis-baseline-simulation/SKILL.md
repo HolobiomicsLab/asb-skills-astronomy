@@ -13,7 +13,7 @@ when_to_use_negative:
   (the article found no spectral oscillation for NGC 1275).
 - When the ALP-photon conversion probability cannot be computed for the source's magnetic-field
   environment with the available tools (e.g., no alpconv-compatible setup).
-edam_operation: http://edamontology.org/operation_3578
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3452
 tools:
@@ -39,7 +39,7 @@ metadata:
   tools:
   - Fermi-LAT
   - alpconv
-  edam_operation: http://edamontology.org/operation_3578
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3452
   provenance_tier: literature

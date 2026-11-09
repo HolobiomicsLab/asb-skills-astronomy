@@ -12,7 +12,6 @@ when_to_use_negative:
 - A different BBN code (PArthENoPE, PRIMAT, AlterBBN) is mandated by the workflow
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
-- http://edamontology.org/topic_3450
 - http://edamontology.org/topic_0152
 tools:
 - name: PRyMordial
@@ -42,7 +41,6 @@ metadata:
   - SciML kit
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
-  - http://edamontology.org/topic_3450
   - http://edamontology.org/topic_0152
   provenance_tier: literature
 license: CC-BY-4.0

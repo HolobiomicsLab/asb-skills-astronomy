@@ -13,7 +13,7 @@ when_to_use_negative:
   workflow will not preserve them.
 - The analysis targets a non-IXPE mission—the framework is IXPE-specific by default
   and adaptation to other polarization-capable missions is possible but non-trivial.
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -49,7 +49,7 @@ metadata:
   - XPBIN
   - XSPEC
   - ixpeobssim
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

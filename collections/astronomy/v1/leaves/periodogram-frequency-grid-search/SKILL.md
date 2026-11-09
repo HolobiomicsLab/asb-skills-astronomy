@@ -11,7 +11,7 @@ when_to_use_negative:
   evenly spaced data a standard FFT-based periodogram may suffice.
 - 'When no frequency grid can be specified: the skill requires an explicit freq_list
   of candidate frequencies to scan.'
-edam_operation: http://edamontology.org/operation_0395
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3399
 tools:
@@ -36,7 +36,7 @@ metadata:
   tools:
   - FINKER
   - Python
-  edam_operation: http://edamontology.org/operation_0395
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3399
   provenance_tier: literature

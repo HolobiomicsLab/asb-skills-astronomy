@@ -11,8 +11,7 @@ when_to_use_negative:
 - Only a single sampling rate is of interest and no scaling-in-L check is needed;
   the sweep across rates is the core of this skill
 edam_operation: http://edamontology.org/operation_3860
-edam_topics:
-- http://edamontology.org/topic_3430
+edam_topics: []
 tools:
 - name: gwsurrogate
   role: Pulls and loads the surrogate model and evaluates it at each sampling rate
@@ -45,8 +44,7 @@ metadata:
   - gwsurrogate
   - gwtools
   edam_operation: http://edamontology.org/operation_3860
-  edam_topics:
-  - http://edamontology.org/topic_3430
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

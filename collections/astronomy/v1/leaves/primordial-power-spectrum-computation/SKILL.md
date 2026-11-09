@@ -12,8 +12,7 @@ when_to_use_negative:
 - Only the background evolution is needed; the perturbation-mode calculation and horizon-exit
   evaluation are unnecessary overhead.
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3998
+edam_topics: []
 tools:
 - name: pyoscode
   role: Integrates the Mukhanov-Sasaki perturbation mode equations and background
@@ -45,8 +44,7 @@ metadata:
   - pyoscode
   - scipy
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3998
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

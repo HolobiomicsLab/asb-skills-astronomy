@@ -11,8 +11,7 @@ when_to_use_negative:
 - Only posterior analysis of existing .vlsv output files is needed — use Analysator/vlsv
   readers instead of modifying the solver's storage.
 edam_operation: http://edamontology.org/operation_0282
-edam_topics:
-- http://edamontology.org/topic_3928
+edam_topics: []
 tools:
 - name: Vlasiator
   role: Reference global hybrid-Vlasov code whose sparse velocity-space representation
@@ -38,8 +37,7 @@ metadata:
   - Vlasiator
   - vlasiator
   edam_operation: http://edamontology.org/operation_0282
-  edam_topics:
-  - http://edamontology.org/topic_3928
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

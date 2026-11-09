@@ -12,7 +12,7 @@ when_to_use_negative:
 - 'Migration torques are the final goal without a solved disk: the torque workflow
   (UnivariateSpline gradient interpolation, Grishin et al. 2023 equations) presupposes
   completed solve_disk output.'
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: pagn
   role: Python module that implements and solves the Sirko & Goodman 2003 and Thompson
@@ -46,7 +46,7 @@ metadata:
   - matplotlib
   - numpy
   - pagn
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

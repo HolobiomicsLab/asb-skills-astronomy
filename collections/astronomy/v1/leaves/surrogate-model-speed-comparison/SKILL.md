@@ -11,7 +11,7 @@ when_to_use_negative:
   XSpec/Sherpa (the ratio only makes sense against the specific surrogate target)
 - The spectral evaluation is a one-off call where setup cost dominates — the >60x
   advantage matters for repeated calls in unmixing loops, not single invocations
-edam_operation: http://edamontology.org/operation_3862
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -50,7 +50,7 @@ metadata:
   - SUSHI
   - Sherpa
   - XSpec
-  edam_operation: http://edamontology.org/operation_3862
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

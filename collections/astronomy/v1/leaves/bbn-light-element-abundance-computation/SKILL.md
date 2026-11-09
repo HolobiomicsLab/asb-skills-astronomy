@@ -12,9 +12,8 @@ when_to_use_negative:
   MC analyses, so no re-run is required
 - The analysis targets late-universe observables unrelated to the BBN era; PRyMordial
   is focused specifically on the cosmological era of Big Bang Nucleosynthesis
-edam_operation: http://edamontology.org/operation_0242
-edam_topics:
-- http://edamontology.org/topic_0185
+edam_operation: http://edamontology.org/operation_0438
+edam_topics: []
 tools:
 - name: PRyMordial
   role: 'Core package: computes BBN light-element abundances and N_eff from the stored
@@ -40,9 +39,8 @@ metadata:
   - Julia
   - PRyMordial
   - Python 3
-  edam_operation: http://edamontology.org/operation_0242
-  edam_topics:
-  - http://edamontology.org/topic_0185
+  edam_operation: http://edamontology.org/operation_0438
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

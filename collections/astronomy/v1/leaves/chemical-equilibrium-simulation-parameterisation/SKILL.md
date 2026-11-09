@@ -10,7 +10,7 @@ when_to_use_negative:
 - The stellar abundance data is very incomplete (e.g. Al, Ca, Mg, Si, or O data not
   reported) — the README warns to consider the sensibility of running simulations
   on such datasets
-edam_operation: http://edamontology.org/operation_3679
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -43,7 +43,7 @@ metadata:
   - matplotlib
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_3679
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

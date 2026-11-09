@@ -15,7 +15,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_3798
 edam_topics:
 - http://edamontology.org/topic_3360
-- http://edamontology.org/topic_3430
 tools:
 - name: NMMA
   role: Framework whose nmma-analysis and lightcurve-analysis entry points assemble
@@ -54,7 +53,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_3798
   edam_topics:
   - http://edamontology.org/topic_3360
-  - http://edamontology.org/topic_3430
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -11,7 +11,6 @@ when_to_use_negative:
   T_gamma/T_nu range and physics assumptions — loading it is preferred over recomputation
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
-- http://edamontology.org/topic_3450
 - http://edamontology.org/topic_0153
 tools:
 - name: PRyMordial
@@ -41,7 +40,6 @@ metadata:
   - Python 3
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
-  - http://edamontology.org/topic_3450
   - http://edamontology.org/topic_0153
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,7 @@ when_to_use_negative:
 - Quantities outside the tracked dependency graph (untracked cached state) need to
   be updated, since update() only deletes quantities it knows depend on the changed
   variables
-edam_operation: http://edamontology.org/operation_3845
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -42,7 +42,7 @@ metadata:
   - CAMB
   - Python
   - hmf
-  edam_operation: http://edamontology.org/operation_3845
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

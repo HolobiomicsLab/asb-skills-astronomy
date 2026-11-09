@@ -10,7 +10,7 @@ when_to_use_negative:
   not a greedy algorithm, which the paper notes is a disadvantage
 - Large populations are required — the paper notes large populations require more
   computer time to converge than small ones
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -40,7 +40,7 @@ metadata:
   - R
   - demc2
   - remotes
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

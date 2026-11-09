@@ -13,7 +13,6 @@ when_to_use_negative:
   is limited to only the MPI backend
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
-- http://edamontology.org/topic_3450
 - http://edamontology.org/topic_3318
 tools:
 - name: FleCSPH
@@ -53,7 +52,6 @@ metadata:
   - Spack
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
-  - http://edamontology.org/topic_3450
   - http://edamontology.org/topic_3318
   provenance_tier: literature
 license: CC-BY-4.0

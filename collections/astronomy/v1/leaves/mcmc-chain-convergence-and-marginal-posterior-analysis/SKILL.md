@@ -12,8 +12,7 @@ when_to_use_negative:
 - Only Python wrapper functions are required — the article notes only a subset of
   the CBL has a Python wrapper, so MCMC work may require C++
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_0107
+edam_topics: []
 tools:
 - name: Cosmo Bologna Lib
   role: Provides the cosmobl::MCMC framework in which the test posterior is defined
@@ -41,8 +40,7 @@ metadata:
   - Cosmo Bologna Lib
   - GSL
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_0107
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

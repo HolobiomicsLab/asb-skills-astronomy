@@ -10,7 +10,7 @@ when_to_use_negative:
   until cmake configuration and `make -jn backends` have completed.
 - The analysis targets modules unrelated to the backends you plan to check (e.g. ColliderBit-only
   runs do not need DarkSUSY/micrOMEGAs/nulike verification).
-edam_operation: http://edamontology.org/operation_0221
+edam_operation: null
 tools:
 - name: GAMBIT
   role: Provides the backend system and the `gambit backends` / `gambit scanners`
@@ -44,7 +44,7 @@ metadata:
   - gamLike
   - micrOMEGAs
   - nulike
-  edam_operation: http://edamontology.org/operation_0221
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

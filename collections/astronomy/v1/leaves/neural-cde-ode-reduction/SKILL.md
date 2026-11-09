@@ -11,7 +11,7 @@ when_to_use_negative:
   interpolation directly rather than forcing Hermite cubic splines
 - The model is a residual or recurrent network, which the article notes are already
   discretisations of ODEs/CDEs and do not need a continuous solve
-edam_operation: http://edamontology.org/operation_1652
+edam_operation: null
 tools:
 - name: Diffrax
   role: JAX-based ODE/CDE solver used to integrate the reduced ODE over [t0, t1] and
@@ -45,7 +45,7 @@ metadata:
   - JAX
   - pytest
   - torchcde
-  edam_operation: http://edamontology.org/operation_1652
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

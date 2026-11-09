@@ -13,8 +13,7 @@ when_to_use_negative:
   — in that case use the provided PRyM_Yp_DH_cosmoMC_2023.dat table directly instead
   of re-configuring the network.
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_3312
+edam_topics: []
 tools:
 - name: PRyMordial
   role: Core BBN computation package whose configuration flags (smallnet_flag, nacreii_flags)
@@ -50,8 +49,7 @@ metadata:
   - Python 3
   - emcee
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_3312
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

@@ -9,7 +9,7 @@ when_to_use_negative:
   no value
 - Planet parameters (radius, mass, host irradiation) are not yet constrained from
   a joint fit, so neither model can be meaningfully evaluated
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -28,7 +28,7 @@ metadata:
   license_tier: open
   tools:
   - Python
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

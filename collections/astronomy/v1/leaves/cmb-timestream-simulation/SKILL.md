@@ -11,7 +11,7 @@ when_to_use_negative:
   — simulation output does not model these
 - Small angular scales matter — the 1-degree smoothing of the input WMAP Q-band map
   deliberately suppresses structure in map domain
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -47,7 +47,7 @@ metadata:
   - Python
   - dst
   - h5py
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

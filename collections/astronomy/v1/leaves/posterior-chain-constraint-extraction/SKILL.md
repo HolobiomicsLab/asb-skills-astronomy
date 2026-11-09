@@ -11,7 +11,7 @@ when_to_use_negative:
   instead
 - The sampler used a non-identity inverse mass matrix or a different normalisation
   scheme than the Fisher scaling used here
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: candl
   role: Provides the differentiable JAX likelihood and candl.tools.get_fisher_matrix
@@ -45,7 +45,7 @@ metadata:
   - JAX
   - Python
   - candl
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

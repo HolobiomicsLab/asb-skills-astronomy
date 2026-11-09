@@ -8,7 +8,7 @@ when_to_use_negative:
   without clipy/JAX support) — NUTS requires exact gradients that cannot be obtained.
 - When you only need parameter constraints and a gradient-free sampler via Cobaya
   or MontePython suffices, especially if the theory pipeline is not differentiable.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -45,7 +45,7 @@ metadata:
   - JAX
   - Python
   - candl
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

@@ -13,8 +13,7 @@ when_to_use_negative:
 - You need RG running between arbitrary scales in a full UV-complete model rather
   than the mediator-mass-to-nuclear-scale running of vector-mediator couplings
 edam_operation: http://edamontology.org/operation_2476
-edam_topics:
-- http://edamontology.org/topic_3464
+edam_topics: []
 tools:
 - name: runDM
   role: Computes the running of DM-SM couplings in vector-mediator simplified models,
@@ -51,8 +50,7 @@ metadata:
   - Python
   - runDM
   edam_operation: http://edamontology.org/operation_2476
-  edam_topics:
-  - http://edamontology.org/topic_3464
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -12,7 +12,7 @@ when_to_use_negative:
   on disk
 - The file format has no reader registered in GWpy/Astropy's unified I/O registry
   (e.g. raw frame files without GWpy's GWF backend) — the class-based read would fail
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 tools:
 - name: GWpy
   role: Provides TimeSeries.read, the entry point routed through the Astropy unified
@@ -44,7 +44,7 @@ metadata:
   - GWpy
   - NumPy
   - Python
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

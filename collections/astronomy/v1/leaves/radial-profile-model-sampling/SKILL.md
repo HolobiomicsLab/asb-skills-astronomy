@@ -12,7 +12,7 @@ when_to_use_negative:
   faster than image-based methods)
 - Independent offset/astrometry parameters per visibility set are required while running
   the stan backend, because only the emcee version implements --astrom
-edam_operation: http://edamontology.org/operation_3949
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3452
 tools:
@@ -44,7 +44,7 @@ metadata:
   - emcee
   - stan
   - vis-r
-  edam_operation: http://edamontology.org/operation_3949
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3452
   provenance_tier: literature

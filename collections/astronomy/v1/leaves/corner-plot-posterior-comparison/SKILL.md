@@ -12,8 +12,7 @@ when_to_use_negative:
 - You need a quantitative model-comparison metric (e.g. Bayes factor) rather than
   a visual posterior overlay
 edam_operation: http://edamontology.org/operation_0337
-edam_topics:
-- http://edamontology.org/topic_3272
+edam_topics: []
 tools:
 - name: jaxspec
   role: Provides plot_corner_comparison (jaxspec.analysis.compare), result.plot_corner()
@@ -39,8 +38,7 @@ metadata:
   - Python
   - jaxspec
   edam_operation: http://edamontology.org/operation_0337
-  edam_topics:
-  - http://edamontology.org/topic_3272
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

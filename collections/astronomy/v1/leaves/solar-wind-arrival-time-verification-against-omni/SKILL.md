@@ -11,8 +11,7 @@ when_to_use_negative:
 - When the goal is predicting in situ magnetic field components in the sheath — FIDO-SIT
   only assumes a Parker Spiral orientation for the upstream direction
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3998
+edam_topics: []
 tools:
 - name: OSPREI
   role: Coupled suite invoked via OSPREI.py with an input text file; results processed
@@ -54,8 +53,7 @@ metadata:
   - OMNI data
   - OSPREI
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3998
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

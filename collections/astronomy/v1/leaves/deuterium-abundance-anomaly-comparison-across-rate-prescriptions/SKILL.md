@@ -10,7 +10,7 @@ when_to_use_negative:
   conversion) rather than nuclear-rate-systematics comparison.
 - When only one rate compilation is of interest — the skill's value comes from the
   PRIMAT-vs-NACRE II contrast, not from either run alone.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: PRyMordial
   role: BBN computation engine producing light-element abundances and handling the
@@ -40,7 +40,7 @@ metadata:
   - PRyMordial
   - Python 3
   - emcee
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,7 @@ when_to_use_negative:
 - The domain is not periodic or the variables are not naturally represented in a Fourier
   basis — a different Dedalus basis (e.g. Chebyshev/Zernuke-style) than the 2D periodic
   Fourier setup is required.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3361
 tools:
@@ -46,7 +46,7 @@ metadata:
   - h5py
   - matplotlib
   - numpy
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3361
   provenance_tier: literature

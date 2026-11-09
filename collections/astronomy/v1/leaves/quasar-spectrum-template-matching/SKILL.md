@@ -12,7 +12,7 @@ when_to_use_negative:
   template cross-correlation (use feature-marking/manual approaches instead)
 - The task requires nonlinear spectral fitting or PCA-based redshifting of photometric
   data — this skill is strictly a Fourier-space template cross-correlation method
-edam_operation: http://edamontology.org/operation_3240
+edam_operation: null
 tools:
 - name: Marz
   role: Web application and CLI that runs the preprocessed dual-path matching algorithm
@@ -40,7 +40,7 @@ metadata:
   - Marz
   - autoz
   - runz
-  edam_operation: http://edamontology.org/operation_3240
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

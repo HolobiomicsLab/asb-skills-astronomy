@@ -10,7 +10,7 @@ when_to_use_negative:
   explicit pair distances
 - Particle data is already a processed analysis product (e.g. power spectra or snapshots)
   rather than raw particle positions in a box
-edam_operation: http://edamontology.org/operation_3845
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -41,7 +41,7 @@ metadata:
   - Cython
   - NumPy
   - Python
-  edam_operation: http://edamontology.org/operation_3845
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

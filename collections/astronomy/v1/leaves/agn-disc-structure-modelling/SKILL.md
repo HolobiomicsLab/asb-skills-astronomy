@@ -12,7 +12,6 @@ when_to_use_negative:
   consume the solve_disk output rather than re-solving the structure
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
-- http://edamontology.org/topic_3450
 - http://edamontology.org/topic_3315
 tools:
 - name: pagn
@@ -47,7 +46,6 @@ metadata:
   - pagn
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
-  - http://edamontology.org/topic_3450
   - http://edamontology.org/topic_3315
   provenance_tier: literature
 license: CC-BY-4.0

@@ -12,7 +12,6 @@ when_to_use_negative:
   suffices without a speed-of-sound model.
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
-- http://edamontology.org/topic_3450
 - http://edamontology.org/topic_0203
 tools:
 - name: NMMA
@@ -45,7 +44,6 @@ metadata:
   - dynesty
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
-  - http://edamontology.org/topic_3450
   - http://edamontology.org/topic_0203
   provenance_tier: literature
 license: CC-BY-4.0

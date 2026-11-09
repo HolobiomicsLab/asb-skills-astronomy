@@ -12,7 +12,7 @@ when_to_use_negative:
   be applied
 - Only a single peak exists and downstream tooling cannot tolerate the xcor-normalisation
   change from NaN to a factor of 1
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: Marz
   role: Runs the modified autoz cross-correlation matching pipeline over FITS spectra,
@@ -40,7 +40,7 @@ metadata:
   - Marz
   - autoz
   - kriskowal/q
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

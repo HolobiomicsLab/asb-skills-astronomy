@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
 - http://edamontology.org/topic_3315
-- http://edamontology.org/topic_3898
 tools:
 - name: ZodiPy
   role: Python package used to model zodiacal emission for an arbitrary Solar System
@@ -52,7 +51,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
   - http://edamontology.org/topic_3315
-  - http://edamontology.org/topic_3898
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

@@ -11,7 +11,7 @@ when_to_use_negative:
   limits.
 - You are still generating raw simulated light curves (Target/Survey/DataSet construction)
   rather than calibrating their uncertainties.
-edam_operation: http://edamontology.org/operation_3667
+edam_operation: null
 tools:
 - name: skysurvey
   role: Provides the ZTF DataSet simulation whose light-curve uncertainties (sky-noise
@@ -47,7 +47,7 @@ metadata:
   - scipy
   - skysurvey
   - sncosmo
-  edam_operation: http://edamontology.org/operation_3667
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
