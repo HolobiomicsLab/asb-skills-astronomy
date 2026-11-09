@@ -12,8 +12,7 @@ when_to_use_negative:
   model parameters, since extrapolation is a forecast tool, not a validated model
   extension.
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3353
+edam_topics: []
 tools:
 - name: ZodiPy
   role: Provides the zodiacal light model whose `extrapolate` keyword enables linear
@@ -44,8 +43,7 @@ metadata:
   - ZodiPy
   - healpy
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3353
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

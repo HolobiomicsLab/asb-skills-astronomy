@@ -10,7 +10,7 @@ when_to_use_negative:
   cannot be computed
 - Halos below the 10^11 solar-mass present-day cutoff or times t < 1 Gyr, where diffmah
   accuracy was not demonstrated
-edam_operation: http://edamontology.org/operation_0280
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3452
 tools:
@@ -46,7 +46,7 @@ metadata:
   - TNG
   - diffmah
   - numpy
-  edam_operation: http://edamontology.org/operation_0280
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3452
   provenance_tier: literature

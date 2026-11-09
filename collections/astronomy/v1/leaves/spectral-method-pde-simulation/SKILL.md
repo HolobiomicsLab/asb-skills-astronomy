@@ -11,7 +11,7 @@ when_to_use_negative:
   geometry does not match Dedalus's supported bases.
 - You need validated off-the-shelf solver binaries without installing dependencies
   — Dedalus requires source builds (numpy/FFTW/HDF5/OpenBLAS) or the conda-forge feedstock.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: Dedalus
   role: Core spectral PDE solver; translates plain-text equations into parallelized
@@ -50,7 +50,7 @@ metadata:
   - matplotlib
   - numpy
   - scipy
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

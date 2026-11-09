@@ -9,7 +9,7 @@ when_to_use_negative:
   scale height
 - The goal is posterior accuracy rather than runtime benchmarking — hard --sz u,v
   averaging gives quick but less robust parameter estimates
-edam_operation: http://edamontology.org/operation_3861
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -39,7 +39,7 @@ metadata:
   - ALMA
   - Python
   - vis-r
-  edam_operation: http://edamontology.org/operation_3861
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

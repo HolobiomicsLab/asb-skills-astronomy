@@ -12,7 +12,7 @@ when_to_use_negative:
 - 'The medium is not in-ice: NuRadioMC is scoped as a Monte Carlo simulation package
   for radio neutrino detectors with the neutrino interaction in a medium (ice), so
   air-shower or non-ice propagation setups fall outside this skill.'
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 tools:
 - name: NuRadioMC
   role: 'Hosts the propagation stage: reads the medium definition from the simulation
@@ -42,7 +42,7 @@ metadata:
   - NuRadioReco
   - Python
   - RadioPropa
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

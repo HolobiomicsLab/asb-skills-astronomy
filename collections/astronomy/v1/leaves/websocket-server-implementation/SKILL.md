@@ -12,7 +12,7 @@ when_to_use_negative:
   that end in tasks.py
 - The client cannot use browser-based websocket access — Toyz requires that 'Users
   connect to the Toyz web application via a web browser'
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 tools:
 - name: Toyz
   role: Open source Python web application framework providing the reference websocket/session/job-queue
@@ -40,7 +40,7 @@ metadata:
   - Python
   - Tornado
   - Toyz
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

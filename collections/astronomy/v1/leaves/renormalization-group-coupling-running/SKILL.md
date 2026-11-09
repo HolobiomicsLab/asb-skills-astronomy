@@ -12,7 +12,7 @@ when_to_use_negative:
   step itself — the README points to interfacing with the NRopsDD code for that purpose.
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
-- http://edamontology.org/topic_3537
+- http://edamontology.org/topic_0601
 tools:
 - name: runDM
   role: 'Primary tool: evolves DM–SM mediator couplings between high energy and low
@@ -53,7 +53,7 @@ metadata:
   - runDM
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
-  - http://edamontology.org/topic_3537
+  - http://edamontology.org/topic_0601
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

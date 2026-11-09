@@ -10,7 +10,7 @@ when_to_use_negative:
   available to anchor the slopes
 - Estimating vapour pressures of tetraalkenylstannanes, for which current hydrocarbon-based
   estimation methods were less successful
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -41,7 +41,7 @@ metadata:
   - FID detector
   - SE-30 capillary column
   - Shimadzu GC-15A gas chromatograph
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

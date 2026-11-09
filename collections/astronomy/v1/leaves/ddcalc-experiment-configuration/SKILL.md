@@ -11,8 +11,7 @@ when_to_use_negative:
 - No dark matter model point or scattering couplings are specified and only a global
   parameter scan framework is needed
 edam_operation: http://edamontology.org/operation_2238
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: DDCalc
   role: Direct detection package that models a large range of direct detection experiments
@@ -47,8 +46,7 @@ metadata:
   - GAMBIT
   - gamLike
   edam_operation: http://edamontology.org/operation_2238
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

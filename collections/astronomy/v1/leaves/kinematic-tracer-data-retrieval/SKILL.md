@@ -13,8 +13,7 @@ when_to_use_negative:
   directly on existing output/vcdata.dat and output/posdata.dat instead of re-running
   retrieval
 edam_operation: http://edamontology.org/operation_2409
-edam_topics:
-- http://edamontology.org/topic_3264
+edam_topics: []
 tools:
 - name: galkin
   role: Python package with data-handling routines (processdata.py, readparsFile.py,
@@ -51,8 +50,7 @@ metadata:
   - galkin_data_fast.py
   - numpy
   edam_operation: http://edamontology.org/operation_2409
-  edam_topics:
-  - http://edamontology.org/topic_3264
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

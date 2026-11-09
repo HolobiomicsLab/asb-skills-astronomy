@@ -12,7 +12,7 @@ when_to_use_negative:
   at t <= 1 Gyr, where the 0.1 dex accuracy claim does not apply
 - Analysis requires simulating baryonic physics directly (e.g. reproducing TNG hydrodynamical
   dynamics) rather than empirically approximating halo growth
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: diffmah
   role: Differentiable 3-parameter power-law model evaluated on parameter sets to
@@ -45,7 +45,7 @@ metadata:
   - Python >=3.9
   - diffmah
   - numpy
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

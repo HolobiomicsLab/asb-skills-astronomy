@@ -12,8 +12,7 @@ when_to_use_negative:
 - The goal is simulating transients from scratch (Target/Survey/DataSet construction)
   rather than calibrating the noise model of an existing simulated dataset
 edam_operation: http://edamontology.org/operation_3435
-edam_topics:
-- http://edamontology.org/topic_3995
+edam_topics: []
 tools:
 - name: skysurvey
   role: Framework used to simulate the ZTF SN Ia DR2 light curves whose uncertainties
@@ -51,8 +50,7 @@ metadata:
   - skysurvey
   - sncosmo
   edam_operation: http://edamontology.org/operation_3435
-  edam_topics:
-  - http://edamontology.org/topic_3995
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

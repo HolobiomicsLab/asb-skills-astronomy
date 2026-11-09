@@ -13,9 +13,7 @@ when_to_use_negative:
 - When the goal is a posteriori host measurements (e.g. redshift or local Halpha flux)
   from SEDm residuals — the residual host component cannot support such measurements
 edam_operation: http://edamontology.org/operation_0337
-edam_topics:
-- http://edamontology.org/topic_3995
-- http://edamontology.org/topic_3993
+edam_topics: []
 tools:
 - name: CIGALE
   role: Produces the per-pixel best-fit SEDs that are rebinned; used as a physically-motivated
@@ -49,9 +47,7 @@ metadata:
   - PanSTARRS-1
   - pysedm
   edam_operation: http://edamontology.org/operation_0337
-  edam_topics:
-  - http://edamontology.org/topic_3995
-  - http://edamontology.org/topic_3993
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

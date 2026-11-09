@@ -13,7 +13,7 @@ when_to_use_negative:
 - You need continuous-time dynamics of Neural CDEs solved against a data path; this
   skill only checks the RNN-as-Euler-discretisation equivalence, not CDE interpolation
   (e.g. Hermite cubic splines with backward differences).
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3474
 tools:
@@ -38,7 +38,7 @@ metadata:
   tools:
   - Diffrax
   - JAX
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3474
   provenance_tier: literature

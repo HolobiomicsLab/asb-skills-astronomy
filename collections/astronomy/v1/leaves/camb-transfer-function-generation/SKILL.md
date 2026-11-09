@@ -11,7 +11,7 @@ when_to_use_negative:
   bindings
 - Input transfer function is neither CAMB-produced nor in CAMB format — hmf will reject
   the file
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -45,7 +45,7 @@ metadata:
   - Python
   - hmf
   - pycamb
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

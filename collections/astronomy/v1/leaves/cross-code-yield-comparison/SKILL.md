@@ -11,8 +11,7 @@ when_to_use_negative:
 - The model's annihilation involves few or exotic final states where the reference
   codes lack tabulated branching yields, so a meaningful comparison is impossible
 edam_operation: http://edamontology.org/operation_2424
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: DarkBit
   role: 'Code under test: computes gamma-ray signal yields via its cascade-decay Monte
@@ -45,8 +44,7 @@ metadata:
   - Pythia 8
   - micrOMEGAs
   edam_operation: http://edamontology.org/operation_2424
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

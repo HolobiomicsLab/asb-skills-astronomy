@@ -14,7 +14,7 @@ when_to_use_negative:
   solver differences.
 - Your question concerns linear-theory predictions, where agreement with class, not
   N-body force solvers, is the reference.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -55,7 +55,7 @@ metadata:
   - OpenMPI
   - Python
   - class
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

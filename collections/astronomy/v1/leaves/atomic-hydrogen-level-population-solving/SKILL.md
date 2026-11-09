@@ -12,7 +12,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_0282
 edam_topics:
 - http://edamontology.org/topic_3318
-- http://edamontology.org/topic_3450
 tools:
 - name: HyLight
   role: Atomic hydrogen model that computes level populations and line emissivities;
@@ -50,7 +49,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_0282
   edam_topics:
   - http://edamontology.org/topic_3318
-  - http://edamontology.org/topic_3450
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

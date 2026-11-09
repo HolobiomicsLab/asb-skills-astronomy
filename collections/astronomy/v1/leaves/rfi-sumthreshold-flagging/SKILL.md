@@ -9,7 +9,7 @@ when_to_use_negative:
 - Data cannot be loaded into the AIPS environment — SERPent is written in ParselTongue/Python
   specifically to interact with data in AIPS
 - A calibrated, RFI-free dataset is already available and no further flagging is required
-edam_operation: http://edamontology.org/operation_3220
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -46,7 +46,7 @@ metadata:
   - Parseltongue
   - Python
   - SERPent
-  edam_operation: http://edamontology.org/operation_3220
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

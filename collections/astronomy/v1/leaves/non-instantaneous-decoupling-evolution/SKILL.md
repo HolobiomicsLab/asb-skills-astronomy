@@ -10,9 +10,7 @@ when_to_use_negative:
 - The analysis concerns BBN abundance network details or thermonuclear rate uncertainties
   rather than the thermal history — PRyMordial handles those as separate stages.
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3450
-- http://edamontology.org/topic_0221
+edam_topics: []
 tools:
 - name: PRyMordial
   role: 'Main package: solves the coupled thermal-history ODEs with non-instantaneous
@@ -41,9 +39,7 @@ metadata:
   - PRyMordial
   - Python 3
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3450
-  - http://edamontology.org/topic_0221
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

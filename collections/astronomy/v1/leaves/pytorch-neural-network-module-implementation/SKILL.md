@@ -11,7 +11,7 @@ when_to_use_negative:
   learning
 - Input is not image data amenable to augmentation-based contrastive-style pretraining
   (e.g. already-extracted feature tables)
-edam_operation: http://edamontology.org/operation_3983
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3474
 - http://edamontology.org/topic_0003
@@ -42,7 +42,7 @@ metadata:
   - Python
   - Python 3.12
   - astromorph
-  edam_operation: http://edamontology.org/operation_3983
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3474
   - http://edamontology.org/topic_0003

@@ -10,7 +10,7 @@ when_to_use_negative:
 - When running a single independent chain with no Gelman-Rubin convergence checking
   (e.g. a WinBUGS-style single-chain update), where overdispersed populations serve
   no diagnostic purpose
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -40,7 +40,7 @@ metadata:
   - TraitEnvMLMWA
   - demc2
   - remotes
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

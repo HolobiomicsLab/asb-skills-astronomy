@@ -13,8 +13,7 @@ when_to_use_negative:
 - When using GADGET-2/GADGET-4 instead of CONCEPT — the P3M limiter scheme and its
   Figure 2 behaviour are specific to CONCEPT 1.0's time-step machinery
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: CONCEPT 1.0
   role: Simulation code whose P3M time-stepping limiter is evaluated; parameter files
@@ -48,8 +47,7 @@ metadata:
   - Python
   - class
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

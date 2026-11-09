@@ -11,7 +11,7 @@ when_to_use_negative:
 - 'Before map-making: destriping limitations mean gain variations or spin-synchronous
   systematic effects must be handled separately and cannot be diagnosed by this white-noise
   comparison'
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: HEALPix
   role: anafast computes the partial-sky EE/BB spectra that are corrected by the sky
@@ -37,7 +37,7 @@ metadata:
   - B-Machine
   - HEALPix
   - Python
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

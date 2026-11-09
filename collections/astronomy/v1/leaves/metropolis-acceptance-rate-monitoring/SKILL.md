@@ -11,7 +11,7 @@ when_to_use_negative:
   be reached — acceptance-rate monitoring cannot fix this, as far-away modes are unreachable
 - Blocks are strongly correlated and γ has not been decreased — the acceptance fraction
   will be off-optimal and the ~0.23 benchmark no longer applies until γ is retuned
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_2269
 tools:
@@ -41,7 +41,7 @@ metadata:
   - TraitEnvMLMWA
   - demc2
   - remotes
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_2269
   provenance_tier: literature

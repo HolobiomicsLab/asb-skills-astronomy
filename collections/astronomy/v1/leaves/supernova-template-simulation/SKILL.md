@@ -11,8 +11,7 @@ when_to_use_negative:
 - A non-photometric, non-survey transient simulation (e.g. spectral modeling) is required;
   skysurvey is built around survey pointings and bandpass photometry via sncosmo
 edam_operation: http://edamontology.org/operation_0244
-edam_topics:
-- http://edamontology.org/topic_0657
+edam_topics: []
 tools:
 - name: skysurvey
   role: 'Core framework: creates Target, Survey, and DataSet and simulates how the
@@ -51,8 +50,7 @@ metadata:
   - skysurvey
   - sncosmo
   edam_operation: http://edamontology.org/operation_0244
-  edam_topics:
-  - http://edamontology.org/topic_0657
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

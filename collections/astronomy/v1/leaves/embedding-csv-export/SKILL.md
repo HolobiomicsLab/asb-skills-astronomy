@@ -13,7 +13,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2929
 edam_topics:
 - http://edamontology.org/topic_3489
-- http://edamontology.org/topic_0006
 tools:
 - name: astromorph
   role: Provides pipeline_02_inference.py, the configurable inference script that
@@ -52,7 +51,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2929
   edam_topics:
   - http://edamontology.org/topic_3489
-  - http://edamontology.org/topic_0006
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

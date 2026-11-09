@@ -10,7 +10,7 @@ when_to_use_negative:
   pipelines (HARPS-TERRA, SERVAL)
 - When an order shows an anomalously small uncertainty in RV_orderwise_errors.png
   — the weighted average can then be dominated by an unreliable order
-edam_operation: http://edamontology.org/operation_3234
+edam_operation: null
 tools:
 - name: S-BART
   role: Pipeline in which the classical per-order template matching variant is implemented
@@ -43,7 +43,7 @@ metadata:
   - S-BART
   - SBART
   - SERVAL
-  edam_operation: http://edamontology.org/operation_3234
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

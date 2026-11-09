@@ -13,7 +13,7 @@ when_to_use_negative:
   3-million-triangle models.'
 - When running ComaCreator standalone — the README says the standalone version 'has
   not been tested in a long time so it is mandatory to use Sispo'.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: ComaCreator
   role: Implements the noise-function surface source assignment (NSDSGenerator / DefaultGasPreprocessor)
@@ -43,7 +43,7 @@ metadata:
   - ComaCreator
   - SISPO
   - sispo_docker
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

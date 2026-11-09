@@ -10,7 +10,7 @@ when_to_use_negative:
   timing cannot distinguish linear from quadratic complexity
 - When using runtime backends other than MPI, since the current FleCSPH version only
   supports the MPI backend
-edam_operation: http://edamontology.org/operation_3875
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3316
 tools:
@@ -49,7 +49,7 @@ metadata:
   - H5part
   - MPI
   - Spack
-  edam_operation: http://edamontology.org/operation_3875
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3316
   provenance_tier: literature

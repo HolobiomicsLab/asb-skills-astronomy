@@ -14,7 +14,7 @@ when_to_use_negative:
 - Inputs are measured light-element abundances without Gaussian uncertainties and
   priors on tau_n and Omega_B h^2 — the likelihood construction assumes PDG-style
   percent-level Gaussian measurements.
-edam_operation: http://edamontology.org/operation_3656
+edam_operation: null
 tools:
 - name: PRyMordial
   role: Computes Y_p and D/H abundances for each proposed parameter point, with small
@@ -43,7 +43,7 @@ metadata:
   - PRyMordial
   - Python 3
   - emcee
-  edam_operation: http://edamontology.org/operation_3656
+  edam_operation: null
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

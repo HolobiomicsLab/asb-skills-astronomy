@@ -10,7 +10,7 @@ when_to_use_negative:
   builds a hierarchy of partitions rather than a single clustering.
 - The input is raw multi-band imaging rather than a reduced, tabular (CSV/TXT) catalog
   of named numeric columns.
-edam_operation: http://edamontology.org/operation_3462
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3360
 - http://edamontology.org/topic_0092
@@ -44,7 +44,7 @@ metadata:
   - ape
   - corrplot
   - fpc
-  edam_operation: http://edamontology.org/operation_3462
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3360
   - http://edamontology.org/topic_0092

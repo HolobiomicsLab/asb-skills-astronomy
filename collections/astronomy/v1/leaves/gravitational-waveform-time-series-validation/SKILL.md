@@ -14,7 +14,6 @@ when_to_use_negative:
 edam_operation: http://edamontology.org/operation_2428
 edam_topics:
 - http://edamontology.org/topic_3322
-- http://edamontology.org/topic_3458
 tools:
 - name: gwsurrogate
   role: Interface to gravitational wave surrogate models; provides catalog, loading,
@@ -57,7 +56,6 @@ metadata:
   edam_operation: http://edamontology.org/operation_2428
   edam_topics:
   - http://edamontology.org/topic_3322
-  - http://edamontology.org/topic_3458
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

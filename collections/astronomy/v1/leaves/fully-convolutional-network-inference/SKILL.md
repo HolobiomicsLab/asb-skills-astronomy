@@ -11,8 +11,7 @@ when_to_use_negative:
 - The spectrum has a header or a non-standard column layout — the network expects
   headerless two-column wavelength/flux input
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_3995
+edam_topics: []
 tools:
 - name: SUPPNet
   role: Provides the fully convolutional neural network (SUPP Network) trained to
@@ -44,8 +43,7 @@ metadata:
   - conda
   - pip
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_3995
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

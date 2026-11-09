@@ -13,8 +13,7 @@ when_to_use_negative:
   V — little data on such molecular descriptors exists and few published relationships
   use them
 edam_operation: http://edamontology.org/operation_0337
-edam_topics:
-- http://edamontology.org/topic_0379
+edam_topics: []
 tools:
 - name: scipy.stats.linregress
   role: Performs the OLS linear regression of ΔHv (kJ/mol) on intrinsic molar volume
@@ -43,8 +42,7 @@ metadata:
   - Shimadzu GC-15A gas chromatograph
   - scipy.stats.linregress
   edam_operation: http://edamontology.org/operation_0337
-  edam_topics:
-  - http://edamontology.org/topic_0379
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 evidence_trimmed: true

@@ -12,8 +12,7 @@ when_to_use_negative:
 - Lossless compression or scientific-format-preserving transcoding is required rather
   than error-bounded lossy compression
 edam_operation: http://edamontology.org/operation_0282
-edam_topics:
-- http://edamontology.org/topic_3812
+edam_topics: []
 tools:
 - name: SolarZip
   role: Compression framework whose CLI contract (SolarZip -dim_num -bound_mode -bound_num
@@ -45,8 +44,7 @@ metadata:
   - SolarZip
   - SolarZip-TestData
   edam_operation: http://edamontology.org/operation_0282
-  edam_topics:
-  - http://edamontology.org/topic_3812
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

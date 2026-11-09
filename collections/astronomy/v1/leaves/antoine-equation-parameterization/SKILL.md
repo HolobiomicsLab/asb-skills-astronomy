@@ -12,7 +12,7 @@ when_to_use_negative:
   use the intrinsic molar volume relationship instead.
 - When direct measured vapour pressures within the 40–120°C range are available and
   no sub-range extrapolation is needed — measured GC values should be used directly.
-edam_operation: http://edamontology.org/operation_3439
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3397
 tools:
@@ -40,7 +40,7 @@ metadata:
   - Modified Watson correlation
   - SE-30 capillary column
   - Shimadzu GC-15A gas chromatograph
-  edam_operation: http://edamontology.org/operation_3439
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3397
   provenance_tier: literature

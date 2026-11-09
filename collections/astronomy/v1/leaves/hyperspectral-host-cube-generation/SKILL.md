@@ -13,8 +13,7 @@ when_to_use_negative:
 - Host pixels lack sufficient SNR (>3 in all bands) or the galaxy is too faint for
   per-pixel SED fitting to converge meaningfully.
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3993
+edam_topics: []
 tools:
 - name: CIGALE
   role: SED fitter run per pixel on multi-band photometry to produce the best-fit
@@ -44,8 +43,7 @@ metadata:
   - PS1 images (Pan-STARRS)
   - PanSTARRS-1
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3993
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

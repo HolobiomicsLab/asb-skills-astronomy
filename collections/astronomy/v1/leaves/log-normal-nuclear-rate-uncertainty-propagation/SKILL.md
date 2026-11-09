@@ -12,8 +12,7 @@ when_to_use_negative:
 - When no rate-compilation comparison is needed and the default rate database is already
   validated for the question at hand
 edam_operation: http://edamontology.org/operation_3659
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: PRyMordial
   role: Core BBN computation engine providing fast, precise light-element abundance
@@ -45,8 +44,7 @@ metadata:
   - Python 3
   - emcee
   edam_operation: http://edamontology.org/operation_3659
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

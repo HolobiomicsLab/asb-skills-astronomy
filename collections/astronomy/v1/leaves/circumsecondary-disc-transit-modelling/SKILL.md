@@ -13,7 +13,7 @@ when_to_use_negative:
   circumsecondary disc system
 edam_operation: http://edamontology.org/operation_0244
 edam_topics:
-- http://edamontology.org/topic_0182
+- http://edamontology.org/topic_0080
 tools:
 - name: BeyonCE
   role: Implements the disc-geometry parameterisation, theoretical light-curve gradient
@@ -40,7 +40,7 @@ metadata:
   - Sphinx
   edam_operation: http://edamontology.org/operation_0244
   edam_topics:
-  - http://edamontology.org/topic_0182
+  - http://edamontology.org/topic_0080
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

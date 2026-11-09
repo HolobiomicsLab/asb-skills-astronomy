@@ -12,8 +12,7 @@ when_to_use_negative:
 - When working with non-spectral discretizations or non-Dedalus PDE frameworks, since
   the example relies on Dedalus's symbolic equation entry and compiled sparse solvers
 edam_operation: http://edamontology.org/operation_3946
-edam_topics:
-- http://edamontology.org/topic_3872
+edam_topics: []
 tools:
 - name: Dedalus
   role: symbolic equation entry, spectral discretization, and MPI-parallel compiled
@@ -47,8 +46,7 @@ metadata:
   - matplotlib
   - numpy
   edam_operation: http://edamontology.org/operation_3946
-  edam_topics:
-  - http://edamontology.org/topic_3872
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

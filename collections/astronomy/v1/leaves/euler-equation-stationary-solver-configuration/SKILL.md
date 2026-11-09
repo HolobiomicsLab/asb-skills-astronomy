@@ -11,8 +11,7 @@ when_to_use_negative:
 - Matlab 8.0 (R2012b) or later is unavailable — the workflow requires that minimum
   Matlab version
 edam_operation: http://edamontology.org/operation_2426
-edam_topics:
-- http://edamontology.org/topic_3359
+edam_topics: []
 tools:
 - name: galax2d
   role: Matlab code that finds the stationary solution of the 2-D compressible isothermal
@@ -38,8 +37,7 @@ metadata:
   - Matlab 8.0 (R2012b)
   - galax2d
   edam_operation: http://edamontology.org/operation_2426
-  edam_topics:
-  - http://edamontology.org/topic_3359
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

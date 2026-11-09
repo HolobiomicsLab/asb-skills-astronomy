@@ -10,7 +10,7 @@ when_to_use_negative:
   (chord diagram) rather than a vertex-edge graph
 - The data are not a parameter-by-variable table that supports pairwise correlation
   computation
-edam_operation: http://edamontology.org/operation_3083
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 tools:
@@ -47,7 +47,7 @@ metadata:
   - fpc
   - qgraph
   - shiny
-  edam_operation: http://edamontology.org/operation_3083
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   provenance_tier: literature

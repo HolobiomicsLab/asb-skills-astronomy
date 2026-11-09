@@ -10,9 +10,8 @@ when_to_use_negative:
   must be reached — DE-MC cannot jump there regardless of blocking
 - When the problem is a generalized linear model already handled well by WinBUGS one-dimensional
   updates
-edam_operation: http://edamontology.org/operation_3722
+edam_operation: null
 edam_topics:
-- http://edamontology.org/topic_0167
 - http://edamontology.org/topic_2269
 tools:
 - name: R
@@ -46,9 +45,8 @@ metadata:
   - WinBUGS
   - demc2
   - remotes
-  edam_operation: http://edamontology.org/operation_3722
+  edam_operation: null
   edam_topics:
-  - http://edamontology.org/topic_0167
   - http://edamontology.org/topic_2269
   provenance_tier: literature
 license: CC-BY-4.0

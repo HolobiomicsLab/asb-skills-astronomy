@@ -10,7 +10,7 @@ when_to_use_negative:
   pure-hydrogen inversion of Eqs. 23-25 no longer applies.
 - The geometry is spherical (central point source or isotropic background) rather
   than a plane-parallel slab, where no planar column-depth inversion exists.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: rabacus
   role: Provides the Slab_Pln numerical solver whose hydrogen ionization-fraction
@@ -38,7 +38,7 @@ metadata:
   - Python
   - Quantities
   - rabacus
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

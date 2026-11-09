@@ -13,7 +13,7 @@ when_to_use_negative:
   computes equilibrium states only; non-equilibrium solvers are a planned future improvement.
 - Metal line cooling dominates the thermal balance — metal line cooling is not yet
   included in rabacus.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -43,7 +43,7 @@ metadata:
   - Python
   - Quantities
   - rabacus
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

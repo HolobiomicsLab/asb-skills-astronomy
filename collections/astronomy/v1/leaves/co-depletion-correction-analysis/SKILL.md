@@ -13,7 +13,7 @@ when_to_use_negative:
 - When the available ALMA data are expected to discriminate viscosity vs MHD winds
   conclusively — the article notes the data have not yet given conclusive answers
   on the underlying disc evolution mechanism.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: ALMA
   role: Source of the 12CO line-flux and 887-micron disc-size survey observations
@@ -39,7 +39,7 @@ metadata:
   - ALMA
   - COpops
   - DALI
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

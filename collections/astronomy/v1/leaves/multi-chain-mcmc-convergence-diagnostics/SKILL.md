@@ -9,7 +9,7 @@ when_to_use_negative:
 - The problem is a one-dimensional update within a generalized linear model, where
   WinBUGS-style independent chains suffice and the population-based approach adds
   cost
-edam_operation: http://edamontology.org/operation_3562
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0203
 tools:
@@ -43,7 +43,7 @@ metadata:
   - WinBUGS
   - demc2
   - remotes
-  edam_operation: http://edamontology.org/operation_3562
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0203
   provenance_tier: literature

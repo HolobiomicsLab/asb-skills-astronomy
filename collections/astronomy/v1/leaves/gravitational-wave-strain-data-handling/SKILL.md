@@ -11,8 +11,7 @@ when_to_use_negative:
 - The analysis needs frequency-domain or auxiliary-channel data (e.g., accelerometer
   or mains power monitor channels) rather than open strain data
 edam_operation: http://edamontology.org/operation_2422
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: GWpy
   role: Provides the TimeSeries class and remote-data access system used to download
@@ -38,8 +37,7 @@ metadata:
   - GWpy
   - Python
   edam_operation: http://edamontology.org/operation_2422
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: critique

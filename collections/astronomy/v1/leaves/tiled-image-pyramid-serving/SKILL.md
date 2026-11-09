@@ -11,7 +11,7 @@ when_to_use_negative:
   read FITS directly rather than a stock web browser
 - Only 3D/scene rendering over geospatial or planetary data is required — a WebGL
   client such as MIZAR (RTWeb3D) addresses that use case instead of 2D tile streaming
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: visiomatic
   role: Open-source client-server system whose server component (visiomatic.server.tiled)
@@ -35,7 +35,7 @@ metadata:
   tools:
   - iipsrv (IIPImage, cmarmo/iipsrv-astro)
   - visiomatic
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

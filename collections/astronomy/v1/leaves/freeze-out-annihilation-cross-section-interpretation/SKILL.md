@@ -11,8 +11,7 @@ when_to_use_negative:
 - The quantity of interest is a direct-detection or gamma-ray likelihood rather than
   the relic density — use DDCalc, gamLike or DarkBit's detection routines instead
 edam_operation: http://edamontology.org/operation_3799
-edam_topics:
-- http://edamontology.org/topic_3450
+edam_topics: []
 tools:
 - name: DarkBit
   role: Provides the relic density routines that evaluate the thermal freeze-out annihilation
@@ -45,8 +44,7 @@ metadata:
   - GAMBIT
   - micrOMEGAs
   edam_operation: http://edamontology.org/operation_3799
-  edam_topics:
-  - http://edamontology.org/topic_3450
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

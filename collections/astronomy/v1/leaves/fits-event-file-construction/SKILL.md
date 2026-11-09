@@ -8,7 +8,7 @@ when_to_use_negative:
   event lists (use the binning applications like xpbin instead)
 - The target mission format is not IXPE-like FITS event lists without adaptation,
   since the modular implementation must be adapted for missions other than IXPE
-edam_operation: http://edamontology.org/operation_3679
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3315
 tools:
@@ -35,7 +35,7 @@ metadata:
   - Python
   - astropy
   - ixpeobssim
-  edam_operation: http://edamontology.org/operation_3679
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3315
   provenance_tier: literature

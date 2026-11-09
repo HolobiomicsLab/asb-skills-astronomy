@@ -11,7 +11,7 @@ when_to_use_negative:
   discarded
 - The flag column semantics are unknown or unreliable, since this skill trusts the
   catalog's own extended flag without cross-validation
-edam_operation: http://edamontology.org/operation_0222
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3077
 tools:
@@ -44,7 +44,7 @@ metadata:
   - Python
   - astropy
   - numpy
-  edam_operation: http://edamontology.org/operation_0222
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3077
   provenance_tier: literature

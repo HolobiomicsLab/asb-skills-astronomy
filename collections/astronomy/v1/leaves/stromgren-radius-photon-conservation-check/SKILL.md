@@ -10,7 +10,7 @@ when_to_use_negative:
   states these are planned future improvements and not yet included
 - You need helium-only or temperature-free test verification — this skill is specifically
   the hydrogen Strömgren sphere photon-conservation check
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -48,7 +48,7 @@ metadata:
   - Python
   - Quantities
   - rabacus
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

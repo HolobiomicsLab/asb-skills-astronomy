@@ -11,7 +11,7 @@ when_to_use_negative:
   option
 - When the goal is accuracy comparison (work-precision diagrams) rather than wall-clock
   timing; tolerances, not thread counts, are the relevant knobs
-edam_operation: http://edamontology.org/operation_3842
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3318
 tools:
@@ -49,7 +49,7 @@ metadata:
   - OrdinaryDiffEq.jl
   - Plots
   - SymBoltz
-  edam_operation: http://edamontology.org/operation_3842
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3318
   provenance_tier: literature

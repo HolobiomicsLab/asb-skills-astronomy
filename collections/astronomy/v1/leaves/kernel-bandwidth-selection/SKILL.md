@@ -10,7 +10,7 @@ when_to_use_negative:
   weighting that FINKER's kernel regression inherently incorporates
 - The dataset is not a time series with uncertainties (e.g. an already-processed feature
   table); kernel-regression folding of the data at trial frequencies is meaningless
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: FINKER
   role: Provides parallel_nonparametric_kernel_regression with kernel functions and
@@ -34,7 +34,7 @@ metadata:
   tools:
   - FINKER
   - Python
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

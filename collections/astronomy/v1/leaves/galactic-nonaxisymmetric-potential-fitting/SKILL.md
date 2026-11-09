@@ -12,7 +12,7 @@ when_to_use_negative:
 - When sub-2-hour computation is impossible and only quick tests are acceptable —
   bins_model=64+1 (data-equivalent resolution) significantly increases computation
   time
-edam_operation: http://edamontology.org/operation_3845
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_3322
 - http://edamontology.org/topic_3315
@@ -55,7 +55,7 @@ metadata:
   - SPIBACK
   - SciPy
   - torchdiffeq
-  edam_operation: http://edamontology.org/operation_3845
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_3322
   - http://edamontology.org/topic_3315

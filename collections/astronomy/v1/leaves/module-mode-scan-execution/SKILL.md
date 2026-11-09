@@ -11,8 +11,7 @@ when_to_use_negative:
   verification must pass first; running the scan without them risks fatal errors unrelated
   to the YAML input.
 edam_operation: http://edamontology.org/operation_2945
-edam_topics:
-- http://edamontology.org/topic_3455
+edam_topics: []
 tools:
 - name: GAMBIT
   role: Driver invoked in module mode with an example YAML file to run the scan and
@@ -51,8 +50,7 @@ metadata:
   - micrOMEGAs
   - nulike
   edam_operation: http://edamontology.org/operation_2945
-  edam_topics:
-  - http://edamontology.org/topic_3455
+  edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0
 triage_status: promoted

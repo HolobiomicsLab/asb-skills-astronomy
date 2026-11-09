@@ -14,7 +14,6 @@ when_to_use_negative:
   emulator such as BACCO may be preferred despite being ~36× slower
 edam_operation: http://edamontology.org/operation_3946
 edam_topics:
-- http://edamontology.org/topic_0120
 - http://edamontology.org/topic_3315
 tools:
 - name: CAMB
@@ -57,7 +56,6 @@ metadata:
   - numpy
   edam_operation: http://edamontology.org/operation_3946
   edam_topics:
-  - http://edamontology.org/topic_0120
   - http://edamontology.org/topic_3315
   provenance_tier: literature
 license: CC-BY-4.0

@@ -11,7 +11,7 @@ when_to_use_negative:
   a continuous-time neural ODE with interpolation-based control path adds no benefit.
 - Time series are non-oscillatory or trend-dominated such that continuation beyond
   the training window cannot be meaningfully validated against ground truth.
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 tools:
 - name: Diffrax
   role: Provides diffeqsolve, Tsit5 solver, LinearInterpolation control path, adjoint
@@ -35,7 +35,7 @@ metadata:
   tools:
   - Diffrax
   - JAX
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics: []
   provenance_tier: literature
 license: CC-BY-4.0

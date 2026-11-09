@@ -14,7 +14,6 @@ when_to_use_negative:
   the built-in coupled-equation generators or available plug-in routines
 edam_operation: http://edamontology.org/operation_2426
 edam_topics:
-- http://edamontology.org/topic_3450
 - http://edamontology.org/topic_3318
 tools:
 - name: molscat 2025.0
@@ -50,7 +49,6 @@ metadata:
   - molscat 2025.0
   edam_operation: http://edamontology.org/operation_2426
   edam_topics:
-  - http://edamontology.org/topic_3450
   - http://edamontology.org/topic_3318
   provenance_tier: literature
 license: CC-BY-4.0

@@ -13,7 +13,7 @@ when_to_use_negative:
 - The goal is sensitivity to pressure or metallicity rather than to one elemental
   ratio — those axes are varied separately (pressure 10^-6–0.1 bar, [M/H] −0.3 to
   0.4).
-edam_operation: http://edamontology.org/operation_0242
+edam_operation: http://edamontology.org/operation_0438
 edam_topics:
 - http://edamontology.org/topic_3335
 tools:
@@ -46,7 +46,7 @@ metadata:
   - matplotlib
   - numpy
   - pandas
-  edam_operation: http://edamontology.org/operation_0242
+  edam_operation: http://edamontology.org/operation_0438
   edam_topics:
   - http://edamontology.org/topic_3335
   provenance_tier: literature

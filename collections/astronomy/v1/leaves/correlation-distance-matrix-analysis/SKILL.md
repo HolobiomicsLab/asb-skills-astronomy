@@ -12,7 +12,7 @@ when_to_use_negative:
   levels of association
 - The columns are not numeric/continuous catalog properties, so Pearson/Spearman/MIC
   correlations are not meaningful inputs to the distance conversion
-edam_operation: http://edamontology.org/operation_3462
+edam_operation: null
 edam_topics:
 - http://edamontology.org/topic_0092
 - http://edamontology.org/topic_2269
@@ -61,7 +61,7 @@ metadata:
   - minerva
   - pheatmap
   - shiny
-  edam_operation: http://edamontology.org/operation_3462
+  edam_operation: null
   edam_topics:
   - http://edamontology.org/topic_0092
   - http://edamontology.org/topic_2269

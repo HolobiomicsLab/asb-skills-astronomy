@@ -10,7 +10,7 @@ when_to_use_negative:
   via optool is unnecessary.
 - The wavelength range of interest lies outside the mid-infrared and does not sample
   the 8–10 μm Mg-silicate absorption diagnostic.
-edam_operation: http://edamontology.org/operation_0301
+edam_operation: http://edamontology.org/operation_0303
 edam_topics:
 - http://edamontology.org/topic_3318
 - http://edamontology.org/topic_3321
@@ -49,7 +49,7 @@ metadata:
   - numpy
   - optool
   - petitRADTRANS
-  edam_operation: http://edamontology.org/operation_0301
+  edam_operation: http://edamontology.org/operation_0303
   edam_topics:
   - http://edamontology.org/topic_3318
   - http://edamontology.org/topic_3321
