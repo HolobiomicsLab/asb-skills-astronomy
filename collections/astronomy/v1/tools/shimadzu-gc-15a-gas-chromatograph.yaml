@@ -1,0 +1,16 @@
+name: Shimadzu GC-15A gas chromatograph
+slug: shimadzu-gc-15a-gas-chromatograph
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/0045-6535(92)90276-w
+  title: Equilibrium vapour pressures of tetraorganostannanes
+source_repos:
+- https://github.com/Starlink/starlink
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Starlink/starlink

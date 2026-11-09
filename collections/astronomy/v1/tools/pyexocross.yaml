@@ -1,0 +1,19 @@
+name: PyExoCross
+slug: pyexocross
+version_used: null
+edam_topics: []
+evidence_spans:
+- PyExoCross is a Python adaptation of the ExoCross Fortran application
+- PyExoCross generates absorption and emission stick spectra, cross-sections, and other properties (partition functions, specific heats, cooling functions, lifetimes, and oscillator strengths)
+derived_from:
+- doi: 10.1093/rasti/rzae016
+  title: "<scp>PyExoCross</scp>\n                    : a Python program for generating spectra and cross-sections from molecular line lists"
+source_repos:
+- https://github.com/Beryl-Jingxin/PyExoCross
+- https://github.com/Beryl-Jingxin/PyExoCross.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Beryl-Jingxin/PyExoCross

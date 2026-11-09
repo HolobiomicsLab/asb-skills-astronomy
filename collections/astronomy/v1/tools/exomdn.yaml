@@ -1,0 +1,19 @@
+name: ExoMDN
+slug: exomdn
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present ExoMDN, a machine-learning model for the interior characterization of exoplanets based on mixture density networks (MDN).
+- Then install the *exomdn* package by running
+- This directory also contains the training routines used to train the ExoMDN models
+derived_from:
+- doi: 10.1051/0004-6361/202346216
+  title: 'ExoMDN: Rapid characterization of exoplanet interior structures with mixture density networks'
+source_repos:
+- https://github.com/philippbaumeister/ExoMDN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/philippbaumeister/ExoMDN

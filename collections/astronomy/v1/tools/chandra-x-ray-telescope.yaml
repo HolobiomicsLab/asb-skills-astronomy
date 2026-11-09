@@ -1,0 +1,18 @@
+name: Chandra X-ray telescope
+slug: chandra-x-ray-telescope
+version_used: null
+edam_topics: []
+evidence_spans:
+- by the Chandra telescope
+- results on data of Cassiopeia A taken by the Chandra X-ray tele-scope
+derived_from:
+- doi: 10.1051/0004-6361/202347518
+  title: 'SUSHI: An algorithm for source separation of hyperspectral images with non-stationary spectral variation'
+source_repos:
+- https://github.com/JMLascar/SUSHI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JMLascar/SUSHI

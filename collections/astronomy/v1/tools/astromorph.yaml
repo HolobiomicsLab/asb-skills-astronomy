@@ -1,0 +1,19 @@
+name: astromorph
+slug: astromorph
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present astromorph , a Python package that implements the BYOL method in a way tailored for astronomical imaging.
+- the `BYOL` class as a PyTorch implementation of the BYOL framework;
+- a configurable inference script for easy inspection of the resulting embeddings.
+derived_from:
+- doi: 10.1051/0004-6361/202557638
+  title: 'astromorph: self-supervised machine learning pipeline for astronomical morphology analysis'
+source_repos:
+- https://github.com/onsala-space-observatory/astromorph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/onsala-space-observatory/astromorph

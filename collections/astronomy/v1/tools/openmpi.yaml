@@ -1,0 +1,16 @@
+name: OpenMPI
+slug: openmpi
+version_used: 4.0.3
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1093/mnras/stac568
+  title: The cosmological simulation code CO<i>N</i>CEPT 1.0
+source_repos:
+- https://github.com/jmd-dk/concept
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jmd-dk/concept

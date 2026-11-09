@@ -1,0 +1,17 @@
+name: nestle
+slug: nestle
+version_used: null
+edam_topics: []
+evidence_spans:
+- sampler='nestle', nlive=200
+derived_from:
+- doi: 10.1093/mnras/stae1238
+  title: "<scp>redback</scp>\n                    : a Bayesian inference software package for electromagnetic transients"
+source_repos:
+- https://github.com/nikhil-sarin/redback
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nikhil-sarin/redback

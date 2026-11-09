@@ -1,0 +1,18 @@
+name: SKIRT
+slug: skirt
+version_used: null
+edam_topics: []
+evidence_spans:
+- executes a widely used radiative transfer project, specifically the SKIRT
+- the ideal data cube generation module executes a widely used radiative transfer project, specifically the SKIRT, to perform the SED assignment for each particle
+derived_from:
+- doi: 10.1051/0004-6361/202554287
+  title: 'GalaxyGenius: Mock galaxy image generator for various telescopes from hydrodynamical simulations'
+source_repos:
+- https://github.com/xczhou-astro/galaxyGenius
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xczhou-astro/galaxyGenius

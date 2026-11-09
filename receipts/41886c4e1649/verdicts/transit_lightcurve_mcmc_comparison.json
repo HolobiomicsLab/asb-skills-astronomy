@@ -1,0 +1,13 @@
+{
+  "workflow": "transit_lightcurve_mcmc_comparison",
+  "passes": [
+    "V1",
+    "V2",
+    "V3",
+    "V4",
+    "V5",
+    "V6"
+  ],
+  "findings": [],
+  "verdict": "pass"
+}

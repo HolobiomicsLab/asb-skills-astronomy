@@ -1,0 +1,17 @@
+name: ANTEA
+slug: antea
+version_used: null
+edam_topics: []
+evidence_spans:
+- ANTEATR takes the ForeCAT CME and propagates it to the final satellite distance.
+derived_from:
+- doi: 10.1029/2021sw002914
+  title: 'OSPREI: A Coupled Approach to Modeling CME‐Driven Space Weather With Automatically Generated, User‐Friendly Outputs'
+source_repos:
+- https://github.com/ckay314/OSPREI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ckay314/OSPREI

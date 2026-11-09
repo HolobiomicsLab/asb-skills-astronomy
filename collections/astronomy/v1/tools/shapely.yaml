@@ -1,0 +1,22 @@
+name: Shapely
+slug: shapely
+version_used: null
+edam_topics: []
+evidence_spans:
+- shapely/shapely
+- '``GridSurvey`` uses shapely_ and geopandas_'
+derived_from:
+- doi: 10.1051/0004-6361/202244740
+  title: 'HyperGal: Hyperspectral scene modeling for supernova typing with the SED Machine integral field spectrograph'
+- doi: 10.1051/0004-6361/202452134
+  title: 'ZTF SN Ia DR2: Simulations and volume-limited sample'
+source_repos:
+- https://github.com/shapely/shapely
+- https://github.com/JeremyLezmy/hypergal
+- https://github.com/MickaelRigault/skysurvey
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/shapely/shapely

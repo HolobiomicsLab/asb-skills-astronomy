@@ -1,0 +1,1804 @@
+schema: asb-corpus/1.0
+collection: astronomy
+version: 1
+summary:
+  total: 100
+  included: 100
+  hold: 0
+papers:
+- name: asbb_subwave1_2026-09__coll_rundm_cq
+  doi: 10.1007/jhep08(2016)111
+  title: 'You can hide but you have to run: direct detection with vector mediators'
+  category: astronomy
+  repo_url: https://github.com/bradkav/runDM
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_demc2_cq
+  doi: 10.1007/s11222-006-8769-1
+  title: 'A Markov Chain Monte Carlo version of the genetic algorithm Differential Evolution: easy Bayesian computing for real parameter spaces'
+  category: astronomy
+  repo_url: https://github.com/CajoterBraak/demc2
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_vlasiator_cq
+  doi: 10.1007/s41115-018-0003-2
+  title: Vlasov methods in space physics and astrophysics
+  category: astronomy
+  repo_url: https://github.com/fmihpc/vlasiator
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_twodspec_cq
+  doi: 10.1016/0045-6535(92)90276-w
+  title: Equilibrium vapour pressures of tetraorganostannanes
+  category: astronomy
+  repo_url: https://github.com/Starlink/starlink
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_ccogs_cq
+  doi: 10.1016/j.ascom.2012.11.001
+  title: Cosmological calculations on the GPU
+  category: astronomy
+  repo_url: https://github.com/djbard/ccogs
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_cosmohammer_cq
+  doi: 10.1016/j.ascom.2013.06.003
+  title: 'CosmoHammer: Cosmological parameter estimation with the MCMC Hammer'
+  category: astronomy
+  repo_url: https://github.com/cosmo-ethz/CosmoHammer
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: CC-BY-NC-ND-4.0
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_serpent_cq
+  doi: 10.1016/j.ascom.2013.09.001
+  title: 'SERPent: Automated reduction and RFI-mitigation software for e-MERLIN'
+  category: astronomy
+  repo_url: https://github.com/daniellefenech/SERPent
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: open-access
+    license: cc-by-nc-sa
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_dst_cq
+  doi: 10.1016/j.ascom.2013.10.002
+  title: Destriping cosmic microwave background polarimeter data
+  category: astronomy
+  repo_url: https://github.com/zonca/dst
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_hmf_cq
+  doi: 10.1016/j.ascom.2013.11.001
+  title: 'HMFcalc: An online tool for calculating dark matter halo mass functions'
+  category: astronomy
+  repo_url: https://github.com/halomod/hmf
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_iipimage_cq
+  doi: 10.1016/j.ascom.2014.12.006
+  title: Web-based visualization of very large scientific astronomy imagery
+  category: astronomy
+  repo_url: https://github.com/astromatic/visiomatic
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_cosmophotoz_cq
+  doi: 10.1016/j.ascom.2015.01.002
+  title: 'The overlooked potential of Generalized Linear Models in astronomy-II: Gamma regression and photometric redshifts'
+  category: astronomy
+  repo_url: https://github.com/COINtoolbox/CosmoPhotoz
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_rabacus_cq
+  doi: 10.1016/j.ascom.2015.01.004
+  title: 'Rabacus: A Python package for analytic cosmological radiative transfer calculations'
+  category: astronomy
+  repo_url: https://github.com/galtay/rabacus
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_galsim_cq
+  doi: 10.1016/j.ascom.2015.02.002
+  title: 'GalSim: The modular galaxy image simulation toolkit'
+  category: astronomy
+  repo_url: https://github.com/GalSim-developers/GalSim
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_hds_cq
+  doi: 10.1016/j.ascom.2015.02.003
+  title: Reimplementing the Hierarchical Data System using HDF5
+  category: astronomy
+  repo_url: https://github.com/Starlink/hds-v5
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_galax2d_cq
+  doi: 10.1016/j.ascom.2015.03.005
+  title: 2-D stationary gas dynamics in a barred galaxy
+  category: astronomy
+  repo_url: https://github.com/Someone789/galax2d
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: false
+    oa_status_raw: closed
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_fits2hdf_cq
+  doi: 10.1016/j.ascom.2015.05.001
+  title: 'HDFITS: Porting the FITS data model to HDF5'
+  category: astronomy
+  repo_url: https://github.com/telegraphic/fits2hdf
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_cosmosis_cq
+  doi: 10.1016/j.ascom.2015.05.005
+  title: 'CosmoSIS: Modular cosmological parameter estimation'
+  category: astronomy
+  repo_url: https://github.com/cosmosis-developers/cosmosis
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: link-only
+    license: null
+    is_oa: true
+    oa_status_raw: bronze
+    verified_on: '2026-08-25'
+    source_reuse: none
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_montblanc_cq
+  doi: 10.1016/j.ascom.2015.06.003
+  title: 'Montblanc : GPU accelerated radio interferometer measurement equations in support of Bayesian inference for radio observations'
+  category: astronomy
+  repo_url: https://github.com/ratt-ru/montblanc
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_amada_cq
+  doi: 10.1016/j.ascom.2015.06.006
+  title: AMADA—Analysis of multidimensional astronomical datasets
+  category: astronomy
+  repo_url: https://github.com/RafaelSdeSouza/AMADA
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: other-oa
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: other
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: restricted
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_bitshuffle_cq
+  doi: 10.1016/j.ascom.2015.07.002
+  title: A compression scheme for radio data in high performance computing
+  category: astronomy
+  repo_url: https://github.com/kiyo-masui/bitshuffle
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_chimenea_cq
+  doi: 10.1016/j.ascom.2015.08.003
+  title: 'Chimenea and other tools: Automated imaging of multi-epoch radio-synthesis data with CASA'
+  category: astronomy
+  repo_url: https://github.com/timstaley/chimenea
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_toyz_cq
+  doi: 10.1016/j.ascom.2015.10.001
+  title: 'Toyz: A framework for scientific analysis of large datasets and astronomical images'
+  category: astronomy
+  repo_url: https://github.com/fred3m/toyz
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_cosmobolognalib_cq
+  doi: 10.1016/j.ascom.2016.01.005
+  title: 'CosmoBolognaLib: C++ libraries for cosmological calculations'
+  category: astronomy
+  repo_url: https://github.com/federicomarulli/CosmoBolognaLib
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_ast_cq
+  doi: 10.1016/j.ascom.2016.02.003
+  title: 'AST: A library for modelling and manipulating coordinate systems'
+  category: astronomy
+  repo_url: https://github.com/Starlink/starlink
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_wave250_2026-09-01__coll_marz_cq
+  doi: 10.1016/j.ascom.2016.03.001
+  title: 'Marz: Manual and automatic redshifting software'
+  category: astronomy
+  repo_url: https://github.com/Samreay/Marz
+  status: included
+  wave: asbb_wave250_2026-09-01
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave2_2026-08-31__coll_aspic_cq
+  doi: 10.1016/j.dark.2014.01.003
+  title: Encyclopædia Inflationaris
+  category: astronomy
+  repo_url: https://github.com/cosmicinflation/aspic
+  status: included
+  wave: asbb_subwave2_2026-08-31
+  access:
+    type: open-access
+    license: cc-by-nc-sa
+    is_oa: true
+    oa_status_raw: hybrid
+    verified_on: '2026-08-25'
+    source_reuse: restricted
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: noncommercial
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_alpconv_cq
+  doi: 10.1016/j.physletb.2021.136611
+  title: Revisiting the analysis of axion-like particles with the Fermi-LAT gamma-ray observation of NGC1275
+  category: astronomy
+  repo_url: https://github.com/lyf222/alpconv
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_galkin_cq
+  doi: 10.1016/j.softx.2016.12.006
+  title: 'galkin: A new compilation of Milky Way rotation curve data'
+  category: astronomy
+  repo_url: https://github.com/galkintool/galkin
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: null
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_amber_cq
+  doi: 10.1016/j.softx.2020.100549
+  title: 'AMBER: A real-time pipeline for the detection of single pulse astronomical transients'
+  category: astronomy
+  repo_url: https://github.com/TRASAL/AMBER
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_flecsph_cq
+  doi: 10.1016/j.softx.2020.100602
+  title: 'FleCSPH: The next generation FleCSIble parallel computational infrastructure for smoothed particle hydrodynamics'
+  category: astronomy
+  repo_url: https://github.com/laristra/flecsph
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_swiglal_cq
+  doi: 10.1016/j.softx.2020.100634
+  title: 'SWIGLAL: Python and Octave interfaces to the LALSuite gravitational-wave data analysis libraries'
+  category: astronomy
+  repo_url: https://github.com/ElsevierSoftwareX/SOFTX_2020_119
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_gwpy_cq
+  doi: 10.1016/j.softx.2021.100657
+  title: 'GWpy: A Python package for gravitational-wave astrophysics'
+  category: astronomy
+  repo_url: https://github.com/gwpy/gwpy
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_ixpeobssim_cq
+  doi: 10.1016/j.softx.2022.101194
+  title: 'ixpeobssim: A simulation and analysis framework for the imaging X-ray polarimetry explorer'
+  category: astronomy
+  repo_url: https://github.com/lucabaldini/ixpeobssim
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_galclaim_cq
+  doi: 10.1016/j.softx.2023.101582
+  title: 'Galclaim: A tool to identify host galaxy of astrophysical transient sources'
+  category: astronomy
+  repo_url: https://github.com/jgducoin/galclaim
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_osprei_cq
+  doi: 10.1029/2021sw002914
+  title: 'OSPREI: A Coupled Approach to Modeling CME‐Driven Space Weather With Automatically Generated, User‐Friendly Outputs'
+  category: astronomy
+  repo_url: https://github.com/ckay314/OSPREI
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_compas_cq
+  doi: 10.1038/ncomms14906
+  title: Formation of the first three gravitational-wave observations through isolated binary evolution
+  category: astronomy
+  repo_url: https://github.com/TeamCOMPAS/COMPAS
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nmma_cq
+  doi: 10.1038/s41467-023-43932-6
+  title: An updated nuclear-physics and multi-messenger astrophysics framework for binary neutron star mergers
+  category: astronomy
+  repo_url: https://github.com/nuclear-multimessenger-astronomy/nmma
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_simab_cq
+  doi: 10.1051/0004-6361/202141455
+  title: 'SimAb: A simple, fast, and flexible model to assess the effects of planet formation on the atmospheric composition of gas giants'
+  category: astronomy
+  repo_url: https://github.com/nkhorshid/simab
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_suppnet_cq
+  doi: 10.1051/0004-6361/202141480
+  title: 'SUPPNet: Neural network for stellar spectrum normalisation'
+  category: astronomy
+  repo_url: https://github.com/RozanskiT/suppnet
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_s_bart_cq
+  doi: 10.1051/0004-6361/202142262
+  title: A novel framework for semi-Bayesian radial velocities through template matching
+  category: astronomy
+  repo_url: https://github.com/iastro-pt/sBART
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hydromass_cq
+  doi: 10.1051/0004-6361/202142507
+  title: The gravitational field of X-COP galaxy clusters
+  category: astronomy
+  repo_url: https://github.com/domeckert/hydromass
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sheep_cq
+  doi: 10.1051/0004-6361/202243135
+  title: Photometric redshift-aided classification using ensemble learning
+  category: astronomy
+  repo_url: https://github.com/pedro-acunha/SHEEP
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_kc_cq
+  doi: 10.1051/0004-6361/202243754
+  title: Collision detection for N-body Kepler systems
+  category: astronomy
+  repo_url: https://github.com/Dylan-Aliberti/Kepler-Collisions
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_zodipy_cq
+  doi: 10.1051/0004-6361/202244133
+  title: 'COSMOGLOBE: Simulating zodiacal emission with ZodiPy'
+  category: astronomy
+  repo_url: https://github.com/Cosmoglobe/zodipy
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hypergal_cq
+  doi: 10.1051/0004-6361/202244740
+  title: 'HyperGal: Hyperspectral scene modeling for supernova typing with the SED Machine integral field spectrograph'
+  category: astronomy
+  repo_url: https://github.com/JeremyLezmy/hypergal
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_eccoplanets_cq
+  doi: 10.1051/0004-6361/202244850
+  title: Revisiting equilibrium condensation and rocky planet compositions
+  category: astronomy
+  repo_url: https://github.com/AninaTimmermann/ECCOplanets
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_raccoon_cq
+  doi: 10.1051/0004-6361/202244879
+  title: The CARMENES search for exoplanets around M dwarfs
+  category: astronomy
+  repo_url: https://github.com/mlafarga/raccoon
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_beyonce_cq
+  doi: 10.1051/0004-6361/202245620
+  title: Beyond Circular Eclipsers (BeyonCE) light curve modelling
+  category: astronomy
+  repo_url: https://github.com/dmvandamt/beyonce
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_copops_cq
+  doi: 10.1051/0004-6361/202346164
+  title: Testing protoplanetary disc evolution with CO fluxes
+  category: astronomy
+  repo_url: https://github.com/fzagaria/COpops
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_exomdn_cq
+  doi: 10.1051/0004-6361/202346216
+  title: 'ExoMDN: Rapid characterization of exoplanet interior structures with mixture density networks'
+  category: astronomy
+  repo_url: https://github.com/philippbaumeister/ExoMDN
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_mbasc_cq
+  doi: 10.1051/0004-6361/202346770
+  title: A multi-band AGN-SFG classifier for extragalactic radio surveys using machine learning
+  category: astronomy
+  repo_url: https://github.com/Jesper-Karsten/MBASC
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sushi_cq
+  doi: 10.1051/0004-6361/202347518
+  title: 'SUSHI: An algorithm for source separation of hyperspectral images with non-stationary spectral variation'
+  category: astronomy
+  repo_url: https://github.com/JMLascar/SUSHI
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_symbolic_pofk_cq
+  doi: 10.1051/0004-6361/202348811
+  title: A precise symbolic emulator of the linear matter power spectrum
+  category: astronomy
+  repo_url: https://github.com/deaglanbartlett/symbolic_pofk
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_finker_cq
+  doi: 10.1051/0004-6361/202348848
+  title: 'FINKER: Frequency Identification through Nonparametric KErnel Regression in astronomical time series'
+  category: astronomy
+  repo_url: https://github.com/FiorenSt/FINKER
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_candl_cq
+  doi: 10.1051/0004-6361/202449432
+  title: 'candl: cosmic microwave background analysis with a differentiable likelihood'
+  category: astronomy
+  repo_url: https://github.com/Lbalkenhol/candl
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_skaro_cq
+  doi: 10.1051/0004-6361/202449557
+  title: Populating the Milky Way
+  category: astronomy
+  repo_url: https://github.com/ChrisBoettner/skaro
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_planetic_cq
+  doi: 10.1051/0004-6361/202450472
+  title: Unveiling the internal structure and formation history of the three planets transiting HIP 29442 (TOI-469) with CHEOPS
+  category: astronomy
+  repo_url: https://github.com/joannegger/plaNETic
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_exolyn_cq
+  doi: 10.1051/0004-6361/202451112
+  title: 'ExoLyn: A golden mean approach to multispecies cloud modeling in atmospheric retrieval'
+  category: astronomy
+  repo_url: https://github.com/helonghuangastro/exolyn
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_tess_cont_cq
+  doi: 10.1051/0004-6361/202451656
+  title: 'TOI-5005 b: A super-Neptune in the savanna near the ridge'
+  category: astronomy
+  repo_url: https://github.com/castro-gzlz/TESS-cont
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_jaxspec_cq
+  doi: 10.1051/0004-6361/202451736
+  title: 'jaxspec: A fast and robust Python library for X-ray spectral fitting'
+  category: astronomy
+  repo_url: https://github.com/renecotyfanboy/jaxspec
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_skysurvey_cq
+  doi: 10.1051/0004-6361/202452134
+  title: 'ZTF SN Ia DR2: Simulations and volume-limited sample'
+  category: astronomy
+  repo_url: https://github.com/MickaelRigault/skysurvey
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_spiback_cq
+  doi: 10.1051/0004-6361/202453077
+  title: A non-axisymmetric potential for the Milky Way disk
+  category: astronomy
+  repo_url: https://github.com/yrkhalil/SPIBACK
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_issi_cq
+  doi: 10.1051/0004-6361/202553886
+  title: An efficient integrator for stellar dynamics in effective gravity fields based on the isochrone potential
+  category: astronomy
+  repo_url: https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_galaxygenius_cq
+  doi: 10.1051/0004-6361/202554287
+  title: 'GalaxyGenius: Mock galaxy image generator for various telescopes from hydrodynamical simulations'
+  category: astronomy
+  repo_url: https://github.com/xczhou-astro/galaxyGenius
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_emperor_cq
+  doi: 10.1051/0004-6361/202554336
+  title: EMPEROR
+  category: astronomy
+  repo_url: https://github.com/ReddTea/astroemperor
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_gallifrey_cq
+  doi: 10.1051/0004-6361/202554518
+  title: 'gallifrey: JAX-based Gaussian process structure learning for astronomical time series'
+  category: astronomy
+  repo_url: https://github.com/ChrisBoettner/gallifrey
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_solarzip_cq
+  doi: 10.1051/0004-6361/202555193
+  title: 'SolarZip: An efficient and adaptive compression framework for Solar EUV imaging data'
+  category: astronomy
+  repo_url: https://github.com/hpdps-group/SolarZip
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_strawberry_cq
+  doi: 10.1051/0004-6361/202556846
+  title: 'STRAWBERRY: Finding haloes in the gravitational potential'
+  category: astronomy
+  repo_url: https://github.com/trg-richardson/strawberry
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_gravsphere2_cq
+  doi: 10.1051/0004-6361/202557195
+  title: 'GravSphere2: A higher order Jeans method for mass modeling spherical stellar systems'
+  category: astronomy
+  repo_url: https://github.com/dadams42/GravSphere2
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_symboltz_jl_cq
+  doi: 10.1051/0004-6361/202557450
+  title: 'SymBoltz.jl: A symbolic-numeric, approximation-free, and differentiable linear Einstein–Boltzmann solver'
+  category: astronomy
+  repo_url: https://github.com/hersle/SymBoltz.jl
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_astromorph_cq
+  doi: 10.1051/0004-6361/202557638
+  title: 'astromorph: self-supervised machine learning pipeline for astronomical morphology analysis'
+  category: astronomy
+  repo_url: https://github.com/onsala-space-observatory/astromorph
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nemesis_cq
+  doi: 10.1051/0004-6361/202558060
+  title: 'Nemesis: A multi-scale, multi-physics algorithm for astrophysics'
+  category: astronomy
+  repo_url: https://github.com/ErwanH29/nemesis
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_gpu_ppm_cq
+  doi: 10.1051/0004-6361/202659305
+  title: GPU-accelerated X-ray pulse profile modeling
+  category: astronomy
+  repo_url: https://github.com/zhoutz/gpu_ppm
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_heb_cq
+  doi: 10.1051/0004-6361/202659861
+  title: A user-friendly package and workflow for generating effective homogeneous rheologies for the study of the long-term orbital evolution of multilayered planetary bodies
+  category: astronomy
+  repo_url: https://github.com/ygevorgyan/HomogeneousModel
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_amrex_cq
+  doi: 10.1088/1742-6596/1031/1/012024
+  title: 'Meeting the Challenges of Modeling Astrophysical Thermonuclear Explosions: Castro, Maestro, and the AMReX Astrophysics Suite'
+  category: astronomy
+  repo_url: https://github.com/AMReX-Codes/amrex
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_larch_cq
+  doi: 10.1088/1742-6596/430/1/012007
+  title: 'Larch: An Analysis Package for XAFS and Related Spectroscopies'
+  category: astronomy
+  repo_url: https://github.com/xraypy/xraylarch
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: null
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: none
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_neuralpdr_cq
+  doi: 10.1088/2632-2153/ade4ee
+  title: 'NeuralPDR: neural differential equations as surrogate models for photodissociation regions'
+  category: astronomy
+  repo_url: https://github.com/uclchem/neuralpdr
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_concept_cq
+  doi: 10.1093/mnras/stac568
+  title: The cosmological simulation code CONCEPT 1.0
+  category: astronomy
+  repo_url: https://github.com/jmd-dk/concept
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: open-access
+    license: other-oa
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: other
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: restricted
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pagn_cq
+  doi: 10.1093/mnras/stae1117
+  title: 'pAGN : the one-stop solution for AGN disc modelling'
+  category: astronomy
+  repo_url: https://github.com/DariaGangardt/pAGN
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_smart_cq
+  doi: 10.1093/mnras/stae1141
+  title: 'SMART: spectral energy distributions Markov chain analysis with radiative transfer models'
+  category: astronomy
+  repo_url: https://github.com/ch-var/SMART
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_redback_cq
+  doi: 10.1093/mnras/stae1238
+  title: 'redback : a Bayesian inference software package for electromagnetic transients'
+  category: astronomy
+  repo_url: https://github.com/nikhil-sarin/redback
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_rotcurves_cq
+  doi: 10.1093/mnras/stag134
+  title: 'RotCurves : a PYTHON package for efficient modelling and fitting of galactic rotation curves at high- z'
+  category: astronomy
+  repo_url: https://github.com/nestoramit/RotCurves
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_hylight_cq
+  doi: 10.1093/mnras/stag429
+  title: The HyLight model for hydrogen emission lines in simulated nebulae
+  category: astronomy
+  repo_url: https://github.com/YuankangLiu/HyLight
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_pyexocross_cq
+  doi: 10.1093/rasti/rzae016
+  title: 'PyExoCross : a Python program for generating spectra and cross-sections from molecular line lists'
+  category: astronomy
+  repo_url: https://github.com/Beryl-Jingxin/PyExoCross
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_vis_r_cq
+  doi: 10.1093/rasti/rzaf004
+  title: 'vis-r: Quick radial profile modelling for radio interferometric visibilities'
+  category: astronomy
+  repo_url: https://github.com/drgmk/vis-r
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_oscode_cq
+  doi: 10.1103/physrevresearch.2.013030
+  title: Efficient method for solving highly oscillatory ordinary differential equations with applications to physical systems
+  category: astronomy
+  repo_url: https://github.com/fruzsinaagocs/oscode
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_dedalus_cq
+  doi: 10.1103/physrevresearch.2.023068
+  title: 'Dedalus: A flexible framework for numerical simulations with spectral methods'
+  category: astronomy
+  repo_url: https://github.com/DedalusProject/dedalus
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_darkarc_cq
+  doi: 10.1103/physrevresearch.2.033195
+  title: Atomic responses to general dark matter-electron interactions
+  category: astronomy
+  repo_url: https://github.com/temken/DarkARC
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_gwsurrogate_cq
+  doi: 10.1103/physrevx.4.031006
+  title: Fast Prediction and Evaluation of Gravitational Waveforms Using Surrogate Models
+  category: astronomy
+  repo_url: https://github.com/sxs-collaboration/gwsurrogate
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_darkbit_cq
+  doi: 10.1140/epjc/s10052-017-5155-4
+  title: 'DarkBit: a GAMBIT module for computing dark matter observables and likelihoods'
+  category: astronomy
+  repo_url: https://github.com/GambitBSM/gambit_1.5
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nuradiomc_cq
+  doi: 10.1140/epjc/s10052-020-7612-8
+  title: 'NuRadioMC: simulating the radio emission of neutrinos from interaction to detector'
+  category: astronomy
+  repo_url: https://github.com/nu-radio/NuRadioMC
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_phasetracer_cq
+  doi: 10.1140/epjc/s10052-020-8035-2
+  title: 'PhaseTracer: tracing cosmological phases and calculating transition properties'
+  category: astronomy
+  repo_url: https://github.com/PhaseTracer/PhaseTracer
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_prymordial_cq
+  doi: 10.1140/epjc/s10052-024-12442-0
+  title: 'PRyMordial: the first three minutes, within and beyond the standard model'
+  category: astronomy
+  repo_url: https://github.com/vallima/PRyMordial
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_transit_analysis_package_tap_and_autokep_cq
+  doi: 10.1155/2012/697967
+  title: 'Transit Analysis Package: An IDL Graphical User Interface for Exoplanet Transit Photometry'
+  category: astronomy
+  repo_url: https://github.com/zgazak/TAP
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_nestcheck_cq
+  doi: 10.1214/17-ba1075
+  title: Sampling Errors in Nested Sampling Parameter Estimation
+  category: astronomy
+  repo_url: https://github.com/ejhigson/nestcheck
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_aztekas_cq
+  doi: 10.1371/journal.pone.0195494
+  title: 'A direct Primitive Variable Recovery Scheme for hyperbolic conservative equations: The case of relativistic hydrodynamics'
+  category: astronomy
+  repo_url: https://github.com/aztekas-code/aztekas-main
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_sispo_cq
+  doi: 10.1371/journal.pone.0263882
+  title: 'SISPO: Space Imaging Simulator for Proximity Operations'
+  category: astronomy
+  repo_url: https://github.com/SISPO-developers/sispo
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave1_2026-09__coll_diffmah_cq
+  doi: 10.21105/astro.2105.05859
+  title: A Differentiable Model of the Assembly of Individual and Populations of Dark Matter Halos
+  category: astronomy
+  repo_url: https://github.com/ArgonneCPAC/diffmah
+  status: included
+  wave: asbb_subwave1_2026-09
+  access:
+    type: gold-oa
+    license: CC-BY-4.0
+    is_oa: true
+    oa_status_raw: gold
+    verified_on: '2026-08-25'
+    source_reuse: permissive
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: open
+  license_detection: unpaywall
+- name: asbb_subwave2_2026-08-31__coll_mbf_cq
+  doi: 10.48550/arxiv.1903.06755
+  title: 'User Manual for MOLSCAT, BOUND and FIELD, Version 2025.0: programs for quantum scattering properties and bound states of interacting pairs of atoms and molecules'
+  category: astronomy
+  repo_url: https://github.com/molscat/molscat
+  status: included
+  wave: asbb_subwave2_2026-08-31
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: unknown
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall
+- name: asbb_subwave2_2026-08-31__coll_diffrax_cq
+  doi: 10.48550/arxiv.2202.02435
+  title: On Neural Differential Equations
+  category: astronomy
+  repo_url: https://github.com/patrick-kidger/diffrax
+  status: included
+  wave: asbb_subwave2_2026-08-31
+  access:
+    type: green-oa
+    license: null
+    is_oa: true
+    oa_status_raw: green
+    verified_on: '2026-08-25'
+    source_reuse: unknown
+    verified_via: unpaywall_oa_locations
+  license_subject: paper
+  license_tier: unknown
+  license_detection: unpaywall

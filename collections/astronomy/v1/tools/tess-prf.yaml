@@ -1,0 +1,17 @@
+name: TESS-PRF
+slug: tess-prf
+version_used: null
+edam_topics: []
+evidence_spans:
+- and \texttt{TESS-PRF} \citep{2022ascl.soft07008B}
+derived_from:
+- doi: 10.1051/0004-6361/202451656
+  title: 'TOI-5005 b: A super-Neptune in the savanna near the ridge'
+source_repos:
+- https://github.com/castro-gzlz/TESS-cont
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/castro-gzlz/TESS-cont

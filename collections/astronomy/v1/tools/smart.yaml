@@ -1,0 +1,18 @@
+name: SMART
+slug: smart
+version_used: null
+edam_topics: []
+evidence_spans:
+- the publicly available open-source spectral energy distribution (SED) fitting code SMART (Spectral energy distributions Markov chain Analysis with Radiative Transfer models)
+derived_from:
+- doi: 10.1093/mnras/stae1141
+  title: 'SMART: spectral energy distributions Markov chain analysis with radiative transfer models'
+source_repos:
+- https://github.com/ch-var/SMART
+- https://github.com/ch-var/SMART.git
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ch-var/SMART

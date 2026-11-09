@@ -1,0 +1,36 @@
+name: pip
+slug: pip
+version_used: null
+edam_topics: []
+evidence_spans:
+- '# Install requirements using pip
+
+  $ pip install -r requirements.txt'
+- 'candl can be installed with pip::'
+- pip install -r requirements.txt
+- 'And then call:
+
+  ```
+
+  pip install -e .'
+- pip install -e .
+derived_from:
+- doi: 10.1051/0004-6361/202557638
+  title: 'astromorph: self-supervised machine learning pipeline for astronomical morphology analysis'
+- doi: 10.1051/0004-6361/202449432
+  title: 'candl: cosmic microwave background analysis with a differentiable likelihood'
+- doi: 10.1051/0004-6361/202346216
+  title: 'ExoMDN: Rapid characterization of exoplanet interior structures with mixture density networks'
+- doi: 10.1051/0004-6361/202141480
+  title: 'SUPPNet: Neural network for stellar spectrum normalisation'
+source_repos:
+- https://github.com/onsala-space-observatory/astromorph
+- https://github.com/Lbalkenhol/candl
+- https://github.com/philippbaumeister/ExoMDN
+- https://github.com/RozanskiT/suppnet
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/onsala-space-observatory/astromorph

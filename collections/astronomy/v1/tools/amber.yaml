@@ -1,0 +1,19 @@
+name: AMBER
+slug: amber
+version_used: null
+edam_topics: []
+evidence_spans:
+- The easiest way to install AMBER is by using the [AMBER_setup](https://github.com/TRASAL/AMBER_setup) script.
+- AMBER is a many-core accelerated and fully auto-tuned pipeline for detecting Fast Radio Bursts and other single pulse radio transients.
+derived_from:
+- doi: 10.1016/j.softx.2020.100549
+  title: 'AMBER: A real-time pipeline for the detection of single pulse astronomical transients'
+source_repos:
+- https://github.com/TRASAL/AMBER
+- https://github.com/TRASAL/AMBER_setup
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TRASAL/AMBER

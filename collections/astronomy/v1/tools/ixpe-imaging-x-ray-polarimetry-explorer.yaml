@@ -1,0 +1,17 @@
+name: IXPE (Imaging X-ray Polarimetry Explorer)
+slug: ixpe-imaging-x-ray-polarimetry-explorer
+version_used: null
+edam_topics: []
+evidence_spans:
+- IXPE celestial observations show that the distribution of the instrumental
+derived_from:
+- doi: 10.1016/j.softx.2022.101194
+  title: 'ixpeobssim: A simulation and analysis framework for the imaging X-ray polarimetry explorer'
+source_repos:
+- https://github.com/lucabaldini/ixpeobssim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lucabaldini/ixpeobssim

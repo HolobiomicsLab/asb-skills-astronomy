@@ -1,0 +1,17 @@
+name: DALI
+slug: dali
+version_used: null
+edam_topics: []
+evidence_spans:
+- benchmarked it against the results of DALI thermochemical models, recovering an agreement within a factor of three
+derived_from:
+- doi: 10.1051/0004-6361/202346164
+  title: Testing protoplanetary disc evolution with CO fluxes
+source_repos:
+- https://github.com/fzagaria/COpops
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fzagaria/COpops

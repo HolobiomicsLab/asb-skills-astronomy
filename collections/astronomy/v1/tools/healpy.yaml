@@ -1,0 +1,27 @@
+name: healpy
+slug: healpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'The main dependencies are the following :'
+- 'The main dependencies are the following : -numpy -healpy'
+- uses healpy_ as backend to match position with observing
+- '`Survey` uses healpy_ as backend to match position with observing'
+- We can use [healpy](https://healpy.readthedocs.io/en/latest/) or [Astropy-healpix](https://astropy-healpix.readthedocs.io/en/latest/) to create a [`SkyCoord`]
+derived_from:
+- doi: 10.1016/j.softx.2023.101582
+  title: 'Galclaim: A tool to identify host galaxy of astrophysical transient sources'
+- doi: 10.1051/0004-6361/202452134
+  title: 'ZTF SN Ia DR2: Simulations and volume-limited sample'
+- doi: 10.1051/0004-6361/202244133
+  title: 'COSMOGLOBE: Simulating zodiacal emission with ZodiPy'
+source_repos:
+- https://github.com/jgducoin/galclaim
+- https://github.com/MickaelRigault/skysurvey
+- https://github.com/Cosmoglobe/zodipy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jgducoin/galclaim

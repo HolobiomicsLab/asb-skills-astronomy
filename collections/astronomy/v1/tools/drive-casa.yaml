@@ -1,0 +1,17 @@
+name: drive-casa
+slug: drive-casa
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2015.08.003
+  title: 'Chimenea and other tools: Automated imaging of multi-epoch radio-synthesis data with CASA'
+source_repos:
+- https://github.com/timstaley/drive-casa
+- https://github.com/timstaley/chimenea
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/timstaley/drive-casa

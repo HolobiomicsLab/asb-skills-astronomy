@@ -1,0 +1,17 @@
+name: HESTIA galaxy formation simulation
+slug: hestia-galaxy-formation-simulation
+version_used: null
+edam_topics: []
+evidence_spans:
+- a simulated Milky Way (MW) analogue in the HESTIA galaxy formation simulation
+derived_from:
+- doi: 10.1051/0004-6361/202449557
+  title: Populating the Milky Way
+source_repos:
+- https://github.com/ChrisBoettner/skaro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChrisBoettner/skaro

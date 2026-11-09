@@ -1,0 +1,21 @@
+name: Spitzer
+slug: spitzer
+version_used: null
+edam_topics: []
+evidence_spans:
+- infrared dark clouds observed with Spitzer and Herschel
+- The Spitzer spectroscopy data of the HERUS ULIRGs are included in the fitting
+derived_from:
+- doi: 10.1051/0004-6361/202557638
+  title: 'astromorph: self-supervised machine learning pipeline for astronomical morphology analysis'
+- doi: 10.1093/mnras/stae1141
+  title: 'SMART: spectral energy distributions Markov chain analysis with radiative transfer models'
+source_repos:
+- https://github.com/onsala-space-observatory/astromorph
+- https://github.com/ch-var/SMART
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/onsala-space-observatory/astromorph

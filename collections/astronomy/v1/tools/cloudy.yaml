@@ -1,0 +1,20 @@
+name: Cloudy
+slug: cloudy
+version_used: null
+edam_topics: []
+evidence_spans:
+- Benchmark comparisons show that HyLight reproduces Cloudy predictions for Balmer, Paschen, and Brackett emissivities to within 1 per cent
+derived_from:
+- doi: 10.1093/mnras/stag429
+  title: "The\n                    <scp>HyLight</scp>\n                    model for hydrogen emission lines in simulated nebulae"
+- doi: 10.1016/j.ascom.2015.01.004
+  title: 'Rabacus: A Python package for analytic cosmological radiative transfer calculations'
+source_repos:
+- https://github.com/YuankangLiu/HyLight
+- https://github.com/galtay/rabacus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YuankangLiu/HyLight

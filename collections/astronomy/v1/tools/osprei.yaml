@@ -1,0 +1,22 @@
+name: OSPREI
+slug: osprei
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present the coupling of three established models into OSPREI (Open Solar Physics Rapid Ensemble Information)
+- '`ForeCAT.py` is the main wrapper function, `CME_class.py` creates a CME object that holds all the useful information about the CME'
+- OSPREI is made of three separate models - ForeCAT, ANTEATR, and FIDO.
+- After running OSPREI, the results can be automatically processed using `processOSPREI.py`.
+- We have presented the new CME forecasting suite OSPREI, which represents the combination of previously established models and includes standardized, user-friendly visualizations.
+- We present the coupling of three established models into OSPREI (Open Solar Physics Rapid Ensemble Information), a new tool that describes Sun‐to‐Earth CME behavior
+derived_from:
+- doi: 10.1029/2021sw002914
+  title: 'OSPREI: A Coupled Approach to Modeling CME‐Driven Space Weather With Automatically Generated, User‐Friendly Outputs'
+source_repos:
+- https://github.com/ckay314/OSPREI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ckay314/OSPREI

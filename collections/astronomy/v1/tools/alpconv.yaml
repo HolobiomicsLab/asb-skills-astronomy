@@ -1,0 +1,18 @@
+name: alpconv
+slug: alpconv
+version_used: null
+edam_topics: []
+evidence_spans:
+- alpconv calculating alp-photon conversion
+- (absent — flagged as missing)
+derived_from:
+- doi: 10.1016/j.physletb.2021.136611
+  title: Revisiting the analysis of axion-like particles with the Fermi-LAT gamma-ray observation of NGC1275
+source_repos:
+- https://github.com/lyf222/alpconv
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/lyf222/alpconv

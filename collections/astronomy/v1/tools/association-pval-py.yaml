@@ -1,0 +1,18 @@
+name: Association_pval.py
+slug: association-pval-py
+version_used: null
+edam_topics: []
+evidence_spans:
+- python ./src/Association_pval.py --transient_file ./Transient_sources.ecsv
+- python ./src/Association_pval.py --transient_file ./Transient_sources.ecsv --catalogs AllWISE --verbose
+derived_from:
+- doi: 10.1016/j.softx.2023.101582
+  title: 'Galclaim: A tool to identify host galaxy of astrophysical transient sources'
+source_repos:
+- https://github.com/jgducoin/galclaim
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jgducoin/galclaim

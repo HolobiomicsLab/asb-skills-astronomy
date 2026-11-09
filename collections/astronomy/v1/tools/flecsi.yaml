@@ -1,0 +1,25 @@
+name: FleCSI
+slug: flecsi
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone --recursive git@github.com:laristra/flecsi.git
+- based on the compile-time configurable framework FleCSI
+- 'exercises FleCSI parallel
+
+  data structures for tree-based particle methods'
+- FleCSPH is a multi-physics compact application that exercises FleCSI parallel data structures for tree-based particle methods.
+- In this configuration, FleCSI is installed with the MPI backend.
+- because FleCSI expects certain format of this file
+derived_from:
+- doi: 10.1016/j.softx.2020.100602
+  title: 'FleCSPH: The next generation FleCSIble parallel computational infrastructure for smoothed particle hydrodynamics'
+source_repos:
+- https://github.com/laristra/flecsi
+- https://github.com/laristra/flecsph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/laristra/flecsi

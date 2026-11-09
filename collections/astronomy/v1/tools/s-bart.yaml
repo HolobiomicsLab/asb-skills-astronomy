@@ -1,0 +1,17 @@
+name: S-BART
+slug: s-bart
+version_used: null
+edam_topics: []
+evidence_spans:
+- This methodology, named the Semi-Bayesian Approach for RVs with Template matching, S-BART, can currently be applied to HARPS and ESPRESSO data.
+derived_from:
+- doi: 10.1051/0004-6361/202142262
+  title: A novel framework for semi-Bayesian radial velocities through template matching
+source_repos:
+- https://github.com/iastro-pt/sBART
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iastro-pt/sBART

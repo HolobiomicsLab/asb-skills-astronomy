@@ -1,0 +1,23 @@
+name: gfortran
+slug: gfortran
+version_used: null
+edam_topics: []
+evidence_spans:
+- Make sure your computer has the `gfortran` compiler installed.
+derived_from:
+- doi: 10.1051/0004-6361/202553886
+  title: An efficient integrator for stellar dynamics in effective gravity fields based on the isochrone potential
+- doi: 10.1016/j.dark.2014.01.003
+  title: Encyclopædia Inflationaris
+- doi: 10.48550/arxiv.1903.06755
+  title: ''
+source_repos:
+- https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample
+- https://github.com/cosmicinflation/aspic
+- https://github.com/molscat/molscat
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AstroLexandre/IsochroneSymplecticIntegrator_QuickExample

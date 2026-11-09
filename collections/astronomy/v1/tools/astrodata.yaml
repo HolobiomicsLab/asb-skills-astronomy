@@ -1,0 +1,18 @@
+name: AstroData
+slug: astrodata
+version_used: null
+edam_topics: []
+evidence_spans:
+- '* [AstroData](https://github.com/TRASAL/AstroData)'
+derived_from:
+- doi: 10.1016/j.softx.2020.100549
+  title: 'AMBER: A real-time pipeline for the detection of single pulse astronomical transients'
+source_repos:
+- https://github.com/TRASAL/AstroData
+- https://github.com/TRASAL/AMBER
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/TRASAL/AstroData

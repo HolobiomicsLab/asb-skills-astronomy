@@ -1,0 +1,19 @@
+name: hydromass
+slug: hydromass
+version_used: null
+edam_topics: []
+evidence_spans:
+- is a Python package for the analysis of galaxy cluster mass profiles from X-ray and/or Sunyaev-Zel'dovich observations.
+- '``hydromass`` is a Python package for the analysis of galaxy cluster mass profiles'
+- '``hydromass`` is a Python package for the analysis of galaxy cluster mass profiles from X-ray and/or Sunyaev-Zel''dovich observations.'
+derived_from:
+- doi: 10.1051/0004-6361/202142507
+  title: The gravitational field of X-COP galaxy clusters
+source_repos:
+- https://github.com/domeckert/hydromass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/domeckert/hydromass

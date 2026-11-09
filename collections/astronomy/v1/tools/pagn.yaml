@@ -1,0 +1,18 @@
+name: pagn
+slug: pagn
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`pagn` is a Python module to solve the equations from [Sirko and Goodman 2003]'
+- '`pagn` is a Python module to solve the equations from'
+derived_from:
+- doi: 10.1093/mnras/stae1117
+  title: "<tt>pAGN</tt>\n                    : the one-stop solution for AGN disc modelling"
+source_repos:
+- https://github.com/DariaGangardt/pAGN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DariaGangardt/pAGN

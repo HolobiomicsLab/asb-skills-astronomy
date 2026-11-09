@@ -1,0 +1,19 @@
+name: FleCSPH
+slug: flecsph
+version_used: null
+edam_topics: []
+evidence_spans:
+- spack install flecsph
+- FleCSPH is a smoothed particle hydrodynamics simulation tool, based on the compile-time configurable framework FleCSI.
+- spack load flecsph
+derived_from:
+- doi: 10.1016/j.softx.2020.100602
+  title: 'FleCSPH: The next generation FleCSIble parallel computational infrastructure for smoothed particle hydrodynamics'
+source_repos:
+- https://github.com/laristra/flecsph
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/laristra/flecsph

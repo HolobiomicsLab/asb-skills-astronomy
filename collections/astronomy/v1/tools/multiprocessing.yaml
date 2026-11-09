@@ -1,0 +1,18 @@
+name: multiprocessing
+slug: multiprocessing
+version_used: null
+edam_topics: []
+evidence_spans:
+- The computations are performed in parallel using the [*multiprocessing*](https://docs.python.org/2/library/multiprocessing.html) library.
+- The computations are performed in parallel using the [*multiprocessing*](https://docs.python.org/2/library/multiprocessing.html)
+derived_from:
+- doi: 10.1103/physrevresearch.2.033195
+  title: Atomic responses to general dark matter-electron interactions
+source_repos:
+- https://github.com/temken/DarkARC
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/temken/DarkARC

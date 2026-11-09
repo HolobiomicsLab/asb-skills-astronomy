@@ -1,0 +1,20 @@
+name: Ph4
+slug: ph4
+version_used: null
+edam_topics: []
+evidence_spans:
+- '- `Ph4` as parent, child and direct N-body integrator.'
+- Ph4` as parent, child and direct N-body integrator.
+- when compared with the direct N -body code Ph4
+- '`Ph4` as parent, child and direct N-body integrator.'
+derived_from:
+- doi: 10.1051/0004-6361/202558060
+  title: 'Nemesis: A multi-scale, multi-physics algorithm for astrophysics'
+source_repos:
+- https://github.com/ErwanH29/nemesis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ErwanH29/nemesis

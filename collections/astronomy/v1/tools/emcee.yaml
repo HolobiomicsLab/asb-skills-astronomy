@@ -1,0 +1,42 @@
+name: emcee
+slug: emcee
+version_used: 1.11.4
+edam_topics: []
+evidence_spans:
+- '[emcee](http://dan.iel.fm/emcee/current/)'
+- '- [emcee](http://dan.iel.fm/emcee/current/)'
+- adopt a user-friendly modern programming language interfacing with Monte Carlo analysis libraries
+- user-friendly modern programming language interfacing with Monte Carlo analysis libraries
+- RotCurves.mcmc\_fitter module
+- using a Monte-Carlo Markov-Chain (MCMC, with $\texttt{emcee}$) algorithm to sample the posterior parameters distribution
+- We perform the fit with a Bayesian inference approach, using a Monte-Carlo Markov-Chain (MCMC, with $\texttt{emcee}$) algorithm
+- CONDA_SUBDIR=osx-arm64 conda create -n vis-r -c conda-forge python emcee matplotlib scipy=1.11.4
+- "There are `stan` and `python/emcee` \nversions that are generally the same, but with minor differences."
+- longer `emcee` runs
+- only the `emcee` version has independent astrometry fitting for
+- There are `stan` and `python/emcee` versions that are generally the same, but with minor differences.
+derived_from:
+- doi: 10.1051/0004-6361/202554336
+  title: EMPEROR
+- doi: 10.1140/epjc/s10052-024-12442-0
+  title: 'PRyMordial: the first three minutes, within and beyond the standard model'
+- doi: 10.1093/mnras/stag134
+  title: "<tt>RotCurves</tt>\n                    : a\n                    <tt>PYTHON</tt>\n                    package for efficient modelling and fitting of galactic rotation curves at high-\n                    <i>z</i>"
+- doi: 10.1093/rasti/rzaf004
+  title: '<tt>vis-r</tt>: Quick radial profile modelling for radio interferometric visibilities'
+- doi: 10.1016/j.ascom.2013.06.003
+  title: 'CosmoHammer: Cosmological parameter estimation with the MCMC Hammer'
+source_repos:
+- https://github.com/dfm/emcee
+- https://github.com/dfm/kepler.py
+- https://github.com/ReddTea/astroemperor
+- https://github.com/vallima/PRyMordial
+- https://github.com/nestoramit/RotCurves
+- https://github.com/drgmk/vis-r
+- https://github.com/cosmo-ethz/CosmoHammer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dfm/emcee

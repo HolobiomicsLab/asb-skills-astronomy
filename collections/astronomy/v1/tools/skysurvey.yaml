@@ -1,0 +1,19 @@
+name: skysurvey
+slug: skysurvey
+version_used: null
+edam_topics: []
+evidence_spans:
+- skysurvey_ is a python package made to simulate astronomical targets as they
+- we present the performances of the simulation framework skysurvey with the aim to reproduce the Zwicky Transient Facility (ZTF) SN Ia DR2
+- skysurvey_ is a python package made to simulate astronomical targets as they would be observed by a survey.
+derived_from:
+- doi: 10.1051/0004-6361/202452134
+  title: 'ZTF SN Ia DR2: Simulations and volume-limited sample'
+source_repos:
+- https://github.com/MickaelRigault/skysurvey
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/MickaelRigault/skysurvey

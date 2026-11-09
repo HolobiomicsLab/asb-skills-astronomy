@@ -1,0 +1,54 @@
+name: SciPy
+slug: scipy
+version_used: 1.15.1
+edam_topics: []
+evidence_spans:
+- the Full Width at Half Maximum (FWHM) of the fluctuation tends to zero as the resolution increases
+- import numpy as np
+- scipy version 1.15.1
+- '``hydromass`` depends on numpy, scipy, astropy, matplotlib, pymc3, and pyproffit.'
+- "- for tests\n    - `scipy <https://pypi.org/project/scipy/>`__"
+- '- `scipy <https://pypi.org/project/scipy/>`__'
+- scipy <https://pypi.org/project/scipy/>
+- from scipy.interpolate import UnivariateSpline
+- Scipy and Matplotlib are also needed
+- '- scipy'
+derived_from:
+- doi: 10.1371/journal.pone.0195494
+  title: 'A direct Primitive Variable Recovery Scheme for hyperbolic conservative equations: The case of relativistic hydrodynamics'
+- doi: 10.1103/physrevresearch.2.023068
+  title: 'Dedalus: A flexible framework for numerical simulations with spectral methods'
+- doi: 10.1051/0004-6361/202557195
+  title: 'GravSphere2: A higher order Jeans method for mass modeling spherical stellar systems'
+- doi: 10.1051/0004-6361/202142507
+  title: The gravitational field of X-COP galaxy clusters
+- doi: 10.1103/physrevresearch.2.013030
+  title: Efficient method for solving highly oscillatory ordinary differential equations with applications to physical systems
+- doi: 10.1093/mnras/stae1117
+  title: "<tt>pAGN</tt>\n                    : the one-stop solution for AGN disc modelling"
+- doi: 10.1051/0004-6361/202453077
+  title: A non-axisymmetric potential for the Milky Way disk
+- doi: 10.1051/0004-6361/202556846
+  title: 'STRAWBERRY: Finding haloes in the gravitational potential'
+- doi: 10.1016/j.ascom.2015.01.004
+  title: 'Rabacus: A Python package for analytic cosmological radiative transfer calculations'
+- doi: 10.1016/j.ascom.2015.10.001
+  title: 'Toyz: A framework for scientific analysis of large datasets and astronomical images'
+source_repos:
+- https://github.com/aztekas-code/aztekas-main
+- https://github.com/scipy/scipy
+- https://github.com/DedalusProject/dedalus
+- https://github.com/dadams42/GravSphere2
+- https://github.com/domeckert/hydromass
+- https://github.com/fruzsinaagocs/oscode
+- https://github.com/DariaGangardt/pAGN
+- https://github.com/yrkhalil/SPIBACK
+- https://github.com/trg-richardson/strawberry
+- https://github.com/galtay/rabacus
+- https://github.com/fred3m/toyz
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/aztekas-code/aztekas-main

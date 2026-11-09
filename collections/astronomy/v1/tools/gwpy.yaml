@@ -1,0 +1,20 @@
+name: GWpy
+slug: gwpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- GWpy is a Python software package that provides an intuitive, object-oriented interface
+- from gwpy.timeseries import TimeSeries
+- GWpy is a collaboration-driven Python package providing tools for studying data from ground-based gravitational-wave detectors.
+- All contributions to GWpy code are made using the
+derived_from:
+- doi: 10.1016/j.softx.2021.100657
+  title: 'GWpy: A Python package for gravitational-wave astrophysics'
+source_repos:
+- https://github.com/gwpy/gwpy
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/gwpy/gwpy

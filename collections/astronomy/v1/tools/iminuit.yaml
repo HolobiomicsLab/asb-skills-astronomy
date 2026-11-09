@@ -1,0 +1,18 @@
+name: iminuit
+slug: iminuit
+version_used: null
+edam_topics: []
+evidence_spans:
+- scikit-hep/iminuit
+derived_from:
+- doi: 10.1051/0004-6361/202244740
+  title: 'HyperGal: Hyperspectral scene modeling for supernova typing with the SED Machine integral field spectrograph'
+source_repos:
+- https://github.com/scikit-hep/iminuit
+- https://github.com/JeremyLezmy/hypergal
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/scikit-hep/iminuit

@@ -1,0 +1,20 @@
+name: SISPO
+slug: sispo
+version_used: null
+edam_topics: []
+evidence_spans:
+- The Space Imaging Simulator for Proximity Operations (SISPO) has been developed to provide a full pipeline from simulated imagery to final data products (e.g., 3-D models)
+- If sispo is installed as a python package via pip, sispo provides a CLI.
+- a newly developed, physically-based imaging simulator environment called SISPO, developed for small solar system body fly-by and terrestrial planet surface mission simulations
+- SISPO allows the simulation of trajectories, light parameters and camera’s intrinsic parameters
+derived_from:
+- doi: 10.1371/journal.pone.0263882
+  title: 'SISPO: Space Imaging Simulator for Proximity Operations'
+source_repos:
+- https://github.com/SISPO-developers/sispo
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/SISPO-developers/sispo

@@ -1,0 +1,17 @@
+name: aws s3 sync
+slug: aws-s3-sync
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`make sync_data_from_s3` will use `aws s3 sync` to recursively sync files from `s3://[OPTIONAL] your-bucket-for-syncing-data (do not include ''s3://'')/data/` to `data/`.'
+derived_from:
+- doi: 10.1051/0004-6361/202449557
+  title: Populating the Milky Way
+source_repos:
+- https://github.com/ChrisBoettner/skaro
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChrisBoettner/skaro

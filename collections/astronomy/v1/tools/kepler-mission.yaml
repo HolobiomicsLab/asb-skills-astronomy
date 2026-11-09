@@ -1,0 +1,18 @@
+name: Kepler mission
+slug: kepler-mission
+version_used: null
+edam_topics: []
+evidence_spans:
+- NASA's Kepler mission, which provides photometry of unprecedented precision (down to a few parts in 105) of over 150,000 stars
+- NASA's Kepler mission, which provides photometry of unprecedented precision (down to a few parts in 105)
+derived_from:
+- doi: 10.1155/2012/697967
+  title: 'Transit Analysis Package: An IDL Graphical User Interface for Exoplanet Transit Photometry'
+source_repos:
+- https://github.com/zgazak/TAP
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zgazak/TAP

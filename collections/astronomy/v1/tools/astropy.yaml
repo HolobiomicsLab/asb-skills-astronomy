@@ -1,0 +1,71 @@
+name: astropy
+slug: astropy
+version_used: 5.0.1
+edam_topics: []
+evidence_spans:
+- '`astropy`'
+- Created using default parameters for `make_rgb` in Astropy
+- add a column in the GLADE outputted files
+- 'The main dependencies are the following :'
+- 'The main dependencies are the following : -numpy -healpy -astropy'
+- GWpy uses :ref:`Astropy's units <astropy-units>` framework to
+- Astropy :doc:`astropy:io/registry`
+- the Python, NumPy, Astropy, and GWpy versions you are using
+- Astropy provides an infrastructure for unified input/output via the
+- '``hydromass`` depends on numpy, scipy, astropy, matplotlib, pymc3, and pyproffit.'
+- '* Python(3.8 or newer)
+
+  * Numpy
+
+  * Astropy
+
+  * Sunpy'
+- '- [Astropy](https://www.astropy.org) (>= 5.0.1)'
+- '[Astropy](https://www.astropy.org) (>= 5.0.1)'
+- As an Astropy-affiliated package, ZodiPy is highly integrated with the Astropy ecosystem
+- or [Astropy-healpix](https://astropy-healpix.readthedocs.io/en/latest/) to create a [`SkyCoord`](https://docs.astropy.org/en/stable/api/astropy.coordinates.SkyCoord.html) object directly from a HEALPi
+derived_from:
+- doi: 10.1051/0004-6361/202554287
+  title: 'GalaxyGenius: Mock galaxy image generator for various telescopes from hydrodynamical simulations'
+- doi: 10.1016/j.softx.2023.101582
+  title: 'Galclaim: A tool to identify host galaxy of astrophysical transient sources'
+- doi: 10.1016/j.softx.2016.12.006
+  title: 'galkin: A new compilation of Milky Way rotation curve data'
+- doi: 10.1016/j.softx.2021.100657
+  title: 'GWpy: A Python package for gravitational-wave astrophysics'
+- doi: 10.1051/0004-6361/202142507
+  title: The gravitational field of X-COP galaxy clusters
+- doi: 10.1051/0004-6361/202555193
+  title: 'SolarZip: An efficient and adaptive compression framework for Solar EUV imaging data'
+- doi: 10.1051/0004-6361/202244133
+  title: 'COSMOGLOBE: Simulating zodiacal emission with ZodiPy'
+- doi: 10.1016/j.ascom.2016.02.003
+  title: 'AST: A library for modelling and manipulating coordinate systems'
+- doi: 10.1016/j.ascom.2015.08.003
+  title: 'Chimenea and other tools: Automated imaging of multi-epoch radio-synthesis data with CASA'
+- doi: 10.1016/j.ascom.2016.01.005
+  title: 'CosmoBolognaLib: C++ libraries for cosmological calculations'
+- doi: 10.1016/j.ascom.2015.05.001
+  title: 'HDFITS: Porting the FITS data model to HDF5'
+- doi: 10.1016/j.ascom.2014.12.006
+  title: Web-based visualization of very large scientific astronomy imagery
+source_repos:
+- https://github.com/xczhou-astro/galaxyGenius
+- https://github.com/jgducoin/galclaim
+- https://github.com/galkintool/galkin
+- https://github.com/astropy/astropy
+- https://github.com/gwpy/gwpy
+- https://github.com/domeckert/hydromass
+- https://github.com/hpdps-group/SolarZip
+- https://github.com/Cosmoglobe/zodipy
+- https://github.com/Starlink/starlink
+- https://github.com/timstaley/chimenea
+- https://github.com/federicomarulli/CosmoBolognaLib
+- https://github.com/telegraphic/fits2hdf
+- https://github.com/astromatic/visiomatic
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/xczhou-astro/galaxyGenius

@@ -1,0 +1,16 @@
+name: gcc
+slug: gcc
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.dark.2014.01.003
+  title: Encyclopædia Inflationaris
+source_repos:
+- https://github.com/cosmicinflation/aspic
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cosmicinflation/aspic

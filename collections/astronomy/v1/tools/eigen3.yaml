@@ -1,0 +1,18 @@
+name: Eigen3
+slug: eigen3
+version_used: null
+edam_topics: []
+evidence_spans:
+- libeigen3-dev
+- sudo apt install libalglib-dev libnlopt-cxx-dev libeigen3-dev libboost-filesystem-dev libboost-log-dev libgsl-dev
+derived_from:
+- doi: 10.1140/epjc/s10052-020-8035-2
+  title: 'PhaseTracer: tracing cosmological phases and calculating transition properties'
+source_repos:
+- https://github.com/PhaseTracer/PhaseTracer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PhaseTracer/PhaseTracer

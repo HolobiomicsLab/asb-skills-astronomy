@@ -1,0 +1,184 @@
+schema_version: 0.3.0
+workflow_id: cmb_cosmological_parameter_inference
+kind: composite-workflow
+techniques: []
+steps:
+- id: configure_cmb_likelihood
+  goal: assemble a callable CMB theory-and-likelihood chain
+  edam_operation: http://edamontology.org/operation_2426
+  skills:
+  - wmap-likelihood-chain-configuration
+  - cmb-likelihood-module-integration
+  - likelihood-chain-architecture-implementation
+  - plugin-module-registration-pattern
+  tools:
+  - CAMB
+  - CosmoHammer
+  - CosmoHammerPlugins
+  - Python
+  - WMAP
+  - acor
+  - emcee
+  - mpi4py
+  inputs:
+  - type: likelihood-data
+    flavour: observed-cmb
+  - type: parameter-table
+    flavour: cosmology-priors
+  - type: configuration
+    flavour: cmb-chain
+  outputs:
+  - type: likelihood-model
+    flavour: callable-cmb
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-ascom-2013-06-003
+    dois:
+    - 10.1016/j.ascom.2013.06.003
+  after: []
+- id: sample_parameter_posterior
+  goal: sample the CMB likelihood over the bounded cosmological parameter space
+  edam_operation: http://edamontology.org/operation_3659
+  skills:
+  - cosmological-parameter-mcmc-sampling
+  - cosmological-parameter-sampler-setup
+  tools:
+  - CAMB
+  - CosmoHammer
+  - CosmoMC
+  - Python
+  - acor
+  - emcee
+  inputs:
+  - type: likelihood-model
+    flavour: callable-cmb
+  - type: parameter-table
+    flavour: cosmology-priors
+  outputs:
+  - type: posterior-samples
+    flavour: cmb-cosmology
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-ascom-2013-06-003
+    dois:
+    - 10.1016/j.ascom.2013.06.003
+  after:
+  - configure_cmb_likelihood
+  candidate_tools:
+  - CosmoHammerPlugins
+  - mpi4py
+  inputs_from:
+    configure_cmb_likelihood:
+    - likelihood-model:callable-cmb
+- id: determine_burn_in
+  goal: derive a defensible burn-in length from the initialisation bias of the chains
+  edam_operation: http://edamontology.org/operation_2238
+  skills:
+  - burn-in-determination-via-standard-error-comparison
+  - monte-carlo-standard-error-analysis
+  - cross-sampler-convergence-comparison
+  tools:
+  - CosmoHammer
+  - CosmoMC
+  - Python
+  - acor
+  - emcee
+  inputs:
+  - type: posterior-samples
+    flavour: cmb-cosmology
+  outputs:
+  - type: burn-in-table
+    flavour: cmb-mcmc
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-ascom-2013-06-003
+    dois:
+    - 10.1016/j.ascom.2013.06.003
+  after:
+  - sample_parameter_posterior
+  inputs_from:
+    sample_parameter_posterior:
+    - posterior-samples:cmb-cosmology
+- id: diagnose_autocorrelation
+  goal: quantify autocorrelation and effective sampling after the burn-in
+  edam_operation: http://edamontology.org/operation_2426
+  skills:
+  - mcmc-autocorrelation-time-analysis
+  - mcmc-convergence-diagnostic-tabulation
+  - sampler-stopping-criterion-computation
+  tools:
+  - CAMB
+  - CosmoHammer
+  - CosmoMC
+  - Python
+  - acor
+  - emcee
+  inputs:
+  - type: posterior-samples
+    flavour: cmb-cosmology
+  - type: burn-in-table
+    flavour: cmb-mcmc
+  outputs:
+  - type: diagnostic-report
+    flavour: cmb-mcmc
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-ascom-2013-06-003
+    dois:
+    - 10.1016/j.ascom.2013.06.003
+  after:
+  - sample_parameter_posterior
+  - determine_burn_in
+  candidate_tools:
+  - CosmoHammerPlugins
+  inputs_from:
+    sample_parameter_posterior:
+    - posterior-samples:cmb-cosmology
+    determine_burn_in:
+    - burn-in-table:cmb-mcmc
+- id: summarize_constraints
+  goal: convert converged CMB posterior samples into physical constraints
+  edam_operation: http://edamontology.org/operation_3658
+  skills:
+  - lambda-cdm-parameter-inference
+  - mcmc-ensemble-sampling-cosmological-parameters
+  - posterior-summary-statistics-computation
+  tools:
+  - CAMB
+  - CosmoHammer
+  - CosmoHammerPlugins
+  - CosmoMC
+  - Python
+  - acor
+  - emcee
+  inputs:
+  - type: posterior-samples
+    flavour: cmb-cosmology
+  - type: diagnostic-report
+    flavour: cmb-mcmc
+  outputs:
+  - type: parameter-table
+    flavour: cmb-cosmology-posterior
+  grounding:
+    kb_slugs:
+    - asb-paper-10-1016-j-ascom-2013-06-003
+    dois:
+    - 10.1016/j.ascom.2013.06.003
+  after:
+  - sample_parameter_posterior
+  - diagnose_autocorrelation
+  inputs_from:
+    sample_parameter_posterior:
+    - posterior-samples:cmb-cosmology
+    diagnose_autocorrelation:
+    - diagnostic-report:cmb-mcmc
+verification:
+  final_outputs:
+  - path: cmb_cosmological_constraints.tsv
+    type: file
+  - path: cmb_chain_diagnostics.pdf
+    type: file
+provenance:
+  derived_from_workflows: []
+  bound_by: perspicacite-semantic
+  coverage_gaps: []

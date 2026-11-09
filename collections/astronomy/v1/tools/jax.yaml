@@ -1,0 +1,54 @@
+name: JAX
+slug: jax
+version_used: null
+edam_topics: []
+evidence_spans:
+- JAX-compatibility, allowing for fast and easy computation of gradients and Hessians of the likelihoods.
+- candl is powered by JAX, which makes it fast and easy to calculate derivatives of the likelihood.
+- import jax
+- is a library for gradient-based optimisation written for JAX
+- we also provide tools to interface CosmoPower, CosmoPower-JAX, and Capse.jl emulators with Cobaya.
+- Our python implementation is based on the autodiff library JAX
+- '- `jax <https://jax.readthedocs.io/en/latest/>`__'
+- We present gallifrey, a JAX-based Python package that implements a sequential Monte Carlo algorithm for Bayesian kernel structure learning
+- gallifrey utilizes JAX for efficient numerical computation and Sequential Monte Carlo (SMC) methods for robust posterior approximation.
+- https://chrisboettner.github.io/gallifrey/
+- every function should be computable using `JAX` primitives
+- Based on the JAX ecosystem, jaxspec allows the generation of differentiable likelihood functions compilable on core or graphical process units (GPUs)
+- The only thing required is that every function should be computable using `JAX` primitives.
+- Since `JAX` implements
+- Based on the JAX ecosystem, jaxspec allows the generation of differentiable likelihood functions
+- the IAE code for older versions of JAX
+- and the IAE code for older versions of JAX
+- and the IAE code for older versions of JAX.
+- Contains the Sushi algorithm in its previous architecture ... and the IAE code for older versions of JAX.
+- Contains the Sushi algorithm in its previous architecture (where the number of components was hard-coded to 2; the current version takes any number of components) and the IAE code for older versions
+derived_from:
+- doi: 10.1051/0004-6361/202449432
+  title: 'candl: cosmic microwave background analysis with a differentiable likelihood'
+- doi: 10.21105/astro.2105.05859
+  title: A Differentiable Model of the Assembly of Individual and Populations of Dark Matter Halos
+- doi: 10.1051/0004-6361/202554518
+  title: 'gallifrey: JAX-based Gaussian process structure learning for astronomical time series'
+- doi: 10.1051/0004-6361/202451736
+  title: 'jaxspec: A fast and robust Python library for X-ray spectral fitting'
+- doi: 10.1051/0004-6361/202347518
+  title: 'SUSHI: An algorithm for source separation of hyperspectral images with non-stationary spectral variation'
+- doi: 10.48550/arxiv.2202.02435
+  title: ''
+source_repos:
+- https://github.com/Lbalkenhol/candl
+- https://github.com/google/jax
+- https://github.com/ArgonneCPAC/diffmah
+- https://github.com/ChrisBoettner/gallifrey
+- https://github.com/renecotyfanboy/jaxspec
+- https://github.com/jbobin/IAE
+- https://github.com/jmlascar/SUSHI
+- https://github.com/JMLascar/SUSHI
+- https://github.com/patrick-kidger/diffrax
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Lbalkenhol/candl

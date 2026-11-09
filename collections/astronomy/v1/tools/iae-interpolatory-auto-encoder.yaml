@@ -1,0 +1,23 @@
+name: IAE (Interpolatory Auto-Encoder)
+slug: iae-interpolatory-auto-encoder
+version_used: null
+edam_topics: []
+evidence_spans:
+- we used a model learned by a neural network called an Interpolatory Auto-Encoder (IAE)
+- called an Interpolatory Auto-Encoder (IAE)
+- we chose to use a learned representation of the spectral model
+- readily trained IAE spectral models for testing SUSHI
+- we present our trained spectral model, an Interpolatory Auto-Encoder (IAE)
+- An IAE model may be trained for each physical component.
+derived_from:
+- doi: 10.1051/0004-6361/202347518
+  title: 'SUSHI: An algorithm for source separation of hyperspectral images with non-stationary spectral variation'
+source_repos:
+- https://github.com/jbobin/IAE
+- https://github.com/JMLascar/SUSHI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/jbobin/IAE

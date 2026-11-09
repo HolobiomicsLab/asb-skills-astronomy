@@ -1,0 +1,18 @@
+name: EMPEROR (astroemperor)
+slug: emperor-astroemperor
+version_used: null
+edam_topics: []
+evidence_spans:
+- '`EMPEROR` (Exoplanet Mcmc Parallel tEmpering for Rv Orbit Retrieval), is a Python-based algorithm'
+- '`EMPEROR` (Exoplanet Mcmc Parallel tEmpering for Rv Orbit Retrieval), is a Python-based algorithm that automatically searches for signals in Radial Velocity timeseries'
+derived_from:
+- doi: 10.1051/0004-6361/202554336
+  title: EMPEROR
+source_repos:
+- https://github.com/ReddTea/astroemperor
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ReddTea/astroemperor

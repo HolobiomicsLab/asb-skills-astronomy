@@ -1,0 +1,18 @@
+name: ESO official pipeline
+slug: eso-official-pipeline
+version_used: null
+edam_topics: []
+evidence_spans:
+- comparing it to the CCF method as implemented in ESO's official pipeline
+- Fixing bug with CCF RV uncertainty load from disk
+derived_from:
+- doi: 10.1051/0004-6361/202142262
+  title: A novel framework for semi-Bayesian radial velocities through template matching
+source_repos:
+- https://github.com/iastro-pt/sBART
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/iastro-pt/sBART

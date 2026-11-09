@@ -1,0 +1,16 @@
+name: Highcharts
+slug: highcharts
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2015.10.001
+  title: 'Toyz: A framework for scientific analysis of large datasets and astronomical images'
+source_repos:
+- https://github.com/fred3m/toyz
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fred3m/toyz

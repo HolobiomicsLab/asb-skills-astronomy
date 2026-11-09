@@ -1,0 +1,19 @@
+name: Castro
+slug: castro
+version_used: null
+edam_topics: []
+evidence_spans:
+- Castro models the highly compressible flows associated with stellar explosions
+- Maestro is tuned to efficiently model subsonic convective flows while Castro models the highly compressible flows associated with stellar explosions.
+- Maestro is tuned to efficiently model subsonic convective flows while Castro models the highly compressible flows
+derived_from:
+- doi: 10.1088/1742-6596/1031/1/012024
+  title: 'Meeting the Challenges of Modeling Astrophysical Thermonuclear Explosions: Castro, Maestro, and the AMReX Astrophysics Suite'
+source_repos:
+- https://github.com/AMReX-Codes/amrex
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/AMReX-Codes/amrex

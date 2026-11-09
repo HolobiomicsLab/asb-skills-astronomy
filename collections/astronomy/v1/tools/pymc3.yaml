@@ -1,0 +1,17 @@
+name: pymc3
+slug: pymc3
+version_used: null
+edam_topics: []
+evidence_spans:
+- '``hydromass`` depends on numpy, scipy, astropy, matplotlib, pymc3, and pyproffit.'
+derived_from:
+- doi: 10.1051/0004-6361/202142507
+  title: The gravitational field of X-COP galaxy clusters
+source_repos:
+- https://github.com/domeckert/hydromass
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/domeckert/hydromass

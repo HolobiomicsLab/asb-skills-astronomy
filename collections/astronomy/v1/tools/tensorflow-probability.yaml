@@ -1,0 +1,17 @@
+name: tensorflow-probability
+slug: tensorflow-probability
+version_used: '0.15'
+edam_topics: []
+evidence_spans:
+- '- tensorflow-probability=0.15'
+derived_from:
+- doi: 10.1051/0004-6361/202346216
+  title: 'ExoMDN: Rapid characterization of exoplanet interior structures with mixture density networks'
+source_repos:
+- https://github.com/philippbaumeister/ExoMDN
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/philippbaumeister/ExoMDN

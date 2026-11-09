@@ -1,0 +1,21 @@
+name: candl
+slug: candl
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present candl, an automatically differentiable python likelihood for analysing cosmic microwave background power spectrum measurements.
+- candl is a differentiable likelihood framework for analysing CMB power spectrum measurements.
+- import candl
+- candl.Like(candl_data.ACT_DR4_TTTEEE)
+- par_cov, par_order = candl.tools.get_fisher_matrix(pars_to_theory_specs, candl_like, fid_pars
+derived_from:
+- doi: 10.1051/0004-6361/202449432
+  title: 'candl: cosmic microwave background analysis with a differentiable likelihood'
+source_repos:
+- https://github.com/Lbalkenhol/candl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/Lbalkenhol/candl

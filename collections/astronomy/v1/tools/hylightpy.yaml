@@ -1,0 +1,18 @@
+name: hylightpy
+slug: hylightpy
+version_used: null
+edam_topics: []
+evidence_spans:
+- "To use HyLight, first install it using pip:\n\n.. code-block:: console\n\n   $ pip install hylightpy"
+- The package is called ``hylightpy`` on `PyPI <https://pypi.org/project/hylightpy/>`_, with extra letters ``py`` at the end.
+derived_from:
+- doi: 10.1093/mnras/stag429
+  title: "The\n                    <scp>HyLight</scp>\n                    model for hydrogen emission lines in simulated nebulae"
+source_repos:
+- https://github.com/YuankangLiu/HyLight
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/YuankangLiu/HyLight

@@ -1,0 +1,17 @@
+name: CHEOPS
+slug: cheops
+version_used: '9.6'
+edam_topics: []
+evidence_spans:
+- We observed HIP 29442 with CHEOPS for a total of 9.6 days
+derived_from:
+- doi: 10.1051/0004-6361/202450472
+  title: Unveiling the internal structure and formation history of the three planets transiting HIP 29442 (TOI-469) with CHEOPS
+source_repos:
+- https://github.com/joannegger/plaNETic
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/joannegger/plaNETic

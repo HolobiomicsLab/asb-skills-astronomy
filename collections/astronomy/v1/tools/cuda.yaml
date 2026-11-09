@@ -1,0 +1,23 @@
+name: CUDA
+slug: cuda
+version_used: '8.0'
+edam_topics: []
+evidence_spans:
+- '# CUDA (.cu / .cuh) kernels & GPU data structures'
+- CUDA implementations (`devarshi24st_gpu`, `os1_gpu`) with heavy shared memory use
+- CUDA toolkit (nvcc) with support for your GPU architecture (Makefile currently sets `-arch=sm_89`
+- CUDA implementations (`devarshi24st_gpu`, `os1_gpu`)
+derived_from:
+- doi: 10.1051/0004-6361/202659305
+  title: GPU-accelerated X-ray pulse profile modeling
+- doi: 10.1016/j.ascom.2015.06.003
+  title: 'Montblanc : GPU accelerated radio interferometer measurement equations in support of Bayesian inference for radio observations'
+source_repos:
+- https://github.com/zhoutz/gpu_ppm
+- https://github.com/ratt-ru/montblanc
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhoutz/gpu_ppm

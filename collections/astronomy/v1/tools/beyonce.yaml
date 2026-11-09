@@ -1,0 +1,19 @@
+name: BeyonCE
+slug: beyonce
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present Beyond Circular Eclipsers (BeyonCE), which reduces the parameter space encompassed by the transit of circumsec-ondary disc (CSD) systems
+- BeyonCE documentation master file, created by
+- We present Beyond Circular Eclipsers (BeyonCE), which reduces the parameter space encompassed by the transit of circumsecondary disc (CSD) systems
+derived_from:
+- doi: 10.1051/0004-6361/202245620
+  title: Beyond Circular Eclipsers (BeyonCE) light curve modelling
+source_repos:
+- https://github.com/dmvandamt/beyonce
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dmvandamt/beyonce

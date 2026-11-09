@@ -1,0 +1,17 @@
+name: SciML kit
+slug: sciml-kit
+version_used: null
+edam_topics: []
+evidence_spans:
+- the optional switch to some routines of the SciML kit [58], the open-source software for scientific machine learning in Julia
+derived_from:
+- doi: 10.1140/epjc/s10052-024-12442-0
+  title: 'PRyMordial: the first three minutes, within and beyond the standard model'
+source_repos:
+- https://github.com/vallima/PRyMordial
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/vallima/PRyMordial

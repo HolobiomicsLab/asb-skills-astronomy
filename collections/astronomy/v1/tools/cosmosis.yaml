@@ -1,0 +1,16 @@
+name: CosmoSIS
+slug: cosmosis
+version_used: null
+edam_topics: []
+evidence_spans: []
+derived_from:
+- doi: 10.1016/j.ascom.2015.05.005
+  title: 'CosmoSIS: Modular cosmological parameter estimation'
+source_repos:
+- https://github.com/cosmosis-developers/cosmosis
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/cosmosis-developers/cosmosis

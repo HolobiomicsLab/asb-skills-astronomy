@@ -1,0 +1,20 @@
+name: plaNETic
+slug: planetic
+version_used: null
+edam_topics: []
+evidence_spans:
+- If you use the plaNETic framework, please cite [Egger et al. 2024], where this version of the code was introduced for the first time.
+- create a new virtual environment with Python 3.9, then git clone plaNETic and run 'pip install .'
+- We introduced the publicly available code plaNETic, a fast and robust neural network-based Bayesian internal structure modelling framework.
+- If you use the plaNETic framework, please cite [Egger et al. 2024]
+derived_from:
+- doi: 10.1051/0004-6361/202450472
+  title: Unveiling the internal structure and formation history of the three planets transiting HIP 29442 (TOI-469) with CHEOPS
+source_repos:
+- https://github.com/joannegger/plaNETic
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/joannegger/plaNETic

@@ -1,0 +1,17 @@
+name: Zenodo
+slug: zenodo
+version_used: null
+edam_topics: []
+evidence_spans:
+- Download the datasets from Zenodo (links below) and place them in `data/zenodo/`
+derived_from:
+- doi: 10.1088/2632-2153/ade4ee
+  title: 'NeuralPDR: neural differential equations as surrogate models for photodissociation regions'
+source_repos:
+- https://github.com/uclchem/neuralpdr
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/uclchem/neuralpdr

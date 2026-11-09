@@ -1,0 +1,20 @@
+name: PhaseTracer
+slug: phasetracer
+version_used: null
+edam_topics: []
+evidence_spans:
+- git clone https://github.com/PhaseTracer/PhaseTracer
+- '**PhaseTracer** is a C++14 software package for tracing cosmological phases'
+- 'run the examples and tests with:'
+- The code can be obtained from https://github.com/PhaseTracer/PhaseTracer
+derived_from:
+- doi: 10.1140/epjc/s10052-020-8035-2
+  title: 'PhaseTracer: tracing cosmological phases and calculating transition properties'
+source_repos:
+- https://github.com/PhaseTracer/PhaseTracer
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/PhaseTracer/PhaseTracer

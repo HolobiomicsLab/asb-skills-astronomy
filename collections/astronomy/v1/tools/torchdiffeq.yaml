@@ -1,0 +1,21 @@
+name: torchdiffeq
+slug: torchdiffeq
+version_used: null
+edam_topics: []
+evidence_spans:
+- 'Then, install: pip install torchdiffeq'
+derived_from:
+- doi: 10.1051/0004-6361/202453077
+  title: A non-axisymmetric potential for the Milky Way disk
+- doi: 10.48550/arxiv.2202.02435
+  title: ''
+source_repos:
+- https://github.com/yrkhalil/SPIBACK
+- https://github.com/rtqichen/torchdiffeq
+- https://github.com/patrick-kidger/diffrax
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/yrkhalil/SPIBACK

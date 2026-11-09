@@ -1,0 +1,17 @@
+name: oscode
+slug: oscode
+version_used: null
+edam_topics: []
+evidence_spans:
+- Oscode is a C++ tool with a Python interface that solves **osc**\illatory **o**\rdinary **d**\ifferential **e**\quations efficiently
+derived_from:
+- doi: 10.1103/physrevresearch.2.013030
+  title: Efficient method for solving highly oscillatory ordinary differential equations with applications to physical systems
+source_repos:
+- https://github.com/fruzsinaagocs/oscode
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fruzsinaagocs/oscode

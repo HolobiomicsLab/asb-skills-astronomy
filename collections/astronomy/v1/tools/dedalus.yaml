@@ -1,0 +1,17 @@
+name: Dedalus
+slug: dedalus
+version_used: null
+edam_topics: []
+evidence_spans:
+- Dedalus is a flexible framework for solving partial differential equations using spectral methods.
+derived_from:
+- doi: 10.1103/physrevresearch.2.023068
+  title: 'Dedalus: A flexible framework for numerical simulations with spectral methods'
+source_repos:
+- https://github.com/DedalusProject/dedalus
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/DedalusProject/dedalus

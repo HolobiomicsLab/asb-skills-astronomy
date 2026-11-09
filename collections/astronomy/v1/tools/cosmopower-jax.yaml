@@ -1,0 +1,19 @@
+name: CosmoPower-JAX
+slug: cosmopower-jax
+version_used: null
+edam_topics: []
+evidence_spans:
+- pars_to_theory_specs = candl.interface.get_CosmoPowerJAX_pars_to_theory_specs_func(cp_emulator_filenames)
+- 'the likelihood can be interfaced with tools that explicitly exploit its differentiability: `BlackJAX <https://github.com/blackjax-devs/blackjax>`_'
+derived_from:
+- doi: 10.1051/0004-6361/202449432
+  title: 'candl: cosmic microwave background analysis with a differentiable likelihood'
+source_repos:
+- https://github.com/dpiras/cosmopower-jax
+- https://github.com/Lbalkenhol/candl
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/dpiras/cosmopower-jax

@@ -1,0 +1,17 @@
+name: IAE training code (github.com/jbobin/IAE)
+slug: iae-training-code-github-com-jbobin-iae
+version_used: null
+edam_topics: []
+evidence_spans:
+- The code to do so is openly accessible on Git Hub
+derived_from:
+- doi: 10.1051/0004-6361/202347518
+  title: 'SUSHI: An algorithm for source separation of hyperspectral images with non-stationary spectral variation'
+source_repos:
+- https://github.com/JMLascar/SUSHI
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/JMLascar/SUSHI

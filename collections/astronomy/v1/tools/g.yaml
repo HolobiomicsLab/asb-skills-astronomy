@@ -1,0 +1,19 @@
+name: g++
+slug: g
+version_used: null
+edam_topics: []
+evidence_spans:
+- A C++20 capable host compiler (Clang++ default; switch to g++ by defining `CXX=g++`).
+- '# or use user defined compiler(g++) instead of clang++'
+- or use user defined compiler(g++) instead of clang++
+derived_from:
+- doi: 10.1051/0004-6361/202659305
+  title: GPU-accelerated X-ray pulse profile modeling
+source_repos:
+- https://github.com/zhoutz/gpu_ppm
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/zhoutz/gpu_ppm

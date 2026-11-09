@@ -1,0 +1,18 @@
+name: pyoscode
+slug: pyoscode
+version_used: null
+edam_topics: []
+evidence_spans:
+- '``pyoscode`` can be installed via pip'
+- pip install pyoscode
+derived_from:
+- doi: 10.1103/physrevresearch.2.013030
+  title: Efficient method for solving highly oscillatory ordinary differential equations with applications to physical systems
+source_repos:
+- https://github.com/fruzsinaagocs/oscode
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/fruzsinaagocs/oscode

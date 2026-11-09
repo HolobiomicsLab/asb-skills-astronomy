@@ -1,0 +1,19 @@
+name: diffmah
+slug: diffmah
+version_used: null
+edam_topics: []
+evidence_spans:
+- Diffmah is a differentiable model for the mass assembly history
+- "Diffmah is a differentiable model for the mass assembly history \n\nof individual and populations of dark matter halos."
+- "Diffmah is a differentiable model for the mass assembly history \nof individual and populations of dark matter halos."
+derived_from:
+- doi: 10.21105/astro.2105.05859
+  title: A Differentiable Model of the Assembly of Individual and Populations of Dark Matter Halos
+source_repos:
+- https://github.com/ArgonneCPAC/diffmah
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ArgonneCPAC/diffmah

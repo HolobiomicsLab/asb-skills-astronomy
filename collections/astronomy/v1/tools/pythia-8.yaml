@@ -1,0 +1,17 @@
+name: Pythia 8
+slug: pythia-8
+version_used: '8.2'
+edam_topics: []
+evidence_spans:
+- T. Sjostrand, S. Ask, et al., An Introduction to PYTHIA 8.2, Comp. Phys. Comm. 191 (2015) 159
+derived_from:
+- doi: 10.1140/epjc/s10052-017-5155-4
+  title: 'DarkBit: a GAMBIT module for computing dark matter observables and likelihoods'
+source_repos:
+- https://github.com/GambitBSM/gambit_1.5
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/GambitBSM/gambit_1.5

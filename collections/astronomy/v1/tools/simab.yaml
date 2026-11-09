@@ -1,0 +1,21 @@
+name: SimAb
+slug: simab
+version_used: null
+edam_topics: []
+evidence_spans:
+- Simulating Abundances (SimAb) is a planet formation simulation, focusing on the atmosphere accretion of gas giant planets.
+- The values used to write the SimAb paper are available in the output folder.
+- We present a basic, fast, and flexible planet formation model, called Simulating Abundances (SimAb), that forms giant planets
+- your usage of this simulation resulted in a publication
+derived_from:
+- doi: 10.1051/0004-6361/202141455
+  title: 'SimAb: A simple, fast, and flexible model to assess the effects of planet formation on the atmospheric composition of gas giants'
+source_repos:
+- https://github.com/nkhorshid/SimAb
+- https://github.com/nkhorshid/simab
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/nkhorshid/SimAb

@@ -1,0 +1,20 @@
+name: gallifrey
+slug: gallifrey
+version_used: null
+edam_topics: []
+evidence_spans:
+- We present gallifrey, a JAX-based Python package that implements a sequential Monte Carlo algorithm for Bayesian kernel structure learning
+- https://pypi.org/project/gallifrey/
+- '# gallifrey'
+- gallifrey is a Python package designed for  Bayesian structure learning, inference, and analysis with Gaussian Process (GP) models
+derived_from:
+- doi: 10.1051/0004-6361/202554518
+  title: 'gallifrey: JAX-based Gaussian process structure learning for astronomical time series'
+source_repos:
+- https://github.com/ChrisBoettner/gallifrey
+schema_version: 0.2.0
+license_tier: unknown
+license: null
+license_detection: null
+license_subject: null
+repo_url: https://github.com/ChrisBoettner/gallifrey
