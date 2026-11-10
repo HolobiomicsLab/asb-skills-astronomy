@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T15:44:10.580462+00:00",
+  "generated_at": "2026-11-10T16:49:30.392294+00:00",
   "collection_dir": "collections/astronomy/v1",
   "corpus_path": "collections/astronomy/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "75b9143e3818122bb459975aaa108049da6d170ef5a79eda569364d49378b39e",
+      "sha256": "4f435b20e4813d3e86c5a79a1ad5293db42ce22a585814c71a016b1f5108c95b",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -81,8 +81,8 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 25695,
-          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
+          "bytes": 24610,
+          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
         },
         {
           "path": "collection.yaml",
@@ -17692,5 +17692,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "ce00007c2904102a4e1d8348879ad608fdf977fd22ef9a8a88f971c00641cd2f"
+  "receipt_sha256": "7702b97cbaeb6aaae5445ab2066fbbf72f346cf16ffcf5fa267698d888b79461"
 }
