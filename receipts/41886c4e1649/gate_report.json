@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-10T13:35:19.111556+00:00",
+  "generated_at": "2026-11-10T15:44:10.580462+00:00",
   "collection_dir": "collections/astronomy/v1",
   "corpus_path": "collections/astronomy/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "fd70594cb26627d7b581457a48638072423c9512d282c201b61545dd41f56375",
+      "sha256": "75b9143e3818122bb459975aaa108049da6d170ef5a79eda569364d49378b39e",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -68,7 +68,7 @@
         {
           "path": ".zenodo.json",
           "bytes": 2550,
-          "sha256": "a96a22becea8f9bb41cd66b342f2a911c2df2afcc49890437aa4e82eae2a997e"
+          "sha256": "22a0ab9d68d06110a15ee690b7ccbbd724fc0a67f299807b808e7b566373b842"
         },
         {
           "path": "CITATION.cff",
@@ -81,13 +81,13 @@
         },
         {
           "path": "bin/search_skills.py",
-          "bytes": 23077,
-          "sha256": "040142e31018bc9b6d5997a25a2b00d7efad11440cbdb726fd28c5fb23487f26"
+          "bytes": 25695,
+          "sha256": "63048acfbe6a5ef80cb881dbf53350e9d1125e3e0da8a39d87499eb0cf159661"
         },
         {
           "path": "collection.yaml",
-          "bytes": 78441,
-          "sha256": "ee69fcfbbcf4fa2b5dcb8e9bf52d5b964db89195292f63f0c8ca56f95fb552ba"
+          "bytes": 78440,
+          "sha256": "6d4480b82b691451dfda263f2aaf777a0d33c176aaa7d149d0e95377012693ae"
         },
         {
           "path": "corpus.yaml",
@@ -15157,8 +15157,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 2252,
-          "sha256": "9c7472a46b1062166901c2da1b606f9b64c7be97631f3d7f88410122976c564f"
+          "bytes": 3041,
+          "sha256": "4ecc0100ffc2b06e9672d370d15b4a101d166c794d39bb7016ff292294d3c31e"
         },
         {
           "path": "skills_index.json",
@@ -17259,8 +17259,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3044,
-          "sha256": "7e76060115becec927680b5c021a00d0bf0263521d44c965a77a640bb8f541b4"
+          "bytes": 3450,
+          "sha256": "822a673e37d803dac5e4ab2c40db520f57660731d64b001e7244c026c711483b"
         },
         {
           "path": "workflows/cmb-cosmological-parameter-inference",
@@ -17692,5 +17692,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "37b68c62600fb6284b9c43098e1f6a8c94c41ffb6611f7319f8a58ec6548f8e4"
+  "receipt_sha256": "ce00007c2904102a4e1d8348879ad608fdf977fd22ef9a8a88f971c00641cd2f"
 }
