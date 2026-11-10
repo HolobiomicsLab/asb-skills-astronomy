@@ -46,5 +46,8 @@ references:
   license: Apache-2.0
 identifiers:
 - type: doi
+  value: 10.5281/zenodo.24093094
+  description: Zenodo concept DOI of the astronomy lineage (all versions)
+- type: doi
   value: 10.5281/zenodo.24093095
   description: Zenodo version DOI of v1 (2026-11-09)
