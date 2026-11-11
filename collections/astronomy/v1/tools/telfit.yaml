@@ -13,8 +13,10 @@ source_repos:
 - https://github.com/kgullikson88/Telluric-Fitter
 - https://github.com/iastro-pt/sBART
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/kgullikson88/Telluric-Fitter
+entry_kind: software
+license_tier: open
+license: MIT
+license_detection: pypi-package
+license_subject: tool
+license_evidence: https://pypi.org/project/TelFit/
+repo_url: null

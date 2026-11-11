@@ -22,8 +22,10 @@ source_repos:
 - https://github.com/telegraphic/fits2hdf
 - https://github.com/Starlink/hds-v5
 schema_version: 0.2.0
-license_tier: unknown
-license: null
-license_detection: null
-license_subject: null
-repo_url: https://github.com/uclchem/neuralpdr
+entry_kind: software
+license_tier: open
+license: BSD-3-Clause
+license_detection: reviewed-map
+license_subject: tool
+license_evidence: https://raw.githubusercontent.com/HDFGroup/hdf5/HEAD/LICENSE
+repo_url: https://github.com/HDFGroup/hdf5

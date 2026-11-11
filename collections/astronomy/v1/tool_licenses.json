@@ -1,0 +1,552 @@
+{
+  "anaconda": {
+    "license": null,
+    "license_tier": "restricted",
+    "license_raw": null,
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://www.anaconda.com/legal/terms/terms-of-service",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "Anaconda (Anaconda Distribution)",
+    "entry_kind": "vendor_product",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "c": {
+    "license": null,
+    "license_tier": "unknown",
+    "license_raw": null,
+    "license_detection": "reviewed-map",
+    "license_evidence": null,
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "C and C++ (programming languages)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "conda": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/conda/conda/HEAD/LICENSE",
+    "repo_url": "https://github.com/conda/conda",
+    "route": "reviewed",
+    "matched": "conda",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "cuda": {
+    "license": null,
+    "license_tier": "restricted",
+    "license_raw": null,
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://docs.nvidia.com/cuda/eula/index.html",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "CUDA Toolkit (NVIDIA)",
+    "entry_kind": "vendor_product",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "finker": {
+    "license": "Apache-2.0",
+    "license_tier": "open",
+    "license_raw": "Apache-2.0",
+    "license_detection": "repository-licence-file",
+    "license_evidence": "https://raw.githubusercontent.com/FiorenSt/FINKER/HEAD/LICENSE",
+    "repo_url": "https://github.com/FiorenSt/FINKER",
+    "route": "registry:pypi",
+    "matched": "FINKER",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/fiorenst/finker"
+        },
+        {
+          "kind": "code",
+          "value": "from FINKER.utils_FINKER import * from FINKER.utils_SYNTHETIC_LIGHTCURV"
+        }
+      ]
+    },
+    "confirmation": {
+      "file": "https://raw.githubusercontent.com/FiorenSt/FINKER/HEAD/LICENSE",
+      "file_license": "Apache-2.0",
+      "file_tier": "open",
+      "registry_license": "MIT",
+      "registry_license_raw": "MIT License",
+      "registry_tier": "open",
+      "registry_evidence": "https://pypi.org/project/FINKER/",
+      "status": "replaced",
+      "readme": "https://raw.githubusercontent.com/FiorenSt/FINKER/HEAD/README.md"
+    }
+  },
+  "ggplot2": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/tidyverse/ggplot2/HEAD/DESCRIPTION",
+    "repo_url": "https://github.com/tidyverse/ggplot2",
+    "route": "reviewed",
+    "matched": "ggplot2",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "h5py": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/h5py/h5py/HEAD/LICENSE",
+    "repo_url": "https://github.com/h5py/h5py",
+    "route": "reviewed",
+    "matched": "h5py",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "hdf5": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/HDFGroup/hdf5/HEAD/LICENSE",
+    "repo_url": "https://github.com/HDFGroup/hdf5",
+    "route": "reviewed",
+    "matched": "HDF5 (HDF Group library)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "hylightpy": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "pypi-package",
+    "license_evidence": "https://pypi.org/project/hylightpy/",
+    "repo_url": "https://github.com/YuankangLiu/HyLight",
+    "route": "registry:pypi",
+    "matched": "hylightpy",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/yuankangliu/hylight"
+        },
+        {
+          "kind": "code",
+          "value": "ing pip: .. code-block:: console $ pip install hylightpy The package is called ``hylightpy`` on"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/YuankangLiu/HyLight/HEAD/LICENSE",
+      "file_license": "MIT",
+      "readme": "https://raw.githubusercontent.com/YuankangLiu/HyLight/HEAD/README.md"
+    }
+  },
+  "jax": {
+    "license": "Apache-2.0",
+    "license_tier": "open",
+    "license_raw": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/jax-ml/jax/HEAD/LICENSE",
+    "repo_url": "https://github.com/jax-ml/jax",
+    "route": "reviewed",
+    "matched": "JAX",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "jaxspec": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "pypi-package",
+    "license_evidence": "https://pypi.org/project/jaxspec/",
+    "repo_url": "https://github.com/renecotyfanboy/jaxspec",
+    "route": "registry:pypi",
+    "matched": "jaxspec",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/renecotyfanboy/jaxspec"
+        },
+        {
+          "kind": "code",
+          "value": "robustly in a fully Bayesian framework. from jaxspec.model.background import SubtractedBackground jaxspec: A fast an"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/renecotyfanboy/jaxspec/HEAD/LICENSE.md",
+      "file_license": "MIT",
+      "readme": "https://raw.githubusercontent.com/renecotyfanboy/jaxspec/HEAD/README.md"
+    }
+  },
+  "julia": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/JuliaLang/julia/HEAD/LICENSE.md",
+    "repo_url": "https://github.com/JuliaLang/julia",
+    "route": "reviewed",
+    "matched": "Julia",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "jupyter": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/jupyter/notebook/HEAD/LICENSE",
+    "repo_url": "https://github.com/jupyter/notebook",
+    "route": "reviewed",
+    "matched": "Project Jupyter (Jupyter Notebook)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "jupyter-notebook": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/jupyter/notebook/HEAD/LICENSE",
+    "repo_url": "https://github.com/jupyter/notebook",
+    "route": "reviewed",
+    "matched": "Project Jupyter (Jupyter Notebook)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "matplotlib": {
+    "license": "LicenseRef-Matplotlib",
+    "license_tier": "open",
+    "license_raw": "LicenseRef-Matplotlib",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/matplotlib/matplotlib/HEAD/LICENSE/LICENSE",
+    "repo_url": "https://github.com/matplotlib/matplotlib",
+    "route": "reviewed",
+    "matched": "matplotlib",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "numpy": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/numpy/numpy/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/numpy/numpy",
+    "route": "reviewed",
+    "matched": "NumPy",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "pandas": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/pandas-dev/pandas/HEAD/LICENSE",
+    "repo_url": "https://github.com/pandas-dev/pandas",
+    "route": "reviewed",
+    "matched": "pandas",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "pip": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/pypa/pip/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/pypa/pip",
+    "route": "reviewed",
+    "matched": "pip",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "python": {
+    "license": "PSF-2.0",
+    "license_tier": "open",
+    "license_raw": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "repo_url": "https://github.com/python/cpython",
+    "route": "reviewed",
+    "matched": "Python (CPython reference implementation)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "python-3": {
+    "license": "PSF-2.0",
+    "license_tier": "open",
+    "license_raw": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "repo_url": "https://github.com/python/cpython",
+    "route": "reviewed",
+    "matched": "Python (CPython reference implementation)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "python3": {
+    "license": "PSF-2.0",
+    "license_tier": "open",
+    "license_raw": "PSF-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/python/cpython/HEAD/LICENSE",
+    "repo_url": "https://github.com/python/cpython",
+    "route": "reviewed",
+    "matched": "Python (CPython reference implementation)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "pytorch": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/pytorch/pytorch/HEAD/LICENSE",
+    "repo_url": "https://github.com/pytorch/pytorch",
+    "route": "reviewed",
+    "matched": "PyTorch",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "r": {
+    "license": "GPL-2.0-only OR GPL-3.0-only",
+    "license_tier": "open",
+    "license_raw": "GPL-2.0-only OR GPL-3.0-only",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://www.r-project.org/Licenses/",
+    "repo_url": null,
+    "route": "reviewed",
+    "matched": "R (GNU R, reference implementation)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "remotes": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/r-lib/remotes/HEAD/DESCRIPTION",
+    "repo_url": "https://github.com/r-lib/remotes",
+    "route": "reviewed",
+    "matched": "remotes",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "scikit-learn": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn",
+    "route": "reviewed",
+    "matched": "scikit-learn",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "scipy": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/scipy/scipy/HEAD/LICENSE.txt",
+    "repo_url": "https://github.com/scipy/scipy",
+    "route": "reviewed",
+    "matched": "SciPy",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "shiny": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://cran.r-project.org/web/packages/shiny/index.html",
+    "repo_url": "https://github.com/rstudio/shiny",
+    "route": "reviewed",
+    "matched": "Shiny (R package)",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "sklearn": {
+    "license": "BSD-3-Clause",
+    "license_tier": "open",
+    "license_raw": "BSD-3-Clause",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/HEAD/COPYING",
+    "repo_url": "https://github.com/scikit-learn/scikit-learn",
+    "route": "reviewed",
+    "matched": "scikit-learn",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "telfit": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT License",
+    "license_detection": "pypi-package",
+    "license_evidence": "https://pypi.org/project/TelFit/",
+    "repo_url": null,
+    "route": "registry:pypi",
+    "matched": "TelFit",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "code",
+          "value": "t must be installed independently: pip install Telfit A novel framework for semi-Bayesian rad"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "kept-unconfirmed",
+      "reason": "no-code-host-repository",
+      "file": null
+    }
+  },
+  "tensorflow": {
+    "license": "Apache-2.0",
+    "license_tier": "open",
+    "license_raw": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/tensorflow/tensorflow/HEAD/LICENSE",
+    "repo_url": "https://github.com/tensorflow/tensorflow",
+    "route": "reviewed",
+    "matched": "TensorFlow",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  },
+  "torchdiffeq": {
+    "license": "MIT",
+    "license_tier": "open",
+    "license_raw": "MIT License",
+    "license_detection": "pypi-package",
+    "license_evidence": "https://pypi.org/project/torchdiffeq/",
+    "repo_url": "https://github.com/rtqichen/torchdiffeq",
+    "route": "registry:pypi",
+    "matched": "torchdiffeq",
+    "identity": {
+      "rule": "corroborated",
+      "corroboration": [
+        {
+          "kind": "repository",
+          "value": "github.com/rtqichen/torchdiffeq"
+        },
+        {
+          "kind": "code",
+          "value": "Then, install: pip install torchdiffeq A non-axisymmetric potential for the Mi"
+        }
+      ]
+    },
+    "confirmation": {
+      "status": "confirmed",
+      "file": "https://raw.githubusercontent.com/rtqichen/torchdiffeq/HEAD/LICENSE",
+      "file_license": "MIT",
+      "readme": "https://raw.githubusercontent.com/rtqichen/torchdiffeq/HEAD/README.md"
+    }
+  },
+  "xgboost": {
+    "license": "Apache-2.0",
+    "license_tier": "open",
+    "license_raw": "Apache-2.0",
+    "license_detection": "reviewed-map",
+    "license_evidence": "https://raw.githubusercontent.com/dmlc/xgboost/HEAD/LICENSE",
+    "repo_url": "https://github.com/dmlc/xgboost",
+    "route": "reviewed",
+    "matched": "XGBoost",
+    "entry_kind": "software",
+    "identity": {
+      "rule": "reviewed",
+      "verified": "2026-11-11"
+    }
+  }
+}
