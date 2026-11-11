@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-11T05:45:48.011614+00:00",
+  "generated_at": "2026-11-11T09:31:53.113105+00:00",
   "collection_dir": "collections/astronomy/v1",
   "corpus_path": "collections/astronomy/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "df4e8a31bcb0d3c2c9fb4cd6ffb00cdb2404c24f33b7775ca61dae1163a97092",
+      "sha256": "dd7c023a1eeb955474fc30e0256b3dcb70733838cd4aefda36436cf5377009e8",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -80,9 +80,14 @@
           "directory": true
         },
         {
+          "path": "bin/report_issue.py",
+          "bytes": 44558,
+          "sha256": "91a8606109067b015cd6d1af497b12f82149cc2b4aa9fcdabb67984201eee197"
+        },
+        {
           "path": "bin/search_skills.py",
-          "bytes": 24610,
-          "sha256": "9d5c78655c4d447338d92380b3bc98c2b573da4d6bdff0b0f8c1928441f08367"
+          "bytes": 25199,
+          "sha256": "a9bb1cc42eb2f77430025edc70a6f30ca2fd5da639970f0cbfeb1af4c80aef00"
         },
         {
           "path": "collection.yaml",
@@ -15157,8 +15162,8 @@
         },
         {
           "path": "skills/_router/SKILL.md",
-          "bytes": 3041,
-          "sha256": "4ecc0100ffc2b06e9672d370d15b4a101d166c794d39bb7016ff292294d3c31e"
+          "bytes": 4289,
+          "sha256": "53da3948741fb5f8604b1e669b8f9e3ce873f0b1002b70d57c522ccf67d08f96"
         },
         {
           "path": "skills_index.json",
@@ -17264,8 +17269,8 @@
         },
         {
           "path": "workflows/_workflow_router/SKILL.md",
-          "bytes": 3450,
-          "sha256": "822a673e37d803dac5e4ab2c40db520f57660731d64b001e7244c026c711483b"
+          "bytes": 4698,
+          "sha256": "92ddf19dde673c8899be59999b2f30b36fe27f87d1c11d75cf98f8cf6eb793f4"
         },
         {
           "path": "workflows/cmb-cosmological-parameter-inference",
@@ -17610,7 +17615,7 @@
       "scope": "payload files",
       "required": true,
       "counts": {
-        "checked": 2106,
+        "checked": 2107,
         "skipped": 0,
         "missing": 0,
         "failed": 0
@@ -17697,5 +17702,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "3a1c96e072a2acc621a47b45571efae7e8388373be8162ef11b2192dcd83fb3b"
+  "receipt_sha256": "2938fcee2f0074862585bb7c9b01f343d07750fb4c40a3c6f4e1358e88edda0c"
 }
