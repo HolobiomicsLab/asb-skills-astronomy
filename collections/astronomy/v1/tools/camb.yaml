@@ -26,8 +26,10 @@ source_repos:
 - https://github.com/joezuntz/pycamb
 - https://github.com/halomod/hmf
 schema_version: 0.2.0
+entry_kind: software
 license_tier: unknown
 license: null
 license_detection: null
 license_subject: null
-repo_url: https://github.com/cmbant/CAMB
+license_evidence: null
+repo_url: null
