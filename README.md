@@ -30,7 +30,7 @@ This repository holds the astronomy skill collection of AgenticScienceBuilder (A
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
-| `collections/astronomy/v1` | ASB Astronomy and astrophysics Skill Collection v1 | 1671 | 415 | 2026-11-09 | [10.5281/zenodo.24093095](https://doi.org/10.5281/zenodo.24093095) |
+| `collections/astronomy/v1` | ASB Astronomy and astrophysics Skill Collection v1 | 1671 | 415 | 2026-11-10 | [10.5281/zenodo.24122111](https://doi.org/10.5281/zenodo.24122111) |
 
 ## Status
 
