@@ -30,11 +30,11 @@ This repository holds the astronomy skill collection of AgenticScienceBuilder (A
 
 | Path | Title | Skills | Tools | Released | DOI |
 |---|---|---|---|---|---|
-| `collections/astronomy/v1` | ASB Astronomy and astrophysics Skill Collection v1 | 1671 | 415 | 2026-11-10 | [10.5281/zenodo.24122111](https://doi.org/10.5281/zenodo.24122111) |
+| `collections/astronomy/v1` | ASB Astronomy and astrophysics Skill Collection v1 | 1671 | 415 | 2026-11-14 | [10.5281/zenodo.24224641](https://doi.org/10.5281/zenodo.24224641) |
 
 ## Status
 
-Collection `v1`, built from corpus cut `41886c4e1649`, is released on `main` at tag `astronomy-v1.0.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24093095](https://doi.org/10.5281/zenodo.24093095).
+Collection `v1`, built from corpus cut `41886c4e1649`, is released on `main` at tag `astronomy-v1.1.0` and archived on Zenodo under the version DOI [10.5281/zenodo.24224641](https://doi.org/10.5281/zenodo.24224641).
 
 | Item | State |
 |---|---|
@@ -42,7 +42,7 @@ Collection `v1`, built from corpus cut `41886c4e1649`, is released on `main` at 
 | Plugin manifests | `claude plugin validate` passes for `.claude-plugin/marketplace.json` and for `collections/astronomy/v1` |
 | Collection IRI | `https://w3id.org/holobiomicslab/asb-skill/collection/astronomy/v1` |
 | IRI resolution (2026-11-14) | Registered at w3id.org. It redirects (HTTP 302) to the collection landing page in the asb-skill-collections registry (HTTP 200), which names this repository and the Zenodo record. |
-| DOI | [10.5281/zenodo.24093095](https://doi.org/10.5281/zenodo.24093095) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
+| DOI | [10.5281/zenodo.24224641](https://doi.org/10.5281/zenodo.24224641) (this version). The Zenodo deposit metadata is in [`.zenodo.json`](.zenodo.json). |
 | Concept DOI | [10.5281/zenodo.24093094](https://doi.org/10.5281/zenodo.24093094) (all versions) |
 
 ## What is inside
@@ -140,7 +140,7 @@ Each leaf names its source paper in `provenance.source_papers` (1,671 of 1,671 l
 
 ## Citation
 
-Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24093095](https://doi.org/10.5281/zenodo.24093095); its concept DOI, which covers all versions, is [10.5281/zenodo.24093094](https://doi.org/10.5281/zenodo.24093094).
+Cite the collection with [`CITATION.cff`](CITATION.cff). Cite also the source paper of each skill you use: its DOI is in `provenance.source_papers` in the skill's front matter. The collection's version DOI is [10.5281/zenodo.24224641](https://doi.org/10.5281/zenodo.24224641); its concept DOI, which covers all versions, is [10.5281/zenodo.24093094](https://doi.org/10.5281/zenodo.24093094).
 
 ## Licence
 

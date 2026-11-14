@@ -2,18 +2,12 @@
 
 | Stage | Done at | Repository commit | Digests |
 |---|---|---|---|
-| gate | 2026-11-10T16:54:51Z | a6b8f9031b22fee845757231a45ebd3dcce3f60b | `{"candidate_tree": "sha256:41f637ba8bac163bdf0c45a0f6c930d3b6041f48e90ff188c4a20e9b8168ed70", "gate_report": "4f53cd1fd51eb593e0000a830d7c56015637e97cdc547f705ee42a2df3ba7047"}` |
-| deposit-plan | 2026-11-10T16:54:52Z | a6b8f9031b22fee845757231a45ebd3dcce3f60b | `{"archive_sha256": "455f86821ffe019f93d7b8ba848396249caddb453ff418d07d3d5ed8c2c8ff8e"}` |
-| deposit-draft | 2026-11-11T00:07:55Z | a6b8f9031b22fee845757231a45ebd3dcce3f60b | `{"archive_sha256": "455f86821ffe019f93d7b8ba848396249caddb453ff418d07d3d5ed8c2c8ff8e"}` |
-| record-doi | 2026-11-11T00:28:24Z | a6b8f9031b22fee845757231a45ebd3dcce3f60b | `{"CITATION.cff": "a19735401954920cd860baa16e667295544e8dceed92c88d3138e98eaa1eb6e1", "README.md": "03080732d262fdb4926ea63b49ff4d12ff9fe64bd743503f753565aa423e7af1", "RELEASE.yaml": "1cc3adb4e1504f78f1155c135af558aa64de98e75b4b010ec0d5f2416bd390af", "marketplace.json": "bf54b331d1b0d500031db84ccb5489a7bf02bf572640f57f6dc0f7a667c19f81", "plugin.json": "0da8366a2c8e1e5328b96dd2b2c4eaaed01ed9383b65bfd5994bf9a2128030f6"}` |
-| receipt | 2026-11-11T00:29:33Z | a6b8f9031b22fee845757231a45ebd3dcce3f60b | `{"receipt": "5a21f356cf6bcf9e2f8bdbd676287a85769a1df337eebbc2b51bcab2155946c6"}` |
-| manifest | 2026-11-11T00:30:52Z | b83d6a1558b28865552cd757666138e9ca7025de | `{"catalogue_jsonld": "cebd2818baf0c206fb2df15bbb4bdb936f2798820267e11d6915098717549ff7", "collections_yaml": "c79a45d4075129bebd743eb6500f210e903489126abf3cecc92000e086064909"}` |
-| tag | 2026-11-11T00:55:16Z | b83d6a1558b28865552cd757666138e9ca7025de | `{}` |
+| gate | 2026-11-14T16:16:48Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{"candidate_tree": "sha256:10e6a0811ce3e27c966f814939fafb2de53a571901978c01a14020988589fbbc", "gate_report": "b79751f38ad8fb04ae10ecfb596da80c337d26fd482f1917b24a917dd3719e9c"}` |
+| deposit-plan | 2026-11-14T16:51:34Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{"archive_sha256": "fb8aa83d2b94691fe803196ea55d1b3ede47b16d574b56b72ddc9adfea334e66"}` |
+| deposit-draft | 2026-11-14T16:52:45Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{"archive_sha256": "fb8aa83d2b94691fe803196ea55d1b3ede47b16d574b56b72ddc9adfea334e66"}` |
+| record-doi | 2026-11-14T21:16:01Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{".zenodo.json": "cac48251dfc43a308c85c304ae8c68ff10e92fc2908eaa075dc3c417164e483b", "CITATION.cff": "c718236e7605f4759a0421a415fc81c5bdb2532e65a20e802c335087578f3236", "README.md": "a8f94385875243d5b735e059619c0f774cde2b2224828cff1694be1c62e5e650", "RELEASE.yaml": "4b854ca65ce956b29bde006c49bf9d094f520494fc9a31370601a51bc6ecf9e4", "marketplace.json": "c779750e21c691f700d64f1ba6d63414fec68709c9bfbca6f879242db2110446", "plugin.json": "c3eec095809e6f3d529627a90a95eb7613dc67e89eba519b7ca66b8bf0b2a0e9"}` |
+| receipt | 2026-11-14T21:16:56Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{"receipt": "5c22d8abaaca7957f89fece819ac6bfb373f34f1a8c154f71efb5ac2cee8e424"}` |
 
 ## Owner actions
 
-- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24122111, then run record-doi --doi <version DOI>
-- OWNER: git tag astronomy-v1.0.1 b83d6a1558b28865552cd757666138e9ca7025de
-- OWNER: git push origin astronomy-v1.0.1
-- OWNER: git tag astronomy-v1.0.1 b83d6a1558b28865552cd757666138e9ca7025de
-- OWNER: git push origin astronomy-v1.0.1
+- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24224641, then run record-doi --doi <version DOI>
