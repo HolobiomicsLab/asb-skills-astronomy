@@ -2,12 +2,12 @@
 
 | Stage | Done at | Repository commit | Digests |
 |---|---|---|---|
-| gate | 2026-11-14T16:16:48Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{"candidate_tree": "sha256:10e6a0811ce3e27c966f814939fafb2de53a571901978c01a14020988589fbbc", "gate_report": "b79751f38ad8fb04ae10ecfb596da80c337d26fd482f1917b24a917dd3719e9c"}` |
-| deposit-plan | 2026-11-14T16:51:34Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{"archive_sha256": "fb8aa83d2b94691fe803196ea55d1b3ede47b16d574b56b72ddc9adfea334e66"}` |
-| deposit-draft | 2026-11-14T16:52:45Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{"archive_sha256": "fb8aa83d2b94691fe803196ea55d1b3ede47b16d574b56b72ddc9adfea334e66"}` |
-| record-doi | 2026-11-14T21:16:01Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{".zenodo.json": "cac48251dfc43a308c85c304ae8c68ff10e92fc2908eaa075dc3c417164e483b", "CITATION.cff": "c718236e7605f4759a0421a415fc81c5bdb2532e65a20e802c335087578f3236", "README.md": "a8f94385875243d5b735e059619c0f774cde2b2224828cff1694be1c62e5e650", "RELEASE.yaml": "4b854ca65ce956b29bde006c49bf9d094f520494fc9a31370601a51bc6ecf9e4", "marketplace.json": "c779750e21c691f700d64f1ba6d63414fec68709c9bfbca6f879242db2110446", "plugin.json": "c3eec095809e6f3d529627a90a95eb7613dc67e89eba519b7ca66b8bf0b2a0e9"}` |
-| receipt | 2026-11-14T21:16:56Z | f488cd6bc572cbfc4722574c91820ee9c291c9fb | `{"receipt": "5c22d8abaaca7957f89fece819ac6bfb373f34f1a8c154f71efb5ac2cee8e424"}` |
+| gate | 2026-11-15T18:17:47Z | 0330b5c44dc97929e5cb356fefe3b5b319e8f387 | `{"candidate_tree": "sha256:142ead6218ce807b787091d0c4bbd656e37fef653be839ac9654a1f24a8c7914", "gate_report": "c58d044e0d270551228107d04a4cdf3153a5510121c95c4386c5913781fa104a"}` |
+| deposit-plan | 2026-11-15T18:17:47Z | 0330b5c44dc97929e5cb356fefe3b5b319e8f387 | `{"archive_sha256": "23bdb1aa178b23b1b0fcbbfc1eac4a3d2edd6d50b00fff1da7190281f803c67e"}` |
+| deposit-draft | 2026-11-15T18:48:22Z | 0330b5c44dc97929e5cb356fefe3b5b319e8f387 | `{"archive_sha256": "23bdb1aa178b23b1b0fcbbfc1eac4a3d2edd6d50b00fff1da7190281f803c67e"}` |
+| record-doi | 2026-11-15T18:56:14Z | 0330b5c44dc97929e5cb356fefe3b5b319e8f387 | `{".zenodo.json": "b6054861c01ca1a10e8ba1b166cc460b51a7173ce865b23439fea1fc4d5fc107", "CITATION.cff": "84b42495a23cd32d6f739dc78daba6b0c945686a4cba7d1a50ad7c0daf8884dd", "README.md": "b7f94c0811ee8cded1c9d6e1044f051053dde01e1848d59628a39598221a6520", "RELEASE.yaml": "e06b3877b682ea900ce8069bf75fa995127809a05e020d8ca1fe3e1391a26f30", "marketplace.json": "1b714865e011616d4d6805e8174141d251f865c21936f30b93ff9888117d22fc", "plugin.json": "58a3bbdfe76beb10690732bb3015e42742e1937523fd5e18b29b694705d566b8"}` |
+| receipt | 2026-11-15T18:57:10Z | 0330b5c44dc97929e5cb356fefe3b5b319e8f387 | `{"receipt": "8659f931d10b4904a2c0da69e6eee39ce97d142799dc3a72926115acd413a851"}` |
 
 ## Owner actions
 
-- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24224641, then run record-doi --doi <version DOI>
+- OWNER: publish the reviewed Zenodo draft at https://zenodo.org/deposit/24255473, then run record-doi --doi <version DOI>

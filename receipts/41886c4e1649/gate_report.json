@@ -1,6 +1,6 @@
 {
   "schema": "asbb-release-gate/1.1",
-  "generated_at": "2026-11-15T16:41:10.034229+00:00",
+  "generated_at": "2026-11-15T18:56:41.914777+00:00",
   "collection_dir": "collections/astronomy/v1",
   "corpus_path": "collections/astronomy/v1/corpus.yaml",
   "mode": "strict",
@@ -54,7 +54,7 @@
   },
   "binding": {
     "payload": {
-      "sha256": "de8871731f650754d7729c6f3d4cfcba06431f05c43b422735362cdf7b312755",
+      "sha256": "955c7ea7b8e84d66d86388d19fef6cc35cd9d4070ce0925eef6ab9b92c6bc315",
       "entries": [
         {
           "path": ".claude-plugin",
@@ -63,7 +63,7 @@
         {
           "path": ".claude-plugin/plugin.json",
           "bytes": 511,
-          "sha256": "c3eec095809e6f3d529627a90a95eb7613dc67e89eba519b7ca66b8bf0b2a0e9"
+          "sha256": "58a3bbdfe76beb10690732bb3015e42742e1937523fd5e18b29b694705d566b8"
         },
         {
           "path": ".zenodo.json",
@@ -72,8 +72,8 @@
         },
         {
           "path": "CITATION.cff",
-          "bytes": 1074,
-          "sha256": "279cb26e495c2d6f5d2d5b36ce6a7fd4f0f6b2366c7265c1d04875fd38b6b283"
+          "bytes": 1176,
+          "sha256": "b3a64144fae845d60ff5ff722be79fc6c427043694b33f24363cbfa77cdf0eb6"
         },
         {
           "path": "bin",
@@ -17702,5 +17702,5 @@
       "coverage": {}
     }
   ],
-  "receipt_sha256": "71a067c11395010077de4ae1c114530d3c8e4f240b93fe2622707be1a9c84bd7"
+  "receipt_sha256": "f795872c603c256425f7b628cc9669e12007271ce6f80767b8e2b34639f0c448"
 }
