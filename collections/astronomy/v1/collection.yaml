@@ -5,7 +5,7 @@
 '@type': asb:SkillCollection
 '@id': https://w3id.org/holobiomicslab/asb-skill/collection/astronomy/v1
 iri: https://w3id.org/holobiomicslab/asb-skill/collection/astronomy/v1
-title: ASB Astronomy Skill Collection v1
+title: ASB Astronomy and astrophysics Skill Collection v1
 slug: astronomy
 version: 1
 description: 'ASB Astronomy: 1671 evidence-grounded skills collected from a consolidated literature cut with local retrieval.'
